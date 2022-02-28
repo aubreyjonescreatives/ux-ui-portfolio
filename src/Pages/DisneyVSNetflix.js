@@ -7,6 +7,23 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
+import Drawer from '@mui/material/Drawer';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem'; 
+import ListItemIcon from '@mui/material/ListItemIcon'; 
+import ScienceIcon from '@mui/icons-material/Science';
+import ReportProblemIcon from '@mui/icons-material/ReportProblem';
+import ControlCameraIcon from '@mui/icons-material/ControlCamera';
+import AssessmentIcon from '@mui/icons-material/Assessment';
+import AccessibilityIcon from '@mui/icons-material/Accessibility';
+import MoodIcon from '@mui/icons-material/Mood';
+import MapIcon from '@mui/icons-material/Map';
+import ListIcon from '@mui/icons-material/List';
+import CompareIcon from '@mui/icons-material/Compare';
 import DNImage1 from '../Images/videovoyagers/dn01.jpg'
 import DNImage2 from '../Images/videovoyagers/dn02.jpg'
 import DNImage3 from '../Images/videovoyagers/dn03.jpg'
@@ -57,34 +74,38 @@ import DNImage47 from '../Images/videovoyagers/dn47.jpg'
 
 
 
-const secondaryNav = {
-marginLeft: '100px'
-
-
-}
-
-
-
-
 const headerStylesA = {
-    margin: '100px 100px 20px 50px', 
+    margin: '100px 50px 0px 50px', 
     fontSize: '36px', 
-    paddingTop: '50px', 
-    color: '#30638E'
-    
+    padding: '80px 20px', 
+    color: '#30638E',
+    backgroundColor: 'white', 
+    width: '100%'
     
     
     }
 
-const navlinkStyles = {
-    padding: '10px'
+      
+    const linkStyling = {
+      fontSize: '20px', 
+      color: 'white', 
+      textDecoration: 'none',
+      "&:hover": {
+        color: 'white', 
+       
+       
+      }
+    
+    }
+      
 
-}
 
 
-const allCards = {
-width: '50%', 
-display: 'block'
+
+
+const allCards = { 
+display: 'inline-flex', 
+flexWrap: 'wrap', 
 }
 
 
@@ -92,7 +113,11 @@ display: 'block'
 const cardStyles = {
 
 margin: '20px auto',  
-width: '600px'
+width: '600px', 
+"&:hover": {
+  shadow: 'none'
+ 
+}
 
 
 }
@@ -114,27 +139,133 @@ const DisneyVSNetflix = () => {
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
   
+  const [isOpen, setIsOpen] = React.useState(false)
+
+  const toggleDrawer = () => {
+    setIsOpen(!isOpen)
+  }
+
+
+const drawerItemList = () => (
+  <Box sx={{width: 350, backgroundColor: '#30638E'}} role="presentation" className="drawerMenu">
+    <List>
+    <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <ScienceIcon/>
+        </ListItemIcon>
+        <Link href="#top" sx={linkStyling}>NETFLIX VS DISNEY UX RESEARCH CASE STUDY</Link>
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <ReportProblemIcon/>
+        </ListItemIcon>
+        <Link href="#challenge" sx={linkStyling}>CHALLENGE</Link>
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <CompareIcon/>
+        </ListItemIcon>
+        <Link href="#characteristicandfunctionality" sx={linkStyling}>CHARACTERISTIC AND FUNCTIONALITY AUDIT</Link>
+      </ListItem>
+
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <ControlCameraIcon/>
+        </ListItemIcon>
+        <Link href="#productcontrols" sx={linkStyling}>PRODUCT CONTROLS TOUCH GESTURE AUDIT</Link>
+      </ListItem>
+
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <AssessmentIcon/>
+        </ListItemIcon>
+        <Link href="#satisfactionanalysis" sx={linkStyling}>SATISFACTION ANALYSIS REPORT</Link>
+      </ListItem>
+
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <AccessibilityIcon/>
+        </ListItemIcon>
+        <Link href="#protopersonas" sx={linkStyling}>PROTO PERSONAS</Link>
+      </ListItem>
+
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <MoodIcon/>
+        </ListItemIcon>
+        <Link href="#empathymap" sx={linkStyling}>CUSTOMER EMPATHY MAP</Link>
+      </ListItem>
+
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <MapIcon/>
+        </ListItemIcon>
+        <Link href="#journeymap" sx={linkStyling}>CUSTOMER JOURNEY MAP</Link>
+      </ListItem>
+
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <ListIcon/>
+        </ListItemIcon>
+        <Link href="#moretodo" sx={linkStyling}>MORE TO DO</Link>
+      </ListItem>
+
+
+    
+    </List>
+  </Box>
+)
+
+
+
+
+
+
+
 
 
 
 return (
 <>
 
-<div sx={secondaryNav} position="fixed">
-<Typography sx={headerStylesA}>Disney VS. Netflix Research Case Study</Typography>
 
-<Link href="#challenge" sx={navlinkStyles}>Challenge</Link>
-<Link href="#characteristicandfunctionality" sx={navlinkStyles}>Characteristic and Functionality Audit</Link>
-<Link href="#productcontrols" sx={navlinkStyles}>Product Controls Touch Gesture Audit</Link>
-<Link href="#satisfactionanalysis" sx={navlinkStyles}>Satisfaction Analysis</Link>
-<Link href="#protopersonas"sx={navlinkStyles}>Proto Personas</Link>
-<Link href="#empathymap" sx={navlinkStyles}>Customer Empathy Map</Link>
-<Link href="#journeymap" sx={navlinkStyles}>Customer Journey Map</Link>
-<Link href="#moretodo" sx={navlinkStyles}>More to Do</Link>
-</div>
+<nav id="navWrapper" >
+   
+   <Box sx={{ flexGrow: 1}}>
+       <AppBar position="fixed" sx={{ backgroundColor:"#30638E", width: "100%", boxShadow: 0  }} >
+         <Toolbar >
+           <IconButton
+             size="large"
+             edge="start"
+             color="inherit"
+             aria-label="menu"
+             sx={{ mr: 2 }}
+             onClick={toggleDrawer}
+           >
+             <MenuIcon />
+           </IconButton>
+           <Typography sx={{ flexGrow: 3, width: '300px'}}>
+           <Link href='/' sx={linkStyling}>AUBREY JONES | UX/UI Designer</Link>
+           </Typography>
+           
+         </Toolbar>
+         
+       </AppBar>
+     </Box>
+     
+       </nav>
+       <Drawer anchor="left" open={isOpen} onClose={toggleDrawer} sx={{backgroundColor: '57FAD56'}}>
+       {drawerItemList()}
+       </Drawer>
+
+
+       <Typography sx={headerStylesA} id="top">Disney VS. Netflix UX Research Case Study</Typography>
+
+
+
 
 <Box sx={allCards}>
-<Card sx={cardStyles} className="cardStyles">
+<Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -144,7 +275,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles" id="challenge">
+    <Card sx={cardStyles} id="challenge">
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -154,7 +285,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles" id="characteristicandfunctionality">
+    <Card sx={cardStyles} id="characteristicandfunctionality">
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -164,7 +295,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -174,7 +305,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -184,7 +315,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles" id="productcontrols">
+    <Card sx={cardStyles} id="productcontrols">
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -194,7 +325,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -204,7 +335,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -215,7 +346,7 @@ return (
     </Card>
 
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -225,7 +356,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -235,7 +366,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -245,7 +376,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -255,7 +386,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -265,7 +396,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -275,7 +406,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -285,7 +416,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -295,7 +426,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -305,7 +436,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -315,7 +446,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -325,7 +456,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles" id="satisfactionanalysis">
+    <Card sx={cardStyles} id="satisfactionanalysis">
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -335,7 +466,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -345,7 +476,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -355,7 +486,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -365,7 +496,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -377,7 +508,7 @@ return (
 
 
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -387,7 +518,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -397,7 +528,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles" id="protopersonas">
+    <Card sx={cardStyles} id="protopersonas">
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -407,7 +538,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -417,7 +548,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -427,7 +558,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -437,7 +568,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -447,7 +578,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -458,7 +589,7 @@ return (
     </Card>
 
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -468,7 +599,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -478,7 +609,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -488,7 +619,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -498,7 +629,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -508,7 +639,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -518,7 +649,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles" id="empathymap">
+    <Card sx={cardStyles} id="empathymap">
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -528,7 +659,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -539,7 +670,7 @@ return (
     </Card>
 
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -549,7 +680,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -559,7 +690,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -569,7 +700,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles} >
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -579,7 +710,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles" id="journeymap">
+    <Card sx={cardStyles} id="journeymap">
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -589,7 +720,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles">
+    <Card sx={cardStyles}>
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
@@ -599,7 +730,7 @@ return (
    
     </Card>
 
-    <Card sx={cardStyles} className="cardStyles" id="moretodo">
+    <Card sx={cardStyles} id="moretodo">
       <CardMedia
         component="img"
         alt="Disney VS Netflix"
