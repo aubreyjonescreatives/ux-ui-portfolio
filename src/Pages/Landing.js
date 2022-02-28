@@ -16,6 +16,10 @@ import InstaFreshImage from '../Images/grocerystoreapp/hifidelitywireframes/shop
 import DVNImage from '../Images/disneyvsnetflixcasestudy.PNG'
 import TeslaImage from '../Images/teslasolargroupproject.png'
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import ProtoPersona1 from '../Images/protopersona1.png'
+import MobileWireframes from '../Images/mobilewireframes2.png'
+import JourneyMap from '../Images/videovoyagers/dn46.jpg'
+import SketchImage from '../Images/grocerystoreapp/sketches/sketch1.jpg'
 
 const headerStyles = {
 margin: '0px 100px 20px 50px', 
@@ -69,6 +73,19 @@ const cardStyles = {
 margin: '25px', 
 maxWidth: '400px'
 
+
+
+}
+
+const sampleBox = {
+  display: 'flex', 
+  flexWrap: 'wrap',
+  justifyContent: 'center'
+}
+
+const cardStylesSamples = {
+  margin: '25px', 
+  maxWidth: '500px'
 
 
 }
@@ -303,30 +320,83 @@ return (
 
 <Box sx={aboutStyles}>
 
-<Typography sx={headerStyles} id="about">ABOUT</Typography>
+<Typography sx={headerStyles} id="samples">SAMPLES</Typography>
+
+<Box sx={sampleBox}>
+
+<Card sx={cardStylesSamples}>
+   
+      <CardMedia
+        component="img"
+        alt="Tesla Solar Group Project"
+        image={ProtoPersona1}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         Proto Persona
+        </Typography>
+       
+      </CardContent>
+     
+    </Card>
 
 
-<Typography sx={typeStyles2}>I was always a writer and discovered I liked to code back in 2015, thanks to a collegue. I took a couple of coding classes at Salt Lake Community College 
-back in 2016 as part of my Associate's Degree in General Education. I can tell you they were not easy but definitely worth it and interesting.
-I attended a DevMountain bootcamp at the end of 2016 for UX/UI, and fell in love with both disciplines. I transferred to Utah Valley University in 2017 as a designer but noticed I wanted 
-the full scope and coding skills. I switched to the web and app emphasis and have yet to regret it. Designing and coding websites is challenging and rewarding. I get to 
-constantly learn something knew and there is never a boring day when it includes frontend web development. Now, nearly 7 years later (since I began coding), I am a UVU undergrad graduate as of December 
-2021 in Web Design and Development with an emphasis in Web and App Development.    
-</Typography>
-
-<Typography sx={typeStyles2}>While I have completed my degree, I will always continue to learn and grow as a designer and developer. I get to mentor in all of this at Trilogy Education 
-Services currently, and assist others to gain a passion for the fields as well. My mentors and students push me to stay caught up with current practices with all of the design 
-and development tools. This may not always be an easy task but it is definitely worth it. And I will always continue to learn and grow.This may be why you see me pop into other fields 
-and disciplines as well, as UX/UI and full stack web development definitely help me become a better frontend web developer.  
-</Typography>
-
-<Typography sx={typeStyles2}>In my spare time, I love to travel, explore other cultures, spend time with my family, video game, and learn additional creative hobbies. I am currently in Salt Lake City, Utah 
-with my family. I am a pet lover and occasional pet sitter. I absolutely love art and will stop to smell the roses whenever possible.  
-</Typography>
+    <Card sx={cardStylesSamples}>
+   
+   <CardMedia
+     component="img"
+     alt="Tesla Solar Group Project"
+     image={JourneyMap}
+   />
+   <CardContent>
+     <Typography gutterBottom variant="h5" component="div">
+     Journey Map
+     </Typography>
+    
+   </CardContent>
+  
+ </Card>
 
 
 
+    <Card sx={cardStylesSamples}>
+   
+   <CardMedia
+     component="img"
+     alt="Tesla Solar Group Project"
+     image={SketchImage}
+   />
+   <CardContent>
+     <Typography gutterBottom variant="h5" component="div">
+      Sketches
+     </Typography>
+    
+   </CardContent>
+  
+ </Card>
 
+
+
+ <Card sx={cardStylesSamples}>
+   
+      <CardMedia
+        component="img"
+        alt="Tesla Solar Group Project"
+        image={MobileWireframes}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         Low-Fidelity Wireframes
+        </Typography>
+       
+      </CardContent>
+     
+    </Card>
+
+    
+
+
+    </Box>
 
 </Box>
 
