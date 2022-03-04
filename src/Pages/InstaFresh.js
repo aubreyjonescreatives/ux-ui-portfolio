@@ -24,7 +24,13 @@ import MoodIcon from '@mui/icons-material/Mood';
 import MapIcon from '@mui/icons-material/Map';
 import ListIcon from '@mui/icons-material/List';
 import CompareIcon from '@mui/icons-material/Compare';
-
+import ModeIcon from '@mui/icons-material/Mode';
+import ViewModuleIcon from '@mui/icons-material/ViewModule';
+import TextureIcon from '@mui/icons-material/Texture';
+import ViewCompactIcon from '@mui/icons-material/ViewCompact';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import AnimationIcon from '@mui/icons-material/Animation';
+import PollIcon from '@mui/icons-material/Poll';
 
 
 const headerStylesA = {
@@ -116,53 +122,53 @@ const drawerItemList = () => (
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <ReportProblemIcon/>
+        <AccessibilityIcon/>
         </ListItemIcon>
         <Link href="#protopersona" sx={linkStyling}>PROTO PERSONA</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <ReportProblemIcon/>
+          <PollIcon/>
         </ListItemIcon>
         <Link href="#researchsurvey" sx={linkStyling}>RESEARCH SURVEY</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <ReportProblemIcon/>
+          <ModeIcon/>
         </ListItemIcon>
         <Link href="#sketches" sx={linkStyling}>SKETCHES</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <CompareIcon/>
+          <ViewModuleIcon/>
         </ListItemIcon>
         <Link href="#lowfidelitywireframes" sx={linkStyling}>LOW-FIDELITY WIREFRAMES</Link>
       </ListItem>
 
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <ControlCameraIcon/>
+          <TextureIcon/>
         </ListItemIcon>
         <Link href="#patternlibrary" sx={linkStyling}>PATTERN LIBRARY</Link>
       </ListItem>
 
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <AssessmentIcon/>
+          <ViewCompactIcon/>
         </ListItemIcon>
         <Link href="#hifidelitywireframes" sx={linkStyling}>HI-FIDELITY WIREFRAMES</Link>
       </ListItem>
 
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <AccessibilityIcon/>
+          <PhoneIphoneIcon/>
         </ListItemIcon>
         <Link href="#mobileprototype" sx={linkStyling}>MOBILE PROTOTYPE</Link>
       </ListItem>
 
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <MoodIcon/>
+          <AnimationIcon/>
         </ListItemIcon>
         <Link href="#motiongraphic" sx={linkStyling}>MOTION GRAPHIC</Link>
       </ListItem>
