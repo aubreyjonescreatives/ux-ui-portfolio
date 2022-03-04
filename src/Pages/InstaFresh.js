@@ -17,13 +17,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon'; 
 import ScienceIcon from '@mui/icons-material/Science';
 import ReportProblemIcon from '@mui/icons-material/ReportProblem';
-import ControlCameraIcon from '@mui/icons-material/ControlCamera';
-import AssessmentIcon from '@mui/icons-material/Assessment';
 import AccessibilityIcon from '@mui/icons-material/Accessibility';
-import MoodIcon from '@mui/icons-material/Mood';
-import MapIcon from '@mui/icons-material/Map';
 import ListIcon from '@mui/icons-material/List';
-import CompareIcon from '@mui/icons-material/Compare';
 import ModeIcon from '@mui/icons-material/Mode';
 import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import TextureIcon from '@mui/icons-material/Texture';
@@ -31,6 +26,7 @@ import ViewCompactIcon from '@mui/icons-material/ViewCompact';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import AnimationIcon from '@mui/icons-material/Animation';
 import PollIcon from '@mui/icons-material/Poll';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 
 
 const headerStylesA = {
@@ -122,7 +118,7 @@ const drawerItemList = () => (
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-        <AccessibilityIcon/>
+        <PersonOutlineIcon/>
         </ListItemIcon>
         <Link href="#protopersona" sx={linkStyling}>PROTO PERSONA</Link>
       </ListItem>
