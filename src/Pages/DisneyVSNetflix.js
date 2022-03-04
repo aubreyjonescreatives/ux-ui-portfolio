@@ -19,6 +19,7 @@ import ScienceIcon from '@mui/icons-material/Science';
 import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 import ControlCameraIcon from '@mui/icons-material/ControlCamera';
 import AssessmentIcon from '@mui/icons-material/Assessment';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import AccessibilityIcon from '@mui/icons-material/Accessibility';
 import MoodIcon from '@mui/icons-material/Mood';
 import MapIcon from '@mui/icons-material/Map';
@@ -184,7 +185,7 @@ const drawerItemList = () => (
 
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <AccessibilityIcon/>
+          <PersonOutlineIcon/>
         </ListItemIcon>
         <Link href="#protopersonas" sx={linkStyling}>PROTO PERSONAS</Link>
       </ListItem>
