@@ -17,7 +17,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon'; 
 import ScienceIcon from '@mui/icons-material/Science';
 import ReportProblemIcon from '@mui/icons-material/ReportProblem';
-import AccessibilityIcon from '@mui/icons-material/Accessibility';
 import ListIcon from '@mui/icons-material/List';
 import ModeIcon from '@mui/icons-material/Mode';
 import ViewModuleIcon from '@mui/icons-material/ViewModule';
@@ -27,6 +26,12 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import AnimationIcon from '@mui/icons-material/Animation';
 import PollIcon from '@mui/icons-material/Poll';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import ViewComfyIcon from '@mui/icons-material/ViewComfy';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import StickyNote2Icon from '@mui/icons-material/StickyNote2';
+import ProtoPersona from '../Images/protopersona2.png'
+
+
 
 
 const headerStylesA = {
@@ -65,19 +70,6 @@ flexWrap: 'wrap',
 
 
 
-const cardStyles = {
-
-margin: '20px auto',  
-width: '600px', 
-"&:hover": {
-  shadow: 'none'
- 
-}
-
-
-}
-
-
 
 const typeStyles = {
     padding: '50px', 
@@ -86,6 +78,47 @@ const typeStyles = {
 }
 
 
+const designA = {
+  bgcolor: '#eee',
+
+}
+
+const headerA = {
+padding: '50px 70px', 
+fontSize: '30px', 
+color: '#30638E'
+
+}
+
+const paragraphA = {
+padding: '20px 70px 100px 70px',
+fontSize: '20px'
+}
+
+const designB = {
+  bgcolor: 'white',
+  height: '400px'
+
+}
+
+const headerB = {
+padding: '50px 70px', 
+fontSize: '30px', 
+color: '#30638E'
+
+}
+
+const paragraphB = {
+padding: '20px 70px',
+fontSize: '20px'
+}
+
+
+const cardStyles = {
+  margin: '75px auto 75px auto', 
+  display: 'block', 
+  width: '700px'
+}
 
 
 
@@ -127,6 +160,24 @@ const drawerItemList = () => (
           <PollIcon/>
         </ListItemIcon>
         <Link href="#researchsurvey" sx={linkStyling}>RESEARCH SURVEY</Link>
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <StickyNote2Icon/>
+        </ListItemIcon>
+        <Link href="#affinitydiagram" sx={linkStyling}>AFFINITY DIAGRAM</Link>
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <ViewComfyIcon/>
+        </ListItemIcon>
+        <Link href="#cardsorting" sx={linkStyling}>CARD SORTING</Link>
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <AccountTreeIcon/>
+        </ListItemIcon>
+        <Link href="#sitemap" sx={linkStyling}>SITEMAP</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
@@ -229,7 +280,40 @@ return (
 
        <Typography sx={headerStylesA} id="top">InstaFresh UX/UI Case Study</Typography>
 
+<Box sx={designA} id="challenge">
+<Typography sx={headerA}>Challenge</Typography>
+<Typography sx={paragraphA}>In this ever increasing difficult world, online shopping is becoming more and more normal.
+Some grocery stores created their online shopping services overnight. I wanted to help with this need by creating a 
+responsive online grocery store web app by using the UX/UI design process. </Typography>
+  
+  
+</Box> 
 
+<Box sx={designB} id="protopersona">
+<Typography sx={headerB}>Proto Persona</Typography>
+<Typography sx={paragraphB}>I first wanted to understand my audience before I created this web app and invented a proto persona. </Typography>
+<Typography sx={paragraphB}>Jake Waters is a 27-year-old young male adult. He is married to his wife Emily and they have two kids.
+His family life and career keep them very busy and they lack a lot of time to properly meal prep at an affordable rate. They desparately 
+need to eat healthy due to medical restrictions as well. They hope an online grocery shopping service will help them save time and lower meal costs, which 
+will in turn give them more energy and less stress.</Typography>
+    
+
+
+<Card sx={cardStyles}>
+      <CardMedia
+        component="img"
+        alt="Instafresh UX/UI Project"
+        image={ProtoPersona}
+      />
+     
+     
+    </Card>
+
+
+
+
+  
+</Box> 
 
 
 
