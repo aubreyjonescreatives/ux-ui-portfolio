@@ -292,7 +292,7 @@ responsive online grocery store web app by using the UX/UI design process. </Typ
 <Box sx={designB} id="protopersona">
 <Typography sx={headerB}>Proto Persona</Typography>
 <Typography sx={paragraphB}>I first wanted to understand my audience before I created this web app and invented a proto persona. </Typography>
-<Typography sx={paragraphB}>Jake Waters is a 27-year-old young male adult. He is married to his wife Emily and they have two kids.
+<Typography sx={paragraphB}>Jake Waters is a 27-year-old young male adult. He has two kids with his wife, Emily.
 His family life and career keep them very busy and they lack a lot of time to properly meal prep at an affordable rate. They desparately 
 need to eat healthy due to medical restrictions as well. They hope an online grocery shopping service will help them save time and lower meal costs, which 
 will in turn give them more energy and less stress.</Typography>
