@@ -154,12 +154,7 @@ const drawerItemList = () => (
         </ListItemIcon>
         <Link href="#protopersona" sx={linkStyling}>PROTO PERSONA</Link>
       </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <ModeIcon/>
-        </ListItemIcon>
-        <Link href="#storyboard" sx={linkStyling}>STORYBOARD</Link>
-      </ListItem>
+  
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
           <MovingIcon/>
