@@ -30,7 +30,7 @@ import ViewComfyIcon from '@mui/icons-material/ViewComfy';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import StickyNote2Icon from '@mui/icons-material/StickyNote2';
 import ProtoPersona from '../Images/catwalkcompany/images/protopersona.png'
-
+import MovingIcon from '@mui/icons-material/Moving';
 
 
 
@@ -47,7 +47,7 @@ const headerStylesA = {
 
       
     const linkStyling = {
-      fontSize: '20px', 
+      fontSize: '18px', 
       color: 'white', 
       textDecoration: 'none',
       "&:hover": {
@@ -141,7 +141,7 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <ScienceIcon/>
         </ListItemIcon>
-        <Link href="#top" sx={linkStyling}>Catwalk Company UX/UI CASE STUDY</Link>
+        <Link href="#top" sx={linkStyling}>CATWALK COMPANY UX/UI CASE STUDY</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
@@ -161,19 +161,19 @@ const drawerItemList = () => (
         </ListItemIcon>
         <Link href="#storyboard" sx={linkStyling}>STORYBOARD</Link>
       </ListItem>
-  
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <MovingIcon/>
+        </ListItemIcon>
+        <Link href="#userjourneymap" sx={linkStyling}>USER JOURNEY MAP</Link>
+      </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
           <PollIcon/>
         </ListItemIcon>
         <Link href="#researchsurvey" sx={linkStyling}>RESEARCH SURVEY</Link>
       </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <ModeIcon/>
-        </ListItemIcon>
-        <Link href="#userjourneymap" sx={linkStyling}>USER JOURNEY MAP</Link>
-      </ListItem>
+
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
           <StickyNote2Icon/>
@@ -301,7 +301,7 @@ return (
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
 <Typography sx={paragraphA}>While the world turned to remote work overnight, I wanted to build a communication bridge between designers, developers and 
-clients with an e-commerce platform website so that we can continue to develop our virtual worlds together.</Typography>
+clients with an e-commerce platform website so that we can continue to develop our virtual worlds together in a timely fashion.</Typography>
   
   
 </Box> 
