@@ -6,7 +6,8 @@ import NetlifyIdentityContext from 'react-netlify-identity-gotrue';
 import NavBar from './Components/NavBar';
 import LandingPage from './Pages/Landing';
 import InstaFresh from './Pages/InstaFresh';
-import DisneyVSNetflix from './Pages/DisneyVSNetflix';    
+import DisneyVSNetflix from './Pages/DisneyVSNetflix';
+import CatwalkCo from './Pages/CatwalkCo'    
 //import Footer from './Components/Footer/Footer'; 
 import './App.css';
 //const LatestMeals = React.lazy(() => import('./Components/LatestMeals/LatestMeals'));
@@ -22,7 +23,7 @@ const App = () => {
   return (
    <>
    <Router>
-     <NetlifyIdentityContext url='https://aubrey-jones-web-development-portfolio.netlify.app'>
+     <NetlifyIdentityContext url='https://aubrey-jones-ux-ui-portfolio.netlify.app/'>
     <PortfolioContextProvider>
      <NavBar />
   <Suspense fallback={<Box sx={style}>
@@ -32,6 +33,7 @@ const App = () => {
   <Route path="/" exact component={LandingPage} />
   <Route path="/instafresh" exact component={InstaFresh} />
   <Route path="/disneyvsnetflix" exact component={DisneyVSNetflix} />
+  <Route path="/catwalkco" exact component={CatwalkCo} />
   
   </Switch>
   </Suspense>

@@ -29,7 +29,7 @@ import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import ViewComfyIcon from '@mui/icons-material/ViewComfy';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import StickyNote2Icon from '@mui/icons-material/StickyNote2';
-import ProtoPersona from '../Images/protopersona2.png'
+import ProtoPersona from '../Images/catwalkcompany/images/protopersona.png'
 
 
 
@@ -122,7 +122,7 @@ const cardStyles = {
 
 
 
-const InstaFresh = () => {
+const CatwalkCo = () => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -141,7 +141,7 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <ScienceIcon/>
         </ListItemIcon>
-        <Link href="#top" sx={linkStyling}>INSTAFRESH UX/UI CASE STUDY</Link>
+        <Link href="#top" sx={linkStyling}>Catwalk Company UX/UI CASE STUDY</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
@@ -296,25 +296,20 @@ return (
        </Drawer>
 
 
-       <Typography sx={headerStylesA} id="top">InstaFresh UX/UI Case Study</Typography>
+       <Typography sx={headerStylesA} id="top">Catwalk Company UX/UI Case Study</Typography>
 
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
-<Typography sx={paragraphA}>In this ever increasing difficult world, online shopping is becoming more and more normal.
-Some grocery stores created their online shopping services overnight. I wanted to help with this need by creating a 
-responsive online grocery store web app by using the UX/UI design process. </Typography>
+<Typography sx={paragraphA}>While the world turned to remote work overnight, I wanted to build a communication bridge between designers, developers and 
+clients with an e-commerce platform website so that we can continue to develop our virtual worlds together.</Typography>
   
   
 </Box> 
 
 <Box sx={designB} id="protopersona">
 <Typography sx={headerB}>Proto Persona</Typography>
-<Typography sx={paragraphB}>I first wanted to understand my audience before I created this web app and invented a proto persona. </Typography>
-<Typography sx={paragraphB}>Jake Waters is a 27-year-old young male adult. He has two kids with his wife, Emily.
-His family life and career keep them very busy and they lack a lot of time to properly meal prep at an affordable rate. They desparately 
-need to eat healthy due to medical restrictions as well. They hope an online grocery shopping service will help them save time and lower meal costs, which 
-will in turn give them more energy and less stress.</Typography>
-    
+<Typography sx={paragraphB}>Meet Laurey Lane:</Typography>
+
 
 
 <Card sx={cardStyles}>
@@ -347,4 +342,4 @@ will in turn give them more energy and less stress.</Typography>
 
 }
 
-export default InstaFresh;
+export default CatwalkCo;

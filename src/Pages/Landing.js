@@ -20,6 +20,7 @@ import ProtoPersona1 from '../Images/protopersona1.png'
 import MobileWireframes from '../Images/mobilewireframes2.png'
 import JourneyMap from '../Images/videovoyagers/dn46.jpg'
 import SketchImage from '../Images/grocerystoreapp/sketches/sketch1.jpg'
+import CatwalkCo from '../Images/catwalkcompany/images/protopersona.png'
 
 const headerStyles = {
 margin: '0px 100px 20px 50px', 
@@ -249,22 +250,21 @@ return (
 
 
 
-
-<Card sx={cardStyles} className="cardStyles">
-<Link sx={linkStyles} href="/instafresh" target="_blank">
+    <Card sx={cardStyles} className="cardStyles">
+<Link sx={linkStyles} href="/catwalkco" target="_blank">
       <CardMedia
         component="img"
-        alt="React Login"
+        alt="Freelance E-Commerce UX/UI Case Study"
         height="300"
         width="100%"
-        image={InstaFreshImage }
+        image={CatwalkCo}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          InstaFresh 
+         Catwalk Company
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          An Online Grocery Store App UX/UI Case Study
+          A Freelance E-Commerce Web App UX/UI Case Study
         </Typography>
       </CardContent>
       </Link>
@@ -276,7 +276,7 @@ return (
 
   
     <Card sx={cardStyles} className="cardStyles">
-    <Link sx={linkStyles} href="https://chaoticroyale.netlify.app/" target="_blank">
+    <Link sx={linkStyles} href="" target="_blank">
       <CardMedia
         component="img"
         alt="Tesla Solar Group Project"
@@ -294,6 +294,10 @@ return (
       </Link>
     </Card>
     
+
+
+   
+
 
 
 
