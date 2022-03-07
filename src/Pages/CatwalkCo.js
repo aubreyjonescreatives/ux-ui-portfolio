@@ -31,7 +31,7 @@ import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import StickyNote2Icon from '@mui/icons-material/StickyNote2';
 import ProtoPersona from '../Images/catwalkcompany/images/protopersona.png'
 import MovingIcon from '@mui/icons-material/Moving';
-
+import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
 
 
 const headerStylesA = {
@@ -97,7 +97,6 @@ fontSize: '20px'
 
 const designB = {
   bgcolor: 'white',
-  height: '400px'
 
 }
 
@@ -308,14 +307,12 @@ clients with an e-commerce platform website so that we can continue to develop o
 
 <Box sx={designB} id="protopersona">
 <Typography sx={headerB}>Proto Persona</Typography>
-<Typography sx={paragraphB}>Meet Laurey Lane:</Typography>
-
 
 
 <Card sx={cardStyles}>
       <CardMedia
         component="img"
-        alt="Instafresh UX/UI Project"
+        alt="Proto Persona"
         image={ProtoPersona}
       />
      
@@ -328,7 +325,21 @@ clients with an e-commerce platform website so that we can continue to develop o
   
 </Box> 
 
+<Box sx={designA} id="journeymap">
+<Typography sx={headerB}>Journey Map</Typography>
 
+
+<Card sx={cardStyles}>
+      <CardMedia
+        component="img"
+        alt="Journey Map"
+        image={JourneyMap}
+      />
+     
+     
+    </Card>
+
+</Box> 
 
 
 </>
