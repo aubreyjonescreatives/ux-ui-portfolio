@@ -1,4 +1,5 @@
 import * as React from 'react'; 
+import { NavLink } from 'react-router-dom'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -227,7 +228,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-    <Link sx={linkStyles} href="/disneyvsnetflix" target="_blank">
+    <NavLink sx={linkStyles} to="/disneyvsnetflix" target="_blank">
       <CardMedia
         component="img"
         alt="Instafresh UX/UI Project"
@@ -242,7 +243,7 @@ return (
           A Research Case Study
         </Typography>
       </CardContent>
-      </Link>
+      </NavLink>
     </Card>
   
 
@@ -251,7 +252,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-<Link sx={linkStyles} href="/catwalkco" target="_blank">
+<NavLink sx={linkStyles} to="/catwalkco" target="_blank">
       <CardMedia
         component="img"
         alt="Freelance E-Commerce UX/UI Case Study"
@@ -267,7 +268,7 @@ return (
           A Freelance E-Commerce Web App UX/UI Case Study
         </Typography>
       </CardContent>
-      </Link>
+      </NavLink>
     </Card>
    
 
@@ -276,7 +277,7 @@ return (
 
   
     <Card sx={cardStyles} className="cardStyles">
-    <Link sx={linkStyles} href="" target="_blank">
+    <NavLink sx={linkStyles} to="/" target="_blank">
       <CardMedia
         component="img"
         alt="Tesla Solar Group Project"
@@ -291,7 +292,7 @@ return (
          Tesla Solar UX/UI Design Case Study 
         </Typography>
       </CardContent>
-      </Link>
+      </NavLink>
     </Card>
     
 
