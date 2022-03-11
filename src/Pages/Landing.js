@@ -227,7 +227,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-    <Link sx={linkStyles} href="/disneyvsnetflix" target="_blank">
+    <Link sx={linkStyles} href="https://aubrey-jones-ux-ui-portfolio.netlify.app/disneyvsnetflix" target="_blank">
       <CardMedia
         component="img"
         alt="Instafresh UX/UI Project"
@@ -251,7 +251,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-<Link sx={linkStyles} href="/catwalkco" target="_blank">
+<Link sx={linkStyles} href="https://aubrey-jones-ux-ui-portfolio.netlify.app/catwalkco" target="_blank">
       <CardMedia
         component="img"
         alt="Freelance E-Commerce UX/UI Case Study"
@@ -261,7 +261,7 @@ return (
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-         Catwalk Company
+         Catwalk Co
         </Typography>
         <Typography variant="body2" color="text.secondary">
           A Freelance E-Commerce Web App UX/UI Case Study
