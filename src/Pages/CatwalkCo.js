@@ -32,18 +32,43 @@ import StickyNote2Icon from '@mui/icons-material/StickyNote2';
 import ProtoPersona from '../Images/catwalkcompany/images/protopersona.png'
 import MovingIcon from '@mui/icons-material/Moving';
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
+import CompareIcon from '@mui/icons-material/Compare';
+import Iframe from 'react-iframe'; 
+import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
+import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
+import CatwalkCoImg from '../Images/catwalkcompany/images/fulllogo.png'; 
+
+
+const design = {
+height: '600px'
+
+}
+
+
+const cardStyles = {
+
+  margin: '200px auto 10px auto', 
+  marginBottom: '50px', 
+  display: 'block', 
+  width: '25%' 
+
+
+
+}
 
 
 const headerStylesA = {
-    margin: '100px 50px 0px 50px', 
-    fontSize: '36px', 
-    padding: '80px 20px', 
-    color: '#30638E',
-    backgroundColor: 'white', 
-    width: '100%'
-    
-    
-    }
+  margin: '10px 0px', 
+  marginBottom: '50px', 
+  fontSize: '36px', 
+  padding: '80px 20px', 
+  color: '#30638E',
+  backgroundColor: 'white', 
+  width: '100%', 
+  textAlign: 'center'
+  
+  
+  }
 
       
     const linkStyling = {
@@ -95,6 +120,19 @@ padding: '20px 70px 100px 70px',
 fontSize: '20px'
 }
 
+
+const cardStylesA = {
+  margin: '75px auto 75px auto', 
+  marginBottom: '50px', 
+  display: 'block', 
+  width: '50%' 
+   
+  
+}
+
+
+
+
 const designB = {
   bgcolor: 'white',
 
@@ -113,12 +151,60 @@ fontSize: '20px'
 }
 
 
-const cardStyles = {
+const cardStylesB = {
   margin: '75px auto 75px auto', 
   display: 'block', 
-  width: '700px'
+  width: '50%'
 }
 
+
+
+
+const designC = {
+  bgcolor: '#eee',
+
+}
+
+const headerC = {
+padding: '50px 70px', 
+fontSize: '30px', 
+color: '#30638E'
+
+}
+
+const paragraphC = {
+padding: '20px 70px 10px 70px',
+fontSize: '20px'
+}
+
+
+const cardStylesC = {
+  margin: '75px auto 100px auto', 
+  display: 'block', 
+  width: '50%' 
+   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+const iframeSurvey = {
+display: 'block', 
+margin: '0px auto', 
+height: '100%', 
+width: '100%'
+
+
+}
 
 
 const CatwalkCo = () => {
@@ -140,13 +226,25 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <ScienceIcon/>
         </ListItemIcon>
-        <Link href="#top" sx={linkStyling}>CATWALK COMPANY UX/UI CASE STUDY</Link>
+        <Link href="#top" sx={linkStyling}>CATWALK CO UX/UI CASE STUDY</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
           <ReportProblemIcon/>
         </ListItemIcon>
         <Link href="#challenge" sx={linkStyling}>CHALLENGE</Link>
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+          <PollIcon/>
+        </ListItemIcon>
+        <Link href="#researchsurvey" sx={linkStyling}>RESEARCH SURVEY</Link>
+      </ListItem>
+      <ListItem button>
+        <ListItemIcon sx={{color: "white"}}>
+        <CompareIcon/> 
+        </ListItemIcon>
+        <Link href="#researchsurvey" sx={linkStyling}>COMPETITOR ANALYSIS</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
@@ -161,12 +259,7 @@ const drawerItemList = () => (
         </ListItemIcon>
         <Link href="#userjourneymap" sx={linkStyling}>USER JOURNEY MAP</Link>
       </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <PollIcon/>
-        </ListItemIcon>
-        <Link href="#researchsurvey" sx={linkStyling}>RESEARCH SURVEY</Link>
-      </ListItem>
+  
 
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
@@ -289,8 +382,26 @@ return (
        {drawerItemList()}
        </Drawer>
 
+<Box sx={design}>
 
-       <Typography sx={headerStylesA} id="top">Catwalk Company UX/UI Case Study</Typography>
+       <Card sx={cardStyles}>
+      <CardMedia
+        component="img"
+        alt="Catwalk Co"
+        image={CatwalkCoImg}
+      />
+     
+     
+    </Card>
+
+
+
+
+
+       <Typography sx={headerStylesA} id="top">UX/UI Case Study</Typography>
+
+
+       </Box>
 
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
@@ -300,11 +411,72 @@ clients with an e-commerce platform website so that we can continue to develop o
   
 </Box> 
 
+
+
+<Box sx={designB} id="researchsurvey">
+<Typography sx={headerB}>Research Survey</Typography>
+
+<Typography sx={paragraphB}>I first needed to validate the idea of an e-commerce freelancing platform. I created a survey so that I could reach out to mulitple people online. I received 
+an interesting mixed feedback for some of my results:</Typography>
+
+
+
+<Card sx={cardStylesB}>
+      <CardMedia
+        component="img"
+        alt="Freelancing Gigs"
+        image={FreelancingGigs}
+      />
+     
+     
+    </Card>
+
+
+    <Typography sx={paragraphB}>Most freelancers found gigs by word of mouth by a landslide. None of them use 
+    online marketing. Upwork is a freelancing website specifically for web developers and designers. </Typography>
+    
+    
+    <Typography sx={paragraphB}>So why do 33.3% of people use Upwork? How does it work for freelance? Does it have any popular competitors?</Typography>
+
+
+<Typography sx={paragraphB}></Typography>
+
+
+
+  
+</Box> 
+
+
+<Box sx={designC} id="competitoranalysis">
+<Typography sx={headerC}>Competitor Analysis</Typography>
+<Typography sx={paragraphC}>I found a few direct competitors alongside Upwork for freelancers such as Fiverr Business and Behance. 
+I also realized that freelancers can connect to clients through indirect competitors such as LinkedIn and Indeed.</Typography>
+  
+
+<Card sx={cardStylesC}>
+      <CardMedia
+        component="img"
+        alt="Competitor Analysis"
+        image={CompetitorAnalysis}
+      />
+     
+     
+    </Card>
+
+    <Typography sx={paragraphC}>As the majority of my responders prefer word of mouth, could I persuade them to join the online community for 
+    freelancing?</Typography>
+    <Typography sx={headerC}></Typography>
+</Box> 
+
+
+
+
+
 <Box sx={designB} id="protopersona">
 <Typography sx={headerB}>Proto Persona</Typography>
 
 
-<Card sx={cardStyles}>
+<Card sx={cardStylesB}>
       <CardMedia
         component="img"
         alt="Proto Persona"
@@ -321,10 +493,10 @@ clients with an e-commerce platform website so that we can continue to develop o
 </Box> 
 
 <Box sx={designA} id="journeymap">
-<Typography sx={headerB}>Journey Map</Typography>
+<Typography sx={headerA}>Journey Map</Typography>
 
 
-<Card sx={cardStyles}>
+<Card sx={cardStylesA}>
       <CardMedia
         component="img"
         alt="Journey Map"
