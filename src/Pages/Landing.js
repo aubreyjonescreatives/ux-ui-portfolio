@@ -227,7 +227,7 @@ const Landing = () => {
 return (
 <>
 
-<Typography sx={headerStylesA} id="projects">PROJECTS</Typography>
+<Typography sx={headerStylesA} id="casestudies">CASE STUDIES</Typography>
 
 <Box sx={allcardStyles}>
 

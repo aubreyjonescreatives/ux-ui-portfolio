@@ -66,7 +66,7 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <AutoFixHighIcon/>
         </ListItemIcon>
-        <Link href="#projects" sx={linkStyling}>PROJECTS</Link>
+        <Link href="#casestudies" sx={linkStyling}>CASE STUDIES</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
