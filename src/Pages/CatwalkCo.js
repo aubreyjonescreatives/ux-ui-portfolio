@@ -125,7 +125,7 @@ const cardStylesA = {
   margin: '75px auto 75px auto', 
   marginBottom: '50px', 
   display: 'block', 
-  width: '50%' 
+  width: '75%' 
    
   
 }
@@ -154,7 +154,7 @@ fontSize: '20px'
 const cardStylesB = {
   margin: '75px auto 75px auto', 
   display: 'block', 
-  width: '50%'
+  width: '75%'
 }
 
 
@@ -181,7 +181,7 @@ fontSize: '20px'
 const cardStylesC = {
   margin: '75px auto 100px auto', 
   display: 'block', 
-  width: '50%' 
+  width: '75%' 
    
   
 }
@@ -505,6 +505,10 @@ I also realized that freelancers can connect to clients through indirect competi
      
      
     </Card>
+
+    <Typography sx={paragraphA}></Typography>
+
+
 
 </Box> 
 
