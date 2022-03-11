@@ -23,7 +23,7 @@ const App = () => {
   return (
    <>
    <Router>
-     <NetlifyIdentityContext url='https://aubrey-jones-ux-ui-portfolio.netlify.app/'>
+     <NetlifyIdentityContext url='aubrey-jones-ux-ui-portfolio.netlify.app/'>
     <PortfolioContextProvider>
      <NavBar />
   <Suspense fallback={<Box sx={style}>
