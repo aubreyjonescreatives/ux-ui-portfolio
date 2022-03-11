@@ -424,7 +424,7 @@ an interesting mixed feedback for some of my results:</Typography>
 <Card sx={cardStylesB}>
       <CardMedia
         component="img"
-        alt="Freelancing Gigs"
+        alt="Freelancing Gigs Img"
         image={FreelancingGigs}
       />
      
