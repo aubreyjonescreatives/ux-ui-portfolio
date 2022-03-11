@@ -50,7 +50,7 @@ const cardStyles = {
   margin: '200px auto 10px auto', 
   marginBottom: '50px', 
   display: 'block', 
-  width: '25%' 
+  width: '40%' 
 
 
 
