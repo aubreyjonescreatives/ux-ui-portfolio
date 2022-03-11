@@ -73,8 +73,8 @@ const allcardStyles = {
 const cardStyles = {
 
 margin: '25px', 
-maxWidth: '400px'
-
+maxWidth: '400px', 
+textDecoration: 'none'
 
 
 }
@@ -94,9 +94,15 @@ const cardStylesSamples = {
 
 const linkStyles = {
 textDecoration: 'none',
+color: '#30638E', 
 "&:hover": {
-  textDecoration: 'none'
+  textDecoration: 'none', 
+  color: '#30638E',
  
+}, 
+"&:link": {
+  textDecoration: 'none', 
+  color: '#30638E',
 }
 
 }
@@ -228,7 +234,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-    <NavLink sx={linkStyles} to="/disneyvsnetflix" target="_blank">
+    <NavLink sx={linkStyles} to="/disneyvsnetflix" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Instafresh UX/UI Project"
@@ -252,7 +258,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-<NavLink sx={linkStyles} to="/catwalkco" target="_blank">
+<NavLink sx={linkStyles} to="/catwalkco" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Freelance E-Commerce UX/UI Case Study"
@@ -277,7 +283,7 @@ return (
 
   
     <Card sx={cardStyles} className="cardStyles">
-    <NavLink sx={linkStyles} to="/" target="_blank">
+    <NavLink sx={linkStyles} to="/" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Tesla Solar Group Project"
