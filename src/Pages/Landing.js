@@ -246,7 +246,7 @@ return (
          Disney VS. Netflix
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          A Research Case Study
+          A UX Research Case Study
         </Typography>
       </CardContent>
       </NavLink>
