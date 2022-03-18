@@ -23,7 +23,6 @@ const App = () => {
    <>
    <Router>
      <NetlifyIdentityContext url='https://aubrey-jones-ux-ui-portfolio.netlify.app/'>
-    <PortfolioContextProvider>
      <NavBar />
   <Suspense fallback={<Box sx={style}>
   <LinearProgress />
@@ -35,7 +34,6 @@ const App = () => {
   
   </Switch>
   </Suspense>
-   </PortfolioContextProvider>
    </NetlifyIdentityContext>
    </Router>
    </>
