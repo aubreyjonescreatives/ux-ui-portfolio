@@ -10,7 +10,7 @@
 
 
 
-## If you would like to check out this complete project, feel free to check out its link: 
+## If you would like to view this complete project, feel free to check out using this link: 
 
 https://aubrey-jones-ux-ui-portfolio.netlify.app/
 
