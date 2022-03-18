@@ -33,6 +33,6 @@ https://aubrey-jones-ux-ui-portfolio.netlify.app/
 ![alt text](src/Images/storybookwireframesforcarousel.png)
 
 
-### Feel free to reach out to me if you have any questions. 
+### Feel free to reach out to me if you have any questions and happy coding! 
 
 
