@@ -15,13 +15,17 @@ https://aubrey-jones-ux-ui-portfolio.netlify.app/
 
 ## Here are some images of my UX-UI Work: 
 
-
+### Proto Persona
 
 ![Proto Persona](src/Images/protopersona2.png)
 
 
+### Affinity Diagram
+
 ![alt text](src/Images/catwalkcompany/images/AffinityDiagram.jpg)
 
+
+### Wireframes
 
 ![alt text](src/Images/storybookwireframesforcarousel.png)
 
