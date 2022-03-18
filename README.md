@@ -1,4 +1,7 @@
-# Welcome to my UX-UI portfolio. I have designed and developed it using these tools: 
+# Welcome to my UX-UI portfolio. 
+
+
+## I have designed and developed it using these tools: 
 
 
 1. React.js frontend framework
