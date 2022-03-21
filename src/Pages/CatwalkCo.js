@@ -136,7 +136,7 @@ const cardStylesA = {
   margin: '75px auto 75px auto', 
   marginBottom: '50px', 
   display: 'block', 
-  width: '75%' 
+  width: '50%' 
    
   
 }
@@ -146,8 +146,8 @@ display: 'flex',
 flexWrap: 'wrap'
 }
 
-const imageStyles = { 
-width: '75%', 
+const imageStylesA = { 
+width: '600px',
 display: 'block', 
 margin: '75px auto 75px auto'
 
@@ -187,10 +187,17 @@ fontSize: '20px'
 const cardStylesB = {
   margin: '75px auto 75px auto', 
   display: 'block', 
-  width: '75%'
+  width: '50%'
 }
 
 
+const imageStylesB = { 
+  width: '600px',
+  display: 'block', 
+  margin: '75px auto 75px auto'
+  
+  
+  }
 
 
 const designC = {
@@ -423,7 +430,7 @@ clients with an e-commerce platform website so that we can continue to develop o
 <Typography sx={paragraphB}>Meet Laurey Lane, a representative of our supposed audience. Does she fit the picture? Does she relate to our freelancers?</Typography>
 
 
-<Card sx={imageStyles}>
+<Card sx={imageStylesB}>
       <CardMedia
         component="img"
         alt="Proto Persona"
@@ -554,7 +561,7 @@ project expectations without overwhelming anyone involved.</Typography>
 
 
 
-    <Card sx={imageStyles}>
+    <Card sx={imageStylesA}>
       <CardMedia
         component="img"
         alt="Journey Map"
