@@ -225,7 +225,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-    <NavLink sx={linkStyles} to="https://aubrey-jones-ux-ui-portfolio.netlify.app//disneyvsnetflix" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <NavLink sx={linkStyles} to="/disneyvsnetflix" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Instafresh UX/UI Project"
