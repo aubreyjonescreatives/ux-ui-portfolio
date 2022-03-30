@@ -1,9 +1,6 @@
 import * as React from 'react'; 
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
@@ -18,30 +15,18 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ScienceIcon from '@mui/icons-material/Science';
 import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 import ListIcon from '@mui/icons-material/List';
-import ModeIcon from '@mui/icons-material/Mode';
-import ViewModuleIcon from '@mui/icons-material/ViewModule';
-import TextureIcon from '@mui/icons-material/Texture';
-import ViewCompactIcon from '@mui/icons-material/ViewCompact';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
-import AnimationIcon from '@mui/icons-material/Animation';
 import PollIcon from '@mui/icons-material/Poll';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import ViewComfyIcon from '@mui/icons-material/ViewComfy';
-import AccountTreeIcon from '@mui/icons-material/AccountTree';
-import StickyNote2Icon from '@mui/icons-material/StickyNote2';
 import ProtoPersona from '../Images/catwalkcompany/images/protopersona.png'
 import MovingIcon from '@mui/icons-material/Moving';
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
 import CompareIcon from '@mui/icons-material/Compare';
-import Iframe from 'react-iframe'; 
 import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
 import CatwalkCoImg from '../Images/catwalkcompany/images/fulllogo.png'; 
 import InsightsIcon from '@mui/icons-material/Insights';
-import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg'
-import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg'
-import PriorityHighIcon from '@mui/icons-material/PriorityHigh';
-import QuizIcon from '@mui/icons-material/Quiz';
+import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
+import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 
 
 const design = {
@@ -92,22 +77,6 @@ const headerStylesA = {
 
 
 
-
-const allCards = { 
-display: 'inline-flex', 
-flexWrap: 'wrap', 
-}
-
-
-
-
-const typeStyles = {
-    padding: '50px', 
-    width: '90%', 
-    color: '#30638E'
-}
-
-
 const designA = {
   bgcolor: '#f2f8fb',
 
@@ -141,10 +110,6 @@ const cardStylesA = {
   
 }
 
-const imageBox = {
-display: 'flex', 
-flexWrap: 'wrap'
-}
 
 const imageStylesA = { 
 width: '600px',
@@ -200,17 +165,6 @@ const imageStylesB = {
   }
 
 
-const designC = {
-  bgcolor: '#eee',
-
-}
-
-const headerC = {
-padding: '50px 70px', 
-fontSize: '30px', 
-color: '#30638E'
-
-}
 
 const paragraphC = {
 padding: '20px 70px 10px 70px',
@@ -226,13 +180,6 @@ const quoteC = {
   }
 
 
-const cardStylesC = {
-  margin: '75px auto 100px auto', 
-  display: 'block', 
-  width: '75%' 
-   
-  
-}
 
 
 
@@ -244,22 +191,12 @@ const cardStylesC = {
 
 
 
-
-const iframeSurvey = {
-display: 'block', 
-margin: '0px auto', 
-height: '100%', 
-width: '100%'
-
-
-}
 
 
 const CatwalkCo = () => {
-    const [open, setOpen] = React.useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
   
+
+
   const [isOpen, setIsOpen] = React.useState(false)
 
   const toggleDrawer = () => {
@@ -370,10 +307,8 @@ return (
        </nav>
        <Drawer anchor="left" open={isOpen} onClose={toggleDrawer} sx={{backgroundColor: '57FAD56'}}>
        {drawerItemList()}
-       </Drawer>
+       </Drawer> 
 
-
-/*title*/
 
 
 

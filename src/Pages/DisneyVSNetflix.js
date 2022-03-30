@@ -1,9 +1,6 @@
 import * as React from 'react'; 
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
@@ -20,7 +17,6 @@ import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 import ControlCameraIcon from '@mui/icons-material/ControlCamera';
 import AssessmentIcon from '@mui/icons-material/Assessment';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import AccessibilityIcon from '@mui/icons-material/Accessibility';
 import MoodIcon from '@mui/icons-material/Mood';
 import MapIcon from '@mui/icons-material/Map';
 import ListIcon from '@mui/icons-material/List';
@@ -125,20 +121,13 @@ width: '600px',
 
 
 
-const typeStyles = {
-    padding: '50px', 
-    width: '90%', 
-    color: '#30638E'
-}
 
 
 
 
 
 const DisneyVSNetflix = () => {
-    const [open, setOpen] = React.useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
+ 
   
   const [isOpen, setIsOpen] = React.useState(false)
 

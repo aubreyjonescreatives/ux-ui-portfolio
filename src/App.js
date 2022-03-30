@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Box, LinearProgress} from '@mui/material'; 
-import NetlifyIdentityContext from 'react-netlify-identity-gotrue';
 import NavBar from './Components/NavBar';
 import LandingPage from './Pages/Landing';
 import DisneyVSNetflix from './Pages/DisneyVSNetflix';
@@ -18,7 +17,6 @@ const App = () => {
   return (
    <>
    <Router>
-     <NetlifyIdentityContext url='https://aubrey-jones-ux-ui-portfolio.netlify.app/'>
      <NavBar />
   <Suspense fallback={<Box sx={style}>
   <LinearProgress />
@@ -30,7 +28,6 @@ const App = () => {
   
   </Switch>
   </Suspense>
-   </NetlifyIdentityContext>
    </Router>
    </>
   );
