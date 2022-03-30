@@ -23,8 +23,8 @@ const App = () => {
     </Box>}>
   <Switch>
   <Route path="/" exact component={LandingPage} />
-  <Route path="/DisneyVSNetflix" exact component={DisneyVSNetflix} />
-  <Route path="/CatwalkCo" exact component={CatwalkCo} />
+  <Route path="/disneyvsnetflix" exact component={DisneyVSNetflix} />
+  <Route path="/catwalkco" exact component={CatwalkCo} />
   
   </Switch>
   </Suspense>
