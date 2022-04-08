@@ -22,9 +22,16 @@ const App = () => {
   <LinearProgress />
     </Box>}>
   <Switch>
-  <Route path="/" component={LandingPage} />
-  <Route path="/disneyvsnetflix" component={DisneyVSNetflix} />
-  <Route path="/catwalkco" component={CatwalkCo} />
+  <Route exact path="/" >
+    <LandingPage />
+    </Route>
+    <Route exact path="/disneyvsnetflix" >
+    <DisneyVSNetflix />
+    </Route>
+    <Route exact path="/catwalkco" >
+    <CatwalkCo />
+    </Route>
+  
   
   </Switch>
   </Suspense>
