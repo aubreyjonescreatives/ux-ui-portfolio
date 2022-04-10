@@ -225,7 +225,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-    <NavLink sx={linkStyles} to="disneyvsnetflix" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <NavLink sx={linkStyles} to="/disneyvsnetflix" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Instafresh UX/UI Project"
@@ -249,7 +249,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-<NavLink sx={linkStyles} to="catwalkco" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+<NavLink sx={linkStyles} to="/catwalkco" target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Freelance E-Commerce UX/UI Case Study"
