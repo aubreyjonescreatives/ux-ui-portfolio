@@ -16,8 +16,8 @@ const App = () => {
      <NavBar />
 
   <Route path="/" exact component={Landing} />
-  <Route path="/disneyvsnetflix" exact component={DisneyVSNetflix} />
-  <Route path="/catwalkco" exact component={CatwalkCo} />
+  <Route path="/disneyvsnetflix" component={DisneyVSNetflix} />
+  <Route path="/catwalkco" component={CatwalkCo} />
    </Router>
    </>
   );
