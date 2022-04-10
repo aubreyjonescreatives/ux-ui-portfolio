@@ -1,10 +1,9 @@
 import * as React from 'react'; 
-import { NavLink } from 'react-router-dom'; 
+//import { NavLink } from 'react-router-dom'; 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -225,7 +224,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-    <NavLink to="/disneyvsnetflix" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <Link href="/disneyvsnetflix" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Instafresh UX/UI Project"
@@ -240,7 +239,7 @@ return (
           A UX Research Case Study
         </Typography>
       </CardContent>
-      </NavLink>
+      </Link>
     </Card>
   
 
@@ -249,7 +248,7 @@ return (
 
 
     <Card sx={cardStyles} className="cardStyles">
-<NavLink to="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+<Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Freelance E-Commerce UX/UI Case Study"
@@ -265,7 +264,7 @@ return (
           A Freelance E-Commerce Web App UX/UI Case Study
         </Typography>
       </CardContent>
-      </NavLink>
+      </Link>
     </Card>
    
 
@@ -274,7 +273,7 @@ return (
 
   
     <Card sx={cardStyles} className="cardStyles">
-    <NavLink to="/" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <Link href="/" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Tesla Solar Group Project"
@@ -289,7 +288,7 @@ return (
          Tesla Solar UX/UI Design Case Study 
         </Typography>
       </CardContent>
-      </NavLink>
+      </Link>
     </Card>
     
 
