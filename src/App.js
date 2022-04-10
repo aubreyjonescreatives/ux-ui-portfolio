@@ -18,23 +18,10 @@ const App = () => {
    <>
    <Router>
      <NavBar />
-  <Suspense fallback={<Box sx={style}>
-  <LinearProgress />
-    </Box>}>
-  <Switch>
-  <Route exact path="/" >
-    <LandingPage />
-    </Route>
-    <Route exact path="/disneyvsnetflix" >
-    <DisneyVSNetflix />
-    </Route>
-    <Route exact path="/catwalkco" >
-    <CatwalkCo />
-    </Route>
-  
-  
-  </Switch>
-  </Suspense>
+
+  <Route path="/" exact component={LandingPage} />
+  <Route path="/disneyvsnetflix" exact component={DisneyVSNetflix} />
+  <Route path="/catwalkco" exact component={CatwalkCo} />
    </Router>
    </>
   );
