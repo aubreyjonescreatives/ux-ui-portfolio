@@ -273,7 +273,7 @@ return (
 
   
     <Card sx={cardStyles} className="cardStyles">
-    <Link href="/" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <Link href="https://medium.com/@aubreyjonescreatives/ux-design-school-group-project-tesla-solar-4e33f5da4f40" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Tesla Solar Group Project"
