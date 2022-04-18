@@ -210,8 +210,9 @@ const connectLink = {
 
     const resumemodalStyle = {
         position: 'absolute',
-        top: '70%',
+        top: '50%', 
         left: '50%',
+        height: '100%', 
         transform: 'translate(-50%, -50%)',
         bgcolor: 'background.paper',
         border: '2px solid #000',
@@ -434,7 +435,7 @@ YouTube
 LinkedIn
 </Link>
 
-<Link sx={connectLink} onClick={handleOpen}>
+<Link sx={connectLink} href="./Images/resume/aubreyjonesresume.pdf" target="_blank">
 <ImageIcon />Resume
 
 </Link>
@@ -445,24 +446,6 @@ LinkedIn
 </Box>
 
 <div>
-
-<Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={resumemodalStyle}>
-        <Card>
-      <CardMedia
-        component="img"
-        alt="Resume"
-       // height="850"
-        image={Resume}
-      />
-    </Card>
-        </Box>
-      </Modal>
 
 
 
