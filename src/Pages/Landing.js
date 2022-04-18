@@ -16,6 +16,8 @@ import MobileWireframes from '../Images/mobilewireframes2.png'
 import JourneyMap from '../Images/videovoyagers/dn46.jpg'
 import SketchImage from '../Images/grocerystoreapp/sketches/sketch1.jpg'
 import CatwalkCo from '../Images/catwalkcompany/images/protopersona.png'
+import Resume from '../Images/resume/aubreyjonesresume.pdf'
+
 
 const headerStyles = {
 margin: '0px 100px 20px 50px', 
@@ -415,7 +417,7 @@ YouTube
 LinkedIn
 </Link>
 
-<Link sx={connectLink} href="./Images/resume/aubreyjonesresume.pdf" target="_blank">
+<Link sx={connectLink} href={Resume} target="_blank">
 <ImageIcon />Resume
 
 </Link>
