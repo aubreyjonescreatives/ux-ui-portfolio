@@ -8,8 +8,6 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ImageIcon from '@mui/icons-material/Image';
-import Modal from '@mui/material/Modal';
-import Resume from '../Images/aubreyjonesresume.jpg'; 
 import DVNImage from '../Images/disneyvsnetflixcasestudy.PNG'
 import TeslaImage from '../Images/teslasolargroupproject.png'
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -208,25 +206,7 @@ const connectLink = {
 
 
 
-    const resumemodalStyle = {
-        position: 'absolute',
-        top: '50%', 
-        left: '50%',
-        height: '100%', 
-        transform: 'translate(-50%, -50%)',
-        bgcolor: 'background.paper',
-        border: '2px solid #000',
-        boxShadow: 24,
-        overflow:'scroll', 
-        zIndex: '10'
-      };
-
-
 const Landing = () => {
-    const [open, setOpen] = React.useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
-  
 
 
 
