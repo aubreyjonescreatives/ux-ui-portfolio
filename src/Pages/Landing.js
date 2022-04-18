@@ -21,11 +21,11 @@ import CatwalkCo from '../Images/catwalkcompany/images/protopersona.png'
 
 const headerStyles = {
 margin: '0px 100px 20px 50px', 
-fontSize: '36px', 
 paddingTop: '50px', 
-color: '#30638E'
-
-
+color: '#30638E',
+fontSize: '36px', 
+fontFamily: 'Lato',
+fontWeight: '400'
 
 }
 
@@ -34,9 +34,11 @@ color: '#30638E'
 
 const headerStylesA = {
     margin: '100px 100px 20px 50px', 
-    fontSize: '36px', 
     paddingTop: '50px', 
-    color: '#30638E'
+    color: '#30638E',
+    fontSize: '36px', 
+    fontFamily: 'Lato', 
+    fontWeight: '400', 
     
     
     
@@ -46,7 +48,9 @@ const headerStylesB = {
     margin: '0px 100px 20px 50px', 
     fontSize: '36px',
     color: '#30638E', 
-    paddingTop: '50px'
+    paddingTop: '50px',
+    fontFamily: 'Lato', 
+    fontWeight: '400', 
     
     
     }
@@ -58,7 +62,7 @@ const allcardStyles = {
     display: 'flex', 
     justifyContent: 'center', 
     flexWrap: 'wrap', 
-    
+    fontFamily: 'Lato', 
     
     
     
@@ -70,20 +74,22 @@ const cardStyles = {
 
 margin: '25px', 
 maxWidth: '400px', 
-textDecoration: 'none'
-
+textDecoration: 'none',
+fontFamily: 'Lato', 
 
 }
 
 const sampleBox = {
   display: 'flex', 
   flexWrap: 'wrap',
-  justifyContent: 'center'
+  justifyContent: 'center',
+  fontFamily: 'Lato', 
 }
 
 const cardStylesSamples = {
   margin: '25px', 
-  maxWidth: '500px'
+  maxWidth: '500px',
+  fontFamily: 'Lato', 
 
 
 }
@@ -91,6 +97,7 @@ const cardStylesSamples = {
 const linkStyles = {
 textDecoration: 'none',
 color: '#30638E', 
+
 "&:hover": {
   textDecoration: 'none', 
   color: '#30638E',
@@ -113,7 +120,11 @@ const articlesStyles = {
 const typeStyles = {
     padding: '50px', 
     width: '90%', 
-    color: '#30638E'
+    color: '#30638E',
+    fontSize: '20px', 
+    fontFamily: 'Roboto serif',
+    fontWeight: '300'
+
 }
 
 const articleLink = {
@@ -127,6 +138,7 @@ padding: '20px',
 textDecoration: 'none', 
 color: 'white', 
 fontSize: '18px', 
+fontFamily: 'Lato', 
 border: '1px solid #30638E',
 "&:hover": {
     color: '#30638E',
@@ -156,7 +168,10 @@ const aboutStyles = {
 const connectStyles = {
     paddingBottom: '50px', 
     backgroundColor: '#eee', 
-   
+    fontSize: '32px', 
+    fontFamily: 'Lato', 
+    fontWeight: '400', 
+    
 
 
 
@@ -165,8 +180,8 @@ const connectStyles = {
 const connectLinksBox ={
     display: 'flex',
     flexWrap: 'wrap', 
-    justifyContent: 'center'
-
+    justifyContent: 'center',
+    fontFamily: 'Lato', 
 }
 
 

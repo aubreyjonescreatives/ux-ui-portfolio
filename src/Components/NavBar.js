@@ -23,6 +23,7 @@ import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 const linkStyling = {
   fontSize: '20px', 
   color: 'white', 
+  fontFamily: 'Lato', 
   textDecoration: 'none',
   "&:hover": {
     color: 'white', 
@@ -54,7 +55,7 @@ const NavBar = () => {
   // }
 
 const drawerItemList = () => (
-  <Box sx={{width: 250, backgroundColor: '#30638E'}} role="presentation" className="drawerMenu">
+  <Box sx={{width: 250, backgroundColor: '#30638E', fontFamily: 'Lato'}} role="presentation" className="drawerMenu">
     <List>
     <ListItem button>
         <ListItemIcon sx={{color: "white"}}>

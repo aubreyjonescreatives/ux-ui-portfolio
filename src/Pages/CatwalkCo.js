@@ -50,12 +50,14 @@ const cardStyles = {
 const headerStylesA = {
   margin: '10px 0px', 
   marginBottom: '50px', 
-  fontSize: '36px', 
+  fontSize: '42px', 
   padding: '80px 20px', 
   color: '#30638E',
   backgroundColor: 'white', 
   width: '100%', 
-  textAlign: 'center'
+  textAlign: 'center',
+fontFamily: 'Lato', 
+fontWeight: '300',
   
   
   }
@@ -84,19 +86,25 @@ const designA = {
 
 const headerA = {
 padding: '50px 70px', 
-fontSize: '30px', 
+fontSize: '40px', 
+fontFamily: 'Lato', 
+fontWeight: '400', 
 color: '#30638E'
 
 }
 
 const paragraphA = {
 padding: '40px 70px',
-fontSize: '20px'
+fontSize: '20px', 
+fontFamily: 'Roboto serif', 
+fontWeight: '300'
 }
 
 const titleA = {
   padding: '20px 70px',
-  fontSize: '28px'
+  fontSize: '32px',
+  fontFamily: 'Lato', 
+fontWeight: '400', 
   }
   
 
@@ -129,15 +137,18 @@ const designB = {
 
 const headerB = {
 padding: '50px 70px', 
-fontSize: '30px', 
-color: '#30638E'
-
+color: '#30638E', 
+fontSize: '40px', 
+fontFamily: 'Lato', 
+fontWeight: '400', 
 }
 
 
 const titleB = {
   padding: '40px 70px',
-  fontSize: '28px'
+  fontSize: '32px', 
+  fontFamily: 'Lato',
+fontWeight: '400'
   }
 
 
@@ -145,14 +156,19 @@ const titleB = {
 
 const paragraphB = {
 padding: '20px 70px',
-fontSize: '20px'
+fontSize: '20px', 
+fontFamily: 'Roboto serif',
+fontWeight: '300'
 }
 
 
 const cardStylesB = {
   margin: '75px auto 75px auto', 
   display: 'block', 
-  width: '50%'
+  width: '50%',
+  fontFamily: 'Roboto serif',
+fontWeight: '500'
+
 }
 
 
@@ -168,7 +184,8 @@ const imageStylesB = {
 
 const paragraphC = {
 padding: '20px 70px 10px 70px',
-fontSize: '20px'
+fontSize: '20px',
+fontFamily: 'Roboto serif',
 }
 
 
@@ -176,7 +193,9 @@ const quoteC = {
   padding: '20px 70px 10px 70px',
   fontSize: '24px', 
   textAlign: 'center', 
-  color: '#30638E'
+  color: '#30638E',
+  fontFamily: 'Roboto serif',
+  fontWeight: '400'
   }
 
 
