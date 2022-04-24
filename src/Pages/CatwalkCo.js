@@ -703,7 +703,7 @@ is having to budget for taxes. Catwalk Co can provide this need with its financi
     </Card>
 
 
-    <Typography sx={paragraphB}>Freelancer Financial Tracker User Flow:</Typography>
+    <Typography sx={paragraphB}>Financial Tracker User Flow for Freelancers:</Typography>
      
 
     <Card sx={cardStylesB}>
