@@ -28,6 +28,11 @@ import InsightsIcon from '@mui/icons-material/Insights';
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
+import UserFlowLegend from '../Images/catwalkcompany/images/catwalkcouserflowlegend.jpg';
+import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.jpg';
+
+
+
 
 
 const design = {
@@ -669,6 +674,108 @@ is having to budget for taxes. Catwalk Co can provide this need with its financi
 
 
 
+
+{/*ideate*/}
+
+<Box sx={designB} id="ideate">
+<Typography sx={headerB}>Ideate</Typography>
+
+
+
+<Typography sx={titleB}>User Flow</Typography>
+<Typography sx={paragraphB}>I chose to focus on one user flow from my sitemap: </Typography>
+  
+
+
+<Typography sx={paragraphB}>User Flow Legend:</Typography>
+ 
+
+
+
+<Card sx={cardStylesB}>
+      <CardMedia
+        component="img"
+        alt="User Flow Legend"
+        image={UserFlowLegend}
+      />
+     
+     
+    </Card>
+
+
+    <Typography sx={paragraphB}>Freelancer Financial Tracker User Flow:</Typography>
+     
+
+    <Card sx={cardStylesB}>
+      <CardMedia
+        component="img"
+        alt="User Flow"
+        image={UserFlow}
+      />
+     
+     
+    </Card>
+
+  
+</Box> 
+
+
+
+<Box sx={designB}>
+
+<Typography sx={titleB}>Sketches</Typography>
+
+<Typography sx={paragraphB}>Here are some of my rough sketches for Catwalk Co to get through ideas much faster:</Typography>
+    
+
+<Typography sx={paragraphB}>Signup and Login Pages:</Typography>
+ 
+
+
+
+<Typography sx={paragraphB}>Landing Page:</Typography>
+  
+
+<Typography sx={paragraphB}>Dashboard:</Typography>
+  
+
+
+<Typography sx={paragraphB}>Financial Tracker:</Typography>
+  
+
+
+   
+</Box> 
+
+
+
+<Box sx={designB}>
+
+<Typography sx={titleB}>Low Fidelity Wireframes:</Typography>
+
+<Typography sx={paragraphB}>I tested my sketches and found people liked certain features over others. I included those ideas into my low-fidelity designs:</Typography>
+    
+
+<Typography sx={paragraphB}>Signup and Login Pages:</Typography>
+ 
+
+
+
+<Typography sx={paragraphB}>Landing Page:</Typography>
+  
+
+
+<Typography sx={paragraphB}>Dashboard:</Typography>
+
+
+
+
+<Typography sx={paragraphB}>Financial Tracker:</Typography>
+  
+
+
+   
+</Box> 
 
 
 
