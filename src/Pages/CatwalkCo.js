@@ -27,6 +27,7 @@ import CatwalkCoImg from '../Images/catwalkcompany/images/fulllogo.png';
 import InsightsIcon from '@mui/icons-material/Insights';
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
+import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 
 
 const design = {
@@ -117,6 +118,19 @@ const cardStylesA = {
    
   
 }
+
+
+
+
+const imageStyles = {
+  margin: '75px auto 75px auto', 
+  marginBottom: '50px', 
+  display: 'block', 
+  width: '75%' 
+   
+  
+}
+
 
 
 const imageStylesA = { 
@@ -617,6 +631,46 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 
   
 </Box> 
+
+
+
+{/*sitemap*/}
+
+
+<Box sx={designA}>
+<Typography sx={titleA}>Sitemap</Typography>
+
+<Typography sx={paragraphA}>I could create a sitemap to better understand Catwalk Co's 
+information architecture after gathering information from my 
+affinity diagram and feature prioritization matrix. I wanted to prioritize freelancer pain points and 
+create a unique spin on freelancing altogether from my competitors. It seems like a popular freelancing complaint 
+is having to budget for taxes. Catwalk Co can provide this need with its financial tracker. </Typography>
+
+
+    <Card sx={imageStyles}>
+      <CardMedia
+        component="img"
+        alt="Sitemap"
+        image={Sitemap}
+      />
+     
+     
+    </Card>
+
+
+
+
+    <Typography sx={paragraphA}></Typography>
+    
+    
+
+  
+</Box> 
+
+
+
+
+
 
 
 
