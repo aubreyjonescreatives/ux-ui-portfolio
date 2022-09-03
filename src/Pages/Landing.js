@@ -15,7 +15,7 @@ import ProtoPersona1 from '../Images/protopersona1.png'
 import MobileWireframes from '../Images/mobilewireframes2.png'
 import JourneyMap from '../Images/videovoyagers/dn46.jpg'
 import SketchImage from '../Images/grocerystoreapp/sketches/sketch1.jpg'
-import CatwalkCo from '../Images/catwalkcompany/images/protopersona.png'
+import CatwalkCo from '../Images/catwalkcompany/images/protopersonadave.png'
 import Resume from '../Images/resume/aubreyjonesresume.pdf'
 
 
