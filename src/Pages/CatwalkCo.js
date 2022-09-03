@@ -428,7 +428,7 @@ clients with an e-commerce platform website so that we can continue to develop o
 
 <Typography sx={titleB}>Research Survey</Typography>
 
-<Typography sx={paragraphB}>I first needed to validate the idea of an e-commerce freelancing platform and if interested parties such as Laurey would 
+<Typography sx={paragraphB}>I first needed to validate the idea of an e-commerce freelancing platform and if interested parties such as David would 
 find them useful. I created a survey so that I could reach out to mulitple people online. I received 
 an interesting mixed feedback for some of my results:</Typography>
 
@@ -513,7 +513,7 @@ to know if these competitors provided solutions to freelancers in their problem 
 
 <Typography sx={paragraphB}>I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
 discover and organize popular trends from my audience in a logical manner and to see if others feel the same 
-way as Laurey does about freelancing overall: </Typography>
+way as David does about freelancing overall: </Typography>
 
 
 
