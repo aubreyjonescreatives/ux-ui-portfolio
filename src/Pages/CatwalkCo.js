@@ -17,7 +17,7 @@ import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 import ListIcon from '@mui/icons-material/List';
 import PollIcon from '@mui/icons-material/Poll';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import ProtoPersona from '../Images/catwalkcompany/images/protopersona.png';
+import ProtoPersonaDave from '../Images/catwalkcompany/images/protopersonadave.png';
 import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
 import MovingIcon from '@mui/icons-material/Moving';
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
@@ -402,14 +402,14 @@ clients with an e-commerce platform website so that we can continue to develop o
 
 <Typography sx={titleB}>Proto Persona</Typography>
 
-<Typography sx={paragraphB}>Meet , a representative of our supposed audience. Does she fit the picture? Does she relate to our freelancers?</Typography>
+<Typography sx={paragraphB}>Meet David Anderson, a representative of our supposed audience.</Typography>
 
 
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
         alt="Proto Persona"
-        image={ProtoPersona}
+        image={ProtoPersonaDave}
        
       />
      
