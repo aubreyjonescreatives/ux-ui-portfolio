@@ -17,7 +17,8 @@ import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 import ListIcon from '@mui/icons-material/List';
 import PollIcon from '@mui/icons-material/Poll';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import ProtoPersona from '../Images/catwalkcompany/images/protopersona.png'
+import ProtoPersona from '../Images/catwalkcompany/images/protopersona.png';
+import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
 import MovingIcon from '@mui/icons-material/Moving';
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
 import CompareIcon from '@mui/icons-material/Compare';
@@ -401,7 +402,7 @@ clients with an e-commerce platform website so that we can continue to develop o
 
 <Typography sx={titleB}>Proto Persona</Typography>
 
-<Typography sx={paragraphB}>Meet Laurey Lane, a representative of our supposed audience. Does she fit the picture? Does she relate to our freelancers?</Typography>
+<Typography sx={paragraphB}>Meet , a representative of our supposed audience. Does she fit the picture? Does she relate to our freelancers?</Typography>
 
 
 <Card sx={imageStylesB}>
@@ -510,8 +511,7 @@ to know if these competitors provided solutions to freelancers in their problem 
 <Typography sx={titleB}>Affinity Diagram</Typography>
 
 
-<Typography sx={paragraphB}>With Laurey's freelancing experience in mind, 
-I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
+<Typography sx={paragraphB}>I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
 discover and organize popular trends from my audience in a logical manner and to see if others feel the same 
 way as Laurey does about freelancing overall: </Typography>
 
@@ -558,6 +558,27 @@ way as Laurey does about freelancing overall: </Typography>
 
 <Box sx={designB}>
 <Typography sx={titleB}>User Persona</Typography>
+
+
+<Typography sx={paragraphB}>Meet Laurey Lane, a representative of our audience based upon our researched trending facts. Does she fit the picture? Does she relate to our interviewed freelancers?</Typography>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="User Persona"
+        image={UserPersona}
+       
+      />
+     
+     
+    </Card>
+
+
+
+
+
+
 
 
 </Box>
