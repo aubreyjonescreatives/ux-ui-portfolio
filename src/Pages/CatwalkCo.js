@@ -32,7 +32,9 @@ import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import UserFlowLegend from '../Images/catwalkcompany/images/catwalkcouserflowlegend.jpg';
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.jpg';
 import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
-
+import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png'; 
+import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
+import UserQuote from '../Images/catwalkcompany/images/quotes.png'; 
 
 
 
@@ -180,6 +182,17 @@ fontSize: '20px',
 fontFamily: 'Roboto serif',
 fontWeight: '300'
 }
+
+
+const cardquoteStylesB = {
+  margin: '75px auto 75px auto', 
+  display: 'block', 
+  width: '75%',
+  fontFamily: 'Roboto serif',
+fontWeight: '500'
+
+}
+
 
 
 const cardStylesB = {
@@ -452,12 +465,17 @@ an interesting mixed feedback for some of my results:</Typography>
    
     <Typography sx={paragraphB}>The study also gave me some insight as far as how users struggled with freelancing, no matter their preferred communication 
     platform. Some direct quotes included:</Typography>
-    <Typography sx={quoteC}>1. "I wish I didn't have to set money aside for taxes."</Typography>
-    <Typography sx={quoteC}>2. "I wish I could change some employers perception of freelance work. One company I interviewed with last year 
-    told me if I accept their offer that I'd have to give up freelance work."</Typography>
-    <Typography sx={quoteC}>3. "Being able to not work weekends. Usually find myself with projects that go well into the weekend." </Typography>
-    <Typography sx={paragraphC}></Typography>
+    
 
+    <Card sx={cardquoteStylesB}>
+      <CardMedia
+        component="img"
+        alt="User Quotes"
+        image={UserQuote}
+      />
+     
+     
+    </Card>
 
     <Typography sx={paragraphB}>As the majority of my responders prefer word of mouth, could I persuade them to join the online community for 
     freelancing if I focused on their frustrations and provided good solutions to them? Why do 33.3% of people use Upwork? How does it work for freelance? 
@@ -551,6 +569,28 @@ way as David does about freelancing overall: </Typography>
 
 <Box sx={designB}>
 <Typography sx={titleB}>Empathy Map</Typography>
+
+
+
+<Typography sx={paragraphB}>After collecting data from my research, I could really start to empathize with my audience and 
+gather information on what they heard, said, thought, and did throughout their user experience. </Typography>
+    
+
+
+<Card sx={cardStylesB}>
+      <CardMedia
+        component="img"
+        alt="Emapthy Map"
+        image={EmpathyMap}
+      />
+     
+     
+    </Card>
+
+
+
+
+
 
 
 </Box>
@@ -653,6 +693,27 @@ to remote freelancers and clients so that they can acheive higher quality result
 
 
 <Typography sx={titleB}>I Like I Wish What If Method</Typography>
+
+
+
+<Typography sx={paragraphB}>After collecting audience data, it's important to brainstorm possible solutions for a better user experience. One great method for this 
+step is the "I Like, I Wish, What If" method as I dig deeper into what feature ideas are most successful and viable for a competitive freelancing app.</Typography>
+    
+
+
+
+<Card sx={cardStylesB}>
+      <CardMedia
+        component="img"
+        alt="I Like I Wish What If"
+        image={ILikeIWishWhatIf}
+      />
+     
+     
+    </Card>
+
+
+
 
 
 
