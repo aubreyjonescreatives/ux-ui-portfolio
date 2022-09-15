@@ -35,7 +35,7 @@ import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoVal
 import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
 import UserQuote from '../Images/catwalkcompany/images/quotes.png'; 
-
+import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
 
 
 const design = {
@@ -392,8 +392,8 @@ return (
 
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
-<Typography sx={paragraphA}>While the world turned to remote work overnight, I wanted to build a communication bridge between designers, developers and 
-clients with an e-commerce platform website so that we can continue to develop our virtual worlds together in a timely fashion.</Typography>
+<Typography sx={paragraphA}>As remote work continues to be a need in today's modern world, 
+I wanted to build a bridge for freelancers and clients alike.</Typography>
 <Typography sx={headerA}></Typography> 
   
 </Box> 
@@ -794,6 +794,23 @@ with our audience to provide simpler and better means for all.</Typography>
 
     <Box sx={designB}>
 <Typography sx={titleB}>User Scenario</Typography>
+
+
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Journey Map"
+        image={UserScenario}
+       
+      />
+     
+     </Card>
+
+
+
+
 
 
 </Box>
