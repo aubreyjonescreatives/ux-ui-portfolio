@@ -36,6 +36,17 @@ import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png';
 import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
 import UserQuote from '../Images/catwalkcompany/images/quotes.png'; 
 import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
+import UserFlow2 from '../Images/catwalkcompany/images/UserFlow2.jpg'; 
+import Sitemap2 from '../Images/catwalkcompany/images/Sitemap_2.jpg'; 
+import SplashPage from '../Images/catwalkcompany/images/sketches/splashpage.JPG'; 
+import LandingPage from '../Images/catwalkcompany/images/sketches/landingpage.JPG'; 
+import Dashboard from '../Images/catwalkcompany/images/sketches/dashboard.JPG'; 
+import Availability from '../Images/catwalkcompany/images/sketches/availability.JPG';
+import EmailServices from '../Images/catwalkcompany/images/sketches/emailservices.JPG'; 
+import Earnings from '../Images/catwalkcompany/images/sketches/earnings.JPG';  
+
+
+
 
 
 const design = {
@@ -879,7 +890,9 @@ with our audience to provide simpler and better means for all.</Typography>
 <Typography sx={titleA}>User Flow</Typography>
 
 
-<Typography sx={paragraphA}>I chose to focus on one user flow from my sitemap: </Typography>
+<Typography sx={paragraphA}>As I entered the design thinking Prototype phase, I carefully considered the most desired Catwalk Co features 
+based on my research, feature prioritization matrix, and Laurey's current overall experience. I found myself creating a few different user flow 
+iterations as I kept my most viable product in mind: </Typography>
   
 
 
@@ -899,7 +912,7 @@ with our audience to provide simpler and better means for all.</Typography>
     </Card>
 
 
-    <Typography sx={paragraphA}>Financial Tracker User Flow for Freelancers:</Typography>
+    <Typography sx={paragraphA}>First user flow:</Typography>
      
 
     <Card sx={imageStylesA}>
@@ -907,6 +920,20 @@ with our audience to provide simpler and better means for all.</Typography>
         component="img"
         alt="User Flow"
         image={UserFlow}
+      />
+     
+     
+    </Card>
+
+
+    <Typography sx={paragraphA}>Final user flow:</Typography>
+     
+    
+    <Card sx={imageStylesA}>
+      <CardMedia
+        component="img"
+        alt="User Flow"
+        image={UserFlow2}
       />
      
      
@@ -929,11 +956,13 @@ with our audience to provide simpler and better means for all.</Typography>
 <Box sx={designA}>
 <Typography sx={titleA}>Sitemap</Typography>
 
-<Typography sx={paragraphA}>I could create a sitemap to better understand Catwalk Co's 
-information architecture after gathering information from my 
-affinity diagram and feature prioritization matrix. I wanted to prioritize freelancer pain points and 
-create a unique spin on freelancing altogether from my competitors. It seems like a popular freelancing complaint 
-is having to budget for taxes. Catwalk Co can provide this need with its financial tracker. </Typography>
+<Typography sx={paragraphA}>I had created my first sitemap alongside my first user flow. I updated it as well for a final sitemap
+when I knew I could simplify the information architecture for better overall usability: </Typography>
+
+
+
+<Typography sx={paragraphA}>First sitemap</Typography>
+     
 
 
     <Card sx={imageStylesA}>
@@ -952,6 +981,31 @@ is having to budget for taxes. Catwalk Co can provide this need with its financi
     <Typography sx={paragraphA}></Typography>
     
     
+
+
+    <Typography sx={paragraphA}>Second sitemap</Typography>
+     
+
+
+     <Card sx={imageStylesA}>
+       <CardMedia
+         component="img"
+         alt="Sitemap"
+         image={Sitemap2}
+       />
+      
+      
+     </Card>
+ 
+ 
+ 
+ 
+     <Typography sx={paragraphA}></Typography>
+     
+
+
+
+
 
   
 </Box> 
@@ -972,23 +1026,100 @@ is having to budget for taxes. Catwalk Co can provide this need with its financi
 
 <Typography sx={titleA}>Sketches</Typography>
 
-<Typography sx={paragraphA}>Here are some of my rough sketches for Catwalk Co to get through ideas much faster:</Typography>
+<Typography sx={paragraphA}>Now that I understood my overall information architecture for Catwalk Co's mobile app, 
+here are some of my rough sketches for Catwalk Co to get through ideas much faster:</Typography>
     
 
-<Typography sx={paragraphA}>Signup and Login Pages:</Typography>
+<Typography sx={paragraphA}>Splash Page Iterations:</Typography>
  
+<Card sx={imageStylesA}>
+       <CardMedia
+         component="img"
+         alt="Splash Page"
+         image={SplashPage}
+       />
+      
+      
+     </Card>
 
 
 
-<Typography sx={paragraphA}>Landing Page:</Typography>
+<Typography sx={paragraphA}>Landing Page Iterations:</Typography>
   
 
-<Typography sx={paragraphA}>Dashboard:</Typography>
-  
+<Card sx={imageStylesA}>
+       <CardMedia
+         component="img"
+         alt="Landing Page"
+         image={LandingPage}
+       />
+      
+      
+     </Card>
 
 
-<Typography sx={paragraphA}>Financial Tracker:</Typography>
+
+
+
+<Typography sx={paragraphA}>Dashboard Iterations:</Typography>
   
+
+<Card sx={imageStylesA}>
+       <CardMedia
+         component="img"
+         alt="Dashboard"
+         image={Dashboard}
+       />
+      
+      
+     </Card>
+
+
+
+
+<Typography sx={paragraphA}>Availability Iterations:</Typography>
+  
+
+<Card sx={imageStylesA}>
+       <CardMedia
+         component="img"
+         alt="Availability"
+         image={Availability}
+       />
+      
+      
+     </Card>  
+
+
+ 
+<Typography sx={paragraphA}>Email Services Iterations:</Typography>
+  
+
+  <Card sx={imageStylesA}>
+         <CardMedia
+           component="img"
+           alt="Email Services"
+           image={EmailServices}
+         />
+        
+        
+       </Card>      
+
+
+
+       <Typography sx={paragraphA}>Earnings Iterations:</Typography>
+  
+
+  <Card sx={imageStylesA}>
+         <CardMedia
+           component="img"
+           alt="Earnings"
+           image={Earnings}
+         />
+        
+        
+       </Card>  
+
 
 
    
@@ -1004,28 +1135,38 @@ is having to budget for taxes. Catwalk Co can provide this need with its financi
 
 <Typography sx={titleA}>Low Fidelity Wireframes</Typography>
 
-<Typography sx={paragraphA}>I tested my sketches and found people liked certain features over others. I included those ideas into my low-fidelity designs:</Typography>
+<Typography sx={paragraphA}>After sketching through quite a few app ideas, I wanted to add ones that
+ worked alongside common mental model design patterns in my digital designs. I found inspiration through 
+ competitive apps such as Calendly for my availability and Gmail for my email services.</Typography>
     
 
-<Typography sx={paragraphA}>Signup and Login Pages:</Typography>
+
+ <Typography sx={paragraphA}>Splash Page:</Typography>
  
 
-
-
-<Typography sx={paragraphA}>Landing Page:</Typography>
+ <Typography sx={paragraphA}>Landing Page:</Typography>
   
 
 
-<Typography sx={paragraphA}>Dashboard:</Typography>
-
-
-
-
-<Typography sx={paragraphA}>Financial Tracker:</Typography>
+ <Typography sx={paragraphA}>Dashboard:</Typography>
   
-
-
    
+
+
+ <Typography sx={paragraphA}>Availability:</Typography>
+  
+
+
+ 
+ <Typography sx={paragraphA}>Email Services:</Typography>
+  
+
+
+ <Typography sx={paragraphA}>Earnings:</Typography>
+  
+
+
+
 </Box> 
 
 
