@@ -153,7 +153,7 @@ const imageStyles = {
 
 
 const imageStylesA = { 
-width: '600px',
+width: '70%',
 display: 'block', 
 margin: '75px auto 75px auto'
 
@@ -217,7 +217,7 @@ fontWeight: '500'
 
 
 const imageStylesB = { 
-  width: '600px',
+  width: '70%',
   display: 'block', 
   margin: '75px auto 75px auto'
   
