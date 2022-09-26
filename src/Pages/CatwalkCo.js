@@ -403,8 +403,8 @@ return (
 
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
-<Typography sx={paragraphA}>As remote work continues to be a need in today's modern world, 
-I wanted to build a bridge for freelancers and clients alike.</Typography>
+<Typography sx={paragraphA}>How can digital designers and clients better connect together in today's modern world? Catwalk Co embarks on an adventure to build a bridge 
+between digital designers and clients for better communication, expectations, and creativity throughout their design processes.</Typography>
 <Typography sx={headerA}></Typography> 
   
 </Box> 
@@ -452,9 +452,9 @@ I wanted to build a bridge for freelancers and clients alike.</Typography>
 
 <Typography sx={titleB}>Research Survey</Typography>
 
-<Typography sx={paragraphB}>I first needed to validate the idea of an e-commerce freelancing platform and if interested parties such as David would 
-find them useful. I created a survey so that I could reach out to mulitple people online. I received 
-an interesting mixed feedback for some of my results:</Typography>
+<Typography sx={paragraphB}>While David represented my assumed audience, I needed to find a hot and trending need to 
+confirm an interest in an e-commerce freelancing platform. I created a survey so that I could reach out to mulitple people online. I received 
+an interesting mix of feedback from some of my results:</Typography>
 
 
 
