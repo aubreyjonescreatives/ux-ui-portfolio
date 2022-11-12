@@ -1,4 +1,5 @@
 import * as React from 'react'; 
+import { Container, Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
@@ -29,23 +30,30 @@ import InsightsIcon from '@mui/icons-material/Insights';
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
-import UserFlowLegend from '../Images/catwalkcompany/images/catwalkcouserflowlegend.jpg';
-import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.jpg';
 import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
 import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
 import UserQuote from '../Images/catwalkcompany/images/quotes.png'; 
 import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
-import UserFlow2 from '../Images/catwalkcompany/images/UserFlow2.jpg'; 
-import Sitemap2 from '../Images/catwalkcompany/images/Sitemap_2.jpg'; 
+import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
+import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
 import SplashPage from '../Images/catwalkcompany/images/sketches/splashpage.JPG'; 
 import LandingPage from '../Images/catwalkcompany/images/sketches/landingpage.JPG'; 
 import Dashboard from '../Images/catwalkcompany/images/sketches/dashboard.JPG'; 
 import Availability from '../Images/catwalkcompany/images/sketches/availability.JPG';
 import EmailServices from '../Images/catwalkcompany/images/sketches/emailservices.JPG'; 
 import Earnings from '../Images/catwalkcompany/images/sketches/earnings.JPG';  
-
-
+import StoryBoard from '../Images/catwalkcompany/images/storyboard.JPG'; 
+import SplashPageDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/splash-screen.png'
+import SignUpLoginDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up-login.png'
+import SignUpDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up.png'
+import LoginDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/login.png'
+import DashboardDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/dashboard-1.png'
+import AvailabilityDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/availability.png'
+import InboxDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/inbox.png'
+import EarningsDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-1.png'
+import EarningsAccordionDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png'
+import { grid } from '@mui/system';
 
 
 
@@ -160,7 +168,71 @@ margin: '75px auto 75px auto'
 
 }
 
+const userflowContainer = {
+  display: 'grid', 
+  justifyContent: 'space-evenly',
+  margin: "0px auto", 
+}
 
+
+const imageStylesAUserFlow = {
+width: '100%'
+
+
+}
+
+
+const sitemapContainer = {
+  display: 'grid', 
+  justifyContent: 'space-evenly',
+  margin: "0px auto", 
+}
+
+const imageStylesASitemap = {
+width: '100%'
+
+
+}
+
+const paragraphASitemap = {
+padding: '30px 0px'
+}
+
+
+const sketchesContainer = {
+  display: 'grid', 
+  justifyContent: 'space-evenly',
+  margin: "0px auto", 
+}
+
+const imageStylesASketches = {
+margin: '20px'
+
+}
+
+
+const digitalOnboarding = {
+display: 'grid', 
+justifyContent: 'space-evenly',
+margin: "0px auto", 
+
+}
+
+
+const digitalApp = {
+  display: 'grid', 
+  justifyContent: 'space-evenly',
+  margin: "20px auto", 
+  
+  }
+
+
+const imageStylesADigital = {
+width: "100%", 
+gap: '20px',
+margin: "20px"
+
+}
 
 
 const designB = {
@@ -836,6 +908,22 @@ with our audience to provide simpler and better means for all.</Typography>
 <Typography sx={titleB}>Storyboard</Typography>
 
 
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Storyboard"
+        image={StoryBoard}
+       
+      />
+     
+     </Card>
+
+
+
+
+
 </Box>
 
 
@@ -891,31 +979,17 @@ with our audience to provide simpler and better means for all.</Typography>
 
 
 <Typography sx={paragraphA}>As I entered the design thinking Prototype phase, I carefully considered the most desired Catwalk Co features 
-based on my research, feature prioritization matrix, and Laurey's current overall experience. I found myself creating a few different user flow 
-iterations as I kept my most viable product in mind: </Typography>
+based on my research, feature prioritization matrix, and Laurey's current overall experience: </Typography>
   
 
+<Container sx={userflowContainer}>
 
-<Typography sx={paragraphA}>User Flow Legend:</Typography>
- 
+<Row>
 
-
-
-<Card sx={imageStylesA}>
-      <CardMedia
-        component="img"
-        alt="User Flow Legend"
-        image={UserFlowLegend}
-      />
-     
-     
-    </Card>
+<Col>
 
 
-    <Typography sx={paragraphA}>First user flow:</Typography>
-     
-
-    <Card sx={imageStylesA}>
+    <Card sx={imageStylesAUserFlow}>
       <CardMedia
         component="img"
         alt="User Flow"
@@ -923,26 +997,20 @@ iterations as I kept my most viable product in mind: </Typography>
       />
      
      
-    </Card>
-
-
-    <Typography sx={paragraphA}>Final user flow:</Typography>
-     
-    
-    <Card sx={imageStylesA}>
-      <CardMedia
-        component="img"
-        alt="User Flow"
-        image={UserFlow2}
-      />
-     
      
     </Card>
 
 
 
 
+    </Col>
 
+  </Row>
+
+  
+
+
+    </Container>
 
 </Box>
 
@@ -956,16 +1024,17 @@ iterations as I kept my most viable product in mind: </Typography>
 <Box sx={designA}>
 <Typography sx={titleA}>Sitemap</Typography>
 
-<Typography sx={paragraphA}>I had created my first sitemap alongside my first user flow. I updated it as well for a final sitemap
-when I knew I could simplify the information architecture for better overall usability: </Typography>
+<Container sx={sitemapContainer}>
 
+<Row>
 
+<Col sm={12} md={12} xl={12}>
 
-<Typography sx={paragraphA}>First sitemap</Typography>
+<Typography sx={paragraphASitemap}>First sitemap</Typography>
      
 
 
-    <Card sx={imageStylesA}>
+    <Card sx={imageStylesASitemap}>
       <CardMedia
         component="img"
         alt="Sitemap"
@@ -975,29 +1044,30 @@ when I knew I could simplify the information architecture for better overall usa
      
     </Card>
 
+    </Col>
 
-
-
-    <Typography sx={paragraphA}></Typography>
-    
+<Col sm={12} md={12} xl={12}>
     
 
 
-    <Typography sx={paragraphA}>Second sitemap</Typography>
+    <Typography sx={paragraphASitemap}>Final sitemap</Typography>
      
 
 
-     <Card sx={imageStylesA}>
+     <Card sx={imageStylesASitemap}>
        <CardMedia
          component="img"
          alt="Sitemap"
-         image={Sitemap2}
+         image={SiteMap}
        />
       
       
      </Card>
  
- 
+     </Col>
+
+     </Row>
+     </Container>
  
  
      <Typography sx={paragraphA}></Typography>
@@ -1030,9 +1100,19 @@ when I knew I could simplify the information architecture for better overall usa
 here are some of my rough sketches for Catwalk Co to get through ideas much faster:</Typography>
     
 
-<Typography sx={paragraphA}>Splash Page Iterations:</Typography>
+
+<Typography sx={paragraphA}>Sketches:</Typography>
  
-<Card sx={imageStylesA}>
+
+<Container sx={sketchesContainer}>
+
+
+<Row>
+
+<Col sm={12} md={4} xl={3}>
+
+
+<Card sx={imageStylesASketches}>
        <CardMedia
          component="img"
          alt="Splash Page"
@@ -1041,30 +1121,12 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
       
       
      </Card>
+</Col>
 
 
+<Col sm={12} md={4} xl={3}>    
 
-<Typography sx={paragraphA}>Landing Page Iterations:</Typography>
-  
-
-<Card sx={imageStylesA}>
-       <CardMedia
-         component="img"
-         alt="Landing Page"
-         image={LandingPage}
-       />
-      
-      
-     </Card>
-
-
-
-
-
-<Typography sx={paragraphA}>Dashboard Iterations:</Typography>
-  
-
-<Card sx={imageStylesA}>
+<Card sx={imageStylesASketches}>
        <CardMedia
          component="img"
          alt="Dashboard"
@@ -1074,13 +1136,12 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
       
      </Card>
 
+     </Col>
 
 
-
-<Typography sx={paragraphA}>Availability Iterations:</Typography>
-  
-
-<Card sx={imageStylesA}>
+     <Col sm={12} md={4} xl={3}>  
+     
+<Card sx={imageStylesASketches}>
        <CardMedia
          component="img"
          alt="Availability"
@@ -1090,27 +1151,28 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
       
      </Card>  
 
+</Col>
 
- 
-<Typography sx={paragraphA}>Email Services Iterations:</Typography>
-  
 
-  <Card sx={imageStylesA}>
+<Col sm={12} md={4} xl={3}> 
+
+
+  <Card sx={imageStylesASketches}>
          <CardMedia
            component="img"
-           alt="Email Services"
+           alt="Inbox Services"
            image={EmailServices}
          />
         
         
-       </Card>      
+       </Card>  
+
+</Col>
 
 
-
-       <Typography sx={paragraphA}>Earnings Iterations:</Typography>
-  
-
-  <Card sx={imageStylesA}>
+<Col sm={12} md={4} xl={3}> 
+       
+  <Card sx={imageStylesASketches}>
          <CardMedia
            component="img"
            alt="Earnings"
@@ -1119,6 +1181,13 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
         
         
        </Card>  
+
+</Col>
+
+       </Row>
+
+       </Container>
+   
 
 
 
@@ -1133,7 +1202,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 <Box sx={designA}>
 
-<Typography sx={titleA}>Low Fidelity Wireframes</Typography>
+<Typography sx={titleA}>Low Fidelity Digital Wireframes</Typography>
 
 <Typography sx={paragraphA}>After sketching through quite a few app ideas, I wanted to add ones that
  worked alongside common mental model design patterns in my digital designs. I found inspiration through 
@@ -1141,29 +1210,153 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
     
 
 
- <Typography sx={paragraphA}>Splash Page:</Typography>
+ <Typography sx={paragraphA}>Splash Page, Login, and Sign Up:</Typography>
  
+<Container sx={digitalOnboarding}>
 
- <Typography sx={paragraphA}>Landing Page:</Typography>
+<Row>
+
+<Col sm={3}>
+ <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Splash Page"
+         image={SplashPageDitital}
+       />
+      
+      
+     </Card>  
+
+     </Col>
+
+
+     <Col sm={3}>
+     <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Login and Sign Up"
+         image={SignUpLoginDitital}
+       />
+      
+      
+     </Card>  
+</Col>
+
+<Col sm={3}>
+     <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Sign Up"
+         image={SignUpDitital}
+       />
+      
+      
+     </Card>  
+</Col>
+
+<Col sm={3}>
+     <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Login"
+         image={LoginDitital}
+       />
+      
+      
+     </Card>  
+</Col>
+
+
+
+     </Row>
+     </Container>
+
+
+
+ <Typography sx={paragraphA}>Dashboard, Availability, Inbox, Earnings:</Typography>
   
 
+ <Container sx={digitalApp}>
 
- <Typography sx={paragraphA}>Dashboard:</Typography>
-  
+<Row>
+
+
+<Col sm={3}>
+
+ <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Dashboard"
+         image={DashboardDitital}
+       />
+      
+      
+     </Card> 
+     
+    </Col>
+
+     <Col sm={3}>
    
 
+ <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Availability"
+         image={AvailabilityDitital}
+       />
+      
+      
+     </Card>  
 
- <Typography sx={paragraphA}>Availability:</Typography>
+</Col>
+
+<Col sm={3}>   
   
+ <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Inbox"
+         image={InboxDitital}
+       />
+      
+      
+     </Card>  
+
+    </Col> 
 
 
- 
- <Typography sx={paragraphA}>Email Services:</Typography>
-  
+    <Col sm={3}>
+
+ <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Earnings"
+         image={EarningsDitital}
+       />
+      
+      
+     </Card>  
+
+     </Col>
 
 
- <Typography sx={paragraphA}>Earnings:</Typography>
-  
+     <Col sm={3}>
+
+     <Card sx={imageStylesADigital}>
+       <CardMedia
+         component="img"
+         alt="Earnings Accordion"
+         image={EarningsAccordionDitital}
+       />
+      </Card>
+
+</Col>
+
+
+      </Row>
+
+      </Container> 
+
 
 
 
@@ -1180,7 +1373,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 <Box sx={designA}>
 
-<Typography sx={titleA}>Low Fidelity Digital Prototype</Typography>
+<Typography sx={titleA}>Hi Fidelity Digital Prototype</Typography>
 
 
 
