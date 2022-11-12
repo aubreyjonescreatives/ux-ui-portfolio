@@ -54,7 +54,7 @@ import InboxDitital from '../Images/catwalkcompany/images/mid-fi-digital-wirefra
 import EarningsDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-1.png'
 import EarningsAccordionDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png'
 import { grid } from '@mui/system';
-
+import Iframe from 'react-iframe'
 
 
 const design = {
@@ -230,7 +230,19 @@ const digitalApp = {
 const imageStylesADigital = {
 width: "100%", 
 gap: '20px',
-margin: "20px"
+margin: "20px auto"
+
+}
+
+
+const iframeContainer = {
+  display: 'grid', 
+  justifyContent: 'center',
+  margin: "0px auto", 
+  width: '100%', 
+  height: '1000px', 
+  marginBottom: '150px'
+
 
 }
 
@@ -1109,7 +1121,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 <Row>
 
-<Col sm={12} md={4} xl={3}>
+<Col sm={12} md={6} xl={5}>
 
 
 <Card sx={imageStylesASketches}>
@@ -1124,7 +1136,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 </Col>
 
 
-<Col sm={12} md={4} xl={3}>    
+<Col sm={12} md={6} xl={5}>    
 
 <Card sx={imageStylesASketches}>
        <CardMedia
@@ -1139,7 +1151,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
      </Col>
 
 
-     <Col sm={12} md={4} xl={3}>  
+     <Col sm={12} md={6} xl={5}>  
      
 <Card sx={imageStylesASketches}>
        <CardMedia
@@ -1154,7 +1166,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 </Col>
 
 
-<Col sm={12} md={4} xl={3}> 
+<Col sm={12} md={6} xl={5}> 
 
 
   <Card sx={imageStylesASketches}>
@@ -1170,7 +1182,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 </Col>
 
 
-<Col sm={12} md={4} xl={3}> 
+<Col sm={12} md={6} xl={5}> 
        
   <Card sx={imageStylesASketches}>
          <CardMedia
@@ -1196,13 +1208,13 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 
 
-{/*Low Fidelity Digital Wireframes*/}
+{/*Low - Mid Fidelity Digital Wireframes*/}
 
 
 
 <Box sx={designA}>
 
-<Typography sx={titleA}>Low Fidelity Digital Wireframes</Typography>
+<Typography sx={titleA}>Low - Mid Fidelity Digital Wireframes</Typography>
 
 <Typography sx={paragraphA}>After sketching through quite a few app ideas, I wanted to add ones that
  worked alongside common mental model design patterns in my digital designs. I found inspiration through 
@@ -1364,7 +1376,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 
 
-{/*Low Fidelity Digital Prototype*/}
+{/*Low - Mid Fidelity Digital Prototype*/}
 
 
 
@@ -1373,7 +1385,28 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 <Box sx={designA}>
 
-<Typography sx={titleA}>Hi Fidelity Digital Prototype</Typography>
+<Typography sx={titleA}>Low - Mid Fidelity Digital Prototype</Typography>
+
+<Container sx={iframeContainer}>
+
+<Row>
+
+
+<Iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fxx2a8sN5OVlVtg6nHQyW7a%2FCatwalk-Company-Case-Study%3Fnode-id%3D428%253A557%26scaling%3Dscale-down%26page-id%3D103%253A2%26starting-point-node-id%3D428%253A557"
+width="100%"
+height="600px"
+allowfullscreen 
+/>
+
+
+
+</Row>
+
+
+
+
+</Container>
+
 
 
 
