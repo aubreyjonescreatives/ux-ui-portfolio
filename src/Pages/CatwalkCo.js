@@ -55,6 +55,10 @@ import EarningsDitital from '../Images/catwalkcompany/images/mid-fi-digital-wire
 import EarningsAccordionDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png'
 import { grid } from '@mui/system';
 import Iframe from 'react-iframe'
+import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png'
+
+
+
 
 
 const design = {
@@ -1392,7 +1396,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 <Row>
 
 
-<Iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fxx2a8sN5OVlVtg6nHQyW7a%2FCatwalk-Company-Case-Study%3Fnode-id%3D428%253A557%26scaling%3Dscale-down%26page-id%3D103%253A2%26starting-point-node-id%3D428%253A557"
+<Iframe src="https://www.figma.com/proto/xx2a8sN5OVlVtg6nHQyW7a/Catwalk-Company-Case-Study?node-id=428%3A564&scaling=scale-down&page-id=103%3A2&starting-point-node-id=428%3A557"
 width="100%"
 height="600px"
 allowfullscreen 
@@ -1416,11 +1420,77 @@ allowfullscreen
 
 
 
+{/*Testing Phase*/}
 
-  
-</Box> 
+<Box sx={designB} id="test">
 
 
+<Typography sx={headerB}>User Testing</Typography>
+
+
+
+</Box>
+
+
+{/*User Testing Feedback */}
+
+
+
+<Box sx={designB}>
+
+
+<Typography sx={titleB}>User Testing Feedback</Typography>
+
+
+
+<Typography sx={paragraphB}>After creating the mid - fidelity prototype, I conducted several user tests and received amazing feedback:  </Typography>
+    
+
+
+
+
+<Card sx={imageStylesA}>
+       <CardMedia
+         component="img"
+         alt="User Testing"
+         image={UserTests}
+       />
+      </Card>
+
+
+
+
+
+
+
+{/*font is very little and hard to read from website point of view*/} 
+
+{/*the trash title needs to access a cancel or delete screen. Viewable better by a trash icon*/} 
+
+{/*trash is always at the last. Good location*/} 
+
+{/*mostly easy to login and sign up*/} 
+
+{/*login button wasn't taking to login screen */}
+
+
+
+
+
+
+</Box>
+
+    
+
+
+
+
+
+
+
+
+
+</Box>
 
 
 
