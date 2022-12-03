@@ -6,17 +6,13 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import ImageIcon from '@mui/icons-material/Image';
 import DVNImage from '../Images/disneyvsnetflixcasestudy.PNG'
 import TeslaImage from '../Images/teslasolargroupproject.png'
-import YouTubeIcon from '@mui/icons-material/YouTube';
 import ProtoPersona1 from '../Images/protopersona1.png'
 import MobileWireframes from '../Images/mobilewireframes2.png'
 import JourneyMap from '../Images/videovoyagers/dn46.jpg'
 import SketchImage from '../Images/grocerystoreapp/sketches/sketch1.jpg'
 import CatwalkCo from '../Images/catwalkcompany/images/protopersonadave.png'
-import Resume from '../Images/resume/aubreyjonesresume.pdf'
 
 
 const headerStyles = {
@@ -165,45 +161,6 @@ const aboutStyles = {
 
 
 
-const connectStyles = {
-    paddingBottom: '50px', 
-    backgroundColor: '#eee', 
-    fontSize: '32px', 
-    fontFamily: 'Lato', 
-    fontWeight: '400', 
-    
-
-
-
-}
-
-const connectLinksBox ={
-    display: 'flex',
-    flexWrap: 'wrap', 
-    justifyContent: 'center',
-    fontFamily: 'Lato', 
-}
-
-
-const connectLink = {
-    textAlign: 'center', 
-    backgroundColor: '#30638E', 
-    margin: '5px', 
-    padding: '10px', 
-    textDecoration: 'none', 
-    color: 'white', 
-    fontSize: '26px', 
-    border: '1px solid #30638E',
-    "&:hover": {
-        color: '#30638E',
-        backgroundColor: 'white',
-        border: '1px solid #30638E', 
-        cursor: 'pointer'
-       
-      }
-    
-    }
-
 
 
 
@@ -215,7 +172,7 @@ const Landing = () => {
 return (
 <>
 
-<Typography sx={headerStylesA} id="casestudies">CASE STUDIES</Typography>
+<Typography sx={headerStylesA} id="casestudies">PROJECTS</Typography>
 
 <Box sx={allcardStyles}>
 
@@ -225,7 +182,7 @@ return (
     <Link href="/disneyvsnetflix" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
-        alt="Instafresh UX/UI Project"
+        alt="Disney VS Netflix Research"
         height="300"
         image={DVNImage}
       />
@@ -271,7 +228,7 @@ return (
 
   
     <Card sx={cardStyles} className="cardStyles">
-    <Link href="https://medium.com/@aubreyjonescreatives/ux-design-school-group-project-tesla-solar-4e33f5da4f40" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <Link href="/uidesigns" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Tesla Solar Group Project"
@@ -280,10 +237,10 @@ return (
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-         Tesla Solar
+         User Interface Design
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         Tesla Solar UX/UI Design Case Study 
+         Digital UI and graphic design samples   
         </Typography>
       </CardContent>
       </Link>
@@ -399,33 +356,7 @@ return (
 
 </Box>
 
-<Box sx={connectStyles}>
 
-<Typography sx={headerStylesB} id="connect">CONNECT</Typography>
-
-
-
-<Box sx={connectLinksBox}>
-<Link sx={connectLink} href="https://www.youtube.com/channel/UCw4Fi6cUbn67D18LqTPQymA" target="_blank">
-<YouTubeIcon />
-YouTube
-</Link>
-
-
-<Link sx={connectLink} href="https://www.linkedin.com/in/aubrey-jones" target="_blank">
-<LinkedInIcon />
-LinkedIn
-</Link>
-
-<Link sx={connectLink} href={Resume} target="_blank">
-<ImageIcon />Resume
-
-</Link>
-
-
-</Box>
-
-</Box>
 
 <div>
 

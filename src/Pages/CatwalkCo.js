@@ -1396,11 +1396,12 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 <Row>
 
 
-<Iframe src="https://www.figma.com/proto/xx2a8sN5OVlVtg6nHQyW7a/Catwalk-Company-Case-Study?node-id=428%3A564&scaling=scale-down&page-id=103%3A2&starting-point-node-id=428%3A557"
+<Iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fxx2a8sN5OVlVtg6nHQyW7a%2FCatwalk-Company-Case-Study%3Fnode-id%3D428%253A564%26scaling%3Dscale-down%26page-id%3D103%253A2%26starting-point-node-id%3D428%253A557"
 width="100%"
 height="600px"
 allowfullscreen 
 />
+
 
 
 
