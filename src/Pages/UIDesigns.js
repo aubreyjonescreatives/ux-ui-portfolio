@@ -13,8 +13,6 @@ import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem'; 
 import ListItemIcon from '@mui/material/ListItemIcon'; 
-import ScienceIcon from '@mui/icons-material/Science';
-import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 import PollIcon from '@mui/icons-material/Poll';
 import IdentifyBefore from '../Images/algebra1images/identify-before.png';
 import IdentifyAfter from '../Images/algebra1images/identify-after.png';
@@ -30,9 +28,11 @@ import LargeCandleLabel from '../Images/homemadegifts/soywaxcandle30packof3.jpg'
 import SmallCandleLabel from '../Images/homemadegifts/soywaxcandle8oz04.jpg'
 import FinalProjectProposal from '../Images/algebra1pdf/ProposalFinalSigned.pdf'; 
 import FinalProjectPresentation from '../Images/algebra1pdf/FLCAlgebraPresentation.pdf';
-
-
-
+import SchoolIcon from '@mui/icons-material/School';
+import CategoryIcon from '@mui/icons-material/Category';
+import UpdateIcon from '@mui/icons-material/Update';
+import HomeSharpIcon from '@mui/icons-material/HomeSharp';
+import PaletteSharpIcon from '@mui/icons-material/PaletteSharp';
 
 const design = {
 height: '300px'
@@ -173,19 +173,19 @@ const drawerItemList = () => (
     <List>
     <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <ScienceIcon/>
+          <HomeSharpIcon/>
         </ListItemIcon>
         <Link href="#top" sx={linkStyling}>User Interface Design</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <ReportProblemIcon/>
+          <PaletteSharpIcon/>
         </ListItemIcon>
         <Link href="#inspiration" sx={linkStyling}>Inspiration</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <PollIcon/>
+          <SchoolIcon/>
         </ListItemIcon>
         <Link href="#thefamilyliteracycenter" sx={linkStyling}>The Family Literacy Center</Link>
       </ListItem>
@@ -197,13 +197,13 @@ const drawerItemList = () => (
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <PollIcon/>
+          <CategoryIcon/>
         </ListItemIcon>
         <Link href="#productdesignprojects" sx={linkStyling}>Product Design Projects</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
-          <PollIcon/>
+          <UpdateIcon/>
         </ListItemIcon>
         <Link href="#currentandfuture" sx={linkStyling}>Current and Future Goals</Link>
       </ListItem>
@@ -685,12 +685,12 @@ My Original Design for Lockwood Magic
 {/*currentandfuture*/}
 
 
-<Box sx={designB} id="currentandfuture">
+<Box sx={designA} id="currentandfuture">
 
 
-<Typography sx={headerB}>Current and Future Plans</Typography>
+<Typography sx={headerA}>Current and Future Plans</Typography>
 
-<Typography sx={paragraphB}>Since 2020, I have absolutely loved mentoring UX/UI designers and frontend web 
+<Typography sx={paragraphA}>Since 2020, I have absolutely loved mentoring UX/UI designers and frontend web 
 developers through an online learning program called Trilogy Educational Services, which is now called edX as of 2022. Being a very 
 attentive TA, Senior Tutor, and Central Grader through the bootcamp is exteremly fun as I get to lead others and learn from them at 
 the same time. I love that I get to work with people from all over the world and see their interest grow in digital design. It is an 
@@ -699,13 +699,13 @@ incredible part time remote opportunity.</Typography>
 
 
 
-<Typography sx={paragraphB}>I am currently in a place where I can accept more work. If you would like to discuss future opportunities, 
+<Typography sx={paragraphA}>I am currently in a place where I can accept more work. If you would like to discuss future opportunities, 
 feel free to reach out to me by my contact information as needed. I hope to hear from you soon before another 
 creative opportunity pops up instead and thank you for your time.</Typography>
 
 
 
-    <Typography sx={paragraphB}></Typography>
+    <Typography sx={paragraphA}></Typography>
 
 </Box>
 
