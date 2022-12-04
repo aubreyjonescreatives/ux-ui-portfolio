@@ -25,9 +25,10 @@ import Homework1Before from '../Images/algebra1images/homework1-before.png';
 import BrandDashboardHomepage from '../Images/codafi/BrandDashboardHomepageHi-FiCompositionsSlide1.png';
 import BeforeandAfterHero from '../Images/codafi/beforeandafterheroimage.png';
 import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
-
-
-
+import AJStyles from '../Images/homemadegifts/ajstyles.PNG'; 
+import LockwoodMagic1 from '../Images/homemadegifts/lockwoodmagic1.PNG';
+import IReject from '../Images/homemadegifts/ireject.PNG';
+import Texas from '../Images/homemadegifts/texas.PNG'; 
 
 import { grid } from '@mui/system';
 
@@ -470,16 +471,87 @@ design. You'll often find me watching a YouTube video or researching different w
 they require a lot of precise attention to detail.</Typography>
 
 
+<Typography sx={paragraphB}>I often use the mental model UI design principle as I am learning to pull a lot of 
+inspiration from what is already out there. </Typography>
+
+
+<Typography sx={paragraphB}>T-Shirt Designs:</Typography>
+
+
+<Row>
+
+
+
+<Col sm={12} md={6} xl={4}>
+
+
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Proto Persona"
-        image={ProtoPersonaDave}
+        alt="Texas is Better"
+        image={Texas}
        
       />
+       <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
+  "Texas is Better" based on other Texas t-shirts
+        </Typography>
+     
+    </Card>
+
+    </Col>
+
+<Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+  <CardMedia
+    component="img"
+    alt="AJ Styles"
+    image={AJStyles}
+   
+  />
+  <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
+   My Original Design for AJ Styles
+        </Typography>
+ 
+</Card>
+
+</Col>
+
+
+
+
+
+
+   
+
+
+    <Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Lockwood Magic"
+        image={LockwoodMagic1}
+       
+      />
+
+<Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
+My Original Design for Lockwood Magic
+        </Typography>
      
      
     </Card>
+
+    </Col>
+
+
+
+
+
+
+    </Row>
 
     <Typography sx={paragraphB}></Typography>
 
