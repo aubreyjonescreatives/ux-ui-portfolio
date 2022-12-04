@@ -23,7 +23,7 @@ import Practice1After from '../Images/algebra1images/practice-1-after.png';
 import BrandDashboardHomepage from '../Images/codafi/BrandDashboardHomepageHi-FiCompositionsSlide1.png';
 import BeforeandAfterHero from '../Images/codafi/beforeandafterheroimage.png';
 import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
-import AJStyles from '../Images/homemadegifts/ajstyles.PNG'; 
+import AJArts from '../Images/homemadegifts/ajarts.PNG'; 
 import LockwoodMagic1 from '../Images/homemadegifts/lockwoodmagic1.PNG';
 import Texas from '../Images/homemadegifts/texas.PNG'; 
 import LargeCandleLabel from '../Images/homemadegifts/soywaxcandle30packof3.jpg'
@@ -35,7 +35,7 @@ import FinalProjectPresentation from '../Images/algebra1pdf/FLCAlgebraPresentati
 
 
 const design = {
-height: '600px'
+height: '300px'
 
 }
 
@@ -43,9 +43,9 @@ height: '600px'
 
 const headerStylesA = {
   margin: '10px 0px', 
-  marginBottom: '50px', 
+  marginBottom: '10px', 
   fontSize: '42px', 
-  padding: '80px 20px', 
+  padding: '100px 20px', 
   color: '#30638E',
   backgroundColor: 'white', 
   width: '100%', 
@@ -292,7 +292,7 @@ junior designer, I look forward to more growth in the field where possible.</Typ
 <Typography sx={headerB}>The Family Literacy Centers Internship</Typography>
 
 <Typography sx={paragraphB}>in 2018, I met the Family Literacy Center stakeholders through a class at Utah Valley University. They wanted us to 
-update their digital Algebra 1 program to HTML5 instead of its current Flash supported software. As a small team, we discovered how 
+update their digital Algebra 1 program to HTML5 from its current Flash supported software. As a small team, we discovered how 
 to import the Flash files into Adobe Animate and update their design elements into the then Tumult Hype 3 so 
 that Tumult could export their designs into HTML5. I was very lucky to continue this process as an internship and senior project at UVU. </Typography>
 
@@ -569,12 +569,12 @@ offer high quality customizable products out there. I am almost always creating 
 <Card sx={imageStylesB}>
   <CardMedia
     component="img"
-    alt="AJ Styles"
-    image={AJStyles}
+    alt="AJ Arts"
+    image={AJArts}
    
   />
   <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
-   My Original Design for AJ Styles
+   My Original Design for AJ Arts Co
         </Typography>
  
 </Card>
