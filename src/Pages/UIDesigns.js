@@ -95,6 +95,13 @@ fontWeight: '300'
 }
 
 
+const paragraphI = {
+  padding: '10px 70px',
+  fontSize: '20px', 
+  fontFamily: 'Roboto serif', 
+  fontWeight: '300'
+  }
+  
 
 
 
@@ -273,9 +280,15 @@ return (
 
 
 <Box sx={designA} id="inspiration">
-<Typography sx={headerA}>Inspiration</Typography>
-<Typography sx={paragraphA}>I love to collaborate and create a better customer experience with others. While I see myself as a 
-junior designer, I look forward to more growth in the field where possible.</Typography>
+<Typography sx={headerA}>In.spi.ra.tion</Typography>
+<Typography sx={paragraphI}>/ˌinspəˈrāSH(ə)n/</Typography>
+<Typography sx={paragraphI}>noun</Typography>
+<Typography sx={paragraphI}>Google Oxford Dictionary Definition:</Typography>
+<Typography sx={paragraphI}>1. the process of being mentally stimulated to do or feel something, especially to do something creative.</Typography>
+<Typography sx={paragraphI}>2. a sudden brilliant, creative, or timely idea.</Typography>
+<Typography sx={paragraphI}>I am always ready for a challenge that helps customers have a better user experience through the latest 
+technologies in UX/UI design and frontend web development. Designing for someone else, with others, and or for myself is always a lot of fun as 
+we inspire each other and bring our ideas to life. That is the pure definition of magic to me.</Typography>
 <Typography sx={headerA}></Typography> 
   
 </Box> 
