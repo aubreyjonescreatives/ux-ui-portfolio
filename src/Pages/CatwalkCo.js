@@ -43,18 +43,18 @@ import Availability from '../Images/catwalkcompany/images/sketches/availability.
 import EmailServices from '../Images/catwalkcompany/images/sketches/emailservices.JPG'; 
 import Earnings from '../Images/catwalkcompany/images/sketches/earnings.JPG';  
 import StoryBoard from '../Images/catwalkcompany/images/storyboard.JPG'; 
-import SplashPageDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/splash-screen.png'
-import SignUpLoginDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up-login.png'
-import SignUpDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up.png'
-import LoginDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/login.png'
-import DashboardDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/dashboard-1.png'
-import AvailabilityDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/availability.png'
-import InboxDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/inbox.png'
-import EarningsDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-1.png'
-import EarningsAccordionDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png'
-import Iframe from 'react-iframe'
-import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png'
-
+import SplashPageDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/splash-screen.png';
+import SignUpLoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up-login.png';
+import SignUpDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up.png';
+import LoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/login.png';
+import DashboardDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/dashboard-1.png';
+import AvailabilityDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/availability.png';
+import InboxDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/inbox.png';
+import EarningsDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-1.png';
+import EarningsAccordionDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png';
+import Iframe from 'react-iframe'; 
+import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png';
+import EmailServicesUpdateDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/emailservices-iteration1.png';
 
 
 
@@ -1201,7 +1201,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Splash Page"
-         image={SplashPageDitital}
+         image={SplashPageDigital}
        />
       
       
@@ -1215,7 +1215,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Login and Sign Up"
-         image={SignUpLoginDitital}
+         image={SignUpLoginDigital}
        />
       
       
@@ -1227,7 +1227,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Sign Up"
-         image={SignUpDitital}
+         image={SignUpDigital}
        />
       
       
@@ -1239,7 +1239,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Login"
-         image={LoginDitital}
+         image={LoginDigital}
        />
       
       
@@ -1267,7 +1267,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Dashboard"
-         image={DashboardDitital}
+         image={DashboardDigital}
        />
       
       
@@ -1282,7 +1282,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Availability"
-         image={AvailabilityDitital}
+         image={AvailabilityDigital}
        />
       
       
@@ -1296,7 +1296,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Inbox"
-         image={InboxDitital}
+         image={InboxDigital}
        />
       
       
@@ -1311,7 +1311,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Earnings"
-         image={EarningsDitital}
+         image={EarningsDigital}
        />
       
       
@@ -1326,7 +1326,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
        <CardMedia
          component="img"
          alt="Earnings Accordion"
-         image={EarningsAccordionDitital}
+         image={EarningsAccordionDigital}
        />
       </Card>
 
@@ -1377,6 +1377,7 @@ allowfullscreen
 </Container>
 
 
+<Typography sx={titleA}></Typography>
 
 
 </Box>
@@ -1439,6 +1440,45 @@ allowfullscreen
 {/*login button wasn't taking to login screen */}
 
 
+
+{/*Iterations after unit testing*/}
+
+
+
+<Typography sx={paragraphB}>Iterations after User Testing:  </Typography>
+    
+
+
+<Row>
+
+
+<Col>
+
+<Card sx={imageStylesA}>
+       <CardMedia
+         component="img"
+         alt="Inbox"
+         image={InboxDigital}
+       />
+      </Card>
+
+      </Col>
+
+      <Col>
+
+      <Card sx={imageStylesA}>
+       <CardMedia
+         component="img"
+         alt="Email Services Update"
+         image={EmailServicesUpdateDigital}
+       />
+      </Card>
+
+
+
+      </Col>
+
+      </Row>
 
 
 
