@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-import { Container, Row, Col } from 'react-grid-system';
+import { Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
@@ -15,9 +15,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon'; 
 import ScienceIcon from '@mui/icons-material/Science';
 import ReportProblemIcon from '@mui/icons-material/ReportProblem';
-import ListIcon from '@mui/icons-material/List';
 import PollIcon from '@mui/icons-material/Poll';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import IdentifyBefore from '../Images/algebra1images/identify-before.png';
 import IdentifyAfter from '../Images/algebra1images/identify-after.png';
 import Homework1Before from '../Images/algebra1images/homework1-before.png'; 
@@ -32,26 +30,15 @@ import LargeCandleLabel from '../Images/homemadegifts/soywaxcandle30packof3.jpg'
 import SmallCandleLabel from '../Images/homemadegifts/soywaxcandle8oz04.jpg'
 import FinalProjectProposal from '../Images/algebra1pdf/ProposalFinalSigned.pdf'; 
 import FinalProjectPresentation from '../Images/algebra1pdf/FLCAlgebraPresentation.pdf';
-import ImageIcon from '@mui/icons-material/Image';
 
-import { grid } from '@mui/system';
+
+
 
 const design = {
 height: '600px'
 
 }
 
-
-const cardStyles = {
-
-  margin: '200px auto 10px auto', 
-  marginBottom: '50px', 
-  display: 'block', 
-  width: '35%' 
-
-
-
-}
 
 
 const headerStylesA = {
@@ -132,16 +119,6 @@ fontWeight: '400',
 }
 
 
-const headerStylesB = {
-  margin: '0px 100px 20px 50px', 
-  fontSize: '36px',
-  color: '#30638E', 
-  paddingTop: '50px',
-  fontFamily: 'Lato', 
-  fontWeight: '400', 
-  
-  
-  }
 
 
 
@@ -375,8 +352,8 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Proto Persona"
-        image={IdentifyBefore}
+        alt="Homework 1 Flash Design"
+        image={Homework1Before}
        
       />
      
@@ -394,8 +371,8 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Proto Persona"
-        image={IdentifyAfter}
+        alt="Practice 1 After"
+        image={Practice1After}
        
       />
      

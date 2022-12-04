@@ -38,7 +38,6 @@ import UserScenario from '../Images/catwalkcompany/images/userscenario.png';
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
 import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
 import SplashPage from '../Images/catwalkcompany/images/sketches/splashpage.JPG'; 
-import LandingPage from '../Images/catwalkcompany/images/sketches/landingpage.JPG'; 
 import Dashboard from '../Images/catwalkcompany/images/sketches/dashboard.JPG'; 
 import Availability from '../Images/catwalkcompany/images/sketches/availability.JPG';
 import EmailServices from '../Images/catwalkcompany/images/sketches/emailservices.JPG'; 
@@ -53,7 +52,6 @@ import AvailabilityDitital from '../Images/catwalkcompany/images/mid-fi-digital-
 import InboxDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/inbox.png'
 import EarningsDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-1.png'
 import EarningsAccordionDitital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png'
-import { grid } from '@mui/system';
 import Iframe from 'react-iframe'
 import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png'
 
@@ -141,26 +139,8 @@ fontWeight: '400',
   
 
 
-const cardStylesA = {
-  margin: '75px auto 75px auto', 
-  marginBottom: '50px', 
-  display: 'block', 
-  width: '50%' 
-   
-  
-}
 
 
-
-
-const imageStyles = {
-  margin: '75px auto 75px auto', 
-  marginBottom: '50px', 
-  display: 'block', 
-  width: '75%' 
-   
-  
-}
 
 
 
@@ -313,22 +293,6 @@ const imageStylesB = {
   }
 
 
-
-const paragraphC = {
-padding: '20px 70px 10px 70px',
-fontSize: '20px',
-fontFamily: 'Roboto serif',
-}
-
-
-const quoteC = {
-  padding: '20px 70px 10px 70px',
-  fontSize: '24px', 
-  textAlign: 'center', 
-  color: '#30638E',
-  fontFamily: 'Roboto serif',
-  fontWeight: '400'
-  }
 
 
 
