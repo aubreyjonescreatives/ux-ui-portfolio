@@ -22,6 +22,9 @@ import ProtoPersonaDave from '../Images/catwalkcompany/images/protopersonadave.p
 import IdentifyBefore from '../Images/algebra1images/identify-before.png';
 import IdentifyAfter from '../Images/algebra1images/identify-after.png';
 import Homework1Before from '../Images/algebra1images/homework1-before.png'; 
+import BrandDashboardHomepage from '../Images/codafi/BrandDashboardHomepageHi-FiCompositionsSlide1.png';
+import BeforeandAfterHero from '../Images/codafi/beforeandafterheroimage.png';
+import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
 
 
 
@@ -361,14 +364,15 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 <Typography sx={headerB}>Codafi Technologies</Typography>
 
 <Typography sx={paragraphB}>In 2020, I had the pleasure of working at a startup called Codafi Technologies as a UX/UI designer. I worked closely 
-in a small team of designers, business management, and clientele. I definitely learned a lot about collaborating with people 
+with a small team of designers, business management, and clientele. I definitely learned a lot about collaborating with people 
 of different cultures in a remote setting and Figma as the design tool of choice at the time. It was a lot of fun working through 
 different design iterations, learning more about minimalistic design, and discovering the right fit with others. 
-I discovered a lot about myself and how I wish to improve as a digital designer.</Typography>
+I discovered a lot about myself and how I wish to improve as a UX/UI designer.</Typography>
 
 
-<Typography sx={paragraphB}>Here are some Figma design iterations. Our clientele often gave us very specific feature requests and sometimes
-very specific design layout requests as well. 
+<Typography sx={paragraphB}>Here are some Figma design iterations. Our clientele often gave us very specific feature and 
+design layout requests. While I was not part of their official launch date and final design mockups, I was 
+lucky to learn a little bit about their design thinking process with UI redesigns.  
  </Typography>
 
 
@@ -377,16 +381,36 @@ very specific design layout requests as well.
 
 
 
-<Col sm={12} md={6} xl={5}>
+<Col sm={12} md={6} xl={4}>
 
-<Typography sx={paragraphB}>Before</Typography>
+<Typography sx={paragraphB}>Hero Image Updates</Typography>
+
+
+<Card sx={imageStylesB}>
+  <CardMedia
+    component="img"
+    alt="Hero Image Updates"
+    image={BeforeandAfterHero}
+   
+  />
+ 
+ 
+</Card>
+
+</Col>
+
+
+
+<Col sm={12} md={6} xl={4}>
+
+<Typography sx={paragraphB}>Brand Dashboard Homepage</Typography>
 
 
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Proto Persona"
-        image={IdentifyBefore}
+        alt="Brand Dashboard Homepage"
+        image={BrandDashboardHomepage}
        
       />
      
@@ -396,16 +420,19 @@ very specific design layout requests as well.
     </Col>
 
 
-    <Col sm={12} md={6} xl={5}>
+   
 
-    <Typography sx={paragraphB}>After</Typography>
+
+    <Col sm={12} md={6} xl={4}>
+
+    <Typography sx={paragraphB}>Clean PreCheck</Typography>
 
 
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Proto Persona"
-        image={IdentifyAfter}
+        alt="Clean PreCheck"
+        image={CleanPreCheck}
        
       />
      
@@ -413,6 +440,10 @@ very specific design layout requests as well.
     </Card>
 
     </Col>
+
+
+
+
 
 
     </Row>
