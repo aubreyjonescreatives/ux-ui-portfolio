@@ -18,17 +18,21 @@ import ReportProblemIcon from '@mui/icons-material/ReportProblem';
 import ListIcon from '@mui/icons-material/List';
 import PollIcon from '@mui/icons-material/Poll';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import ProtoPersonaDave from '../Images/catwalkcompany/images/protopersonadave.png';
 import IdentifyBefore from '../Images/algebra1images/identify-before.png';
 import IdentifyAfter from '../Images/algebra1images/identify-after.png';
 import Homework1Before from '../Images/algebra1images/homework1-before.png'; 
+import Practice1After from '../Images/algebra1images/practice-1-after.png'; 
 import BrandDashboardHomepage from '../Images/codafi/BrandDashboardHomepageHi-FiCompositionsSlide1.png';
 import BeforeandAfterHero from '../Images/codafi/beforeandafterheroimage.png';
 import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
 import AJStyles from '../Images/homemadegifts/ajstyles.PNG'; 
 import LockwoodMagic1 from '../Images/homemadegifts/lockwoodmagic1.PNG';
-import IReject from '../Images/homemadegifts/ireject.PNG';
 import Texas from '../Images/homemadegifts/texas.PNG'; 
+import LargeCandleLabel from '../Images/homemadegifts/soywaxcandle30packof3.jpg'
+import SmallCandleLabel from '../Images/homemadegifts/soywaxcandle8oz04.jpg'
+import FinalProjectProposal from '../Images/algebra1pdf/ProposalFinalSigned.pdf'; 
+import FinalProjectPresentation from '../Images/algebra1pdf/FLCAlgebraPresentation.pdf';
+import ImageIcon from '@mui/icons-material/Image';
 
 import { grid } from '@mui/system';
 
@@ -161,6 +165,18 @@ const imageStylesB = {
   }
 
 
+  const FLCLinkStyles = {
+    textAlign: 'center',
+   
+  }
+
+  const FLCLinks = {
+    textAlign: 'center',
+    textDecoration: 'none', 
+    fontSize: '24px', 
+    color: '#30638E'
+  }
+
 
 
 
@@ -182,7 +198,7 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <ScienceIcon/>
         </ListItemIcon>
-        <Link href="#top" sx={linkStyling}>UI Design Samples</Link>
+        <Link href="#top" sx={linkStyling}>User Interface Design</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
@@ -206,7 +222,7 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <PollIcon/>
         </ListItemIcon>
-        <Link href="#personaldesignprojects" sx={linkStyling}>Personal Design Projects</Link>
+        <Link href="#productdesignprojects" sx={linkStyling}>Product Design Projects</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
@@ -270,7 +286,7 @@ return (
 
    
 
-       <Typography sx={headerStylesA} id="top">UI Designs</Typography>
+       <Typography sx={headerStylesA} id="top">User Interface Design</Typography>
 
 
        </Box>
@@ -309,7 +325,7 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 
 <Col sm={12} md={6} xl={5}>
 
-<Typography sx={paragraphB}>Before</Typography>
+<Typography sx={paragraphB}>Lesson Plan Flash Design</Typography>
 
 
 <Card sx={imageStylesB}>
@@ -328,7 +344,7 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 
     <Col sm={12} md={6} xl={5}>
 
-    <Typography sx={paragraphB}>After</Typography>
+    <Typography sx={paragraphB}>Lesson Plan Final Design</Typography>
 
 
 <Card sx={imageStylesB}>
@@ -346,6 +362,75 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 
 
     </Row>
+
+
+
+    <Row>
+
+<Col sm={12} md={6} xl={5}>
+
+<Typography sx={paragraphB}>Homework Question Flash Design</Typography>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Proto Persona"
+        image={IdentifyBefore}
+       
+      />
+     
+     
+    </Card>
+
+    </Col>
+
+
+    <Col sm={12} md={6} xl={5}>
+
+    <Typography sx={paragraphB}>Homework Question Final Design</Typography>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Proto Persona"
+        image={IdentifyAfter}
+       
+      />
+     
+     
+    </Card>
+
+    </Col>
+
+
+    </Row>
+
+
+    <Typography sx={paragraphB}>If you would like to learn more about this full process, here are some PDF booklets about our project:</Typography>
+
+
+<Row sx={FLCLinkStyles}>
+
+  <Col>
+   
+    <Link sx={FLCLinks} href={FinalProjectProposal} target="_blank">
+    <Typography sx={FLCLinks}>Final Project Proposal</Typography>
+
+</Link>
+</Col>
+
+<Col>
+<Link sx={FLCLinks} href={FinalProjectPresentation} target="_blank">
+<Typography sx={FLCLinks}>Final Project Presentation 1st Semester</Typography>
+
+</Link>
+</Col>
+
+</Row>
+
+
 
 
 
@@ -456,13 +541,13 @@ lucky to learn a little bit about their design thinking process with UI redesign
 
 
 
-{/*personaldesignprojects*/}
+{/*productdesignprojects*/}
 
 
-<Box sx={designB} id="personaldesignprojects">
+<Box sx={designB} id="productdesignprojects">
 
 
-<Typography sx={headerB}>Personal Design Projects</Typography>
+<Typography sx={headerB}>Product Design Projects</Typography>
 
 <Typography sx={paragraphB}>In my personal time, I love to create homemade gifts. These have ranged from t-shirts, candles, bars of soap, 
 to Happy Birthday notes. I love that I get to explore my creative digital design passion at any time of the day and share it with 
@@ -472,7 +557,8 @@ they require a lot of precise attention to detail.</Typography>
 
 
 <Typography sx={paragraphB}>I often use the mental model UI design principle as I am learning to pull a lot of 
-inspiration from what is already out there. </Typography>
+inspiration from what is already out there. I use a lot of Figma, Photoshop, other Adobe CC design tools, and websites that 
+offer high quality customizable products out there. I am almost always creating something in my spare time for the pure fun of it. </Typography>
 
 
 <Typography sx={paragraphB}>T-Shirt Designs:</Typography>
@@ -553,6 +639,64 @@ My Original Design for Lockwood Magic
 
     </Row>
 
+
+
+
+    <Typography sx={paragraphB}>Product Design Labels:</Typography>
+
+
+<Row>
+
+<Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="31 oz. Candle Label"
+        image={LargeCandleLabel}
+       
+      />
+       <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
+  31 Oz. Glass Candle Jar Labels
+        </Typography>
+     
+    </Card>
+
+    </Col>
+
+<Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+  <CardMedia
+    component="img"
+    alt="8 oz. Candle Label"
+    image={SmallCandleLabel}
+   
+  />
+  <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
+  8 Oz. Glass Candle Jar Label
+        </Typography>
+ 
+</Card>
+
+</Col>
+
+
+
+
+    </Row>
+
+
+
+
+
+
+
+
+
+
     <Typography sx={paragraphB}></Typography>
 
 </Box>
@@ -561,7 +705,7 @@ My Original Design for Lockwood Magic
 
 
 
-{/*personaldesignprojects*/}
+{/*currentandfuture*/}
 
 
 <Box sx={designB} id="currentandfuture">
