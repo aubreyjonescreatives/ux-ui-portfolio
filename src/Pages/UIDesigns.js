@@ -300,6 +300,7 @@ to import the Flash files into Adobe Animate and update their design elements in
 that Tumult could export their designs into HTML5. I was very lucky to continue this process as an internship and senior project at UVU. </Typography>
 
 
+
 <Row>
 
 <Col sm={12} md={6} xl={5}>
@@ -359,14 +360,22 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 
 <Typography sx={headerB}>Codafi Technologies</Typography>
 
-<Typography sx={paragraphB}>In 2020, I had the pleasure of working at a startup called Codafi Technologies. I worked closely 
+<Typography sx={paragraphB}>In 2020, I had the pleasure of working at a startup called Codafi Technologies as a UX/UI designer. I worked closely 
 in a small team of designers, business management, and clientele. I definitely learned a lot about collaborating with people 
 of different cultures in a remote setting and Figma as the design tool of choice at the time. It was a lot of fun working through 
-different design iterations and discovering the right fit with others. I discovered a lot about myself and how I wish to improve as a 
-digital designer.</Typography>
+different design iterations, learning more about minimalistic design, and discovering the right fit with others. 
+I discovered a lot about myself and how I wish to improve as a digital designer.</Typography>
+
+
+<Typography sx={paragraphB}>Here are some Figma design iterations. Our clientele often gave us very specific feature requests and sometimes
+very specific design layout requests as well. 
+ </Typography>
+
+
+
 <Row>
 
-  
+
 
 <Col sm={12} md={6} xl={5}>
 
