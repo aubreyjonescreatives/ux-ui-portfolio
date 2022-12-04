@@ -398,7 +398,7 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
     </Row>
 
 
-    <Typography sx={paragraphB}>If you would like to learn more about this full process, here are some PDF booklets about our project:</Typography>
+    <Typography sx={paragraphB}>If you would like to learn more about this process, here are some PDF booklets about our project:</Typography>
 
 
 <Row sx={FLCLinkStyles}>
