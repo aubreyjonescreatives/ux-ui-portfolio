@@ -19,6 +19,12 @@ import ListIcon from '@mui/icons-material/List';
 import PollIcon from '@mui/icons-material/Poll';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import ProtoPersonaDave from '../Images/catwalkcompany/images/protopersonadave.png';
+import IdentifyBefore from '../Images/algebra1images/identify-before.png';
+import IdentifyAfter from '../Images/algebra1images/identify-after.png';
+import Homework1Before from '../Images/algebra1images/homework1-before.png'; 
+
+
+
 
 import { grid } from '@mui/system';
 
@@ -294,16 +300,49 @@ to import the Flash files into Adobe Animate and update their design elements in
 that Tumult could export their designs into HTML5. I was very lucky to continue this process as an internship and senior project at UVU. </Typography>
 
 
+<Row>
+
+<Col sm={12} md={6} xl={5}>
+
+<Typography sx={paragraphB}>Before</Typography>
+
+
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
         alt="Proto Persona"
-        image={ProtoPersonaDave}
+        image={IdentifyBefore}
        
       />
      
      
     </Card>
+
+    </Col>
+
+
+    <Col sm={12} md={6} xl={5}>
+
+    <Typography sx={paragraphB}>After</Typography>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Proto Persona"
+        image={IdentifyAfter}
+       
+      />
+     
+     
+    </Card>
+
+    </Col>
+
+
+    </Row>
+
+
 
     <Typography sx={paragraphB}></Typography>
 
@@ -325,19 +364,49 @@ in a small team of designers, business management, and clientele. I definitely l
 of different cultures in a remote setting and Figma as the design tool of choice at the time. It was a lot of fun working through 
 different design iterations and discovering the right fit with others. I discovered a lot about myself and how I wish to improve as a 
 digital designer.</Typography>
+<Row>
+
+  
+
+<Col sm={12} md={6} xl={5}>
+
+<Typography sx={paragraphB}>Before</Typography>
 
 
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
         alt="Proto Persona"
-        image={ProtoPersonaDave}
+        image={IdentifyBefore}
        
       />
      
      
     </Card>
 
+    </Col>
+
+
+    <Col sm={12} md={6} xl={5}>
+
+    <Typography sx={paragraphB}>After</Typography>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Proto Persona"
+        image={IdentifyAfter}
+       
+      />
+     
+     
+    </Card>
+
+    </Col>
+
+
+    </Row>
     <Typography sx={paragraphB}></Typography>
 
 </Box>
