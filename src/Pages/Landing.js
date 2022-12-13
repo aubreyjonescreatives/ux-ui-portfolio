@@ -187,7 +187,7 @@ return (
 <Row>
 
 
-<Col>
+<Col sm={12} md={6} xl={4}>
     <Card sx={cardStyles} className="cardStyles">
     <Link href="/disneyvsnetflix" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
@@ -210,7 +210,7 @@ return (
 
     </Col>
 
-    <Col>
+    <Col sm={12} md={6} xl={4}>
 
     <Card sx={cardStyles} className="cardStyles">
 <Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
@@ -234,7 +234,7 @@ return (
 
     </Col>
 
-<Col>
+<Col sm={12} md={6} xl={4}>
   
     <Card sx={cardStyles} className="cardStyles">
     <Link href="/uidesigns" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
