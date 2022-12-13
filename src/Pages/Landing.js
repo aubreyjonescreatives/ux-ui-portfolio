@@ -55,10 +55,8 @@ const headerStylesB = {
 
 
 const allcardStyles = {
-    padding: '50px', 
-    display: 'flex', 
+    display: 'grid',  
     justifyContent: 'center', 
-    flexWrap: 'wrap', 
     fontFamily: 'Lato', 
     
     
@@ -68,8 +66,7 @@ const allcardStyles = {
 
 
 const cardStyles = {
-display: 'grid', 
-margin: '25px', 
+  margin: '20px auto', 
 maxWidth: '400px', 
 maxHeight: '400px',
 textDecoration: 'none',
