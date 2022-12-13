@@ -436,15 +436,15 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 
 
 
-{/*codafitechnologies*/}
+{/*codafitechnology*/}
 
 
-<Box sx={designB} id="codafitechnologies">
+<Box sx={designB} id="codafitechnology">
 
 
-<Typography sx={headerB}>Codafi Technologies</Typography>
+<Typography sx={headerB}>Codafi Technology</Typography>
 
-<Typography sx={paragraphB}>In 2020, I had the pleasure of working at a startup called Codafi Technologies as a UX/UI designer. I worked closely 
+<Typography sx={paragraphB}>In 2020, I had the pleasure of working at a startup called Codafi Technology, LLC as a UX/UI designer. I worked closely 
 with a small team of designers, business management, and clientele. I definitely learned a lot about collaborating with people 
 of different cultures in a remote setting and Figma as the design tool of choice at the time. It was a lot of fun working through 
 different design iterations, learning more about minimalistic design, and discovering the right fit with others. 
