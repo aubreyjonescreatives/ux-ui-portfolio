@@ -14,10 +14,10 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem'; 
 import ListItemIcon from '@mui/material/ListItemIcon'; 
 import PollIcon from '@mui/icons-material/Poll';
-import IdentifyBefore from '../Images/algebra1images/identify-before.png';
-import IdentifyAfter from '../Images/algebra1images/identify-after.png';
-import Homework1Before from '../Images/algebra1images/homework1-before.png'; 
-import Practice1After from '../Images/algebra1images/practice-1-after.png'; 
+import IdentifyBeforeMockup from '../Images/algebra1images/identify-before-mockup.PNG';
+import IdentifyAfterMockup from '../Images/algebra1images/identify-after-mockup.PNG';
+import Homework1BeforeMockup from '../Images/algebra1images/homework1-before-mockup.PNG'; 
+import Practice1AfterMockup from '../Images/algebra1images/practice-1-after-mockup.png'; 
 import BrandDashboardHomepage from '../Images/codafi/BrandDashboardHomepageHi-FiCompositionsSlide1.png';
 import BeforeandAfterHero from '../Images/codafi/beforeandafterheroimage.png';
 import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
@@ -137,13 +137,21 @@ fontFamily: 'Roboto serif',
 fontWeight: '300'
 }
 
-
-
-
 const imageStylesB = { 
   width: '70%',
   display: 'block', 
-  margin: '75px auto 75px auto'
+  margin: '75px auto 75px auto', 
+  
+  
+  }
+
+
+const imageStylesMockups = { 
+  width: '70%',
+  display: 'block', 
+  margin: '75px auto 75px auto', 
+  border: 'none', 
+  boxShadow: 'none'
   
   
   }
@@ -318,11 +326,11 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 <Typography sx={paragraphB}>Lesson Plan Flash Design</Typography>
 
 
-<Card sx={imageStylesB}>
+<Card sx={imageStylesMockups}>
       <CardMedia
         component="img"
-        alt="Proto Persona"
-        image={IdentifyBefore}
+        alt="Lesson Plan"
+        image={IdentifyBeforeMockup}
        
       />
      
@@ -337,11 +345,11 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
     <Typography sx={paragraphB}>Lesson Plan Final Design</Typography>
 
 
-<Card sx={imageStylesB}>
+<Card sx={imageStylesMockups}>
       <CardMedia
         component="img"
-        alt="Proto Persona"
-        image={IdentifyAfter}
+        alt="Lesson Plan"
+        image={IdentifyAfterMockup}
        
       />
      
@@ -362,11 +370,11 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
 <Typography sx={paragraphB}>Homework Question Flash Design</Typography>
 
 
-<Card sx={imageStylesB}>
+<Card sx={imageStylesMockups}>
       <CardMedia
         component="img"
         alt="Homework 1 Flash Design"
-        image={Homework1Before}
+        image={Homework1BeforeMockup}
        
       />
      
@@ -381,11 +389,11 @@ that Tumult could export their designs into HTML5. I was very lucky to continue 
     <Typography sx={paragraphB}>Homework Question Final Design</Typography>
 
 
-<Card sx={imageStylesB}>
+<Card sx={imageStylesMockups}>
       <CardMedia
         component="img"
         alt="Practice 1 After"
-        image={Practice1After}
+        image={Practice1AfterMockup}
        
       />
      
