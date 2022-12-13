@@ -200,7 +200,7 @@ const drawerItemList = () => (
         <ListItemIcon sx={{color: "white"}}>
           <PollIcon/>
         </ListItemIcon>
-        <Link href="#codafitechnologies" sx={linkStyling}>Codafi Technologies</Link>
+        <Link href="#codafitechnology" sx={linkStyling}>Codafi Technology</Link>
       </ListItem>
       <ListItem button>
         <ListItemIcon sx={{color: "white"}}>
