@@ -696,8 +696,8 @@ My Original Design for Lockwood Magic
    
   />
   <Typography gutterBottom variant="h5" component="div" sx={paragraphShirts}>
-   Popular Quote Request for t-shirt: I reject your reality and 
-   substitute my own.
+   Popular Quote Request for t-shirt: "I reject your reality and 
+   substitute my own."
         </Typography>
  
 </Card>
