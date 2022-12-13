@@ -24,6 +24,9 @@ import CleanPreCheck from '../Images/codafi/cleanprecheck.png';
 import AJArts from '../Images/homemadegifts/ajarts.PNG'; 
 import LockwoodMagic1 from '../Images/homemadegifts/lockwoodmagic1.PNG';
 import Texas from '../Images/homemadegifts/texas.PNG'; 
+import IReject from '../Images/homemadegifts/ireject.PNG'; 
+import FrostEatSleepRepeat from '../Images/homemadegifts/frosteatsleeprepeat.PNG';
+import JustDoughIt from '../Images/homemadegifts/justdoughit.PNG';
 import LargeCandleLabel from '../Images/homemadegifts/soywaxcandle30packof3.jpg'
 import SmallCandleLabel from '../Images/homemadegifts/soywaxcandle8oz04.jpg'
 import FinalProjectProposal from '../Images/algebra1pdf/ProposalFinalSigned.pdf'; 
@@ -141,8 +144,13 @@ const imageStylesB = {
   width: '70%',
   display: 'block', 
   margin: '75px auto 75px auto', 
+  textAlign: 'center', 
   
-  
+  }
+
+  const paragraphShirts = {
+    padding: '10px', 
+    fontSize: '18px'
   }
 
 
@@ -167,6 +175,13 @@ const imageStylesMockups = {
     textDecoration: 'none', 
     fontSize: '24px', 
     color: '#30638E'
+  }
+
+
+
+  const paragraphJars = {
+    padding: '10px', 
+    fontSize: '18px'
   }
 
 
@@ -571,6 +586,26 @@ offer high quality customizable products out there. I am almost always creating 
 
 
 
+
+
+<Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+  <CardMedia
+    component="img"
+    alt="AJ Arts"
+    image={AJArts}
+   
+  />
+  <Typography gutterBottom variant="h5" component="div" sx={paragraphShirts}>
+   My Original Design for AJ Arts Co
+        </Typography>
+ 
+</Card>
+
+</Col>
+
 <Col sm={12} md={6} xl={4}>
 
 
@@ -581,8 +616,69 @@ offer high quality customizable products out there. I am almost always creating 
         image={Texas}
        
       />
-       <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
+       <Typography gutterBottom variant="h5" component="div" sx={paragraphShirts}>
   "Texas is Better" based on other Texas t-shirts
+        </Typography>
+     
+    </Card>
+
+    </Col>
+
+
+
+
+   
+
+
+    <Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Lockwood Magic"
+        image={LockwoodMagic1}
+       
+      />
+
+<Typography gutterBottom variant="h5" component="div" sx={paragraphShirts}>
+My Original Design for Lockwood Magic
+        </Typography>
+     
+     
+    </Card>
+
+    </Col>
+
+
+
+
+
+
+    </Row>
+
+
+
+
+
+    <Row>
+
+
+
+<Col sm={12} md={6} xl={4}>
+
+
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Just Dough It"
+        image={JustDoughIt}
+       
+      />
+       <Typography gutterBottom variant="h5" component="div" sx={paragraphShirts}>
+  "Just Dough It" play on words with cookies as O's
         </Typography>
      
     </Card>
@@ -595,12 +691,13 @@ offer high quality customizable products out there. I am almost always creating 
 <Card sx={imageStylesB}>
   <CardMedia
     component="img"
-    alt="AJ Arts"
-    image={AJArts}
+    alt="I Reject"
+    image={IReject}
    
   />
-  <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
-   My Original Design for AJ Arts Co
+  <Typography gutterBottom variant="h5" component="div" sx={paragraphShirts}>
+   Popular Quote Request for t-shirt: I reject your reality and 
+   substitute my own.
         </Typography>
  
 </Card>
@@ -621,13 +718,14 @@ offer high quality customizable products out there. I am almost always creating 
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Lockwood Magic"
-        image={LockwoodMagic1}
+        alt="Frost Eat Sleep Repeat"
+        image={FrostEatSleepRepeat}
        
       />
 
-<Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
-My Original Design for Lockwood Magic
+<Typography gutterBottom variant="h5" component="div" sx={paragraphShirts}>
+I avoided paying for a pastry bag icon and made one myself to match the other
+ones from Iconify
         </Typography>
      
      
@@ -641,6 +739,8 @@ My Original Design for Lockwood Magic
 
 
     </Row>
+
+
 
 
 
@@ -660,7 +760,7 @@ My Original Design for Lockwood Magic
         image={LargeCandleLabel}
        
       />
-       <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
+       <Typography gutterBottom variant="h5" component="div" sx={paragraphJars}>
   31 Oz. Glass Candle Jar Labels
         </Typography>
      
@@ -678,7 +778,7 @@ My Original Design for Lockwood Magic
     image={SmallCandleLabel}
    
   />
-  <Typography gutterBottom variant="h5" component="div" sx={paragraphB}>
+  <Typography gutterBottom variant="h5" component="div" sx={paragraphJars}>
   8 Oz. Glass Candle Jar Label
         </Typography>
  
