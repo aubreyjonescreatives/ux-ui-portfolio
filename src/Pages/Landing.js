@@ -229,7 +229,7 @@ return (
 
 <Typography sx={headerStylesName} id="aboutme">Hello, I'm Aubrey.</Typography>
 
-<Typography sx={headerStylesTitle} id="aboutme">A UX/UI Designer</Typography>
+<Typography sx={headerStylesTitle} id="aboutme">A UX/UI and Product Designer</Typography>
 
 
 
