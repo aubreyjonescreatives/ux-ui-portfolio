@@ -346,7 +346,7 @@ experience through those latest processes. Feel free to connect.
 
 <Box sx={sampleStyles}>
 
-<Typography sx={headerStyles} id="samples">SAMPLES</Typography>
+<Typography sx={headerStyles} id="samples">UX/UI Design SAMPLES</Typography>
 
 <Box sx={sampleBox}>
 
