@@ -7,7 +7,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import DVNImage from '../Images/disneyvsnetflixcasestudy.PNG';
+import DVNImage from '../Images/disneyvsnetflix.png';
 import StoryBookIncImage from '../Images/homemadegifts/storybookinc.png';
 import ProtoPersona1 from '../Images/protopersona1.png';
 import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
