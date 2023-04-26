@@ -1,24 +1,23 @@
-import * as React from 'react'; 
-//import { useHistory } from 'react-router-dom';
+import * as React from 'react';
+import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
+import CssBaseline from '@mui/material/CssBaseline';
+import Divider from '@mui/material/Divider';
+import Drawer from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem'; 
-import ListItemIcon from '@mui/material/ListItemIcon'; 
-//import { useIdentityContext } from 'react-netlify-identity-gotrue'
-//import LogoutIcon from '@mui/icons-material/Logout';
-//import Avatar from '@mui/material/Avatar';
+import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
-import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
-import ArticleIcon from '@mui/icons-material/Article';
-import InfoIcon from '@mui/icons-material/Info';
-import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+
+const drawerWidth = 240;
+const navItems = ['About', 'UX/UI Design Case Studies', 'Blogs', 'Contact'];
 
 const linkStyling = {
   fontSize: '20px', 
@@ -33,99 +32,146 @@ const linkStyling = {
 
 }
 
+const navbarStyles = {
+  backgroundColor: '#30638E',
+  fontFamily: 'Lato', 
+  display: 'flex'
+}
+
+const navbarList = {
+  float: 'right'
+}
 
 
-const NavBar = () => {
+
+const NavBar = (props) => {
 
 
-// const identity = useIdentityContext()
+  const { window } = props;
+  const [mobileOpen, setMobileOpen] = React.useState(false);
 
-  // const history = useHistory()
-  
-  const [isOpen, setIsOpen] = React.useState(false)
+  const handleDrawerToggle = () => {
+    setMobileOpen((prevState) => !prevState);
+  };
 
-  const toggleDrawer = () => {
-    setIsOpen(!isOpen)
-  }
+  const drawer = (
+    <Box onClick={handleDrawerToggle}>
+      <Typography variant="h6" sx={{ my: 2 }}>
+        Aubrey Jones
+      </Typography>
+      <Divider />
+      <List sx={navbarList}>
+        {navItems.map((item) => (
+          <ListItem key={item} disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }}>
+              <ListItemText primary={item} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
 
-  // const handleNavChoice = () => {
-  //   history.push('/MealFavorites')
-  //   toggleDrawer()
-  //   console.log("Go to this route now...")
-  // }
+  const container = window !== undefined ? () => window().document.body : undefined;
 
-const drawerItemList = () => (
-  <Box sx={{width: 250, backgroundColor: '#30638E', fontFamily: 'Lato'}} role="presentation" className="drawerMenu">
-    <List>
-    <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <AutoAwesomeIcon/>
-        </ListItemIcon>
-        <Link href="/" sx={linkStyling}>AUBREY JONES</Link>
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <AutoFixHighIcon/>
-        </ListItemIcon>
-        <Link href="#casestudies" sx={linkStyling}>CASE STUDIES</Link>
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <ArticleIcon/>
-        </ListItemIcon>
-        <Link href="#articles" sx={linkStyling}>ARTICLES</Link>
-      </ListItem>
+// const drawerItemList = () => (
+//   <Box sx={{width: 250, backgroundColor: '#30638E', fontFamily: 'Lato'}} role="presentation" className="drawerMenu">
+//     <List>
+//     <ListItem button>
+//         <ListItemIcon sx={{color: "white"}}>
+//           <AutoAwesomeIcon/>
+//         </ListItemIcon>
+//         <Link href="/" sx={linkStyling}>AUBREY JONES</Link>
+//       </ListItem>
+//       <ListItem button>
+//         <ListItemIcon sx={{color: "white"}}>
+//           <AutoFixHighIcon/>
+//         </ListItemIcon>
+//         <Link href="#casestudies" sx={linkStyling}>CASE STUDIES</Link>
+//       </ListItem>
+//       <ListItem button>
+//         <ListItemIcon sx={{color: "white"}}>
+//           <ArticleIcon/>
+//         </ListItemIcon>
+//         <Link href="#articles" sx={linkStyling}>ARTICLES</Link>
+//       </ListItem>
 
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <InfoIcon/>
-        </ListItemIcon>
-        <Link href="#samples" sx={linkStyling}>SAMPLES</Link>
-      </ListItem>
+//       <ListItem button>
+//         <ListItemIcon sx={{color: "white"}}>
+//           <InfoIcon/>
+//         </ListItemIcon>
+//         <Link href="#samples" sx={linkStyling}>SAMPLES</Link>
+//       </ListItem>
 
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <ConnectWithoutContactIcon/>
-        </ListItemIcon>
-        <Link href="#connect" sx={linkStyling}>CONNECT</Link>
-      </ListItem>
+//       <ListItem button>
+//         <ListItemIcon sx={{color: "white"}}>
+//           <ConnectWithoutContactIcon/>
+//         </ListItemIcon>
+//         <Link href="#connect" sx={linkStyling}>CONNECT</Link>
+//       </ListItem>
 
 
     
-    </List>
-  </Box>
-)
+//     </List>
+//   </Box>
+// )
 
   return (
   <> 
-  <nav id="navWrapper" >
-   
-  <Box sx={{ flexGrow: 1}}>
-      <AppBar position="fixed" sx={{ backgroundColor:"#30638E", width: "100%", boxShadow: 0  }} >
-        <Toolbar >
+   <Box >
+      <CssBaseline />
+      <AppBar component="nav" sx={navbarStyles}>
+        <Toolbar>
           <IconButton
-            size="large"
-            edge="start"
             color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-            onClick={toggleDrawer}
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ mr: 2, display: { sm: 'none' } }}
           >
             <MenuIcon />
           </IconButton>
-          <Typography sx={{ flexGrow: 3, width: '300px'}}>
-          <Link href='/' sx={linkStyling}>AUBREY JONES | UX/UI Designer</Link>
+          <Link href="/" sx={linkStyling}>
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+          >
+            Aubrey Jones
           </Typography>
-          
+          </Link>
+          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+            {navItems.map((item) => (
+              <Button key={item} sx={{ color: '#fff' }}>
+                {item}
+              </Button>
+            ))}
+          </Box>
         </Toolbar>
-        
       </AppBar>
+      <Box component="nav">
+        <Drawer
+          container={container}
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true, // Better open performance on mobile.
+          }}
+          sx={{
+            display: { xs: 'block', sm: 'none' },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+          }}
+        >
+          {drawer}
+        </Drawer>
+      </Box>
+      <Box component="main" sx={{ p: 3 }}>
+        <Toolbar />
+       
+       
+      </Box>
     </Box>
-    
-      </nav>
-      <Drawer anchor="left" open={isOpen} onClose={toggleDrawer} sx={{backgroundColor: '57FAD56'}}>
-      {drawerItemList()}
-      </Drawer>
   </>
   );
 }

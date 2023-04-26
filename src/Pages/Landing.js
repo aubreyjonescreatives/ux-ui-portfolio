@@ -10,10 +10,24 @@ import Link from '@mui/material/Link';
 import DVNImage from '../Images/disneyvsnetflixcasestudy.PNG';
 import StoryBookIncImage from '../Images/homemadegifts/storybookinc.png';
 import ProtoPersona1 from '../Images/protopersona1.png';
-import MobileWireframes from '../Images/mobilewireframes2.png';
-import JourneyMap from '../Images/videovoyagers/dn46.jpg';
+import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
+import MyEventsinBalsamiq from '../Images/myeventswireframes.png';
 import SketchImage from '../Images/grocerystoreapp/sketches/sketch1.jpg';
 import CatwalkCo from '../Images/catwalkcompany/images/protopersonadave.png';
+import CCJourneyMap from '../Images/catwalkcompany/images/journeymap.png';
+import CCPrototyping from '../Images/catwalkcompany/images/prototyping/prototyping.png'; 
+import CCFinalMockups from '..//Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
+
+
+
+const aboutStyles = {
+  paddingTop: '100px', 
+  paddingBottom: '50px', 
+  backgroundColor: '#eee', 
+  height: '500px'
+   
+}
+
 
 
 const headerStyles = {
@@ -27,11 +41,43 @@ fontWeight: '400'
 }
 
 
+const headerStylesName = {
+  margin: '0px 100px 20px 50px', 
+  paddingTop: '10px', 
+  color: '#30638E',
+  fontSize: '36px', 
+  fontFamily: 'Lato',
+  fontWeight: '400', 
+  textAlign: 'center'
+  
+  }
+
+
+  const headerStylesTitle = {
+    margin: '0px 100px 20px 50px', 
+    paddingTop: '10px', 
+    color: '#30638E',
+    fontSize: '32px', 
+    fontFamily: 'Lato',
+    fontWeight: '400', 
+    textAlign: 'center'
+    
+    }
+
+    const typeStylesIntro = {
+      padding: '50px', 
+      width: '90%', 
+      color: '#30638E',
+      fontSize: '20px', 
+      fontFamily: 'Roboto serif',
+      fontWeight: '300', 
+      textAlign: 'center'
+    }
+
 
 
 const headerStylesA = {
     margin: '100px 100px 20px 50px', 
-    paddingTop: '50px', 
     color: '#30638E',
     fontSize: '36px', 
     fontFamily: 'Lato', 
@@ -152,7 +198,7 @@ border: '1px solid #30638E',
 }
 
 
-const aboutStyles = {
+const sampleStyles = {
   paddingBottom: '50px', 
   
 
@@ -177,7 +223,25 @@ const Landing = () => {
 return (
 <>
 
-<Typography sx={headerStylesA} id="casestudies">PROJECTS</Typography>
+
+
+<Box sx={aboutStyles}>
+
+<Typography sx={headerStylesName} id="aboutme">Hello, I'm Aubrey.</Typography>
+
+<Typography sx={headerStylesTitle} id="aboutme">A UX/UI Designer</Typography>
+
+
+
+<Typography sx={typeStylesIntro}> Thanks for taking the time to check out my work. I am always ready for a challenge that helps customers have a better user 
+experience through those latest processes. Feel free to connect. 
+</Typography>
+
+
+
+</Box>
+
+<Typography sx={headerStylesA} id="casestudies">UX/UI Case Studies</Typography>
 
 <Box sx={allcardStyles}>
 
@@ -215,7 +279,7 @@ return (
         component="img"
         alt="Freelance E-Commerce UX/UI Case Study"
         sx={cardStylesImage}
-        image={CatwalkCo}
+        image={CCFinalMockups}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -238,7 +302,7 @@ return (
       <CardMedia
         component="img"
         alt="UI Designs"
-        image={StoryBookIncImage}
+        image={WebsiteUIDesignandRedesign}
         sx={cardStylesImage}
       />
       <CardContent>
@@ -280,7 +344,7 @@ return (
 
 </Box>
 
-<Box sx={aboutStyles}>
+<Box sx={sampleStyles}>
 
 <Typography sx={headerStyles} id="samples">SAMPLES</Typography>
 
@@ -307,8 +371,8 @@ return (
    
    <CardMedia
      component="img"
-     alt="Tesla Solar Group Project"
-     image={JourneyMap}
+     alt="Journey Map"
+     image={CCJourneyMap}
    />
    <CardContent>
      <Typography gutterBottom variant="h5" component="div">
@@ -325,12 +389,12 @@ return (
    
    <CardMedia
      component="img"
-     alt="Tesla Solar Group Project"
-     image={SketchImage}
+     alt="Balsamiq Wireframing"
+     image={MyEventsinBalsamiq}
    />
    <CardContent>
      <Typography gutterBottom variant="h5" component="div">
-      Sketches
+      Balsamiq Wireframing
      </Typography>
     
    </CardContent>
@@ -343,12 +407,12 @@ return (
    
       <CardMedia
         component="img"
-        alt="Tesla Solar Group Project"
-        image={MobileWireframes}
+        alt="Figma Prototyping"
+        image={CCPrototyping}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-         Low-Fidelity Wireframes
+         Figma Prototyping
         </Typography>
        
       </CardContent>
