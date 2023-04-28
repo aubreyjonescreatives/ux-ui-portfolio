@@ -306,7 +306,7 @@ experience through those latest processes. Feel free to connect.
          User Interface Design
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         Digital UI and graphic design samples   
+         Digital design projects with real clients  
         </Typography>
       </CardContent>
       </Link>
