@@ -31,6 +31,8 @@ import SplashPageDigital from '../Images/catwalkcompany/images/mid-fi-digital-wi
 import SignUpLoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up-login.png';
 import SignUpDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up.png';
 import LoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/login.png';
+import SignUpandLogin from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/signinguploggingin.png'
+import MidFiCatWalkCo from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/mid-fi-catwalkco.png';
 import DashboardDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/dashboard-1.png';
 import AvailabilityDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/availability.png';
 import InboxDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/inbox.png';
@@ -38,7 +40,7 @@ import EarningsDigital from '../Images/catwalkcompany/images/mid-fi-digital-wire
 import EarningsAccordionDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png';
 import Iframe from 'react-iframe'; 
 import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png';
-import EmailServicesUpdateDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/emailservices-iteration1.png';
+import EmailServicesUpdateDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/emailservices-iteration1.png'; 
 
 
 
@@ -120,8 +122,16 @@ fontWeight: '400',
 const imageStylesA = { 
 width: '70%',
 display: 'block', 
-margin: '75px auto 75px auto'
+margin: '75px auto 75px auto', 
+height: '300px'
 
+
+}
+
+const finalMidStyles = {
+  position: 'relative',
+  width: '100%',
+  top: '0px'
 
 }
 
@@ -1314,7 +1324,7 @@ allowfullscreen
 
 
 
-<Typography sx={paragraphB}>Iterations after User Testing:  </Typography>
+<Typography sx={paragraphB}>Final Mid-Fidelity Iterations after User Testing:  </Typography>
     
 
 
@@ -1325,9 +1335,10 @@ allowfullscreen
 
 <Card sx={imageStylesA}>
        <CardMedia
+       sx={finalMidStyles}
          component="img"
-         alt="Inbox"
-         image={InboxDigital}
+         alt="Mid-Fidelity Wireframes"
+         image={SignUpandLogin}
        />
       </Card>
 
@@ -1337,9 +1348,10 @@ allowfullscreen
 
       <Card sx={imageStylesA}>
        <CardMedia
+       sx={finalMidStyles}
          component="img"
-         alt="Email Services Update"
-         image={EmailServicesUpdateDigital}
+         alt="Mid-Fidelity Wireframes"
+         image={MidFiCatWalkCo}
        />
       </Card>
 
