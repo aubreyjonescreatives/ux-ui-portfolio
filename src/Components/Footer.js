@@ -58,7 +58,7 @@ const connectLink = {
     const headerStylesB = {
         margin: '0px 100px 20px 50px', 
         fontSize: '36px',
-        color: '#30638E', 
+        color: '#71B48D',
         paddingTop: '50px',
         fontFamily: 'Lato', 
         fontWeight: '400', 

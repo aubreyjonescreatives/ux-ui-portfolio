@@ -1,32 +1,16 @@
 import * as React from 'react'; 
+import CaseStudyNavBar from '../Components/CaseStudyNavBar.js'; 
 import { Container, Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem'; 
-import ListItemIcon from '@mui/material/ListItemIcon'; 
-import ScienceIcon from '@mui/icons-material/Science';
-import ReportProblemIcon from '@mui/icons-material/ReportProblem';
-import ListIcon from '@mui/icons-material/List';
-import PollIcon from '@mui/icons-material/Poll';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import ProtoPersonaDave from '../Images/catwalkcompany/images/protopersonadave.png';
 import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
-import MovingIcon from '@mui/icons-material/Moving';
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
-import CompareIcon from '@mui/icons-material/Compare';
 import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
-import CatwalkCoImg from '../Images/catwalkcompany/images/fulllogo.png'; 
-import InsightsIcon from '@mui/icons-material/Insights';
+import CatwalkCoImg from '../Images/catwalkcompany/images/styleguide/fulllogo-xl.png';
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
@@ -60,15 +44,15 @@ import EmailServicesUpdateDigital from '../Images/catwalkcompany/images/mid-fi-d
 
 
 const design = {
+clear: 'both', 
 height: '600px'
 
 }
 
 
 const cardStyles = {
-
-  margin: '200px auto 10px auto', 
-  marginBottom: '50px', 
+  clear: 'both',
+  margin: '200px auto 10px auto',
   display: 'block', 
   width: '35%' 
 
@@ -92,18 +76,7 @@ fontWeight: '300',
   
   }
 
-      
-    const linkStyling = {
-      fontSize: '18px', 
-      color: 'white', 
-      textDecoration: 'none',
-      "&:hover": {
-        color: 'white', 
-       
-       
-      }
-    
-    }
+   
       
 
 
@@ -126,8 +99,8 @@ color: '#30638E'
 const paragraphA = {
 padding: '40px 70px',
 fontSize: '20px', 
-fontFamily: 'Roboto serif', 
-fontWeight: '300'
+fontFamily: 'Merriweather', 
+
 }
 
 const titleA = {
@@ -258,7 +231,7 @@ fontWeight: '400'
 const paragraphB = {
 padding: '20px 70px',
 fontSize: '20px', 
-fontFamily: 'Roboto serif',
+fontFamily: 'Merriweather',
 fontWeight: '300'
 }
 
@@ -267,7 +240,7 @@ const cardquoteStylesB = {
   margin: '75px auto 75px auto', 
   display: 'block', 
   width: '75%',
-  fontFamily: 'Roboto serif',
+  fontFamily: 'Merriweather',
 fontWeight: '500'
 
 }
@@ -278,7 +251,7 @@ const cardStylesB = {
   margin: '75px auto 75px auto', 
   display: 'block', 
   width: '50%',
-  fontFamily: 'Roboto serif',
+  fontFamily: 'Merriweather',
 fontWeight: '500'
 
 }
@@ -312,82 +285,6 @@ const CatwalkCo = () => {
   
 
 
-  const [isOpen, setIsOpen] = React.useState(false)
-
-  const toggleDrawer = () => {
-    setIsOpen(!isOpen)
-  }
-
-
-const drawerItemList = () => (
-  <Box sx={{width: 350, backgroundColor: '#30638E'}} role="presentation" className="drawerMenu">
-    <List>
-    <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <ScienceIcon/>
-        </ListItemIcon>
-        <Link href="#top" sx={linkStyling}>CATWALK CO UX/UI CASE STUDY</Link>
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <ReportProblemIcon/>
-        </ListItemIcon>
-        <Link href="#challenge" sx={linkStyling}>CHALLENGE</Link>
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <PollIcon/>
-        </ListItemIcon>
-        <Link href="#empathy" sx={linkStyling}>EMPATHY PHASE</Link>
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-        <CompareIcon/> 
-        </ListItemIcon>
-        <Link href="#define" sx={linkStyling}>DEFINE PHASE</Link>
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-        <InsightsIcon/>
-        </ListItemIcon>
-        <Link href="#ideate" sx={linkStyling}>IDEATE PHASE</Link>
-      </ListItem>
-
-
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-        <PersonOutlineIcon/>
-        </ListItemIcon>
-        <Link href="#prototype" sx={linkStyling}>PROTOTYPE PHASE</Link>
-      </ListItem>
-  
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <MovingIcon/>
-        </ListItemIcon>
-        <Link href="#test" sx={linkStyling}>TESTING PHASE</Link>
-      </ListItem>
-  
-
-      <ListItem button>
-        <ListItemIcon sx={{color: "white"}}>
-          <ListIcon/>
-        </ListItemIcon>
-        <Link href="#moretodo" sx={linkStyling}>MORE TO DO</Link>
-      </ListItem>
-
-
-    
-    </List>
-  </Box>
-)
-
-
-
-
-
-
-
 
 
 
@@ -395,35 +292,7 @@ return (
 <>
 
 
-<nav id="navWrapper" >
-   
-   <Box sx={{ flexGrow: 1}}>
-       <AppBar position="fixed" sx={{ backgroundColor:"#30638E", width: "100%", boxShadow: 0  }} >
-         <Toolbar >
-           <IconButton
-             size="large"
-             edge="start"
-             color="inherit"
-             aria-label="menu"
-             sx={{ mr: 2 }}
-             onClick={toggleDrawer}
-           >
-             <MenuIcon />
-           </IconButton>
-           <Typography sx={{ flexGrow: 3, width: '300px'}}>
-           <Link href='/' sx={linkStyling}>AUBREY JONES | UX/UI Designer</Link>
-           </Typography>
-           
-         </Toolbar>
-         
-       </AppBar>
-     </Box>
-     
-       </nav>
-       <Drawer anchor="left" open={isOpen} onClose={toggleDrawer} sx={{backgroundColor: '57FAD56'}}>
-       {drawerItemList()}
-       </Drawer> 
-
+<CaseStudyNavBar />
 
 
 

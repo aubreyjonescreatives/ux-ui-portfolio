@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-//import { NavLink } from 'react-router-dom'; 
+import NavBar from '../Components/NavBar.js'; 
 import { Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -30,7 +30,7 @@ const aboutStyles = {
 const headerStyles = {
 margin: '0px 100px 20px 50px', 
 paddingTop: '50px', 
-color: '#30638E',
+color: '#71B48D',
 fontSize: '36px', 
 fontFamily: 'Lato',
 fontWeight: '400'
@@ -53,10 +53,9 @@ const headerStylesName = {
   const headerStylesTitle = {
     margin: '0px 100px 20px 50px', 
     paddingTop: '10px', 
-    color: '#30638E',
+    color: '#71B48D',
     fontSize: '32px', 
-    fontFamily: 'Lato',
-    fontWeight: '400', 
+    fontFamily: 'Sacramento',
     textAlign: 'center'
     
     }
@@ -66,7 +65,7 @@ const headerStylesName = {
       width: '90%', 
       color: '#30638E',
       fontSize: '20px', 
-      fontFamily: 'Roboto serif',
+      fontFamily: 'Merriweather',
       fontWeight: '300', 
       textAlign: 'center'
     }
@@ -75,7 +74,7 @@ const headerStylesName = {
 
 const headerStylesA = {
     margin: '100px 100px 20px 50px', 
-    color: '#30638E',
+    color: '#71B48D',
     fontSize: '36px', 
     fontFamily: 'Lato', 
     fontWeight: '400', 
@@ -87,7 +86,7 @@ const headerStylesA = {
 const headerStylesB = {
     margin: '0px 100px 20px 50px', 
     fontSize: '36px',
-    color: '#30638E', 
+    color: '#71B48D', 
     paddingTop: '50px',
     fontFamily: 'Lato', 
     fontWeight: '400', 
@@ -220,9 +219,9 @@ const Landing = () => {
 return (
 <>
 
+<NavBar />
 
-
-<Box sx={aboutStyles}>
+<Box sx={aboutStyles} id="about">
 
 <Typography sx={headerStylesName} id="aboutme">Hello, I'm Aubrey.</Typography>
 
@@ -326,7 +325,7 @@ experience through those latest processes. Feel free to connect.
 
 <Box sx={articlesStyles}>
 
-<Typography sx={headerStylesB} id="articles">ARTICLES</Typography>
+<Typography sx={headerStylesB} id="blog">BlOG</Typography>
 
 
 
