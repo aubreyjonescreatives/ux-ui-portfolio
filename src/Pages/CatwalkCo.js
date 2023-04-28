@@ -40,8 +40,10 @@ import EarningsDigital from '../Images/catwalkcompany/images/mid-fi-digital-wire
 import EarningsAccordionDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png';
 import Iframe from 'react-iframe'; 
 import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png';
-import EmailServicesUpdateDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/emailservices-iteration1.png'; 
-
+import StyleGuide from '../Images/catwalkcompany/images/styleguide/styleguide.png'; 
+import FinalLoginSignUp from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-signup-login.png'; 
+import FinalCatwalkCo from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-catwalkco.png';
+import FinalTimeclockRecording from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-timeclock-recording.png';
 
 
 
@@ -128,6 +130,23 @@ height: '300px'
 
 }
 
+
+const imageStylesAFinal = { 
+  width: '95%',
+  display: 'block', 
+  margin: '75px auto 75px auto', 
+  height: '300px'
+  
+  
+  }
+
+  const finalHiStyles = {
+    position: 'relative',
+    width: '100%',
+    top: '0px'
+  
+  }
+
 const finalMidStyles = {
   position: 'relative',
   width: '100%',
@@ -145,6 +164,13 @@ const userflowContainer = {
 const imageStylesAUserFlow = {
 width: '100%'
 
+
+}
+
+const imageStylesAStyleGuide = {
+display: 'block',
+margin: '0px auto',
+width: '40%'
 
 }
 
@@ -1366,10 +1392,128 @@ allowfullscreen
 
 </Box>
 
-    
 
 
 
+{/*PROTOTYPE PHASE*/}
+
+
+
+<Box sx={designA} id="ui">
+
+
+
+<Typography sx={headerA}>User Interface Design</Typography>
+
+
+{/*Style Guide*/}
+
+
+<Box sx={designA}>
+<Typography sx={titleA}>Style Guide</Typography>
+
+
+<Typography sx={paragraphA}>It's time for color, typography, and specific design element styles</Typography>
+  
+
+<Container sx={userflowContainer}>
+
+<Row>
+
+<Col>
+
+
+    <Card sx={imageStylesAStyleGuide}>
+      <CardMedia
+        component="img"
+        alt="Style Guide"
+        image={StyleGuide}
+      />
+     
+     
+     
+    </Card>
+
+
+
+
+    </Col>
+
+  </Row>
+
+  
+
+
+    </Container>
+
+</Box>
+
+
+<Box sx={designA}>
+<Typography sx={titleA}>Hi-Fidelity Wireframes</Typography>
+
+
+<Typography sx={paragraphA}>As I implemented the style guide into these wireframes, I focused on readability, consistency, contrast, color theory, etc. just to name a few important 
+UI design principles focused here.</Typography>
+  
+
+<Container sx={userflowContainer}>
+
+<Row>
+
+
+<Col>
+
+<Card sx={imageStylesAFinal}>
+       <CardMedia
+       sx={finalHiStyles}
+         component="img"
+         alt="Hi-Fidelity Wireframes"
+         image={FinalLoginSignUp}
+       />
+      </Card>
+
+      </Col>
+
+      <Col>
+
+      <Card sx={imageStylesAFinal}>
+       <CardMedia
+       sx={finalHiStyles}
+         component="img"
+         alt="Hi-Fidelity Wireframes"
+         image={FinalCatwalkCo}
+       />
+      </Card>
+
+
+
+      </Col>
+
+
+      <Col>
+
+<Card sx={imageStylesAFinal}>
+       <CardMedia
+       sx={finalHiStyles}
+         component="img"
+         alt="Hi-Fidelity Wireframes"
+         image={FinalTimeclockRecording}
+       />
+      </Card>
+
+      </Col>
+
+      </Row>
+
+  
+
+
+    </Container>
+
+</Box>
+
+</Box>
 
 
 

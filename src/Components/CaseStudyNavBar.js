@@ -28,7 +28,10 @@ const CaseStudyNavBar = () => {
             <Nav.Link href="#empathy">EMPATHY</Nav.Link>
             <Nav.Link href="#define">DEFINE</Nav.Link>
             <Nav.Link href="#prototype">PROTOTYPE</Nav.Link>
-            <Nav.Link href="#test">TEST</Nav.Link>
+            <Nav.Link href="#test">LOW-FIDELITY TEST</Nav.Link>
+            <Nav.Link href="#ui">UI</Nav.Link>
+            <Nav.Link href="#hi-fi-test">HI-FIDELITY TEST</Nav.Link>
+            <Nav.Link href="#test">FINAL THOUGHTS / NEXT STEPS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
