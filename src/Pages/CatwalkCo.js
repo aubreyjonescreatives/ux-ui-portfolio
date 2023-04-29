@@ -199,30 +199,28 @@ const sketchesContainer = {
 }
 
 const imageStylesASketches = {
-margin: '20px'
+margin: '20px', 
 
 }
 
 
 const digitalOnboarding = {
 display: 'grid', 
-justifyContent: 'space-evenly',
-margin: "0px auto", 
+justifyContent: 'center',
 
 }
 
 
 const digitalApp = {
   display: 'grid', 
-  justifyContent: 'space-evenly',
-  margin: "20px auto", 
-  
+  justifyContent: 'center',
+ 
   }
 
 
 const imageStylesADigital = {
-width: "100%", 
-gap: '20px',
+width: "60%", 
+//gap: '10px',
 margin: "20px auto"
 
 }
@@ -1101,7 +1099,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 <Row>
 
-<Col sm={3}>
+<Col sm={3} md={6} lg={3}>
  <Card sx={imageStylesADigital}>
        <CardMedia
          component="img"
@@ -1115,7 +1113,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
      </Col>
 
 
-     <Col sm={3}>
+     <Col sm={3} md={6} lg={3}>
      <Card sx={imageStylesADigital}>
        <CardMedia
          component="img"
@@ -1127,7 +1125,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
      </Card>  
 </Col>
 
-<Col sm={3}>
+<Col sm={3} md={6} lg={3}>
      <Card sx={imageStylesADigital}>
        <CardMedia
          component="img"
@@ -1139,7 +1137,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
      </Card>  
 </Col>
 
-<Col sm={3}>
+<Col sm={3} md={6} lg={3}>
      <Card sx={imageStylesADigital}>
        <CardMedia
          component="img"
@@ -1166,7 +1164,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 <Row>
 
 
-<Col sm={3}>
+<Col sm={3} md={6} lg={3}>
 
  <Card sx={imageStylesADigital}>
        <CardMedia
@@ -1180,7 +1178,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
      
     </Col>
 
-     <Col sm={3}>
+     <Col sm={3} md={6} lg={3}>
    
 
  <Card sx={imageStylesADigital}>
@@ -1195,7 +1193,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 </Col>
 
-<Col sm={3}>   
+<Col sm={3} md={6} lg={3}>   
   
  <Card sx={imageStylesADigital}>
        <CardMedia
@@ -1210,7 +1208,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
     </Col> 
 
 
-    <Col sm={3}>
+    <Col sm={3} md={6} lg={3}>
 
  <Card sx={imageStylesADigital}>
        <CardMedia
@@ -1225,7 +1223,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
      </Col>
 
 
-     <Col sm={3}>
+     <Col sm={3} md={6} lg={3}>
 
      <Card sx={imageStylesADigital}>
        <CardMedia

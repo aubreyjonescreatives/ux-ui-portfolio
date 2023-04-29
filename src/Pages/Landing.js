@@ -13,8 +13,9 @@ import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
 import MyEventsinBalsamiq from '../Images/myeventswireframes.png';
 import CCJourneyMap from '../Images/catwalkcompany/images/journeymap.png';
 import CCPrototyping from '../Images/catwalkcompany/images/prototyping/prototyping.png'; 
-import CCFinalMockups from '..//Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
-
+import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
+import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
+import tshirtDesigns from '../Images/homemadegifts/tshirtdesigns.png'; 
 
 
 const aboutStyles = {
@@ -282,7 +283,7 @@ experience through those latest processes. Feel free to connect.
          Catwalk Co
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          A Freelance E-Commerce Web App UX/UI Case Study
+          UX/UI Case Study
         </Typography>
       </CardContent>
       </Link>
@@ -323,9 +324,97 @@ experience through those latest processes. Feel free to connect.
     </Box>
 
 
+
+    <Typography sx={headerStylesA} id="uidesignprojects">UI Design Projects</Typography>
+
+<Box sx={allcardStyles}>
+
+<Row>
+
+
+<Col sm={12} md={6} xl={4}>
+    <Card sx={cardStyles} className="cardStyles">
+    <Link href="/flcinc" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="Disney VS Netflix Research"
+        sx={cardStylesImage}
+        image={FLCINCMockup}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Family Literacy Center Internship
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Updated UI Designs for Online Algebra 1 Program
+        </Typography>
+      </CardContent>
+      </Link>
+    </Card>
+  
+
+    </Col>
+
+    <Col sm={12} md={6} xl={4}>
+
+    <Card sx={cardStyles} className="cardStyles">
+<Link href="/codafitechnology" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="Freelance E-Commerce UX/UI Case Study"
+        sx={cardStylesImage}
+        image={WebsiteUIDesignandRedesign}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         Codafi Technology 
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          UX/UI Designer
+        </Typography>
+      </CardContent>
+      </Link>
+    </Card>
+   
+
+    </Col>
+
+<Col sm={12} md={6} xl={4}>
+  
+    <Card sx={cardStyles} className="cardStyles">
+    <Link href="/uiproductdesign" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="UI Designs"
+        image={tshirtDesigns}
+        sx={cardStylesImage}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         UI Product Design
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Fun design projects for clientele  
+        </Typography>
+      </CardContent>
+      </Link>
+    </Card>
+    
+
+
+    </Col>
+
+    </Row>
+
+
+
+    </Box>
+
+
+
 <Box sx={articlesStyles}>
 
-<Typography sx={headerStylesB} id="blog">BlOG</Typography>
+<Typography sx={headerStylesB} id="blogandvideodemos">UX/UI BLOG & VIDEO DEMOS</Typography>
 
 
 
@@ -333,7 +422,12 @@ experience through those latest processes. Feel free to connect.
 </Typography>
 
 <Link sx={articleLink} href="https://medium.com/@aubreyjonescreatives" target="_blank">
-       UX/UI Blog
+       BLOG
+       </Link>
+
+
+       <Link sx={articleLink} href="https://medium.com/@aubreyjonescreatives" target="_blank">
+       VIDEO DEMOS
        </Link>
 
 
@@ -342,7 +436,7 @@ experience through those latest processes. Feel free to connect.
 
 <Box sx={sampleStyles}>
 
-<Typography sx={headerStyles} id="samples">UX/UI DESIGN SAMPLES</Typography>
+<Typography sx={headerStyles} id="samplework">SAMPLE WORK</Typography>
 
 <Box sx={sampleBox}>
 
