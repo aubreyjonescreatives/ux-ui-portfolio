@@ -283,7 +283,7 @@ experience through those latest processes. Feel free to connect.
          Catwalk Co
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          UX/UI Case Study
+          UX/UI Case Study for Project Management
         </Typography>
       </CardContent>
       </Link>
