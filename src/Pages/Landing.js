@@ -238,7 +238,7 @@ experience through those latest processes. Feel free to connect.
 
 </Box>
 
-<Typography sx={headerStylesA} id="casestudies">UX/UI Case Studies</Typography>
+<Typography sx={headerStylesA} id="uxuidesign">UX/UI Case Studies</Typography>
 
 <Box sx={allcardStyles}>
 
