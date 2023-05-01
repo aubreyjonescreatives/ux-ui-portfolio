@@ -22,7 +22,7 @@ const aboutStyles = {
   paddingTop: '100px', 
   paddingBottom: '50px', 
   backgroundColor: '#eee', 
-  height: '500px'
+  height: '700px'
    
 }
 
@@ -41,7 +41,7 @@ fontWeight: '400'
 
 const headerStylesName = {
   margin: '0px 100px 20px 50px', 
-  paddingTop: '10px', 
+  paddingTop: '100px', 
   color: '#30638E',
   fontSize: '36px', 
   fontFamily: 'Lato',
