@@ -20,9 +20,8 @@ import tshirtDesigns from '../Images/homemadegifts/tshirtdesigns.png';
 
 const aboutStyles = {
   paddingTop: '100px', 
-  paddingBottom: '50px', 
+  paddingBottom: '150px', 
   backgroundColor: '#eee', 
-  height: '700px'
    
 }
 
@@ -46,7 +45,7 @@ const headerStylesName = {
   fontSize: '36px', 
   fontFamily: 'Lato',
   fontWeight: '400', 
-  textAlign: 'center'
+  textAlign: 'center', 
   
   }
 
@@ -68,7 +67,7 @@ const headerStylesName = {
       fontSize: '20px', 
       fontFamily: 'Merriweather',
       fontWeight: '300', 
-      textAlign: 'center'
+      textAlign: 'center', 
     }
 
 
@@ -323,9 +322,6 @@ experience through those latest processes. Feel free to connect.
 
     </Box>
 
-
-
-    <Typography sx={headerStylesA} id="uidesignprojects">UI Design Projects</Typography>
 
 <Box sx={allcardStyles}>
 
