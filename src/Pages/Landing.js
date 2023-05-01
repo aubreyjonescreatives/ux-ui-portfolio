@@ -236,8 +236,11 @@ return (
 
 
 
-<Typography sx={typeStylesIntro}> Thanks for taking the time to check out my work. I am always ready for a challenge that helps customers have a better user 
-experience through those latest processes. Feel free to connect. 
+<Typography sx={typeStylesIntro}>  I often daydream, learn, execute, and
+teach UX/UI design and frontend web development. I am always
+ready for a challenge that helps customers have a better user
+experience through the latest technologies in those processes. Thanks for taking 
+the time to look at my work and I would love to connect.
 </Typography>
 
 
