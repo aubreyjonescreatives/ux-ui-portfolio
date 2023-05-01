@@ -6,6 +6,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ImageIcon from '@mui/icons-material/Image';
 import Resume from '../Images/resume/aubreyjonesuxuidesignanddevelopmentresume.pdf'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMedium } from '@fortawesome/free-brands-svg-icons' 
 
 
 
@@ -84,6 +86,14 @@ const Footer = () => {
 
 
 <Box sx={connectLinksBox}>
+
+<Link sx={connectLink} href="https://www.youtube.com/channel/UCw4Fi6cUbn67D18LqTPQymA" target="_blank">
+<FontAwesomeIcon icon={faMedium} />
+Medium Blog
+</Link>
+
+
+
 <Link sx={connectLink} href="https://www.youtube.com/channel/UCw4Fi6cUbn67D18LqTPQymA" target="_blank">
 <YouTubeIcon />
 YouTube

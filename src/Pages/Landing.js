@@ -15,13 +15,13 @@ import CCJourneyMap from '../Images/catwalkcompany/images/journeymap.png';
 import CCPrototyping from '../Images/catwalkcompany/images/prototyping/prototyping.png'; 
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
-import tshirtDesigns from '../Images/homemadegifts/tshirtdesigns.png'; 
+import tshirtDesigns from '../Images/homemadegifts/tshirtdesigns.png';
 
 
 const aboutStyles = {
   paddingTop: '100px', 
   paddingBottom: '150px', 
-  backgroundColor: '#eee', 
+  backgroundColor: '#fff', 
    
 }
 
@@ -71,6 +71,13 @@ const headerStylesName = {
     }
 
 
+
+const casestudyBox = {
+  backgroundColor: '#eee', 
+  paddingTop: '20px', 
+  paddingBottom: '100px'
+
+}
 
 const headerStylesA = {
     margin: '100px 100px 20px 50px', 
@@ -236,6 +243,8 @@ experience through those latest processes. Feel free to connect.
 
 
 </Box>
+
+<Box sx={casestudyBox}>
 
 <Typography sx={headerStylesA} id="uxuidesign">UX/UI Case Studies</Typography>
 
@@ -407,28 +416,7 @@ experience through those latest processes. Feel free to connect.
     </Box>
 
 
-
-<Box sx={articlesStyles}>
-
-<Typography sx={headerStylesB} id="blogandvideodemos">UX/UI BLOG & VIDEO DEMOS</Typography>
-
-
-
-<Typography sx={typeStyles}>I love to learn and write about UX/UI design! Feel free to follow my articles and contact me for any questions, suggestions, and/or requests for a blog article.  
-</Typography>
-
-<Link sx={articleLink} href="https://medium.com/@aubreyjonescreatives" target="_blank">
-       BLOG
-       </Link>
-
-
-       <Link sx={articleLink} href="https://medium.com/@aubreyjonescreatives" target="_blank">
-       VIDEO DEMOS
-       </Link>
-
-
-
-</Box>
+    </Box>
 
 <Box sx={sampleStyles}>
 

@@ -25,7 +25,6 @@ const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#about">ABOUT</Nav.Link>
             <Nav.Link href="#uxuidesign">UX/UI DESIGN</Nav.Link>
-            <Nav.Link href="#blogandvideodemos">UX/UI BLOG AND VIDEO DEMOS</Nav.Link>
             <Nav.Link href="#samplework">SAMPLE WORK</Nav.Link>
             <Nav.Link href="#connect">CONNECT</Nav.Link>
           </Nav>
