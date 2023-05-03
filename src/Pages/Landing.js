@@ -90,16 +90,6 @@ const headerStylesA = {
     
     }
 
-const headerStylesB = {
-    margin: '0px 100px 20px 50px', 
-    fontSize: '36px',
-    color: '#71B48D', 
-    paddingTop: '50px',
-    fontFamily: 'Lato', 
-    fontWeight: '400', 
-    
-    
-    }
 
 
 
@@ -160,45 +150,9 @@ color: '#30638E',
 
 }
 
-const articlesStyles = {
-    paddingBottom: '50px', 
-    backgroundColor: '#eee', 
-   
-}
 
 
-const typeStyles = {
-    padding: '50px', 
-    width: '90%', 
-    color: '#30638E',
-    fontSize: '20px', 
-    fontFamily: 'Roboto serif',
-    fontWeight: '300'
 
-}
-
-const articleLink = {
-display: 'flex', 
-flexWrap: 'wrap', 
-justifyContent: 'center', 
-backgroundColor: '#30638E', 
-width: '125px', 
-margin: '20px auto', 
-padding: '20px', 
-textDecoration: 'none', 
-color: 'white', 
-fontSize: '18px', 
-fontFamily: 'Lato', 
-border: '1px solid #30638E',
-"&:hover": {
-    color: '#30638E',
-    backgroundColor: 'white',
-    border: '1px solid #30638E', 
-    cursor: 'pointer'
-   
-  }
-
-}
 
 
 const sampleStyles = {
