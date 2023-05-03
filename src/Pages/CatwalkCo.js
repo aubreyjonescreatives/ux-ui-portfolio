@@ -601,8 +601,7 @@ gather information on what they heard, said, thought, and did throughout their u
 
 <Typography sx={titleA}>User Insight Statement</Typography>
 
-<Typography sx={paragraphA}>Freelancers and clients need to find a better online communication platform for freelancing because it is important to meet 
-project expectations without overwhelming anyone involved.</Typography>
+<Typography sx={paragraphA}>Overworked freelancers and disheartened clients need a better collaborative project management platform because it will clarify expectations and organize work ethic boundaries between involved parties.</Typography>
     
 <Typography sx={paragraphA}></Typography>
   
@@ -619,8 +618,8 @@ project expectations without overwhelming anyone involved.</Typography>
 
 <Typography sx={titleA}>Problem Statement</Typography>
 
-<Typography sx={paragraphA}>We believe Catwalk Co will improve communication, creativity, and committment 
-to remote freelancers and clients so that they can acheive higher quality results 
+<Typography sx={paragraphA}>We believe Catwalk Co will renew communication, creativity, and committment 
+of remote freelancers and clients so that they can acheive higher quality results 
  throughout their digital design projects.</Typography>
     
 <Typography sx={paragraphA}></Typography>
