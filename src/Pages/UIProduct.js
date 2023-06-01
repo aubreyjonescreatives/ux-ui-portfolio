@@ -100,16 +100,10 @@ const UIProduct = () => {
 
 <Typography sx={headerB}>Product Design Projects</Typography>
 
-<Typography sx={paragraphB}>In my personal time, I love to create homemade gifts. These have ranged from t-shirts, candles, bars of soap, 
-to Happy Birthday notes. I love that I get to explore my creative digital design passion at any time of the day and share it with 
-others by personalized items that mean just a little bit more to them than some random gift. I have a huge interest in product and graphic 
-design. You'll often find me watching a YouTube video or researching different ways on how to improve or avoid certain techniques as 
-they require a lot of precise attention to detail.</Typography>
+<Typography sx={paragraphB}>Welcome to my ever-evolving product design freelance experience! These designs have ranged from 
+t-shirts, candles, to bars of soap labels, etc. I love that I get to explore my creative digital design passion at any time of the 
+day and share it with others. I care to see projects through from inception to production and communicate with others as needed.</Typography>
 
-
-<Typography sx={paragraphB}>I often use the mental model UI design principle as I am learning to pull a lot of 
-inspiration from what is already out there. I use a lot of Figma, Photoshop, other Adobe CC design tools, and websites that 
-offer high quality customizable products out there. I am almost always creating something in my spare time for the pure fun of it. </Typography>
 
 
 <Typography sx={paragraphB}>T-Shirt Designs:</Typography>
