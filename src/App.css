@@ -37,3 +37,8 @@ height: 400px;
   margin: 20px auto; 
   width: 300px;  
 }
+
+
+.carousel-item {
+  transition: transform 3s ease-in-out;
+}
