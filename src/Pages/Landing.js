@@ -398,7 +398,7 @@ the time to look at my work and I would love to connect.
 <Col sm={12} md={6} xl={4}>
   
     <Card sx={cardStyles} className="cardStyles">
-    <Link href="/uidesigns" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <Link href="/logodesigns" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Storybook Logo"

@@ -6,6 +6,7 @@ import CatwalkCo from './Pages/CatwalkCo';
 import FLCINC from './Pages/FLCINC'; 
 import CT from './Pages/CT'; 
 import UIProduct from './Pages/UIProduct'; 
+import LogoDesigns from './Pages/LogoDesigns.js';
 import Footer from './Components/Footer'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -22,6 +23,7 @@ const App = () => {
   <Route path="/flcinc" component={FLCINC} />
   <Route path="/codafitechnology" component={CT} />
   <Route path="/uiproductdesign" component={UIProduct} />
+  <Route path="/logodesigns" component={LogoDesigns} />
   <Footer />
    </Router>
    </>
