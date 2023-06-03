@@ -38,8 +38,8 @@ const LogoDesigns = () => {
       </Container>
     </Navbar>
 
-<Carousel sx={carouselStyles} classStyles="carouselStyles">
-      <Carousel.Item>
+<Carousel sx={carouselStyles} className="carouselStyles">
+      <Carousel.Item className="carouselItem">
         <img
           className="d-block carouselImage"
           src={HelloMomentsFull}
