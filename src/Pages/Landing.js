@@ -203,7 +203,7 @@ the time to look at my work and I would love to connect.
 
 <Box sx={casestudyBox}>
 
-<Typography sx={headerStylesA} id="uxuidesign">UX/UI Case Studies</Typography>
+<Typography sx={headerStylesA} id="uxuidesign">UX/UI Design Case Studies</Typography>
 
 <Box sx={allcardStyles}>
 
