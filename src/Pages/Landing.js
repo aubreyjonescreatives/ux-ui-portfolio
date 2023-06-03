@@ -121,7 +121,7 @@ const allcardStyles = {
 
 const cardStyles = {
   margin: '20px auto', 
-maxWidth: '450px', 
+width: '450px', 
 maxHeight: '500px',
 textDecoration: 'none',
 fontFamily: 'Lato', 
