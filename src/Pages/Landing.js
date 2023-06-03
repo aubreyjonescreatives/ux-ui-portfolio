@@ -16,7 +16,7 @@ import CCPrototyping from '../Images/catwalkcompany/images/prototyping/prototypi
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
 import tshirtDesigns from '../Images/homemadegifts/tshirtdesigns.png';
-
+import StoryBook from '../Images/logos/storybookinc.png'; 
 
 
 
@@ -241,13 +241,13 @@ the time to look at my work and I would love to connect.
         <Typography gutterBottom variant="h5" component="div">
         Family Literacy Center Internship
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Role: UX/UI Designer and Developer
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Field: Online Ed Tech
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Focus: Updated UI Designs for Online Algebra 1 Program
         </Typography>
       </CardContent>
@@ -271,13 +271,13 @@ the time to look at my work and I would love to connect.
         <Typography gutterBottom variant="h5" component="div">
          Codafi Technology 
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Role: UX/UI Designer
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Field: E-Commerce
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
           Focus: Design Landing International E-Commerce Website
         </Typography>
       </CardContent>
@@ -301,13 +301,13 @@ the time to look at my work and I would love to connect.
         <Typography gutterBottom variant="h5" component="div">
          UI Product Design
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Role: UX/UI, Product, and Graphic Designer
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Field: Print
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
           Focus: Design images for print based on clientele interest
         </Typography>
       </CardContent>
@@ -343,16 +343,16 @@ the time to look at my work and I would love to connect.
         <Typography gutterBottom variant="h5" component="div">
          Disney VS. Netflix
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
           UX Research Case Study
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Role: UX/UI Researcher
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Field: E-commerce, Entertainment
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
           Focus: Compare and Contrast Disney VS. Netflix
         </Typography>
       </CardContent>
@@ -376,16 +376,16 @@ the time to look at my work and I would love to connect.
         <Typography gutterBottom variant="h5" component="div">
          Catwalk Co
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
           UX/UI Case Study for Project Management
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Role: UX/UI Designer
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Field: E-commerce
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
           Focus: Design an online project management tool 
         </Typography>
       </CardContent>
@@ -401,24 +401,24 @@ the time to look at my work and I would love to connect.
     <Link href="/uidesigns" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
-        alt="UI Designs"
-        image={WebsiteUIDesignandRedesign}
+        alt="Storybook Logo"
+        image={StoryBook}
         sx={cardStylesImage}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
          Logo Digital Designs
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Digital design projects with real clients  
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
          Role: Graphic Designer
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-         Field: Graphic Design
+        <Typography variant="body1" color="text.secondary">
+         Field: Digital and Print Design
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body1" color="text.secondary">
           Focus: Logo Examples 
         </Typography>
       </CardContent>
