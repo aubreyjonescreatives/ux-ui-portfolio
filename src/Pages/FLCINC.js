@@ -53,7 +53,7 @@ const designB = {
 
     
 const headerB = {
-    padding: '50px 70px', 
+    padding: '100px 70px 50px 70px', 
     color: '#30638E', 
     fontSize: '40px', 
     fontFamily: 'Lato', 
