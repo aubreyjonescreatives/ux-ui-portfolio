@@ -143,7 +143,7 @@ const sampleBox = {
 
 const cardStylesSamples = {
   margin: '25px', 
-  maxWidth: '500px',
+  width: '500px',
   fontFamily: 'Lato', 
 
 
