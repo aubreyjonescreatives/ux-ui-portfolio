@@ -334,7 +334,7 @@ the time to look at my work and I would love to connect.
          Role: UX/UI Researcher
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         Field: E-commerce
+         Field: E-commerce, Entertainment
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Focus: Compare and Contrast Disney VS. Netflix
