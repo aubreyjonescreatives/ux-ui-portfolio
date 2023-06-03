@@ -107,7 +107,7 @@ const allcardStyles = {
 const cardStyles = {
   margin: '20px auto', 
 maxWidth: '400px', 
-maxHeight: '400px',
+maxHeight: '500px',
 textDecoration: 'none',
 fontFamily: 'Lato', 
 
@@ -217,7 +217,7 @@ the time to look at my work and I would love to connect.
     <Link href="/flcinc" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
-        alt="Disney VS Netflix Research"
+        alt="Family Literacy Centers Internship Case Study"
         sx={cardStylesImage}
         image={FLCINCMockup}
       />
@@ -226,7 +226,13 @@ the time to look at my work and I would love to connect.
         Family Literacy Center Internship
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         Updated UI Designs for Online Algebra 1 Program
+         Role: UX/UI Designer and Developer
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Field: Online Ed Tech
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Focus: Updated UI Designs for Online Algebra 1 Program
         </Typography>
       </CardContent>
       </Link>
@@ -250,7 +256,13 @@ the time to look at my work and I would love to connect.
          Codafi Technology 
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          UX/UI Designer
+         Role: UX/UI Designer
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Field: E-Commerce
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Focus: Design Landing International E-Commerce Website
         </Typography>
       </CardContent>
       </Link>
@@ -274,7 +286,13 @@ the time to look at my work and I would love to connect.
          UI Product Design
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         Fun design projects for clientele  
+         Role: UX/UI, Product, and Graphic Designer
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Field: Print
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Focus: Design images for print based on clientele interest
         </Typography>
       </CardContent>
       </Link>
@@ -310,7 +328,16 @@ the time to look at my work and I would love to connect.
          Disney VS. Netflix
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          A UX Research Case Study
+          UX Research Case Study
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Role: UX/UI Researcher
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Field: E-commerce
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Focus: Compare and Contrast Disney VS. Netflix
         </Typography>
       </CardContent>
       </Link>
@@ -336,6 +363,15 @@ the time to look at my work and I would love to connect.
         <Typography variant="body2" color="text.secondary">
           UX/UI Case Study for Project Management
         </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Role: UX/UI Designer
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Field: E-commerce
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Focus: Design an online project management tool 
+        </Typography>
       </CardContent>
       </Link>
     </Card>
@@ -355,10 +391,19 @@ the time to look at my work and I would love to connect.
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-         User Interface Design
+         Logo Digital Designs
         </Typography>
         <Typography variant="body2" color="text.secondary">
          Digital design projects with real clients  
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Role: Graphic Designer
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Field: Graphic Design
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Focus: Logo Examples 
         </Typography>
       </CardContent>
       </Link>
