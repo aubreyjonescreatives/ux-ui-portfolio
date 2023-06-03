@@ -15,7 +15,10 @@ import FrostEatSleepRepeat from '../Images/homemadegifts/frosteatsleeprepeat.PNG
 import JustDoughIt from '../Images/homemadegifts/justdoughit.PNG';
 import LargeCandleLabel from '../Images/homemadegifts/soywaxcandle30packof3.jpg';
 import SmallCandleLabel from '../Images/homemadegifts/soywaxcandle8oz04.jpg';
-
+import CinnamonMarshmallow from '../Images/homemadegifts/cinnamonmarshmallow.png';
+import GingerBread from '../Images/homemadegifts/gingerbread.png';
+import Mistletoe from '../Images/homemadegifts/mistletoe.png';
+import SaltedCaramel from '../Images/homemadegifts/saltedcaramel.png';
 
 
 const designB = {
@@ -272,7 +275,7 @@ ones from Iconify
 
 
 
-    <Typography sx={paragraphB}>Product Design Labels:</Typography>
+    <Typography sx={paragraphB}>Candle Labels:</Typography>
 
 
 <Row>
@@ -319,6 +322,59 @@ ones from Iconify
     </Row>
 
 
+
+    <Typography sx={paragraphB}>Liquid Foaming Soap Labels:</Typography>
+
+
+<Row>
+
+<Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Foaming Soap Label"
+        image={CinnamonMarshmallow}
+       
+      />
+      
+    </Card>
+
+    </Col>
+
+<Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+  <CardMedia
+    component="img"
+    alt="Foaming Soap Label"
+    image={GingerBread}
+   
+  />
+
+</Card>
+
+</Col>
+
+<Col sm={12} md={6} xl={4}>
+
+
+<Card sx={imageStylesB}>
+  <CardMedia
+    component="img"
+    alt="Foaming Soap Label"
+    image={Mistletoe}
+   
+  />
+
+</Card>
+
+</Col>
+
+
+    </Row>
 
 
 

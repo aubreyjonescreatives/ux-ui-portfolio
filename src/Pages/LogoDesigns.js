@@ -2,24 +2,12 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Row, Col } from 'react-grid-system';
-import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import Carousel from 'react-bootstrap/Carousel';
 import '../App.css';
 import HelloMomentsFull from '../Images/logos/hellomomentslogo.png'; 
 import CatWalkCo from '../Images/logos/fulllogo-xl.png';
 import InstaFresh from '../Images/logos/instafresh.png';
 
-const carouselStyles = {
-clear: 'both', 
-marginTop: '100px', 
-width: '500px', 
-height: '300px', 
-position: 'absolute'
-}
 
 
 const LogoDesigns = () => {
@@ -38,7 +26,7 @@ const LogoDesigns = () => {
       </Container>
     </Navbar>
 
-<Carousel sx={carouselStyles} className="carouselStyles">
+<Carousel className="carouselStyles">
       <Carousel.Item className="carouselItem">
         <img
           className="d-block carouselImage"
