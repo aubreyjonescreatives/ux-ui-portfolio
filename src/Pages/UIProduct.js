@@ -101,7 +101,7 @@ const UIProduct = () => {
 <Box sx={designB} id="productdesignprojects">
 
 
-<Typography sx={headerB}>Product Design Projects</Typography>
+<Typography sx={headerB}>UI Product Designs</Typography>
 
 <Typography sx={paragraphB}>Welcome to my ever-evolving product design freelance experience! These designs have ranged from 
 t-shirts, candles, to bars of soap labels, etc. I love that I get to explore my creative digital design passion at any time of the 
