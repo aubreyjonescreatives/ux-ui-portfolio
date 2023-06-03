@@ -186,7 +186,7 @@ return (
 
 <Typography sx={headerStylesName} id="aboutme">Hello, I'm Aubrey.</Typography>
 
-<Typography sx={headerStylesTitle} id="aboutme">A UX/UI Designer here.</Typography>
+<Typography sx={headerStylesTitle} id="aboutme">A visual storyteller through UX/UI Design at heart.</Typography>
 
 
 
@@ -205,88 +205,6 @@ the time to look at my work and I would love to connect.
 
 <Typography sx={headerStylesA} id="uxuidesign">UX/UI Design Case Studies</Typography>
 
-<Box sx={allcardStyles}>
-
-<Row>
-
-
-<Col sm={12} md={6} xl={4}>
-    <Card sx={cardStyles} className="cardStyles">
-    <Link href="/disneyvsnetflix" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
-      <CardMedia
-        component="img"
-        alt="Disney VS Netflix Research"
-        sx={cardStylesImage}
-        image={DVNImage}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Disney VS. Netflix
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          A UX Research Case Study
-        </Typography>
-      </CardContent>
-      </Link>
-    </Card>
-  
-
-    </Col>
-
-    <Col sm={12} md={6} xl={4}>
-
-    <Card sx={cardStyles} className="cardStyles">
-<Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
-      <CardMedia
-        component="img"
-        alt="Freelance E-Commerce UX/UI Case Study"
-        sx={cardStylesImage}
-        image={CCFinalMockups}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Catwalk Co
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          UX/UI Case Study for Project Management
-        </Typography>
-      </CardContent>
-      </Link>
-    </Card>
-   
-
-    </Col>
-
-<Col sm={12} md={6} xl={4}>
-  
-    <Card sx={cardStyles} className="cardStyles">
-    <Link href="/uidesigns" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
-      <CardMedia
-        component="img"
-        alt="UI Designs"
-        image={WebsiteUIDesignandRedesign}
-        sx={cardStylesImage}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         User Interface Design
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-         Digital design projects with real clients  
-        </Typography>
-      </CardContent>
-      </Link>
-    </Card>
-    
-
-
-    </Col>
-
-    </Row>
-
-
-
-    </Box>
 
 
 <Box sx={allcardStyles}>
@@ -357,6 +275,90 @@ the time to look at my work and I would love to connect.
         </Typography>
         <Typography variant="body2" color="text.secondary">
          Fun design projects for clientele  
+        </Typography>
+      </CardContent>
+      </Link>
+    </Card>
+    
+
+
+    </Col>
+
+    </Row>
+
+
+
+    </Box>
+
+
+    <Box sx={allcardStyles}>
+
+<Row>
+
+
+<Col sm={12} md={6} xl={4}>
+    <Card sx={cardStyles} className="cardStyles">
+    <Link href="/disneyvsnetflix" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="Disney VS Netflix Research"
+        sx={cardStylesImage}
+        image={DVNImage}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         Disney VS. Netflix
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          A UX Research Case Study
+        </Typography>
+      </CardContent>
+      </Link>
+    </Card>
+  
+
+    </Col>
+
+    <Col sm={12} md={6} xl={4}>
+
+    <Card sx={cardStyles} className="cardStyles">
+<Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="Freelance E-Commerce UX/UI Case Study"
+        sx={cardStylesImage}
+        image={CCFinalMockups}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         Catwalk Co
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          UX/UI Case Study for Project Management
+        </Typography>
+      </CardContent>
+      </Link>
+    </Card>
+   
+
+    </Col>
+
+<Col sm={12} md={6} xl={4}>
+  
+    <Card sx={cardStyles} className="cardStyles">
+    <Link href="/uidesigns" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="UI Designs"
+        image={WebsiteUIDesignandRedesign}
+        sx={cardStylesImage}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         User Interface Design
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         Digital design projects with real clients  
         </Typography>
       </CardContent>
       </Link>
