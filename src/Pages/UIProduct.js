@@ -104,7 +104,7 @@ const UIProduct = () => {
 <Typography sx={headerB}>UI Product Designs</Typography>
 
 <Typography sx={paragraphB}>Welcome to my ever-evolving product design freelance experience! These designs have ranged from 
-t-shirts, candles, to bars of soap labels, etc. I love that I get to explore my creative digital design passion at any time of the 
+t-shirts, candles, to liquid foaming soap labels, etc. I love that I get to explore my creative digital design passion at any time of the 
 day and share it with others. I care to see projects through from inception to production and communicate with others as needed.</Typography>
 
 
