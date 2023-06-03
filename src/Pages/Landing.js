@@ -18,6 +18,9 @@ import FLCINCMockup from '../Images/algebra1images/flcredesign.png';
 import tshirtDesigns from '../Images/homemadegifts/tshirtdesigns.png';
 
 
+
+
+
 const aboutStyles = {
   paddingTop: '100px', 
   paddingBottom: '150px', 
@@ -50,6 +53,8 @@ const headerStylesName = {
   }
 
 
+
+
   const headerStylesTitle = {
     margin: '0px 100px 20px 50px', 
     paddingTop: '10px', 
@@ -59,6 +64,16 @@ const headerStylesName = {
     textAlign: 'center'
     
     }
+
+    const headerStylesBackground = {
+      margin: '40px 100px 20px 50px', 
+      color: '#30638E',
+      fontSize: '28px', 
+      fontFamily: 'Lato',
+      fontWeight: '300', 
+      textAlign: 'center', 
+      
+      }
 
     const typeStylesIntro = {
       padding: '50px', 
@@ -106,7 +121,7 @@ const allcardStyles = {
 
 const cardStyles = {
   margin: '20px auto', 
-maxWidth: '400px', 
+maxWidth: '450px', 
 maxHeight: '500px',
 textDecoration: 'none',
 fontFamily: 'Lato', 
@@ -186,8 +201,9 @@ return (
 
 <Typography sx={headerStylesName} id="aboutme">Hello, I'm Aubrey.</Typography>
 
-<Typography sx={headerStylesTitle} id="aboutme">A visual storyteller through UX/UI Design at heart.</Typography>
+<Typography sx={headerStylesTitle} id="aboutme">A visual storyteller through UX/UI Design at heart</Typography>
 
+<Typography sx={headerStylesBackground} id="aboutme">with a background in E-Commerce, Entertainment, and Ed-Tech</Typography>
 
 
 <Typography sx={typeStylesIntro}>  I often daydream, learn, execute, and
