@@ -248,7 +248,7 @@ the time to look at my work and I would love to connect.
          Field: Online Ed Tech
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Focus: Updated UI Designs for Online Algebra 1 Program
+         Focus: Online Algebra 1 Program Redesign
         </Typography>
       </CardContent>
       </Link>
