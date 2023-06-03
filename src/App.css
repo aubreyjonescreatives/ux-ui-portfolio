@@ -23,3 +23,17 @@
   cursor: pointer; 
 
 }
+
+
+.carouselStyles {
+  clear: both; 
+margin-top: 100px; 
+width: 300px; 
+height: 400px; 
+}
+
+.carouselImage {
+  display: block; 
+  margin: 20px auto; 
+  width: 300px;  
+}
