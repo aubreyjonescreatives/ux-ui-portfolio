@@ -18,7 +18,7 @@ import SmallCandleLabel from '../Images/homemadegifts/soywaxcandle8oz04.jpg';
 import CinnamonMarshmallow from '../Images/homemadegifts/cinnamonmarshmallow.png';
 import GingerBread from '../Images/homemadegifts/gingerbread.png';
 import Mistletoe from '../Images/homemadegifts/mistletoe.png';
-import SaltedCaramel from '../Images/homemadegifts/saltedcaramel.png';
+//import SaltedCaramel from '../Images/homemadegifts/saltedcaramel.png';
 
 
 const designB = {
