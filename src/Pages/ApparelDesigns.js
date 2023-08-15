@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-import CaseStudyNavBar from '../Components/CaseStudyNavBar.js'; 
+import CaseStudyNavBarAP from '../Components/CaseStudyNavBarAP.js'; 
 import { Container, Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
@@ -10,7 +10,7 @@ import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
 import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
-import CatwalkCoImg from '../Images/catwalkcompany/images/styleguide/fulllogo-xl.png';
+import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
@@ -49,14 +49,14 @@ import FinalTimeclockRecording from '../Images/catwalkcompany/images/hi-fidelity
 
 const design = {
 clear: 'both', 
-height: '600px'
+height: '700px'
 
 }
 
 
 const cardStyles = {
   clear: 'both',
-  margin: '200px auto 10px auto',
+  margin: '10px auto 10px auto',
   display: 'block', 
   width: '35%' 
 
@@ -66,8 +66,8 @@ const cardStyles = {
 
 
 const headerStylesA = {
-  margin: '10px 0px', 
-  marginBottom: '50px', 
+  margin: '0px auto', 
+  marginBottom: '150px', 
   fontSize: '42px', 
   padding: '80px 20px', 
   color: '#30638E',
@@ -315,7 +315,7 @@ const imageStylesB = {
 
 
 
-const CatwalkCo = () => {
+const ApparelDesigns = () => {
   
 
 
@@ -326,7 +326,7 @@ return (
 <>
 
 
-<CaseStudyNavBar />
+<CaseStudyNavBarAP />
 
 
 
@@ -335,8 +335,8 @@ return (
        <Card sx={cardStyles}>
       <CardMedia
         component="img"
-        alt="Catwalk Co"
-        image={CatwalkCoImg}
+        alt="T-Shirt Designs"
+        image={tshirtDesigns}
       />
      
      
@@ -347,7 +347,7 @@ return (
 
 
 
-       <Typography sx={headerStylesA} id="top">UX/UI Case Study</Typography>
+       <Typography sx={headerStylesA} id="top">Apparel Designs <br/> UX/UI Case Study</Typography>
 
 
        </Box>
@@ -358,8 +358,9 @@ return (
 
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
-<Typography sx={paragraphA}>How can digital designers and clients better connect together in today's modern world? Catwalk Co embarks on an adventure to build a bridge 
-between digital designers and clients for better communication, expectations, and creativity throughout their design processes.</Typography>
+<Typography sx={paragraphA}>My love for product design began when I discovered an interest in creating candle labels and tshirt designs for clientele by word of mouth. With my UX/UI design background and ecommerce focus, I wondered
+what products and services interested people the most for a small ecommerce business in today's competitive world. This UX/UI design case study walks us through emotional hearts, desires, and needs as we learn and indentify 
+how to impact other people's lives in a positive way.  </Typography>
 <Typography sx={headerA}></Typography> 
   
 </Box> 
@@ -1543,4 +1544,4 @@ UI design principles focused here.</Typography>
 
 }
 
-export default CatwalkCo;
+export default ApparelDesigns;
