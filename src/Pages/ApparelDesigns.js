@@ -392,7 +392,7 @@ how to impact other people's lives in a positive way.  </Typography>
 
 <Typography sx={paragraphB}>Meet Jake Collins, a hard worker with a love for the outdoors. As representative of our supposed audience, 
 he'd much rather spend time outside than shopping in person. Online shopping gives him the option to make fast choices and save time for camping,
-fishing, and hiking</Typography>
+fishing, and hiking.</Typography>
 
 
 <Card sx={imageStylesB}>
