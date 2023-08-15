@@ -122,7 +122,7 @@ const allcardStyles = {
 const cardStyles = {
   margin: '20px auto', 
 width: '450px', 
-maxHeight: '500px',
+height: '475px',
 textDecoration: 'none',
 fontFamily: 'Lato', 
 
@@ -290,7 +290,7 @@ the time to look at my work and I would love to connect.
 <Col sm={12} md={6} xl={4}>
   
     <Card sx={cardStyles} className="cardStyles">
-    <Link href="/uiproductdesign" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <Link href="/appareldesignscasestudy" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="UI Designs"
@@ -299,16 +299,16 @@ the time to look at my work and I would love to connect.
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-         UI Product Design
+         Apparel Designs UX/UI Case Study
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Role: UX/UI, Product, and Graphic Designer
+         Role: UX/UI Designer and Developer & Product Designer
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Field: Print
+         Field: UX/UI Design and Development, Product Design
         </Typography>
         <Typography variant="body1" color="text.secondary">
-          Focus: Design images for print based on clientele interest
+          Focus: Ecommerce website design using the UX/UI Design Process
         </Typography>
       </CardContent>
       </Link>

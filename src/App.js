@@ -5,7 +5,7 @@ import DisneyVSNetflix from './Pages/DisneyVSNetflix';
 import CatwalkCo from './Pages/CatwalkCo'; 
 import FLCINC from './Pages/FLCINC'; 
 import CT from './Pages/CT'; 
-import UIProduct from './Pages/UIProduct'; 
+import ApparelDesigns from './Pages/ApparelDesigns.js'; 
 import LogoDesigns from './Pages/LogoDesigns.js';
 import Footer from './Components/Footer'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,7 +22,7 @@ const App = () => {
   <Route path="/catwalkco" component={CatwalkCo} />
   <Route path="/flcinc" component={FLCINC} />
   <Route path="/codafitechnology" component={CT} />
-  <Route path="/uiproductdesign" component={UIProduct} />
+  <Route path="/appareldesignscasestudy" component={ApparelDesigns} />
   <Route path="/logodesigns" component={LogoDesigns} />
   <Footer />
    </Router>
