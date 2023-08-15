@@ -5,10 +5,11 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import ProtoPersonaDave from '../Images/catwalkcompany/images/protopersonadave.png';
+import ProtoPersonaJake from '../Images/appareldesigns/protopersonajake.png';
 import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
-import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
+import ResearchSurveyAge from '../Images/appareldesigns/research/researchage.png'; 
+import ResearchSurveyGender from '../Images/appareldesigns/research/researchgender.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
 import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
@@ -58,9 +59,15 @@ const cardStyles = {
   clear: 'both',
   margin: '10px auto 10px auto',
   display: 'block', 
-  width: '35%' 
+  width: '500px'
 
 
+
+}
+
+const apparelImage = {
+width: '100%', 
+padding: '0px'
 
 }
 
@@ -122,7 +129,7 @@ fontWeight: '400',
 
 
 const imageStylesA = { 
-width: '70%',
+width: '60%',
 display: 'block', 
 margin: '75px auto 75px auto', 
 height: '300px'
@@ -292,7 +299,7 @@ fontWeight: '500'
 
 
 const imageStylesB = { 
-  width: '70%',
+  width: '35%',
   display: 'block', 
   margin: '75px auto 75px auto'
   
@@ -334,6 +341,7 @@ return (
 
        <Card sx={cardStyles}>
       <CardMedia
+        sx={apparelImage}
         component="img"
         alt="T-Shirt Designs"
         image={tshirtDesigns}
@@ -382,14 +390,16 @@ how to impact other people's lives in a positive way.  </Typography>
 
 <Typography sx={titleB}>Proto Persona</Typography>
 
-<Typography sx={paragraphB}>Meet David Anderson, a representative of our supposed audience.</Typography>
+<Typography sx={paragraphB}>Meet Jake Collins, a hard worker with a love for the outdoors. As representative of our supposed audience, 
+he'd much rather spend time outside than shopping in person. Online shopping gives him the option to make fast choices and save time for camping,
+fishing, and hiking</Typography>
 
 
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
         alt="Proto Persona"
-        image={ProtoPersonaDave}
+        image={ProtoPersonaJake}
        
       />
      
@@ -408,25 +418,34 @@ how to impact other people's lives in a positive way.  </Typography>
 
 <Typography sx={titleB}>Research Survey</Typography>
 
-<Typography sx={paragraphB}>While David represented my assumed audience, I needed to find a hot and trending need to 
-confirm an interest in an e-commerce freelancing platform. I created a survey so that I could reach out to mulitple people online. I received 
-an interesting mix of feedback from some of my results:</Typography>
-
+<Typography sx={paragraphB}>I needed to confirm Jake's story as my main audience advocate for an ecommerce platform. 
+I created a Google Forms survey so that I could reach mulitple people online. I received 
+interesting mixed my results from those that shop online. My questions included demographics, preferred online platforms and devices, and 
+online shopping needs:</Typography>
 
 
 <Card sx={cardStylesB}>
       <CardMedia
         component="img"
-        alt="Freelancing Gigs Img"
-        image={FreelancingGigs}
+        alt="Age Results from Survey"
+        image={ResearchSurveyAge}
+      />
+     
+     
+    </Card>
+
+<Card sx={cardStylesB}>
+      <CardMedia
+        component="img"
+        alt="Gender Results from Survey"
+        image={ResearchSurveyGender}
       />
      
      
     </Card>
 
 
-    <Typography sx={paragraphB}>Most freelancers found gigs by word of mouth by a landslide. None of them use 
-    online marketing. Upwork is a freelancing website specifically for web developers and designers. </Typography>
+    <Typography sx={paragraphB}>I first wanted to solidify my audience's demographics such as with age and gender.</Typography>
     
     
    
