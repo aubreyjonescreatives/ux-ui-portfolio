@@ -420,7 +420,7 @@ fishing, and hiking</Typography>
 
 <Typography sx={paragraphB}>I needed to confirm Jake's story as my main audience advocate for an ecommerce platform. 
 I created a Google Forms survey so that I could reach mulitple people online. I received 
-interesting mixed my results from those that shop online. My questions included demographics, preferred online platforms and devices, and 
+interesting mixed results from those that shop online. My survey questions included demographics, preferred online platforms and devices, and 
 online shopping needs:</Typography>
 
 
