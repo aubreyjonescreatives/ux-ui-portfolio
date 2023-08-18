@@ -6,12 +6,15 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
 import ProtoPersonaJake from '../Images/appareldesigns/protopersonajake.png';
 import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
 //import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
 import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
-import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
+import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
+import ZoomedInAffinityDiagram from '../Images/appareldesigns/research/zoomedinaffinitydiagram.png';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
@@ -573,13 +576,19 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
 
 
 <Typography sx={paragraphB}>
-    Can we relate to our audience? How can we synthesize our results? One great UX method is through 
+    Can we relate to our audience? How can we synthesize our results? One great UX method is 
     affinity diagramming! We can add all of our survey results to one whiteboard using sticky notes. For 
     this project I am using FigJam as an online whiteboard. Our online survey not only gave us fantastic 
     emotional insights into our audience but also their trending statistics as well. 
   </Typography>
 
+  
+<Typography sx={paragraphB}>
+    If you take a look at our survey results, Google Forms does an excellent job organizing responses by a specific 
+    answer and or individual. This made organizing our data into specific affinity mapping groups much easier. 
+  </Typography>
 
+<Row>
 
 <Card sx={cardStylesB}>
       <CardMedia
@@ -591,16 +600,32 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
      
     </Card>
 
+    <Card sx={cardStylesB}>
+      <CardMedia
+        component="img"
+        alt="Affinity Diagram"
+        image={ZoomedInAffinityDiagram}
+      />
+     
+     
+    </Card>
 
+    </Row>
 
-
-
-    <Typography sx={paragraphB}></Typography>
+   
+<Typography sx={paragraphB}>
+    Affinity Diagram Key Takeaways to Formulate our Audience Advocate:
+  </Typography>
     
-    
-    <Typography sx={paragraphB}></Typography>
+    <Typography sx={paragraphB}>
 
 
+    </Typography>
+
+    <List>
+    <ListItem>•</ListItem>
+    <ListItem></ListItem>
+    </List>
 
   
 </Box> 
