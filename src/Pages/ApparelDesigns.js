@@ -9,7 +9,7 @@ import Link from '@mui/material/Link';
 // import List from '@mui/material/List';
 // import ListItem from '@mui/material/ListItem';
 import ProtoPersonaJake from '../Images/appareldesigns/protopersonajake.png';
-import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
+import UserPersona from '../Images/appareldesigns/userpersonameg.png';
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
 //import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
 import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
@@ -18,7 +18,7 @@ import ZoomedInAffinityDiagram from '../Images/appareldesigns/research/zoomedina
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
-import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png'; 
+import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
 import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
@@ -714,7 +714,9 @@ gather information on what they heard, said, thought, and did throughout their u
 <Typography sx={titleB}>User Persona</Typography>
 
 
-<Typography sx={paragraphB}>Meet Laurey Lane, a representative of our audience based upon our researched trending facts. Does she fit the picture? Does she relate to our interviewed freelancers?</Typography>
+<Typography sx={paragraphB}>Meet Megan Young, the final representative of our audience 
+based on our researched trending facts. Does she fit the picture? Does she relate to our online
+shoppers?</Typography>
 
 
 <Card sx={imageStylesB}>
