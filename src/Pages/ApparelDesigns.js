@@ -5,10 +5,11 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 import ProtoPersonaJake from '../Images/appareldesigns/protopersonajake.png';
 import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
-import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
+//import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
 import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
@@ -316,6 +317,17 @@ fontFamily: 'Merriweather',
 fontWeight: '300'
 }
 
+const paragraphBLink = {
+  textAlign: 'center',
+  padding: '20px 70px',
+  fontSize: '20px', 
+  fontFamily: 'Merriweather',
+  fontWeight: '300', 
+  color: '#71B48D'
+
+
+}
+
 
 // const cardquoteStylesB = {
 //   margin: '75px auto 75px auto', 
@@ -539,71 +551,33 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
 
 
     </Row>
-   
-    
-    <Typography sx={commonReasons}>
-    Can we relate to our audience? 
+
+
+    <Typography sx={paragraphB}>
+    If you would like to see the full survey, here is a direct link to it:
   </Typography>
-
-
-
-
-
-    <Typography sx={paragraphB}>As the majority of my responders prefer word of mouth, could I persuade them to join the online community for 
-    freelancing if I focused on their frustrations and provided good solutions to them? Why do 33.3% of people use Upwork? How does it work for freelance? 
-    Does it have any popular competitors?</Typography>
-
-
-<Typography sx={paragraphB}></Typography>
-
-
-
-  
-</Box> 
-
-
-
-{/*competitoranalysis*/}
-
-
-<Box sx={designB}>
-<Typography sx={titleB}>Competitor Analysis</Typography>
-<Typography sx={paragraphB}>I found a few direct competitors alongside Upwork for freelancers such as Fiverr Business and Behance. 
-I also realized that freelancers can connect to clients through indirect competitors such as LinkedIn and Indeed. I gathered intel 
-to know if these competitors provided solutions to freelancers in their problem areas. This is what I discovered:</Typography>
-  
-
-<Card sx={cardStylesB}>
-      <CardMedia
-        component="img"
-        alt="Competitor Analysis"
-        image={CompetitorAnalysis}
-      />
-     
-     
-    </Card>
-
    
-</Box> 
 
-
-
-
+  <Link href="https://forms.gle/z5V81icnB61nhatd9" target="_blank" style={{textDecoration: "none"}}>
+   <Typography sx={paragraphBLink} >
+    Google Forms Survey
+    </Typography>
+  </Link>
 
 
 
 {/*Affinity Map*/}
 
 
-
-<Box sx={designB}>
-
 <Typography sx={titleB}>Affinity Diagram</Typography>
 
 
-<Typography sx={paragraphB}>I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
-discover and organize popular trends from my audience in a logical manner and to see if others feel the same 
-way as David does about freelancing overall: </Typography>
+<Typography sx={paragraphB}>
+    Can we relate to our audience? How can we synthesize our results? One great UX method is through 
+    affinity diagramming! We can add all of our survey results to one whiteboard using sticky notes. For 
+    this project I am using FigJam as an online whiteboard. Our online survey not only gave us fantastic 
+    emotional insights into our audience but also their trending statistics as well. 
+  </Typography>
 
 
 
