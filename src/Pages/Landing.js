@@ -245,11 +245,9 @@ the time to look at my work and I would love to connect.
          Role: UX/UI Designer and Developer
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Field: Online Ed Tech
+         Industry: Online Ed Tech
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Focus: Online Algebra 1 Program Redesign
-        </Typography>
+       
       </CardContent>
       </Link>
     </Card>
@@ -275,11 +273,9 @@ the time to look at my work and I would love to connect.
          Role: UX/UI Designer
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Field: E-Commerce
+         Industry: E-Commerce, Beauty
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Focus: Design Landing International E-Commerce Website
-        </Typography>
+     
       </CardContent>
       </Link>
     </Card>
@@ -299,16 +295,13 @@ the time to look at my work and I would love to connect.
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-         Apparel Designs UX/UI Case Study
+         Apparel Designs
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Role: UX/UI Designer and Developer & Product Designer
+         Role: UX/UI Designer, Product Designer, and Full Stack Developer
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Field: UX/UI Design and Development, Product Design
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Focus: Ecommerce website design using the UX/UI Design Process
+         Industry: E-commerce
         </Typography>
       </CardContent>
       </Link>
@@ -350,10 +343,7 @@ the time to look at my work and I would love to connect.
          Role: UX/UI Researcher
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Field: E-commerce, Entertainment
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Focus: Compare and Contrast Disney VS. Netflix
+         Industry: E-commerce, Entertainment
         </Typography>
       </CardContent>
       </Link>
@@ -383,10 +373,7 @@ the time to look at my work and I would love to connect.
          Role: UX/UI Designer
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Field: E-commerce
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Focus: Design an online project management tool 
+         Industry: E-commerce
         </Typography>
       </CardContent>
       </Link>
@@ -416,10 +403,7 @@ the time to look at my work and I would love to connect.
          Role: Graphic Designer
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Field: Digital and Print Design
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-          Focus: Logo Examples 
+         Industry: Digital and Print Design
         </Typography>
       </CardContent>
       </Link>
