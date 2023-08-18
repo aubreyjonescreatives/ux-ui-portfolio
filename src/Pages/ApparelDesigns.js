@@ -8,8 +8,6 @@ import Box from '@mui/material/Box';
 import ProtoPersonaJake from '../Images/appareldesigns/protopersonajake.png';
 import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
-import ResearchSurveyAge from '../Images/appareldesigns/research/researchage.png'; 
-import ResearchSurveyGender from '../Images/appareldesigns/research/researchgender.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
 import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
@@ -18,7 +16,6 @@ import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
 import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
-import UserQuote from '../Images/catwalkcompany/images/quotes.png'; 
 import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
 import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
@@ -320,14 +317,14 @@ fontWeight: '300'
 }
 
 
-const cardquoteStylesB = {
-  margin: '75px auto 75px auto', 
-  display: 'block', 
-  width: '75%',
-  fontFamily: 'Merriweather',
-fontWeight: '500'
+// const cardquoteStylesB = {
+//   margin: '75px auto 75px auto', 
+//   display: 'block', 
+//   width: '75%',
+//   fontFamily: 'Merriweather',
+// fontWeight: '500'
 
-}
+// }
 
 
 
