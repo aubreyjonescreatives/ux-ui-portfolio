@@ -556,6 +556,61 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
     </Row>
 
 
+    <Typography sx={commonReasons}>
+    Another significant question asked in the surveys was very insightful and confirmed 
+    our first question. As a recap, we wondered what products and services interested people 
+    the most for a small ecommerce business in today's competitive world. Here are the top 
+    three answers to this question:
+  </Typography>
+
+    
+    <Row>
+
+    <Col >
+  <Container sx={age}>
+ 
+  <Typography sx={ageNumbers}>
+    90.9% said
+  </Typography>
+  <Typography sx={ageNumbers}>
+    Clothes
+  </Typography>
+  </Container>
+  </Col>
+
+
+  <Col >
+  <Container sx={age}>
+ 
+  <Typography sx={ageNumbers}>
+    90.9% said
+  </Typography>
+  <Typography sx={ageNumbers}>
+    Cosmetics
+  </Typography>
+  </Container>
+  </Col>
+
+  <Col >
+  <Container sx={age}>
+ 
+  <Typography sx={ageNumbers}>
+    72.7% said
+  </Typography>
+  <Typography sx={ageNumbers}>
+    Electronics
+  </Typography>
+  </Container>
+  </Col>
+
+
+    </Row>
+
+    <Typography sx={paragraphB}>
+    No wonder why a small custom t-shirt company caught on most out of all my small 
+    business ideas!
+  </Typography>
+
     <Typography sx={paragraphB}>
     If you would like to see the full survey, here is a direct link to it:
   </Typography>
@@ -576,31 +631,20 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
 
 
 <Typography sx={paragraphB}>
-    Can we relate to our audience? How can we synthesize our results? One great UX method is 
-    affinity diagramming! We can add all of our survey results to one whiteboard using sticky notes. For 
-    this project I am using FigJam as an online whiteboard. Our online survey not only gave us fantastic 
-    emotional insights into our audience but also their trending statistics as well. 
-  </Typography>
-
-  
-<Typography sx={paragraphB}>
-    If you take a look at our survey results, Google Forms does an excellent job organizing responses by a specific 
-    answer and or individual. This made organizing our data into specific affinity mapping groups much easier. 
+    Can we relate to our audience? How can we synthesize all of our results? One great UX method is 
+    affinity diagramming! I added all of the survey results to one whiteboard using sticky notes and 
+    categorized them into specific groups. For this project I am using FigJam as an online whiteboard.
   </Typography>
 
 <Row>
 
-<Card sx={cardStylesB}>
-      <CardMedia
-        component="img"
-        alt="Affinity Diagram"
-        image={AffinityDiagram}
-      />
-     
-     
-    </Card>
-
-    <Card sx={cardStylesB}>
+<Col>
+<Link href="https://www.figma.com/file/nDeI3ve4CNWSd1dmWNNTiE/appareldesigns-ecommerce-uxui-case-study?type=whiteboard&node-id=0%3A1&t=lSGbznvYWJyD1dBT-1" target="_blank" style={{textDecoration: "none"}}>
+<Typography sx={paragraphBLink} >
+    Link to Full Affinity Diagram FigJam Board
+    </Typography>
+  </Link>
+  <Card sx={cardStylesB}>
       <CardMedia
         component="img"
         alt="Affinity Diagram"
@@ -610,11 +654,16 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
      
     </Card>
 
+</Col>
+
+ 
+
     </Row>
 
    
 <Typography sx={paragraphB}>
-    Affinity Diagram Key Takeaways to Formulate our Audience Advocate:
+    But who wants to look at and read all of our affinity diagram sticky notes? Empathy maps and our 
+    final user persona will really visually display audience goals, needs, frustrations, etc. 
   </Typography>
     
     <Typography sx={paragraphB}>
@@ -622,12 +671,6 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
 
     </Typography>
 
-    <List>
-    <ListItem>•</ListItem>
-    <ListItem></ListItem>
-    </List>
-
-  
 </Box> 
 
 
