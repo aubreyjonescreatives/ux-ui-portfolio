@@ -73,39 +73,39 @@ padding: '0px'
 }
 
 const age = {
-  border: '1px solid #71B48D'
+  border: '1px solid #9E0031'
 }
 
 const gender = {
-  border: '1px solid #71B48D'
+  border: '1px solid #9E0031'
 }
 
 const ageRange = {
   padding: '50px 70px 20px 70px',
   textAlign: 'center', 
   fontSize: '32px',
-  color: '#71B48D',
+  color: '#9E0031',
 }
 
 const ageNumbers = {
   padding: '5px 70px',
   textAlign: 'center',
   fontSize: '36px',
-  color: '#71B48D',
+  color: '#9E0031',
 }
 
 const genderTitle = {
   padding: '50px 70px 20px 70px',
   textAlign: 'center',
   fontSize: '32px',
-  color: '#71B48D',
+  color: '#9E0031',
 }
 
 const genderMajority = {
   padding: '5px 70px',
   textAlign: 'center',
   fontSize: '36px',
-  color: '#71B48D',
+  color: '#9E0031',
 }
 
 
@@ -326,7 +326,7 @@ const paragraphBLink = {
   fontSize: '20px', 
   fontFamily: 'Merriweather',
   fontWeight: '300', 
-  color: '#71B48D'
+  color: '#9E0031'
 
 
 }
