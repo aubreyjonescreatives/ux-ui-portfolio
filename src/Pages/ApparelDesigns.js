@@ -6,14 +6,14 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
+// import List from '@mui/material/List';
+// import ListItem from '@mui/material/ListItem';
 import ProtoPersonaJake from '../Images/appareldesigns/protopersonajake.png';
 import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
 import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
 //import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
 import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
-import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
+//import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
 import ZoomedInAffinityDiagram from '../Images/appareldesigns/research/zoomedinaffinitydiagram.png';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
