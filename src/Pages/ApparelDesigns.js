@@ -71,6 +71,49 @@ padding: '0px'
 
 }
 
+const age = {
+  border: '1px solid #71B48D'
+}
+
+const gender = {
+  border: '1px solid #71B48D'
+}
+
+const ageRange = {
+  padding: '50px 70px 20px 70px',
+  textAlign: 'center', 
+  fontSize: '32px',
+  color: '#71B48D',
+}
+
+const ageNumbers = {
+  padding: '5px 70px',
+  textAlign: 'center',
+  fontSize: '36px',
+  color: '#71B48D',
+}
+
+const genderTitle = {
+  padding: '50px 70px 20px 70px',
+  textAlign: 'center',
+  fontSize: '32px',
+  color: '#71B48D',
+}
+
+const genderMajority = {
+  padding: '5px 70px',
+  textAlign: 'center',
+  fontSize: '36px',
+  color: '#71B48D',
+}
+
+
+const commonReasons = {
+  padding: '40px 70px',
+fontSize: '20px', 
+fontFamily: 'Merriweather', 
+}
+
 
 const headerStylesA = {
   margin: '0px auto', 
@@ -291,7 +334,7 @@ fontWeight: '500'
 const cardStylesB = {
   margin: '75px auto 75px auto', 
   display: 'block', 
-  width: '50%',
+  width: '40%',
   fontFamily: 'Merriweather',
 fontWeight: '500'
 
@@ -419,49 +462,95 @@ fishing, and hiking.</Typography>
 <Typography sx={titleB}>Research Survey</Typography>
 
 <Typography sx={paragraphB}>I needed to confirm Jake's story as my main audience advocate for an ecommerce platform. 
-I created a Google Forms survey so that I could reach mulitple people online. I received 
+As part of my research phase, I created a Google Forms survey so that I could reach mulitple people online. I received 
 interesting mixed results from those that shop online. My survey questions included demographics, preferred online platforms and devices, and 
-online shopping needs:</Typography>
+online shopping trending products:</Typography>
 
-
-<Card sx={cardStylesB}>
-      <CardMedia
-        component="img"
-        alt="Age Results from Survey"
-        image={ResearchSurveyAge}
-      />
-     
-     
-    </Card>
-
-<Card sx={cardStylesB}>
-      <CardMedia
-        component="img"
-        alt="Gender Results from Survey"
-        image={ResearchSurveyGender}
-      />
-     
-     
-    </Card>
-
-
-    <Typography sx={paragraphB}>I first wanted to solidify my audience's demographics such as with age and gender.</Typography>
+<Typography sx={paragraphB}>I first wanted to solidify my audience's demographics such as with age and gender. Turns out, Jake 
+didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography>
     
-    
+
+<Row>
+
+<Col >
+  <Container sx={age}>
+  <Typography sx={ageRange}>
+    Age Range:
+  </Typography>
+  <Typography sx={ageNumbers}>
+    54%
+  </Typography>
+  <Typography sx={ageNumbers}>
+    20-30 years old
+  </Typography>
+  </Container>
+  </Col>
+
+
+  <Col>
+    <Container sx={gender}>
+  <Typography sx={genderTitle}>
+    Gender:
+  </Typography>
+  <Typography sx={genderMajority}>
+    90.9%
+  </Typography>
+  <Typography sx={genderMajority}>
+    female
+  </Typography>
+  </Container>
+  </Col>
+
+
+    </Row>
    
-    <Typography sx={paragraphB}>The study also gave me some insight as far as how users struggled with freelancing, no matter their preferred communication 
-    platform. Some direct quotes included:</Typography>
-    
+    <Typography sx={commonReasons}>
+    I definitely understand why some adults would rather avoid time at the store. Perhaps it's 
+    because when we were kids, shopping was the last thing we wanted to do with our 
+    parents. I gathered survey insights as to why my audience would rather shop online than take
+    the time to run errands in person. Here are just a few anonymous quotes behind their logical 
+    reasoning to avoid potential boredom or confusion:
+  </Typography>
 
-    <Card sx={cardquoteStylesB}>
-      <CardMedia
-        component="img"
-        alt="User Quotes"
-        image={UserQuote}
-      />
-     
-     
-    </Card>
+    
+    <Row>
+
+<Col >
+  <Container sx={age}>
+  <Typography sx={ageRange}>
+  "Easier with little kids."
+  </Typography>
+  </Container>
+  </Col>
+
+  <Col >
+  <Container sx={age}>
+  <Typography sx={ageRange}>
+  "Convenience, gas money, lack of time, things are <br/>
+    constantly moving around inside of stores."
+  </Typography>
+  </Container>
+  </Col>
+
+  <Col >
+  <Container sx={age}>
+  <Typography sx={ageRange}>
+  "I live far from everything."
+  </Typography>
+  </Container>
+  </Col>
+
+
+    </Row>
+   
+    
+    <Typography sx={commonReasons}>
+    Can we relate to our audience? 
+  </Typography>
+
+
+
+
 
     <Typography sx={paragraphB}>As the majority of my responders prefer word of mouth, could I persuade them to join the online community for 
     freelancing if I focused on their frustrations and provided good solutions to them? Why do 33.3% of people use Upwork? How does it work for freelance? 
