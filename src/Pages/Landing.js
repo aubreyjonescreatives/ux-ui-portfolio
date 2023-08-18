@@ -301,7 +301,7 @@ the time to look at my work and I would love to connect.
          Role: UX/UI Designer, Product Designer, and Full Stack Developer
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Industry: E-commerce
+         Industry: E-Commerce
         </Typography>
       </CardContent>
       </Link>
@@ -343,7 +343,7 @@ the time to look at my work and I would love to connect.
          Role: UX/UI Researcher
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Industry: E-commerce, Entertainment
+         Industry: E-Commerce, Entertainment
         </Typography>
       </CardContent>
       </Link>
@@ -373,7 +373,7 @@ the time to look at my work and I would love to connect.
          Role: UX/UI Designer
         </Typography>
         <Typography variant="body1" color="text.secondary">
-         Industry: E-commerce
+         Industry: E-Commerce
         </Typography>
       </CardContent>
       </Link>
