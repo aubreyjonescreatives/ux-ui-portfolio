@@ -752,8 +752,8 @@ shoppers?</Typography>
 <Typography sx={titleA}>User Insight Statement</Typography>
 
 <Typography sx={paragraphA}>Exhausted adults with too much to do need a convinient
-online shopping platform so that they can worry less about basic needs, skip the 
-errands and traffic after a long work day, and enjoy more time with hobbies and loved ones.
+online shopping platform because they do not have time for basic needs, multiple shopping 
+stops, and traffic after a long work day.
 </Typography>
     
 <Typography sx={paragraphA}></Typography>
@@ -771,9 +771,11 @@ errands and traffic after a long work day, and enjoy more time with hobbies and 
 
 <Typography sx={titleA}>Problem Statement</Typography>
 
-<Typography sx={paragraphA}>We believe Catwalk Co will renew communication, creativity, and committment 
-of remote freelancers and clients so that they can acheive higher quality results 
- throughout their digital design projects.</Typography>
+<Typography sx={paragraphA}>We believe Apparel Design will help online shoppers discover 
+competitive products, affordable prices, and trustworthy reviews so that they will 
+avoid multiple in-person shopping stops and get the sleep they need after a long exhausting day. 
+
+</Typography>
     
 <Typography sx={paragraphA}></Typography>
   
