@@ -19,7 +19,7 @@ import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePriori
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
 import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
-import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
+import ILikeIWishWhatIf from '../Images/appareldesigns/ideation/ilikeiwishwhatif.png';
 import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
 import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
@@ -816,8 +816,8 @@ avoid multiple in-person shopping stops and get the sleep they need after a long
 
 
 
-<Typography sx={paragraphB}>After collecting audience data, it's important to brainstorm possible solutions for a better user experience. One great method for this 
-step is the "I Like, I Wish, What If" method as I dig deeper into what feature ideas are most successful and viable for a competitive freelancing app.</Typography>
+<Typography sx={paragraphB}>Now that we understand our audience, 
+we can start brainstorming feature ideas relatable to their wants and needs.</Typography>
     
 
 
