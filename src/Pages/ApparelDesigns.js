@@ -751,7 +751,10 @@ shoppers?</Typography>
 
 <Typography sx={titleA}>User Insight Statement</Typography>
 
-<Typography sx={paragraphA}>Overworked freelancers and disheartened clients need a better collaborative project management platform because it will clarify expectations and organize work ethic boundaries between involved parties.</Typography>
+<Typography sx={paragraphA}>Over-extended adults with too much to do need a convinient
+online shopping platform that provides better product clarity, product comparison analysis, and 
+a user-friendly shopping cart experience so that they can avoid boring in-person errands and relax 
+with their hobbies and loved ones instead.</Typography>
     
 <Typography sx={paragraphA}></Typography>
   
