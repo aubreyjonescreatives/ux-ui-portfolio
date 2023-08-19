@@ -751,10 +751,10 @@ shoppers?</Typography>
 
 <Typography sx={titleA}>User Insight Statement</Typography>
 
-<Typography sx={paragraphA}>Over-extended adults with too much to do need a convinient
-online shopping platform that provides better product clarity, product comparison analysis, and 
-a user-friendly shopping cart experience so that they can avoid boring in-person errands and relax 
-with their hobbies and loved ones instead.</Typography>
+<Typography sx={paragraphA}>Exhausted adults with too much to do need a convinient
+online shopping platform so that they can worry less about basic needs, skip the 
+errands and traffic after a long work day, and enjoy more time with hobbies and loved ones.
+</Typography>
     
 <Typography sx={paragraphA}></Typography>
   
