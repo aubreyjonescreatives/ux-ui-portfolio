@@ -54,8 +54,28 @@ p {
 
 }
 
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.introContainer {
+    clear: both;
+    
+
+}
+
 .navbar-brand {
+    font-family: 'Raleway';
     color: #30638E !important;
+}
+
+.navbar-brand a {
+    color: white;
+    background-color: #30638E;
 }
 
 
@@ -64,7 +84,13 @@ p {
 }
 
 .navbar-nav, .navLink {
+    font-family: 'Raleway';
     color: #02075D !important;
+}
+
+.navbar-nav a:hover, .navLink a:hover {
+    color: white !important;
+    background-color: #02075D;
 }
 
 .navSocial {

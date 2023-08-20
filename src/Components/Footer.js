@@ -8,7 +8,8 @@ const footerStyles = {
   padding: '10px',
   fontFamily: 'Raleway, sans-serif',
   fontWeight: '300', 
-  color: '#02075D'
+  color: '#02075D', 
+  backgroundColor: '#F8F9FA'
 }
 
 

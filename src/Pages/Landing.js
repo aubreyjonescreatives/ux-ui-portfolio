@@ -30,7 +30,8 @@ const introStyles = {
 }
 
 const introContainer = {
-  margin: '100px 100px 100px 50px', 
+  margin: '200px 100px 100px 50px', 
+  clear: 'both'
 }
 
 const introText = {
@@ -52,15 +53,15 @@ const introText = {
 
 
 const casestudyBox = {
-  backgroundColor: '#B4ECF3', 
+  backgroundColor: '#30638E', 
   paddingTop: '20px', 
   paddingBottom: '100px'
 
 }
 
 const headerStylesA = {
-    margin: '100px 100px 20px 50px', 
-    color: '#02075D',
+    margin: '50px 100px 20px 50px', 
+    color: 'white',
     fontSize: '36px', 
     fontFamily: 'Raleway, sans-serif', 
   //  fontWeight: '400', 
@@ -140,10 +141,10 @@ return (
 
 <Box style={{ backgroundImage: `url(${HeroImage})`, width: '100%'}} sx={introStyles}>
 
-<Container sx={introContainer}>
+<Container sx={introContainer} className="introContainer">
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
 
-<Typography sx={introText}>I improve user experiences through empathy, research, and design.</Typography>
+<Typography sx={introText}>I create user experiences through empathy, research, and design.</Typography>
 
 </Container>
 

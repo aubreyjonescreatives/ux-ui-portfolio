@@ -17,12 +17,12 @@ const connectLink = {
     backgroundColor: 'white', 
     margin: '5px', 
     textDecoration: 'none', 
-    color: '#30638E', 
+    color: '#02075D', 
     fontSize: '26px', 
     //border: '1px solid #30638E',
     "&:hover": {
         color: 'white',
-        backgroundColor: '#30638E',
+        backgroundColor: '#02075D',
        // border: '1px solid #30638E', 
         cursor: 'pointer'
        
