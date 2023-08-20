@@ -1,5 +1,6 @@
 import * as React from 'react'; 
-import { Row, Col } from 'react-grid-system';
+import {Row, Col } from 'react-grid-system';
+import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
@@ -16,18 +17,24 @@ import '../../src/Portfolio.css';
 
 
 
-const aboutStyles = {
+const introStyles = {
   paddingTop: '100px', 
   paddingBottom: '150px', 
   backgroundColor: '#fff', 
+  height: '700px'
    
 }
 
-const aboutText = {
+const introContainer = {
+  marginTop: '150px', 
+
+}
+
+const introText = {
   textAlign: 'center',
   fontWeight: '300',
   padding: '10px',
-  fontSize: '24px',
+  fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
 
 }
@@ -48,7 +55,7 @@ const casestudyBox = {
 
 const headerStylesA = {
     margin: '100px 100px 20px 50px', 
-    color: '#71B48D',
+    color: '#30638E',
     fontSize: '36px', 
     fontFamily: 'Raleway, sans-serif', 
   //  fontWeight: '400', 
@@ -126,17 +133,22 @@ const Landing = () => {
 return (
 <>
 
-<Box sx={aboutStyles} id="about">
+<Box sx={introStyles}>
 
-<Typography sx={aboutText}>Hello, I'm Aubrey.</Typography>
+<Container sx={introContainer}>
+<Typography sx={introText}>Hello, I'm Aubrey.</Typography>
 
-<Typography sx={aboutText}>I improve user experiences through research and design.</Typography>
+<Typography sx={introText}>I improve user experiences through research and design.</Typography>
 
-
+</Container>
 
 </Box>
 
 <Box sx={casestudyBox}>
+
+<Typography sx={headerStylesA} id="uxuidesign">Projects</Typography>
+
+
 
 <Typography sx={headerStylesA} id="uxuidesign">UX/UI Design Case Studies</Typography>
 
