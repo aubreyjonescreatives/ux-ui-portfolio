@@ -53,15 +53,15 @@ const introText = {
 
 
 const casestudyBox = {
-  backgroundColor: '#30638E', 
-  paddingTop: '20px', 
+  backgroundColor: 'ffffff', 
+  borderTop: '.5px solid #30638E',
   paddingBottom: '100px'
 
 }
 
 const headerStylesA = {
     margin: '50px 100px 20px 50px', 
-    color: 'white',
+    color: '#30638E',
     fontSize: '36px', 
     fontFamily: 'Raleway, sans-serif', 
   //  fontWeight: '400', 
