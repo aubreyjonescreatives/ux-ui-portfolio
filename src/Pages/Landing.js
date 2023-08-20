@@ -26,16 +26,17 @@ const introStyles = {
 }
 
 const introContainer = {
-  marginTop: '150px', 
-
+  margin: '150px 100px 20px 50px', 
 }
 
 const introText = {
-  textAlign: 'center',
+  textAlign: 'left',
+  
   fontWeight: '300',
   padding: '10px',
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
+  color: '#30638E',
 
 }
 
@@ -79,7 +80,7 @@ const allcardStyles = {
 
 
 const cardStyles = {
-  margin: '20px auto', 
+margin: '20px auto', 
 width: '450px', 
 textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
@@ -138,7 +139,7 @@ return (
 <Container sx={introContainer}>
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
 
-<Typography sx={introText}>I improve user experiences through research and design.</Typography>
+<Typography sx={introText}>I improve user experiences through empathy, research, and design.</Typography>
 
 </Container>
 
