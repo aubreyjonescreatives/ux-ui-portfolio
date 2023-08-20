@@ -54,9 +54,17 @@ p {
 
 }
 
+.navbar-brand {
+    color: #30638E !important;
+}
+
 
 .navbar, .container {
     display: grid; 
+}
+
+.navbar-nav, .navLink {
+    color: #02075D !important;
 }
 
 .navSocial {

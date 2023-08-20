@@ -7,7 +7,8 @@ const footerStyles = {
   textAlign: 'center', 
   padding: '10px',
   fontFamily: 'Raleway, sans-serif',
-  fontWeight: '300'
+  fontWeight: '300', 
+  color: '#02075D'
 }
 
 

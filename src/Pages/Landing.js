@@ -52,7 +52,7 @@ const introText = {
 
 
 const casestudyBox = {
-  backgroundColor: '#eee', 
+  backgroundColor: '#B4ECF3', 
   paddingTop: '20px', 
   paddingBottom: '100px'
 
@@ -60,7 +60,7 @@ const casestudyBox = {
 
 const headerStylesA = {
     margin: '100px 100px 20px 50px', 
-    color: '#30638E',
+    color: '#02075D',
     fontSize: '36px', 
     fontFamily: 'Raleway, sans-serif', 
   //  fontWeight: '400', 
@@ -151,11 +151,11 @@ return (
 
 <Box sx={casestudyBox}>
 
-<Typography sx={headerStylesA} id="uxuidesign">Projects</Typography>
+<Typography sx={headerStylesA} id="projects">Projects</Typography>
+{/* 
 
 
-
-<Typography sx={headerStylesA} id="uxuidesign">UX/UI Design Case Studies</Typography>
+<Typography sx={headerStylesA} id="uxuidesign">UX/UI Design Case Studies</Typography> */}
 
 
 
