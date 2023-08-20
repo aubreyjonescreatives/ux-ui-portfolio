@@ -12,7 +12,7 @@ import ApparelDesigns from './Pages/ApparelDesigns.js';
 import DesignSystems from './Pages/DesignSystems.js';
 import Footer from './Components/Footer'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import './App.css';
+import './Portfolio.css';
 
 
 const Layout = () => {

@@ -20,7 +20,7 @@ const CaseStudyNavBarAP = () => {
 <Navbar bg="light" expand="lg" className="NavBarStyles">
       <Container>
       <Navbar.Brand href="/" className="websiteTitle">AUBREY JONES</Navbar.Brand>
-        <Navbar.Brand href="/appareldesignscasestudy" className="websiteTitle">Apparel Designs <br/> UX/UI Case Study</Navbar.Brand>
+        <Navbar.Brand href="/appareldesignscasestudy" className="websiteTitle">Apparel Designs UX/UI Case Study</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

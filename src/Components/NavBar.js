@@ -20,9 +20,9 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">UX/UI DESIGN CASE STUDIES</Nav.Link>
-            <Nav.Link href="/about">ABOUT</Nav.Link>
-            <Nav.Link href="/resume">RESUME</Nav.Link>
+            <Nav.Link href="/" className="navLink">PROJECTS</Nav.Link>
+            <Nav.Link href="/about" className="navLink">ABOUT</Nav.Link>
+            <Nav.Link href="/resume" className="navLink">RESUME</Nav.Link>
           </Nav>
           <Container className="navSocial">
         <SocialMedia />
