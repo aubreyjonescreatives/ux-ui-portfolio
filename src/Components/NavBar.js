@@ -14,7 +14,7 @@ const NavBar = () => {
 
   return (
   <> 
-<Navbar bg="light" expand="lg" className="NavBar">
+<Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">AUBREY JONES</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

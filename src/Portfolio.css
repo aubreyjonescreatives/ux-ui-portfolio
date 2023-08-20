@@ -55,7 +55,7 @@ p {
 }
 
 
-.NavBar {
+.navbar, .container {
     display: grid; 
 }
 

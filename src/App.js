@@ -9,10 +9,10 @@ import CatwalkCo from './Pages/CatwalkCo';
 import FLCINC from './Pages/FLCINC'; 
 import CT from './Pages/CT'; 
 import ApparelDesigns from './Pages/ApparelDesigns.js'; 
-import LogoDesigns from './Pages/LogoDesigns.js';
+import DesignSystems from './Pages/DesignSystems.js';
 import Footer from './Components/Footer'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+//import './App.css';
 
 
 const Layout = () => {
@@ -43,6 +43,30 @@ const router = createBrowserRouter([
         path: '/resume',
         element: <Resume/>
       }, 
+      {
+        path: '/flcinc',
+        element: <FLCINC/>
+      }, 
+      {
+        path: '/codafitechnology',
+        element: <CT/>
+      }, 
+      {
+        path: '/appareldesignscasestudy',
+        element: <ApparelDesigns/>
+      }, 
+      {
+        path: '/disneyvsnetflix',
+        element: <DisneyVSNetflix/>
+      }, 
+      {
+        path: '/catwalkco',
+        element: <CatwalkCo/>
+      }, 
+      {
+        path: '/designsystems',
+        element: <DesignSystems/>
+      },
     ]
   }
 ])
@@ -54,16 +78,6 @@ const App = () => {
   <RouterProvider router={router}></RouterProvider>
 
 
-   {/* <Router>
-  <Route path="/" exact component={Landing} />
-  <Route path="/disneyvsnetflix" component={DisneyVSNetflix} />
-  <Route path="/catwalkco" component={CatwalkCo} />
-  <Route path="/flcinc" component={FLCINC} />
-  <Route path="/codafitechnology" component={CT} />
-  <Route path="/appareldesignscasestudy" component={ApparelDesigns} />
-  <Route path="/logodesigns" component={LogoDesigns} />
-  <Footer />
-   </Router> */}
    </>
   );
 }
