@@ -1,0 +1,64 @@
+body {
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+
+h2 {
+
+
+
+}
+
+
+h3 {
+
+
+
+}
+
+
+h4 {
+
+
+
+}
+
+
+h5 {
+
+
+
+}
+
+
+h6 {
+
+
+
+}
+
+
+p {
+
+
+
+}
+
+
+.NavBar {
+    display: grid; 
+}
+
+.navSocial {
+    justify-content: end; 
+}

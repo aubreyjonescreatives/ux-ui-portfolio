@@ -1,23 +1,18 @@
 import * as React from 'react'; 
-import NavBar from '../Components/NavBar.js'; 
 import { Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import DVNImage from '../Images/disneyvsnetflix.png';
-import ProtoPersona1 from '../Images/protopersona1.png';
 import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
-import MyEventsinBalsamiq from '../Images/myeventswireframes.png';
-import CCJourneyMap from '../Images/catwalkcompany/images/journeymap.png';
-import CCPrototyping from '../Images/catwalkcompany/images/prototyping/prototyping.png'; 
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
 import tshirtDesigns from '../Images/homemadegifts/tshirtdesigns.png';
 import StoryBook from '../Images/logos/storybookinc.png'; 
-
+import '../../src/Portfolio.css';
 
 
 
@@ -28,63 +23,20 @@ const aboutStyles = {
    
 }
 
-
-
-const headerStyles = {
-margin: '0px 100px 20px 50px', 
-paddingTop: '50px', 
-color: '#71B48D',
-fontSize: '36px', 
-fontFamily: 'Lato',
-fontWeight: '400'
+const aboutText = {
+  textAlign: 'center',
+  fontWeight: '300',
+  padding: '10px',
+  fontSize: '24px',
+  fontFamily: 'Raleway, sans-serif', 
 
 }
 
 
-const headerStylesName = {
-  margin: '0px 100px 20px 50px', 
-  paddingTop: '100px', 
-  color: '#30638E',
-  fontSize: '36px', 
-  fontFamily: 'Lato',
-  fontWeight: '400', 
-  textAlign: 'center', 
-  
-  }
 
 
 
-
-  const headerStylesTitle = {
-    margin: '0px 100px 20px 50px', 
-    paddingTop: '10px', 
-    color: '#71B48D',
-    fontSize: '32px', 
-    fontFamily: 'Sacramento',
-    textAlign: 'center'
-    
-    }
-
-    const headerStylesBackground = {
-      margin: '40px 100px 20px 50px', 
-      color: '#30638E',
-      fontSize: '28px', 
-      fontFamily: 'Lato',
-      fontWeight: '300', 
-      textAlign: 'center', 
-      
-      }
-
-    const typeStylesIntro = {
-      padding: '50px', 
-      width: '90%', 
-      color: '#30638E',
-      fontSize: '20px', 
-      fontFamily: 'Merriweather',
-      fontWeight: '300', 
-      textAlign: 'center', 
-    }
-
+ 
 
 
 const casestudyBox = {
@@ -98,8 +50,8 @@ const headerStylesA = {
     margin: '100px 100px 20px 50px', 
     color: '#71B48D',
     fontSize: '36px', 
-    fontFamily: 'Lato', 
-    fontWeight: '400', 
+    fontFamily: 'Raleway, sans-serif', 
+  //  fontWeight: '400', 
     
     
     
@@ -111,7 +63,7 @@ const headerStylesA = {
 const allcardStyles = {
     display: 'grid',  
     justifyContent: 'center', 
-    fontFamily: 'Lato', 
+    fontFamily: 'Raleway, sans-serif',
     
     
     
@@ -122,9 +74,8 @@ const allcardStyles = {
 const cardStyles = {
   margin: '20px auto', 
 width: '450px', 
-height: '475px',
 textDecoration: 'none',
-fontFamily: 'Lato', 
+fontFamily: 'Raleway, sans-serif', 
 
 }
 
@@ -134,20 +85,11 @@ justifyContent: 'center',
 height: '300px'
 }
 
-const sampleBox = {
-  display: 'flex', 
-  flexWrap: 'wrap',
-  justifyContent: 'center',
-  fontFamily: 'Lato', 
+
+const cardText = {
+  fontFamily: 'Raleway, sans-serif',
 }
 
-const cardStylesSamples = {
-  margin: '25px', 
-  width: '500px',
-  fontFamily: 'Lato', 
-
-
-}
 
 const linkStyles = {
 textDecoration: 'none',
@@ -170,17 +112,6 @@ color: '#30638E',
 
 
 
-const sampleStyles = {
-  paddingBottom: '50px', 
-  
-
-
-
-}
-
-
-
-
 
 
 
@@ -195,23 +126,11 @@ const Landing = () => {
 return (
 <>
 
-<NavBar />
-
 <Box sx={aboutStyles} id="about">
 
-<Typography sx={headerStylesName} id="aboutme">Hello, I'm Aubrey.</Typography>
+<Typography sx={aboutText}>Hello, I'm Aubrey.</Typography>
 
-<Typography sx={headerStylesTitle} id="aboutme">A visual storyteller through UX/UI Design at heart</Typography>
-
-<Typography sx={headerStylesBackground} id="aboutme">with a background in E-Commerce, Entertainment, and Ed-Tech</Typography>
-
-
-<Typography sx={typeStylesIntro}>  I often daydream, learn, execute, and
-teach UX/UI design and frontend web development. I am always
-ready for a challenge that helps customers have a better user
-experience through the latest technologies in those processes. Thanks for taking 
-the time to look at my work and I would love to connect.
-</Typography>
+<Typography sx={aboutText}>I improve user experiences through research and design.</Typography>
 
 
 
@@ -237,18 +156,11 @@ the time to look at my work and I would love to connect.
         sx={cardStylesImage}
         image={FLCINCMockup}
       />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+       <CardContent>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
         Family Literacy Center Internship
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Role: UX/UI Designer and Developer
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Industry: Online Ed Tech
-        </Typography>
-       
-      </CardContent>
+        </CardContent>
       </Link>
     </Card>
   
@@ -266,17 +178,10 @@ the time to look at my work and I would love to connect.
         image={WebsiteUIDesignandRedesign}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Codafi Technology 
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Codafi Technology
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Role: UX/UI Designer
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Industry: E-Commerce, Beauty
-        </Typography>
-     
-      </CardContent>
+        </CardContent>
       </Link>
     </Card>
    
@@ -294,16 +199,10 @@ the time to look at my work and I would love to connect.
         sx={cardStylesImage}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Apparel Designs
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Apparel Designs
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Role: UX/UI Designer, Product Designer, and Full Stack Developer
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Industry: E-Commerce
-        </Typography>
-      </CardContent>
+        </CardContent>
       </Link>
     </Card>
     
@@ -333,19 +232,11 @@ the time to look at my work and I would love to connect.
         image={DVNImage}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Disney VS. Netflix
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Disney Vs. Netflix
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-          UX Research Case Study
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Role: UX/UI Researcher
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Industry: E-Commerce, Entertainment
-        </Typography>
-      </CardContent>
+        </CardContent>
+
       </Link>
     </Card>
   
@@ -363,19 +254,10 @@ the time to look at my work and I would love to connect.
         image={CCFinalMockups}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Catwalk Co
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Catwalk Co
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-          UX/UI Case Study for Project Management
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Role: UX/UI Designer
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Industry: E-Commerce
-        </Typography>
-      </CardContent>
+        </CardContent>
       </Link>
     </Card>
    
@@ -393,19 +275,10 @@ the time to look at my work and I would love to connect.
         sx={cardStylesImage}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Logo Digital Designs
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Design Systems
         </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Digital design projects with real clients  
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Role: Graphic Designer
-        </Typography>
-        <Typography variant="body1" color="text.secondary">
-         Industry: Digital and Print Design
-        </Typography>
-      </CardContent>
+        </CardContent>
       </Link>
     </Card>
     
@@ -421,88 +294,6 @@ the time to look at my work and I would love to connect.
 
 
     </Box>
-
-<Box sx={sampleStyles}>
-
-<Typography sx={headerStyles} id="samplework">SAMPLE WORK</Typography>
-
-<Box sx={sampleBox}>
-
-<Card sx={cardStylesSamples}>
-   
-      <CardMedia
-        component="img"
-        alt="Tesla Solar Group Project"
-        image={ProtoPersona1}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Proto Persona
-        </Typography>
-       
-      </CardContent>
-     
-    </Card>
-
-
-    <Card sx={cardStylesSamples}>
-   
-   <CardMedia
-     component="img"
-     alt="Journey Map"
-     image={CCJourneyMap}
-   />
-   <CardContent>
-     <Typography gutterBottom variant="h5" component="div">
-     Journey Map
-     </Typography>
-    
-   </CardContent>
-  
- </Card>
-
-
-
-    <Card sx={cardStylesSamples}>
-   
-   <CardMedia
-     component="img"
-     alt="Balsamiq Wireframing"
-     image={MyEventsinBalsamiq}
-   />
-   <CardContent>
-     <Typography gutterBottom variant="h5" component="div">
-      Balsamiq Wireframing
-     </Typography>
-    
-   </CardContent>
-  
- </Card>
-
-
-
- <Card sx={cardStylesSamples}>
-   
-      <CardMedia
-        component="img"
-        alt="Figma Prototyping"
-        image={CCPrototyping}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-         Figma Prototyping
-        </Typography>
-       
-      </CardContent>
-     
-    </Card>
-
-    
-
-
-    </Box>
-
-</Box>
 
 
 

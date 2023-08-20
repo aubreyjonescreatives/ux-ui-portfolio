@@ -1,6 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom'; 
+import { createBrowserRouter, RouterProvider, Outlet} from 'react-router-dom'; 
+import NavBar from './Components/NavBar'; 
 import Landing from './Pages/Landing';
+import About from './Pages/About';
+import Resume from './Pages/Resume'; 
 import DisneyVSNetflix from './Pages/DisneyVSNetflix';
 import CatwalkCo from './Pages/CatwalkCo'; 
 import FLCINC from './Pages/FLCINC'; 
@@ -12,11 +15,46 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
+const Layout = () => {
+  return (
+    <>
+    <NavBar />
+    <Outlet />
+    <Footer />
+    </>
+  )
+}
+
+const router = createBrowserRouter([
+  {
+    path: '/', 
+    element: <Layout />,
+
+    children: [
+      {
+        path: '/',
+        element: <Landing/>
+      }, 
+      {
+        path: '/about',
+        element: <About/>
+      }, 
+      {
+        path: '/resume',
+        element: <Resume/>
+      }, 
+    ]
+  }
+])
+
 
 const App = () => {
   return (
    <>
-   <Router>
+  <RouterProvider router={router}></RouterProvider>
+
+
+   {/* <Router>
   <Route path="/" exact component={Landing} />
   <Route path="/disneyvsnetflix" component={DisneyVSNetflix} />
   <Route path="/catwalkco" component={CatwalkCo} />
@@ -25,7 +63,7 @@ const App = () => {
   <Route path="/appareldesignscasestudy" component={ApparelDesigns} />
   <Route path="/logodesigns" component={LogoDesigns} />
   <Footer />
-   </Router>
+   </Router> */}
    </>
   );
 }
