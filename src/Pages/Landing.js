@@ -1,4 +1,5 @@
 import * as React from 'react'; 
+import HeroImage from '../Images/landing/heroimage.png';
 import {Row, Col } from 'react-grid-system';
 import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
@@ -18,15 +19,18 @@ import '../../src/Portfolio.css';
 
 
 const introStyles = {
-  paddingTop: '100px', 
-  paddingBottom: '150px', 
+  height: '600px',
+  maxHeight: '600px',
+ // paddingTop: '100px', 
+ // paddingBottom: '150px', 
   backgroundColor: '#fff', 
-  height: '700px'
+  width: '100%', 
+  display: 'block'
    
 }
 
 const introContainer = {
-  margin: '150px 100px 20px 50px', 
+  margin: '100px 100px 100px 50px', 
 }
 
 const introText = {
@@ -134,7 +138,7 @@ const Landing = () => {
 return (
 <>
 
-<Box sx={introStyles}>
+<Box style={{ backgroundImage: `url(${HeroImage})`, width: '100%'}} sx={introStyles}>
 
 <Container sx={introContainer}>
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
