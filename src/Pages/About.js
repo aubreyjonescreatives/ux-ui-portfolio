@@ -365,7 +365,8 @@ const About = () => {
       questions. Unfortunately this in turn reflected as inexperience, and they let me go from the current project. I continued my 
       schooling at UVU and learned Figma ropes when working for the edX online bootcamp. I now teach current Figma practices to others 
       through smooth step-by-step demos. I also have a different attitude about life. I recognize failures and mistakes happen to everyone, especially 
-      when working with humans and tech.   
+      when working with humans and tech. I take a challenge, ask questions to Google and trusted mentors, and look through all possible 
+      solutions. I find the best answer with the best results and proceed with that information.   
     </Typography>
 
     </Container>
@@ -374,7 +375,7 @@ const About = () => {
     <Container>
     <Typography sx={questionStyles}>3. What are some of the biggest challenges you face as a UX designer?</Typography>
    <Typography sx={answerStyles}>Back in the day, I hated receiving pixel-to-pixel feedback on my digital wireframes. I felt like it was 
-      a waste of time when I only needed a few pointers. I was not a visual designer at Codafi Technology. Since then, I 
+      a waste of time when I only needed a few pointers. I was not a visual designer at the startup. Since then, I 
       recognize I learn most and become a stronger UX/UI designer from feedback. I now have a thicker skin for it 
       and value its need in my process.    
     </Typography>
@@ -402,6 +403,12 @@ const About = () => {
 
     </Container>
 
+
+
+    </Box>
+
+    <Box>
+    <Typography sx={headerStylesA}>Hobbies</Typography>
 
 
     </Box>

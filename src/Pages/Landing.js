@@ -144,7 +144,7 @@ return (
 <Container sx={introContainer} className="introContainer">
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
 
-<Typography sx={introText}>I create user experiences through empathy, research, and design.</Typography>
+<Typography sx={introText}>I create human experiences through empathy, research and design.</Typography>
 
 </Container>
 
