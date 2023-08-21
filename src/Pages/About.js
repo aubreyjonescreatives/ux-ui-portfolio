@@ -280,20 +280,20 @@ const About = () => {
       and audience needs in this phase.
     </Typography>
 
-    <Typography>2. After I collect my research, I start to gather ideas based on audience needs and 
-      wants in the define phase. Lots of possibilities happen in this step. The sky is literally the limit. However, due 
+    <Typography>2. After I collect my research, I start the define phase by gathering ideas based on audience needs and 
+      wants. Lots of possibilities happen in this phase. The sky is literally the limit. However, due 
       to project constraints such as time and money, we cannot encourage scope creep and spend countless hours creating 
-      every possibility. My define stage also targets most important features that still give value to the overall project. 
-      I've been on a team where we had all of the same email ideas as Gmail, and our client scrapped most of them for the first 
+      every possibility. My define phase also targets most important features that still give value to the overall project. 
+      I've been on a team where we've had all of the same email ideas as Gmail, and our client scrapped most of them for the first 
       version! Not every idea will fall into production and I usually like to keep notes of ideas for future versions just in 
       case. 
     </Typography>
 
-    <Typography>3. The develop stage usually involves the actual designs for each features. Each feature, whether in the navigation bar 
-      or on a card takes precious website real estate. We can then test out these designs to discover any usability disconnects. After 
-      we confirm a happy ending, we can deliver our final product to the client.   
+    <Typography>3. The develop phase usually involves the actual designs for each features. Each feature, whether as an icon in the 
+      navigation bar or on a card takes precious wireframe real estate. I can then test out these designs to discover any usability 
+      disconnects.   
     </Typography>
-    <Typography>4. When we confirm a happy ending, we can deliver our final product to the client.   
+    <Typography>4. When I confirm a happy ending for both our clients and audience, I can deliver our final product to the client.   
     </Typography>
 
 
