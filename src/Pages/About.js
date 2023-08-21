@@ -63,6 +63,29 @@ maxHeight: '400px'
 }
 
 
+const questionStyles = {
+  fontFamily: 'Raleway, sans-serif',
+  fontSize: '28px', 
+  color: '#30638E',
+  padding: '50px 0px'
+}
+
+const answerStyles = {
+  fontFamily: 'Raleway, sans-serif',
+  padding: '10px 0px'
+}
+
+const testimonialTitle = {
+  fontFamily: 'Raleway, sans-serif',
+  fontSize: '28px', 
+  color: '#30638E',
+  padding: '50px 0px'
+}
+
+const testimonialParagraph = {
+  fontFamily: 'Raleway, sans-serif',
+  padding: '10px 0px'
+}
 
 
 const About = () => {
@@ -255,14 +278,51 @@ const About = () => {
     
     </Box>
 
+    <Box>
+
+    <Typography sx={headerStylesA} id="aboutme">What Do My Managers, Co-Workers, and Students Say About Me?</Typography>
+
+    <Container>
+    <Typography sx={testimonialTitle}>Managers</Typography>
+    <Typography sx={testimonialParagraph}>"I highly recommend Aubrey without any reservation." -Deanna Weierholt, The Family Literacies Director</Typography>
+    <Typography sx={testimonialParagraph}>"You are incredibly talented and very much a leader. Thank you for sharing your skills in our program." -Corrine Padilla, Senior Student Sucess Manager, -edX Bootcamps</Typography>
+    </Container>
+
+    <Container>
+    <Typography sx={testimonialTitle}>Co-Workers</Typography>
+    <Typography sx={testimonialParagraph}>"Aubrey Jones is an amazing talent. She is a talented UX/UI Designer with a deep understanding of 
+      Design Thinking and User-Centered Design and a very talented front-end developer. 
+      Aubrey is a problem-solver and team player who always does more than her share. Because of her background in education, 
+      she brings those skills to the table, and it is needless to say, Aubrey is an excellent c.ommunicator and someone you always 
+      count on." -Bob Marberry, Lead Instructor -edX Bootcamps</Typography>
+    <Typography sx={testimonialParagraph}>"It's rare that you you come across a person like Aubrey. She always came to teach class prepared with a positive attitude and a vast array of skills. 
+      I'm so happy that I was able to have Aubrey on our education team because I knew I could trust her to get the job done efficiently. " 
+      -Sarah Mendez, TA -edX Bootcamps</Typography>
+    </Container>
+
+
+    <Container>
+    <Typography sx={testimonialTitle}>Students</Typography>
+    <Typography sx={testimonialParagraph}>"I highly recommend Aubrey as an exceptional UX tutor who possesses a wealth of knowledge and resourcefulness in the field. Her 
+      support, deep knowledge of the field, and ability to solve complex problems made the learning journey not only insightful, 
+      but also enjoyable. Her guidance was instrumental in honing my UX skills and I am truly grateful for her expertise. " 
+      -Sophie Koumoudouros, Student -edX Bootcamps</Typography>
+    </Container>
+
+
+    </Box>
+
 
     <Box>
 
+   {/*  //questions sourced from this website: https://www.toptal.com/designers/ux/interview-questions
+
+    //my answers are from me* */}
 
     <Typography sx={headerStylesA} id="aboutme">Interview Q&A</Typography>
 
     <Container>
-    <Typography>1. Describe your design process and what methods you follow.</Typography>
+    <Typography sx={questionStyles}>1. Describe your design process and what methods you follow.</Typography>
     <Card sx={cardStyles}>
     <CardMedia
         component="img"
@@ -272,15 +332,14 @@ const About = () => {
       />
     
     </Card>
-    <Typography>Answer: </Typography>
-    <Typography>1. My design process is a visual story. It begins with discovering a capitvating idea. Once I have an 
+    <Typography sx={answerStyles}>1. My design process is a visual story. It begins with discovering a capitvating idea. Once I have an 
       idea, I start my research. I start asking questions as I organize a plan for that idea. Some questions involve 
       who is my main audience advocate, whom are my current competitors, what is the minimum viable product for this idea,
       is my idea a worthy investment? etc. I gather answers through surveys and interviews. I want to understand my audience 
       and audience needs in this phase.
     </Typography>
 
-    <Typography>2. After I collect my research, I start the define phase by gathering ideas based on audience needs and 
+    <Typography sx={answerStyles}>2. After I collect my research, I start the define phase by gathering ideas based on audience needs and 
       wants. Lots of possibilities happen in this phase. The sky is literally the limit. However, due 
       to project constraints such as time and money, we cannot encourage scope creep and spend countless hours creating 
       every possibility. My define phase also targets most important features that still give value to the overall project. 
@@ -289,14 +348,57 @@ const About = () => {
       case. 
     </Typography>
 
-    <Typography>3. The develop phase usually involves the actual designs for each features. Each feature, whether as an icon in the 
+    <Typography sx={answerStyles}>3. The develop phase usually involves the actual designs for each features. Each feature, whether as an icon in the 
       navigation bar or on a card takes precious wireframe real estate. I can then test out these designs to discover any usability 
       disconnects.   
     </Typography>
-    <Typography>4. When I confirm a happy ending for both our clients and audience, I can deliver our final product to the client.   
+    <Typography sx={answerStyles}>4. When I confirm a happy ending for both our clients and audience, I can deliver our final product to the client.   
     </Typography>
 
 
+
+    </Container>
+
+    <Container>
+    <Typography sx={questionStyles}>2.Describe a recent project you were particularly challenged by and how you approached the problem.</Typography>
+    <Typography sx={answerStyles}>When I worked for a start-up as a UX/UI designer in 2020, I was very new to Figma. I approached this problem by asking a lot of 
+      questions. Unfortunately this in turn reflected as inexperience, and they let me go from the current project. I continued my 
+      schooling at UVU and learned Figma ropes when working for the edX online bootcamp. I now teach current Figma practices to others 
+      through smooth step-by-step demos. I also have a different attitude about life. I recognize failures and mistakes happen to everyone, especially 
+      when working with humans and tech.   
+    </Typography>
+
+    </Container>
+
+
+    <Container>
+    <Typography sx={questionStyles}>3. What are some of the biggest challenges you face as a UX designer?</Typography>
+   <Typography sx={answerStyles}>Back in the day, I hated receiving pixel-to-pixel feedback on my digital wireframes. I felt like it was 
+      a waste of time when I only needed a few pointers. I was not a visual designer at Codafi Technology. Since then, I 
+      recognize I learn most and become a stronger UX/UI designer from feedback. I now have a thicker skin for it 
+      and value its need in my process.    
+    </Typography>
+   
+    </Container>
+
+    
+    <Container>
+    <Typography sx={questionStyles}>4. What does the term 'design-thinking' mean to you?</Typography>
+    <Typography sx={answerStyles}> 'Design-thinking' is a process that focuses on the human experience with technology. It backs up every digital 
+      design idea with empathy and statistics. We can't plaster shapes and lines on a website without thought. Design-thinking 
+      gives reason to design.    
+    </Typography>
+
+    </Container>
+
+
+    <Container>
+    <Typography sx={questionStyles}>5. When a client says: “I don't like this design.” What do you do?</Typography>
+    <Typography sx={answerStyles}> I ask questions! Throughout my experience as a UX/UI designer, I have worked with difficult clients and 
+      easygoing ones. I want to make good use of the 5-whys method where I can dive deeper into the client's vision and 
+      goals. I love to brainstorm with my clients and we have a lot of beautiful resources at our fingertips to help 
+      communicate design decisions before production.     
+    </Typography>
 
     </Container>
 
