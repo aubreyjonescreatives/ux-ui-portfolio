@@ -276,7 +276,8 @@ const About = () => {
     <Typography>1. My design process is a visual story. It begins with discovering a capitvating idea. Once I have an 
       idea, I start my research. I start asking questions as I organize a plan for that idea. Some questions involve 
       who is my main audience advocate, whom are my current competitors, what is the minimum viable product for this idea,
-      is my idea a worthy investment? etc.
+      is my idea a worthy investment? etc. I gather answers through surveys and interviews. I want to understand my audience 
+      and audience needs in this phase.
     </Typography>
 
     <Typography>2. After I collect my research, I start to gather ideas based on audience needs and 
