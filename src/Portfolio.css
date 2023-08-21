@@ -80,7 +80,13 @@ p {
 
 
 .navbar, .container {
-    display: grid; 
+    display: grid;
+   
+}
+
+.navbar {
+    background-color: white !important;
+    border-bottom: 1px solid #02075D; 
 }
 
 .navbar-nav, .navLink {

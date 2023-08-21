@@ -41,7 +41,7 @@ const introText = {
   padding: '10px',
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
-  color: '#30638E',
+  color: '#02075D',
 
 }
 
@@ -61,7 +61,7 @@ const casestudyBox = {
 
 const headerStylesA = {
     margin: '50px 100px 20px 50px', 
-    color: '#30638E',
+    color: '#02075D',
     fontSize: '36px', 
     fontFamily: 'Raleway, sans-serif', 
   //  fontWeight: '400', 

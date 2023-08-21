@@ -17,6 +17,16 @@ import StoryBoardBox9 from '../Images/aboutme/ninthbox.png';
 import MyDesignProcess from '../Images/aboutme/designprocess.png';
 
 
+
+
+  
+const boxStylesA = {
+  backgroundColor: '#ffffff', 
+ paddingBottom: '75px'
+
+}
+
+
 const headerStylesA = {
   margin: '125px 100px 20px 50px', 
   color: '#02075D',
@@ -28,14 +38,23 @@ const headerStylesA = {
   
   }
 
-
-  
-const casestudyBox = {
-  backgroundColor: 'ffffff', 
-  borderTop: '.5px solid #30638E',
-  paddingBottom: '100px'
+const boxStylesB = {
+  backgroundColor: '#F8F9FA', 
+  paddingTop: '5px',
+  paddingBottom: '50px'
 
 }
+
+const headerStylesB = {
+  margin: '75px 100px 20px 50px', 
+  color: '#02075D',
+  fontSize: '36px', 
+  fontFamily: 'Raleway, sans-serif', 
+//  fontWeight: '400', 
+  
+  
+  
+  }
 
 
 
@@ -91,7 +110,7 @@ const testimonialParagraph = {
 const About = () => {
   return (
     <>
-    <Box sx={casestudyBox}>
+    <Box sx={boxStylesA}>
 
     <Typography sx={headerStylesA} id="aboutme">About Me</Typography>
 
@@ -278,9 +297,9 @@ const About = () => {
     
     </Box>
 
-    <Box>
+    <Box sx={boxStylesB}>
 
-    <Typography sx={headerStylesA} id="aboutme">What Do My Managers, Co-Workers, and Students Say About Me?</Typography>
+    <Typography sx={headerStylesB} id="aboutme">What Do My Managers, Co-Workers, and Students Say About Me?</Typography>
 
     <Container>
     <Typography sx={testimonialTitle}>Managers</Typography>
@@ -313,13 +332,13 @@ const About = () => {
     </Box>
 
 
-    <Box>
+    <Box sx={boxStylesA}>
 
    {/*  //questions sourced from this website: https://www.toptal.com/designers/ux/interview-questions
 
     //my answers are from me* */}
 
-    <Typography sx={headerStylesA} id="aboutme">Interview Q&A</Typography>
+    <Typography sx={headerStylesB} id="aboutme">Interview Q&A</Typography>
 
     <Container>
     <Typography sx={questionStyles}>1. Describe your design process and what methods you follow.</Typography>
@@ -407,8 +426,8 @@ const About = () => {
 
     </Box>
 
-    <Box>
-    <Typography sx={headerStylesA}>Hobbies</Typography>
+    <Box sx={boxStylesB}>
+    <Typography sx={headerStylesB}>Hobbies</Typography>
 
 
     </Box>

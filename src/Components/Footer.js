@@ -9,7 +9,8 @@ const footerStyles = {
   fontFamily: 'Raleway, sans-serif',
   fontWeight: '300', 
   color: '#02075D', 
-  backgroundColor: '#F8F9FA'
+  backgroundColor: 'white', 
+  borderTop: '1px solid #02075D'
 }
 
 
