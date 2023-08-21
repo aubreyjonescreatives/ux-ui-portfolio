@@ -15,6 +15,7 @@ import StoryBoardBox6 from '../Images/aboutme/sixthbox.png';
 import StoryBoardBox7 from '../Images/aboutme/seventhbox.png';
 import StoryBoardBox8 from '../Images/aboutme/eighthbox.png';
 import StoryBoardBox9 from '../Images/aboutme/ninthbox.png';
+import MyDesignProcess from '../Images/aboutme/designprocess.png';
 
 
 const headerStylesA = {
@@ -67,7 +68,7 @@ maxHeight: '400px'
 
 const About = () => {
   return (
-  
+    <>
     <Box sx={casestudyBox}>
 
     <Typography sx={headerStylesA} id="aboutme">About Me</Typography>
@@ -254,6 +255,53 @@ const About = () => {
 
     
     </Box>
+
+
+    <Box>
+
+
+    <Typography sx={headerStylesA} id="aboutme">Interview Q&A</Typography>
+
+    <Container>
+    <Typography>1. Describe your design process and what methods you follow.</Typography>
+    <Card sx={cardStyles}>
+    <CardMedia
+        component="img"
+        alt="My Story"
+        image={MyDesignProcess}
+        sx={cardStylesImage}
+      />
+    
+    </Card>
+
+    <Typography>A. My design process is a visual story. It begins with discovering a capitvating idea. Once I have an 
+      idea, I start my research. I start asking questions as I organize a plan for that idea. Some questions involve 
+      who is my main audience advocate, whom are my current competitors, what is the minimum viable product for this idea,
+      is my idea a worthy investment? etc.
+    </Typography>
+
+    <Typography>B. After I collect my research, I start to gather ideas based on audience needs and 
+      wants in the define phase. Lots of possibilities happen in this step. The sky is literally the limit. However, due 
+      to project constraints such as time and money, we cannot encourage scope creep and spend countless hours creating 
+      every possibility. My define stage also targets most important features that still give value to the overall project. 
+      I've been on a team where we had all of the same email ideas as Gmail, and our client scrapped most of them for the first 
+      version! Not every idea will fall into production and I usually like to keep notes of ideas for future versions just in 
+      case. 
+    </Typography>
+
+    <Typography>C. The develop stage usually involves the actual designs for each features. Each feature, whether in the navigation bar 
+      or on a card takes precious website real estate. We can then test out these designs to discover any usability disconnects. After 
+      we confirm a happy ending, we can deliver our final product to the client.   
+    </Typography>
+
+
+
+    </Container>
+
+
+
+    </Box>
+</>
   )
 }
 
