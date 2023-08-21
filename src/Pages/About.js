@@ -272,14 +272,14 @@ const About = () => {
       />
     
     </Card>
-
-    <Typography>A. My design process is a visual story. It begins with discovering a capitvating idea. Once I have an 
+    <Typography>Answer: </Typography>
+    <Typography>1. My design process is a visual story. It begins with discovering a capitvating idea. Once I have an 
       idea, I start my research. I start asking questions as I organize a plan for that idea. Some questions involve 
       who is my main audience advocate, whom are my current competitors, what is the minimum viable product for this idea,
       is my idea a worthy investment? etc.
     </Typography>
 
-    <Typography>B. After I collect my research, I start to gather ideas based on audience needs and 
+    <Typography>2. After I collect my research, I start to gather ideas based on audience needs and 
       wants in the define phase. Lots of possibilities happen in this step. The sky is literally the limit. However, due 
       to project constraints such as time and money, we cannot encourage scope creep and spend countless hours creating 
       every possibility. My define stage also targets most important features that still give value to the overall project. 
@@ -288,9 +288,11 @@ const About = () => {
       case. 
     </Typography>
 
-    <Typography>C. The develop stage usually involves the actual designs for each features. Each feature, whether in the navigation bar 
+    <Typography>3. The develop stage usually involves the actual designs for each features. Each feature, whether in the navigation bar 
       or on a card takes precious website real estate. We can then test out these designs to discover any usability disconnects. After 
       we confirm a happy ending, we can deliver our final product to the client.   
+    </Typography>
+    <Typography>4. When we confirm a happy ending, we can deliver our final product to the client.   
     </Typography>
 
 
