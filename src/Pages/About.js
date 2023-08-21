@@ -19,7 +19,7 @@ import MyDesignProcess from '../Images/aboutme/designprocess.png';
 
 const headerStylesA = {
   margin: '125px 100px 20px 50px', 
-  color: '#30638E',
+  color: '#02075D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
 //  fontWeight: '400', 
@@ -66,7 +66,7 @@ maxHeight: '400px'
 const questionStyles = {
   fontFamily: 'Raleway, sans-serif',
   fontSize: '28px', 
-  color: '#30638E',
+  color: '#02075D',
   padding: '50px 0px'
 }
 
@@ -78,7 +78,7 @@ const answerStyles = {
 const testimonialTitle = {
   fontFamily: 'Raleway, sans-serif',
   fontSize: '28px', 
-  color: '#30638E',
+  color: '#02075D',
   padding: '50px 0px'
 }
 
