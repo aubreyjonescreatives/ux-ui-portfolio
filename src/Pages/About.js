@@ -15,7 +15,8 @@ import StoryBoardBox7 from '../Images/aboutme/seventhbox.png';
 import StoryBoardBox8 from '../Images/aboutme/eighthbox.png';
 import StoryBoardBox9 from '../Images/aboutme/ninthbox.png';
 import MyDesignProcess from '../Images/aboutme/designprocess.png';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCamera, faPassport, faPersonHiking, faGamepad, faPaintbrush  } from '@fortawesome/free-solid-svg-icons' ;
 
 
 
@@ -106,6 +107,24 @@ const testimonialParagraph = {
   padding: '10px 0px'
 }
 
+
+const allIcons = {
+display: 'flex',
+flexDirection: 'row', 
+alignItems: 'center'
+}
+
+
+const oneIcon = {
+  color: '#02075D',
+}
+
+const aboutIcon = {
+  fontFamily: 'Raleway, sans-serif',
+  textAlign: 'center', 
+  fontSize: '20px', 
+
+}
 
 const About = () => {
   return (
@@ -428,8 +447,43 @@ const About = () => {
 
     <Box sx={boxStylesB}>
     <Typography sx={headerStylesB}>Hobbies</Typography>
+<Container sx={allIcons}>
+    <Container sx={oneIcon}>
+      <Typography sx={aboutIcon}>
+      <FontAwesomeIcon icon={faCamera} />
+      </Typography>
+      <Typography sx={aboutIcon}>Photography</Typography>
+    </Container>
+
+    <Container sx={oneIcon}>
+      <Typography sx={aboutIcon}>
+      <FontAwesomeIcon icon={faPassport} />
+      </Typography>
+      <Typography sx={aboutIcon}>Travel</Typography>
+    </Container>
+
+    <Container sx={oneIcon}>
+      <Typography sx={aboutIcon}>
+      <FontAwesomeIcon icon={faPersonHiking} />
+      </Typography>
+      <Typography sx={aboutIcon}>Hiking</Typography>
+    </Container>
+
+    <Container sx={oneIcon}>
+      <Typography sx={aboutIcon}>
+      <FontAwesomeIcon icon={faGamepad} />
+      </Typography>
+      <Typography sx={aboutIcon}>Gaming</Typography>
+    </Container>
 
 
+    <Container sx={oneIcon}>
+      <Typography sx={aboutIcon}>
+      <FontAwesomeIcon icon={faPaintbrush} />
+      </Typography>
+      <Typography sx={aboutIcon}>Painting</Typography>
+    </Container>
+    </Container>
     </Box>
 </>
   )
