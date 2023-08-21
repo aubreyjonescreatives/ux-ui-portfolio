@@ -352,7 +352,7 @@ const About = () => {
       navigation bar or on a card takes precious wireframe real estate. I can then test out these designs to discover any usability 
       disconnects.   
     </Typography>
-    <Typography sx={answerStyles}>4. When I confirm a happy ending for both our clients and audience, I can deliver our final product to the client.   
+    <Typography sx={answerStyles}>4. When I can confirm a happy ending for both clients and their audience, I can deliver our final product to development.   
     </Typography>
 
 
