@@ -4,13 +4,15 @@ import '../../src/Portfolio.css';
 
 
 const footerStyles = {
+  clear: 'both',
   textAlign: 'center', 
   padding: '10px',
   fontFamily: 'Raleway, sans-serif',
   fontWeight: '300', 
   color: '#02075D', 
   backgroundColor: 'white', 
-  borderTop: '1px solid #02075D'
+  borderTop: '1px solid #02075D',
+  marginTop: '100px'
 }
 
 
