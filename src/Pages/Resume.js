@@ -35,14 +35,14 @@ const cardStyles = {
 }
 
 const resumeType = {
-  margin: '50px 100px 20px 50px', 
+  margin: '50px 100px 50px 50px', 
   color: '#02075D',
   fontSize: '24px', 
   fontFamily: 'Raleway, sans-serif', 
 }
 
 const resumelink = {
-  margin: '100px 50px',
+  margin: '150px 50px',
   fontFamily: 'Raleway, sans-serif',
   textDecoration: 'none',
   backgroundColor: '#02075D',
