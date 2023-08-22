@@ -42,7 +42,7 @@ const resumeType = {
 }
 
 const resumelink = {
-  margin: '0px 100px',
+  margin: '100px 50px',
   fontFamily: 'Raleway, sans-serif',
   textDecoration: 'none',
   backgroundColor: '#02075D',
