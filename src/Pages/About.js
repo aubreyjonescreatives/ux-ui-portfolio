@@ -139,11 +139,11 @@ const About = () => {
    
     <Box sx={boxStylesA}>
 
-    <Container>
+    
     <Container>
     <Typography sx={headerStylesA} id="aboutme">About Me</Typography>
     </Container>
-    </Container>
+   
 
     <Container sx={allcardStyles}>
 

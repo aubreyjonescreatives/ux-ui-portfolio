@@ -55,7 +55,9 @@ const resumelink = {
 const Resume = () => {
   return (
     <>
+     <Container>
     <Box>
+   
     <Typography sx={headerStylesA}>Resume</Typography>
 
     <Container sx={resumeStyles}>
@@ -80,8 +82,10 @@ const Resume = () => {
     <Typography sx={resumeType}>If you would like a downloadable PDF version, click this link:</Typography>
 
     <Link sx={resumelink} href={ResumePDF} target="_blank">RESUME</Link>
-
+    
     </Box>
+
+    </Container>
     </>
   )
 }

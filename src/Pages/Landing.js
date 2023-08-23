@@ -18,6 +18,9 @@ import '../../src/Portfolio.css';
 
 
 
+
+
+
 const introStyles = {
   height: '600px',
   maxHeight: '600px',
@@ -38,7 +41,7 @@ const introText = {
   textAlign: 'left',
   
   fontWeight: '300',
-  padding: '10px',
+  margin: '10px 0px',
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
   color: '#02075D',
@@ -137,6 +140,7 @@ const Landing = () => {
 
 return (
 <>
+
 
 <Box style={{ backgroundImage: `url(${HeroImage})`, width: '100%'}} sx={introStyles}>
 
@@ -310,8 +314,6 @@ return (
 
 
 </div>
-
-
 
 </>
 
