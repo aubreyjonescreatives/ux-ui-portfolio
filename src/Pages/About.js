@@ -19,17 +19,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCamera, faPassport, faPersonHiking, faGamepad, faPaintbrush  } from '@fortawesome/free-solid-svg-icons' ;
 
 
+const Everything = {
+  display: 'grid',
+  margin: '100px auto',
+  justifyContent: 'center', 
+  width: '100%',
+}
 
   
 const boxStylesA = {
-  backgroundColor: '#ffffff', 
+ backgroundColor: '#ffffff', 
  paddingBottom: '75px'
 
 }
 
 
 const headerStylesA = {
-  margin: '125px 100px 20px 50px', 
+  //margin: '50px auto', 
   color: '#02075D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
@@ -42,12 +48,14 @@ const headerStylesA = {
 const boxStylesB = {
   backgroundColor: '#F8F9FA', 
   paddingTop: '5px',
-  paddingBottom: '50px'
+  paddingBottom: '50px',
+  width: '100%'
 
 }
 
 const headerStylesB = {
-  margin: '75px 100px 20px 50px', 
+  justifyContent: 'start',
+  margin: '50px auto',
   color: '#02075D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
@@ -60,9 +68,7 @@ const headerStylesB = {
 
 
 const allcardStyles = {
-  display: 'grid',  
-  justifyContent: 'center', 
-  fontFamily: 'Raleway, sans-serif',
+ fontFamily: 'Raleway, sans-serif',
   
   
   
@@ -78,40 +84,37 @@ fontFamily: 'Raleway, sans-serif',
 }
 
 const cardStylesImage = {
-justifyContent: 'center', 
-maxHeight: '400px'
-}
-
-
-const questionStyles = {
-  fontFamily: 'Raleway, sans-serif',
-  fontSize: '28px', 
-  color: '#02075D',
-  padding: '50px 0px'
-}
-
-const answerStyles = {
-  fontFamily: 'Raleway, sans-serif',
-  padding: '10px 0px'
 }
 
 const testimonialTitle = {
   fontFamily: 'Raleway, sans-serif',
   fontSize: '28px', 
   color: '#02075D',
-  padding: '50px 0px'
+  margin: '25px 0px'
 }
 
 const testimonialParagraph = {
   fontFamily: 'Raleway, sans-serif',
-  padding: '10px 0px'
+}
+
+const questionStyles = {
+  fontFamily: 'Raleway, sans-serif',
+  fontSize: '28px', 
+  color: '#02075D',
+  margin: '50px 0px'
+}
+
+const answerStyles = {
+  fontFamily: 'Raleway, sans-serif',
+  margin: '25px 0px'
 }
 
 
+
+
 const allIcons = {
-display: 'flex',
-flexDirection: 'row', 
-alignItems: 'center'
+justifyContent: 'center', 
+
 }
 
 
@@ -129,12 +132,18 @@ const aboutIcon = {
 const About = () => {
   return (
     <>
+    <Box sx={Everything}>
+   
+   
+   
+   
     <Box sx={boxStylesA}>
 
+    <Container>
     <Typography sx={headerStylesA} id="aboutme">About Me</Typography>
+    </Container>
 
-
-    <Box sx={allcardStyles}>
+    <Container sx={allcardStyles}>
 
 <Row>
 
@@ -310,7 +319,7 @@ const About = () => {
 
 
 
-    </Box>
+    </Container>
 
 
     
@@ -318,8 +327,9 @@ const About = () => {
 
     <Box sx={boxStylesB}>
 
+    <Container>
     <Typography sx={headerStylesB} id="aboutme">What Do My Managers, Co-Workers, and Students Say About Me?</Typography>
-
+    </Container>
     <Container>
     <Typography sx={testimonialTitle}>Managers</Typography>
     <Typography sx={testimonialParagraph}>"I highly recommend Aubrey without any reservation." -Deanna Weierholt, The Family Literacies Director</Typography>
@@ -485,8 +495,9 @@ const About = () => {
     </Container>
     </Container>
     </Box>
+    </Box>
 </>
   )
 }
 
-export default About
+export default About;
