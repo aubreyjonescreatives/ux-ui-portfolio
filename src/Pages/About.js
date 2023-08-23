@@ -16,7 +16,7 @@ import StoryBoardBox8 from '../Images/aboutme/eighthbox.png';
 import StoryBoardBox9 from '../Images/aboutme/ninthbox.png';
 import MyDesignProcess from '../Images/aboutme/designprocess.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCamera, faPassport, faPersonHiking, faGamepad, faPaintbrush  } from '@fortawesome/free-solid-svg-icons' ;
+import { faCamera, faPassport, faPersonHiking, faGamepad, faPaintbrush, faKitchenSet  } from '@fortawesome/free-solid-svg-icons' ;
 
 
 const Everything = {
@@ -113,13 +113,13 @@ const answerStyles = {
 
 
 const allIcons = {
-justifyContent: 'center',
-
+//justifyContent: 'center',
 }
 
 
 const oneIcon = {
   color: '#02075D',
+  margin: '10px'
 }
 
 const aboutIcon = {
@@ -460,7 +460,7 @@ const About = () => {
   
 <Container sx={allIcons}>
 <Row>
-      <Col>
+      <Col sx={12} sm={4} md={2}>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faCamera} />
@@ -468,7 +468,7 @@ const About = () => {
       <Typography sx={aboutIcon}>Photography</Typography>
     </Container>
     </Col>
-    <Col>
+    <Col sx={12} sm={4} md={2}>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faPassport} />
@@ -476,7 +476,7 @@ const About = () => {
       <Typography sx={aboutIcon}>Travel</Typography>
     </Container>
     </Col>
-    <Col>
+    <Col sx={12} sm={4} md={2}>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faPersonHiking} />
@@ -484,7 +484,7 @@ const About = () => {
       <Typography sx={aboutIcon}>Hiking</Typography>
     </Container>
     </Col>
-    <Col>
+    <Col sx={12} sm={4} md={2}>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faGamepad} />
@@ -492,12 +492,20 @@ const About = () => {
       <Typography sx={aboutIcon}>Gaming</Typography>
     </Container>
     </Col>
-    <Col>
+    <Col sx={12} sm={4} md={2}>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faPaintbrush} />
       </Typography>
       <Typography sx={aboutIcon}>Painting</Typography>
+    </Container>
+    </Col>
+    <Col sx={12} sm={4} md={2}>
+    <Container sx={oneIcon}>
+      <Typography sx={aboutIcon}>
+      <FontAwesomeIcon icon={faKitchenSet} />
+      </Typography>
+      <Typography sx={aboutIcon}>Cooking</Typography>
     </Container>
     </Col>
     </Row>
