@@ -150,7 +150,7 @@ const About = () => {
 <Row>
 
 {/* first card */}
-<Col sx={12} sm={6} md={4} xl={4}>
+<Col sx={12} sm={6} md={4} xl={3}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -165,7 +165,7 @@ const About = () => {
 
     {/* second card */}
 
-    <Col sx={12} sm={6} md={4} xl={4}>
+    <Col sx={12} sm={6} md={4} xl={3}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -182,7 +182,7 @@ const About = () => {
 
     {/* third card */}
 
-<Col sx={12} sm={6} md={4} xl={4}>
+<Col sx={12} sm={6} md={4} xl={3}>
   
     <Card sx={cardStyles}>
     <CardMedia
@@ -202,7 +202,7 @@ const About = () => {
 {/* fourth card */}
 
 
-<Col sx={12} sm={6} md={4} xl={4}>
+<Col sx={12} sm={6} md={4} xl={3}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -217,7 +217,7 @@ const About = () => {
 
     {/* fifth card */}
 
-    <Col Col sx={12} sm={6} md={4} xl={4}>
+    <Col Col sx={12} sm={6} md={4} xl={3}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -235,7 +235,7 @@ const About = () => {
 
     {/* sixth card */}
 
-<Col Col sx={12} sm={6} md={4} xl={4}>
+<Col Col sx={12} sm={6} md={4} xl={3}>
   
     <Card sx={cardStyles}>
     <CardMedia
@@ -255,7 +255,7 @@ const About = () => {
 
 {/* seventh card */}
 
-<Col sx={12} sm={6} md={4} xl={4}>
+<Col sx={12} sm={6} md={4} xl={3}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -270,7 +270,7 @@ const About = () => {
 
 {/* eighth card */}
 
-    <Col sx={12} sm={6} md={4} xl={4}>
+    <Col sx={12} sm={6} md={4} xl={3}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -288,7 +288,7 @@ const About = () => {
 
     {/* ninth card */}
 
-<Col sx={12} sm={6} md={4} xl={4}>
+<Col sx={12} sm={6} md={4} xl={3}>
   
     <Card sx={cardStyles}>
     <CardMedia
