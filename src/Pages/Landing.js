@@ -30,7 +30,7 @@ const introStyles = {
 }
 
 const introContainer = {
-  margin: '200px 100px 100px 50px', 
+  margin: '200px auto', 
   clear: 'both'
 }
 
