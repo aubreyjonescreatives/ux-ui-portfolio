@@ -9,16 +9,11 @@ import ResumeImage from '../Images/resume/aubreyjonesuxuidesignresume.png'
 import Link from '@mui/material/Link';
 import ResumePDF from '../Images/resume/aubreyjonesuxuidesignresume.pdf';
 
-const resumeStyles = {
-display: 'grid',
-justifyContent: 'center', 
-maxWidth: '612px',
-margin: '100px auto', 
 
-}
 
 const headerStylesA = {
-  margin: '125px 100px 20px 50px', 
+  marginTop: '50px',
+  marginBottom: '50px', 
   color: '#02075D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
@@ -28,26 +23,37 @@ const headerStylesA = {
   
   }
 
+  const resumeStyles = {
+    display: 'grid',
+    maxWidth: '612px',
+    margin: '100px auto', 
+    
+    }
+
 
 const cardStyles = {
+  margin: '0 auto',
   border: 'none',
   maxWidth: '612px', 
 }
 
 const resumeType = {
-  margin: '50px 100px 50px 50px', 
+ // margin: '50px 100px 50px 50px', 
   color: '#02075D',
   fontSize: '24px', 
   fontFamily: 'Raleway, sans-serif', 
 }
 
 const resumelink = {
-  margin: '150px 50px',
+  marginTop: '50px',
+  marginBottom: '50px',
   fontFamily: 'Raleway, sans-serif',
   textDecoration: 'none',
   backgroundColor: '#02075D',
   padding: '10px',
-  color: 'white'
+  color: 'white',
+  width: '100px',
+  textAlign: 'center'
 }
 
 
@@ -55,13 +61,11 @@ const resumelink = {
 const Resume = () => {
   return (
     <>
-     <Container>
     <Box>
+     <Container sx={resumeStyles}>
+    
    
     <Typography sx={headerStylesA}>Resume</Typography>
-
-    <Container sx={resumeStyles}>
-   
 
     <Card sx={cardStyles}>
     <CardMedia
@@ -73,19 +77,17 @@ const Resume = () => {
 
     </Card>
 
-    </Container>
-    
-    </Box>
-    <Box>
+  
     <Typography sx={headerStylesA}>Downloadable Resume</Typography>
     
     <Typography sx={resumeType}>If you would like a downloadable PDF version, click this link:</Typography>
 
     <Link sx={resumelink} href={ResumePDF} target="_blank">RESUME</Link>
     
-    </Box>
+    
 
     </Container>
+    </Box>
     </>
   )
 }
