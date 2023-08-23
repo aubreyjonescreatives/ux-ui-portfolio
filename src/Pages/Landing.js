@@ -229,17 +229,6 @@ return (
 
     </Col>
 
-    </Row>
-
-
-
-    </Box>
-
-
-    <Box sx={allcardStyles}>
-
-<Row>
-
 
 <Col sm={12} md={6} xl={4}>
     <Card sx={cardStyles} className="cardStyles">
