@@ -113,7 +113,7 @@ const answerStyles = {
 
 
 const allIcons = {
-justifyContent: 'center', 
+justifyContent: 'center',
 
 }
 
@@ -457,42 +457,50 @@ const About = () => {
 
     <Box sx={boxStylesB}>
     <Typography sx={headerStylesB}>Hobbies</Typography>
+  
 <Container sx={allIcons}>
+<Row>
+      <Col>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faCamera} />
       </Typography>
       <Typography sx={aboutIcon}>Photography</Typography>
     </Container>
-
+    </Col>
+    <Col>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faPassport} />
       </Typography>
       <Typography sx={aboutIcon}>Travel</Typography>
     </Container>
-
+    </Col>
+    <Col>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faPersonHiking} />
       </Typography>
       <Typography sx={aboutIcon}>Hiking</Typography>
     </Container>
-
+    </Col>
+    <Col>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faGamepad} />
       </Typography>
       <Typography sx={aboutIcon}>Gaming</Typography>
     </Container>
-
-
+    </Col>
+    <Col>
     <Container sx={oneIcon}>
       <Typography sx={aboutIcon}>
       <FontAwesomeIcon icon={faPaintbrush} />
       </Typography>
       <Typography sx={aboutIcon}>Painting</Typography>
     </Container>
+    </Col>
+    </Row>
     </Container>
     </Box>
     </Box>
