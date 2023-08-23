@@ -12,7 +12,6 @@ import ResumePDF from '../Images/resume/aubreyjonesuxuidesignresume.pdf';
 
 
 const headerStylesA = {
-  marginTop: '50px',
   marginBottom: '50px', 
   color: '#02075D',
   fontSize: '36px', 
@@ -37,6 +36,18 @@ const cardStyles = {
   maxWidth: '612px', 
 }
 
+const headerStylesB = {
+  marginTop: '50px', 
+  marginBottom: '50px', 
+  color: '#02075D',
+  fontSize: '36px', 
+  fontFamily: 'Raleway, sans-serif', 
+//  fontWeight: '400', 
+  
+  
+  
+  }
+
 const resumeType = {
  // margin: '50px 100px 50px 50px', 
   color: '#02075D',
@@ -53,7 +64,14 @@ const resumelink = {
   padding: '10px',
   color: 'white',
   width: '100px',
-  textAlign: 'center'
+  textAlign: 'center',
+  "&:hover": {
+    color: 'white',
+    backgroundColor: '#02075D',
+   // border: '1px solid #30638E', 
+    cursor: 'pointer'
+   
+  }
 }
 
 
@@ -78,7 +96,7 @@ const Resume = () => {
     </Card>
 
   
-    <Typography sx={headerStylesA}>Downloadable Resume</Typography>
+    <Typography sx={headerStylesB}>Downloadable Resume</Typography>
     
     <Typography sx={resumeType}>If you would like a downloadable PDF version, click this link:</Typography>
 
