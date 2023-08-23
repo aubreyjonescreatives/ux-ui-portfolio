@@ -60,15 +60,15 @@ const casestudyBox = {
 }
 
 const headerStylesA = {
-    margin: '50px 100px 20px 50px', 
-    color: '#02075D',
-    fontSize: '36px', 
-    fontFamily: 'Raleway, sans-serif', 
-  //  fontWeight: '400', 
-    
-    
-    
-    }
+  margin: '50px auto', 
+  color: '#02075D',
+  fontSize: '36px', 
+  fontFamily: 'Raleway, sans-serif', 
+//  fontWeight: '400', 
+  
+  
+  
+  }
 
 
 
@@ -86,7 +86,6 @@ const allcardStyles = {
 
 const cardStyles = {
 margin: '20px auto', 
-width: '450px', 
 textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
 
@@ -152,6 +151,8 @@ return (
 
 <Box sx={casestudyBox}>
 
+<Container>
+
 <Typography sx={headerStylesA} id="projects">Projects</Typography>
 {/* 
 
@@ -176,7 +177,7 @@ return (
       />
        <CardContent>
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Family Literacy Center Internship
+        Family Literacy Centers
         </Typography>
         </CardContent>
       </Link>
@@ -310,7 +311,7 @@ return (
 
     </Box>
 
-
+    </Container>
     </Box>
 
 
