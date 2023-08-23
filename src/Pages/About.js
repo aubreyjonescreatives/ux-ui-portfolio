@@ -140,7 +140,9 @@ const About = () => {
     <Box sx={boxStylesA}>
 
     <Container>
+    <Container>
     <Typography sx={headerStylesA} id="aboutme">About Me</Typography>
+    </Container>
     </Container>
 
     <Container sx={allcardStyles}>
@@ -148,7 +150,7 @@ const About = () => {
 <Row>
 
 {/* first card */}
-<Col sm={12} md={6} xl={4}>
+<Col sx={12} sm={6} md={4} xl={4}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -163,7 +165,7 @@ const About = () => {
 
     {/* second card */}
 
-    <Col sm={12} md={6} xl={4}>
+    <Col sx={12} sm={6} md={4} xl={4}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -180,7 +182,7 @@ const About = () => {
 
     {/* third card */}
 
-<Col sm={12} md={6} xl={4}>
+<Col sx={12} sm={6} md={4} xl={4}>
   
     <Card sx={cardStyles}>
     <CardMedia
@@ -196,16 +198,11 @@ const About = () => {
 
     </Col>
 
-    </Row>
-
-
-
-    <Row>
 
 {/* fourth card */}
 
 
-<Col sm={12} md={6} xl={4}>
+<Col sx={12} sm={6} md={4} xl={4}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -220,7 +217,7 @@ const About = () => {
 
     {/* fifth card */}
 
-    <Col sm={12} md={6} xl={4}>
+    <Col Col sx={12} sm={6} md={4} xl={4}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -238,7 +235,7 @@ const About = () => {
 
     {/* sixth card */}
 
-<Col sm={12} md={6} xl={4}>
+<Col Col sx={12} sm={6} md={4} xl={4}>
   
     <Card sx={cardStyles}>
     <CardMedia
@@ -254,17 +251,11 @@ const About = () => {
 
     </Col>
 
-    </Row>
-
-
-
-
-    <Row>
 
 
 {/* seventh card */}
 
-<Col sm={12} md={6} xl={4}>
+<Col sx={12} sm={6} md={4} xl={4}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -279,7 +270,7 @@ const About = () => {
 
 {/* eighth card */}
 
-    <Col sm={12} md={6} xl={4}>
+    <Col sx={12} sm={6} md={4} xl={4}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -297,7 +288,7 @@ const About = () => {
 
     {/* ninth card */}
 
-<Col sm={12} md={6} xl={4}>
+<Col sx={12} sm={6} md={4} xl={4}>
   
     <Card sx={cardStyles}>
     <CardMedia
@@ -367,8 +358,9 @@ const About = () => {
 
     //my answers are from me* */}
 
+    <Container>
     <Typography sx={headerStylesB} id="aboutme">Interview Q&A</Typography>
-
+    </Container>
     <Container>
     <Typography sx={questionStyles}>1. Describe your design process and what methods you follow.</Typography>
     <Card sx={cardStyles}>
@@ -456,8 +448,9 @@ const About = () => {
     </Box>
 
     <Box sx={boxStylesB}>
+    <Container>
     <Typography sx={headerStylesB}>Hobbies</Typography>
-  
+    </Container>
 <Container sx={allIcons}>
 <Row>
       <Col sx={12} sm={4} md={2}>
