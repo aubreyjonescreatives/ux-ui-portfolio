@@ -6,7 +6,7 @@ import About from './Pages/About';
 import Resume from './Pages/Resume'; 
 import DisneyVSNetflix from './Pages/DisneyVSNetflix';
 import CatwalkCo from './Pages/CatwalkCo'; 
-import FLCINC from './Pages/FLCINC'; 
+import FLCINC from './Pages/flcincRedesign'; 
 import CT from './Pages/CT'; 
 import ApparelDesigns from './Pages/ApparelDesigns.js'; 
 import DesignSystems from './Pages/DesignSystems.js';

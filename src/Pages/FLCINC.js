@@ -102,7 +102,7 @@ const FLCINC = () => {
 
 <Typography sx={headerB}>The Family Literacy Centers Internship</Typography>
 
-<Typography sx={paragraphB}>in 2018, I met the Family Literacy Center stakeholders through a class at Utah Valley University. They wanted us to 
+<Typography sx={paragraphB}>In 2018, I met the Family Literacy Center stakeholders through a class at Utah Valley University. They wanted us to 
 update their digital Algebra 1 program to HTML5 from its current Flash supported software. As a small team, we discovered how 
 to import the Flash files into Adobe Animate and update their design elements into the then Tumult Hype 3 so 
 that Tumult could export their designs into HTML5. I was very lucky to continue this process as an internship and senior project at UVU. </Typography>
