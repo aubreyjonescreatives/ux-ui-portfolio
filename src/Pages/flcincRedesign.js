@@ -1,5 +1,4 @@
 import * as React from 'react'; 
-import CaseStudyNavBar from '../Components/CaseStudyNavBar.js'; 
 import { Container, Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
@@ -7,11 +6,6 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 import LessonPlanHeuristic from '../Images/algebra1images/heuristicimages/ruleone-old.png';
-import IdentifyAfterMockup from '../Images/algebra1images/identify-after-mockup.PNG';
-import Homework1BeforeMockup from '../Images/algebra1images/homework1-before-mockup.PNG'; 
-import Practice1AfterMockup from '../Images/algebra1images/practice-1-after-mockup.png'; 
-import FinalProjectProposal from '../Images/algebra1pdf/ProposalFinalSigned.pdf'; 
-import FinalProjectPresentation from '../Images/algebra1pdf/FLCAlgebraPresentation.pdf';
 
 
 const Everything = {
@@ -53,6 +47,10 @@ const headerStylesA = {
       margin: '10px 0px'
     }
 
+    const roleInfo = {
+      margin: '10px 0px'
+    }
+
 
 
 const paragraphA = {
@@ -61,12 +59,6 @@ const paragraphA = {
 
 }
 
-const titleA = {
-  fontFamily: 'Raleway, sans-serif',
-  fontSize: '28px', 
-  color: '#02075D',
-  margin: '50px 0px'
-  }
   
 
   const boxStylesB = {
@@ -159,45 +151,21 @@ return (
      
 <Container sx={caseStudyInfo}>
 
-<Row >
-<Col sx={12} sm={6} md={4} xl={3}>
-<Typography sx={flcInfo}>
-  My Team Members:
-</Typography>
-<Typography sx={flcInfo}>
-  Aaron, UX/UI Designer (1st Team)
-</Typography>
-<Typography sx={flcInfo}>
-  Jordan, UX/UI Designer (1st Team)
-</Typography>
-
-<Typography sx={flcInfo}>
-  Erica, Lesson Plan Editor (2nd Team)
-</Typography>
-<Typography sx={flcInfo}>
-  Ryan, UX/UI Designer (3rd Team)
-</Typography>
-<Typography sx={flcInfo}>
-  Candace, Web Developer (3rd Team)
-</Typography>
-<Typography sx={flcInfo}>
-  Krystal, Web Developer (3rd Team)
-</Typography>
-<Typography sx={flcInfo}>
-  Maurina, Web Developer (3rd Team)
-</Typography>
-
-
-</Col>
+<Row sx={roleInfo}>
 
 <Col sx={12} sm={6} md={4} xl={3}>
 <Typography sx={flcInfo}>
-  My Role:
+  My Roles:
 </Typography >
+<Typography sx={flcInfo}>
+  Project Manager
+</Typography>
 <Typography sx={flcInfo}>
   UX/UI Designer
 </Typography>
-
+<Typography sx={flcInfo}>
+  Product Manager
+</Typography>
 
 </Col>
 
@@ -226,8 +194,56 @@ return (
 
 </Col>
 
+</Row>
+
+<Row sx={roleInfo}>
+<Col sx={12} sm={6} md={4} xl={3}>
+<Typography sx={flcInfo}>
+  My Team Members:
+</Typography>
+</Col>
+<Col>
+<Typography sx={flcInfo}>
+  Team One:
+</Typography>
+<Typography sx={flcInfo}>
+  Aaron, UX/UI Designer
+</Typography>
+<Typography sx={flcInfo}>
+  Jordan, UX/UI Designer
+</Typography>
+</Col>
+<Col>
+<Typography sx={flcInfo}>
+  Team Two:
+</Typography>
+<Typography sx={flcInfo}>
+  Erica, Lesson Plan Editor 
+</Typography>
+</Col>
+  <Col>
+<Typography sx={flcInfo}>
+  Team Three:
+</Typography>
+<Typography sx={flcInfo}>
+  Ryan, UX/UI Designer 
+</Typography>
+<Typography sx={flcInfo}>
+  Candace, Web Developer 
+</Typography>
+<Typography sx={flcInfo}>
+  Krystal, Web Developer 
+</Typography>
+<Typography sx={flcInfo}>
+  Maurina, Web Developer 
+</Typography>
+
+
+</Col>
+
 
 </Row>
+
 
 
 </Container>
@@ -239,13 +255,16 @@ return (
 
 <Box sx={boxStylesB}>
   <Container>
-<Typography sx={headerStylesB}>Challenge</Typography>
+<Typography sx={headerStylesB}>1st Team Challenge</Typography>
 <Typography sx={paragraphA}>The Family Literacy Centers needed updated digital designs to their Algebra 1 online program. Their current software 
 supported outdated Flash technology, which made it to where many young learners could not access their content. 
 From January 2018 to December 2020, I worked with the Family Literacy Centers stakeholders as their primary designer for a page layout redesign 
 that also fit current coding practices so that young students can access trustworthy and engaging software to very challenging content.</Typography>
 </Container>
+<Container>
+<Typography sx={headerStylesB}>My Role: UX/UI Project Manager</Typography>
 
+</Container>
 <Container>
 <Typography sx={headerStylesB}>Project Constraints</Typography>
 <Typography sx={paragraphA}>A few of our project constraints included:</Typography>
@@ -332,8 +351,10 @@ export the redesign into HTML5. </Typography>
 
 <Typography sx={headerStylesB}>Algebra 1 Redesign</Typography>
 
-<Typography sx={paragraphB}>Aaron could complete the first lesson in the first module. The Algebra 1 program contained 15 modules and 
-4 - 12 lessons in each module. The Family Literacy Centers offered a internship opportunity to continue the redesign. While my teammates 
+<Typography sx={paragraphB}>Aaron completed the first lesson in the first module redesign. The Algebra 1 program contained 15 modules and 
+4 - 12 lessons in each module. Discovering a user-friendly layout included quite a few different design possibilities and several iterations. 
+We were very new to UX/UI design and I wish I knew about A/B testing back then. It would have solved any differing opinions about 
+different iterations as a team. The Family Literacy Centers offered an internship opportunity to continue the redesign. While my teammates 
 had other summer plans, I continued working on the redesign.</Typography>
 
 
