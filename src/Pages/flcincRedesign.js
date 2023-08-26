@@ -202,7 +202,7 @@ return (
   My Team Members:
 </Typography>
 </Col>
-<Col>
+<Col sx={12} sm={6} md={4} xl={3}>
 <Typography sx={flcInfo}>
   Team One:
 </Typography>
@@ -213,7 +213,7 @@ return (
   Jordan, UX/UI Designer
 </Typography>
 </Col>
-<Col>
+<Col sx={12} sm={6} md={4} xl={3}>
 <Typography sx={flcInfo}>
   Team Two:
 </Typography>
@@ -221,7 +221,7 @@ return (
   Erica, Lesson Plan Content Editor 
 </Typography>
 </Col>
-  <Col>
+  {/* <Col>
 <Typography sx={flcInfo}>
   Team Three:
 </Typography>
@@ -239,7 +239,7 @@ return (
 </Typography>
 
 
-</Col>
+</Col> */}
 
 
 </Row>
