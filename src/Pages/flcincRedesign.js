@@ -403,7 +403,7 @@ original lessons.</Typography>
 <Box sx={boxStylesA}>
 
 <Container>
-<Typography sx={headerStylesA}>1st and 2nd Project Key Findings</Typography>
+<Typography sx={headerStylesA}>Project Key Findings</Typography>
 
 <Row>
 <Col>
@@ -417,7 +417,7 @@ original lessons.</Typography>
   3. Some of the lessons had poor grammar and spelling mistakes. We brought on an editor to help fix these issues.
 </Typography >
 <Typography sx={paragraphB}>
-  4. Updating the lesson plans provided even more opportunity. 
+  4. Updating the lesson plans provided more opportunity for students to engage in modern content. 
 </Typography>
 </Col>
 
