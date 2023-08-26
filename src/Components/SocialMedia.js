@@ -15,15 +15,13 @@ const connectLinksBox = {
 const connectLink = {
     textAlign: 'center',  
     backgroundColor: 'white', 
-    margin: '5px', 
+    margin: '0px 20px', 
     textDecoration: 'none', 
     color: '#02075D', 
-    fontSize: '26px', 
+    fontSize: '26px',
     //border: '1px solid #30638E',
     "&:hover": {
-        color: 'white',
-        backgroundColor: '#02075D',
-       // border: '1px solid #30638E', 
+        borderBottom: '1px solid #02075D',
         cursor: 'pointer'
        
       }

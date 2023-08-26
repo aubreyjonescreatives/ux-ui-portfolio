@@ -71,11 +71,13 @@ p {
 .navbar-brand {
     font-family: 'Raleway';
     color: #30638E !important;
+    
 }
 
 .navbar-brand a {
     color: white;
     background-color: #30638E;
+   
 }
 
 
@@ -86,21 +88,27 @@ p {
 
 .navbar {
     background-color: white !important;
-    border-bottom: 1px solid #02075D; 
+    /* border-bottom: 1px solid #02075D;  */
+    box-shadow: 0px 0px 1px #02075D;
 }
 
 .navbar-nav, .navLink {
     font-family: 'Raleway';
     color: #02075D !important;
+    margin: 0px 20px !important; 
 }
 
 .navbar-nav a:hover, .navLink a:hover {
-    color: white !important;
-    background-color: #02075D;
+    border-bottom: 1px solid #02075D;
+    cursor: pointer;
 }
 
 .navSocial {
     justify-content: end; 
+}
+
+.navSocial {
+    padding: 0px 10px; 
 }
 
 /* 
