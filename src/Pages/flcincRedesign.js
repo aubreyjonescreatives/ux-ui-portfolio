@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 import LessonPlanHeuristic from '../Images/algebra1images/heuristicimages/ruleone-old.png';
-
+import LessonPlanHeuristicNew from '../Images/algebra1images/heuristicimages/ruleone-new.png';
 
 const Everything = {
   display: 'grid',
@@ -218,7 +218,7 @@ return (
   Team Two:
 </Typography>
 <Typography sx={flcInfo}>
-  Erica, Lesson Plan Editor 
+  Erica, Lesson Plan Content Editor 
 </Typography>
 </Col>
   <Col>
@@ -255,11 +255,11 @@ return (
 
 <Box sx={boxStylesB}>
   <Container>
-<Typography sx={headerStylesB}>1st Team Challenge</Typography>
+<Typography sx={headerStylesB}>1st and 2nd Team Challenge</Typography>
 <Typography sx={paragraphA}>The Family Literacy Centers needed updated digital designs to their Algebra 1 online program. Their current software 
 supported outdated Flash technology, which made it to where many young learners could not access their content. 
 From January 2018 to December 2020, I worked with the Family Literacy Centers stakeholders as their primary designer for a page layout redesign 
-that also fit current coding practices so that young students can access trustworthy and engaging software to very challenging content.</Typography>
+that also fit current coding practices so that young students can access trustworthy and engaging educational software.</Typography>
 </Container>
 <Container>
 <Typography sx={headerStylesB}>My Role: UX/UI Project Manager</Typography>
@@ -308,13 +308,13 @@ export the redesign into HTML5. </Typography>
  1. Outdated Top Navigation Bar. Missing a way to return to main page.
 </Typography >
 <Typography sx={paragraphB}>
-  2. Call-To-Action Buttons are too tight and draw too much attention
+  2. Call-To-Action Buttons are too tight and draw too much attention.
 </Typography>
 <Typography sx={paragraphB}>
-  3. Colors are very harsh for student readability
+  3. Colors are very harsh for student readability.
 </Typography>
 <Typography sx={paragraphB}>
-  4. A numbered progress gets overlooked 
+  4. A numbered progress gets overlooked. 
 </Typography>
 </Col>
 
@@ -349,32 +349,32 @@ export the redesign into HTML5. </Typography>
 
 <Container>
 
-<Typography sx={headerStylesB}>Algebra 1 Redesign</Typography>
+<Typography sx={headerStylesB}>Algebra 1 Lesson Plan Redesign</Typography>
 
-<Typography sx={paragraphB}>Aaron completed the first lesson in the first module redesign. The Algebra 1 program contained 15 modules and 
-4 - 12 lessons in each module. Discovering a user-friendly layout included quite a few different design possibilities and several iterations. 
-We were very new to UX/UI design and I wish I knew about A/B testing back then. It would have solved any differing opinions about 
-different iterations as a team. The Family Literacy Centers offered an internship opportunity to continue the redesign. While my teammates 
-had other summer plans, I continued working on the redesign.</Typography>
+<Typography sx={paragraphB}>The Algebra 1 program contained 15 modules and 4 - 12 lessons in each module. Discovering a user-friendly 
+layout included quite a few different needs listed on the left. The Family Literacy Centers offered an internship 
+opportunity to continue the redesign. While my teammates had other summer plans, I continued working on the redesign with UI design principles 
+in mind. We also brought on Erica, a content editor, as she noticed some grammar, spelling, and punctuation mistakes made througout the 
+original lessons.</Typography>
 
 
-<Typography sx={sectiontitleB}>Algebra 1 Lesson Plan Redesign</Typography>
-
-<Typography sx={sectiontitleB}>Key Changes and Rationale:</Typography>
+<Typography sx={sectiontitleB}>Key Design Changes and Rationale:</Typography>
 
 <Row>
 <Col>
 <Typography sx={paragraphB}>
- 1. Colors for better readability
+ 1. Calmer colors out of their style guide for better readability.
 </Typography>
 <Typography sx={paragraphB}>
-  2. Consistency for trustworthy usability
+  2. Clearer top navigation for lesson location.
 </Typography>
 <Typography sx={paragraphB}>
-  3. Call-to-action buttons for information design
+  3. Left and right buttons originally drew too much attention. We wanted our students to focus on 
+  page content instead. These buttons only appear as accessible on hover, when the student is ready 
+  to click on them.
 </Typography >
 <Typography sx={paragraphB}>
-  4. Visual progress for clarity to avoid the "Are we there yet?" question 
+  4. Visual progress for clarity to avoid the "Are we there yet?" question. 
 </Typography>
 </Col>
 
@@ -383,8 +383,8 @@ had other summer plans, I continued working on the redesign.</Typography>
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Original Algebra 1 program"
-        image={LessonPlanHeuristic}
+        alt="New Algebra 1 Program"
+        image={LessonPlanHeuristicNew}
        
       />
      
@@ -399,6 +399,38 @@ had other summer plans, I continued working on the redesign.</Typography>
 
 </Box> 
 
+
+<Box sx={boxStylesA}>
+
+<Container>
+<Typography sx={headerStylesA}>1st and 2nd Project Key Findings</Typography>
+
+<Row>
+<Col>
+<Typography sx={paragraphB}>
+ 1. We could resolve the first quest to update Flash files into current HTML5 practices.
+</Typography>
+<Typography sx={paragraphB}>
+  2. The information architecture needed more clarity with mental model placements and modern color choices.
+</Typography>
+<Typography sx={paragraphB}>
+  3. Some of the lessons had poor grammar and spelling mistakes. We brought on an editor to help fix these issues.
+</Typography >
+<Typography sx={paragraphB}>
+  4. Updating the lesson plans provided even more opportunity. 
+</Typography>
+</Col>
+
+
+
+
+</Row>
+
+</Container>
+
+
+
+</Box>
 
 
 </Box>
