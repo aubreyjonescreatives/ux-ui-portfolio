@@ -101,6 +101,7 @@ p {
 .navbar-nav a:hover, .navLink a:hover {
     border-bottom: 1px solid #02075D;
     cursor: pointer;
+    /* padding: .5rem 0rem; */
 }
 
 .navSocial {
@@ -108,7 +109,13 @@ p {
 }
 
 .navSocial {
-    padding: 0px 10px; 
+    /* padding: 0px 10px;  */
+}
+
+.icon {
+    padding: 0px !important;
+    --bs-gutter-x: 0px; 
+    --bs-gutter-y: 0px; 
 }
 
 /* 

@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import BrandDashboardHomepage from '../Images/codafi/BrandDashboardHomepageHi-FiCompositionsSlide1.png';
 import BeforeandAfterHero from '../Images/codafi/beforeandafterheroimage.png';
-import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
+//import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
 
 
 

@@ -14,8 +14,9 @@ const connectLinksBox = {
 
 const connectLink = {
     textAlign: 'center',  
-    backgroundColor: 'white', 
+    //border: '1px solid #02075D',
     margin: '0px 20px', 
+    padding: '0px',
     textDecoration: 'none', 
     color: '#02075D', 
     fontSize: '26px',
@@ -36,23 +37,23 @@ const SocialMedia = () => {
 <Box sx={connectLinksBox}>
 
 <Link sx={connectLink} href="https://www.behance.net/aubreyjonesdesign" target="_blank">
-<FontAwesomeIcon icon={faBehanceSquare} />
+<FontAwesomeIcon icon={faBehanceSquare} className="icon"/>
 </Link>
 
 
 <Link sx={connectLink} href="https://www.youtube.com/channel/UCw4Fi6cUbn67D18LqTPQymA" target="_blank">
-<FontAwesomeIcon icon={faMedium} />
+<FontAwesomeIcon icon={faMedium} className="icon"/>
 </Link>
 
 
 
 <Link sx={connectLink} href="https://www.youtube.com/channel/UCw4Fi6cUbn67D18LqTPQymA" target="_blank">
-<FontAwesomeIcon icon={faSquareYoutube} />
+<FontAwesomeIcon icon={faSquareYoutube} className="icon"/>
 </Link>
 
 
 <Link sx={connectLink} href="https://www.linkedin.com/in/aubrey-jones" target="_blank">
-<FontAwesomeIcon icon={faLinkedin} />
+<FontAwesomeIcon icon={faLinkedin} className="icon"/>
 </Link>
 
 </Box>
