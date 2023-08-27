@@ -96,27 +96,25 @@ p {
     font-family: 'Raleway';
     color: #02075D !important;
     margin: 0px 20px !important; 
+    line-height: 20px;
 }
 
-.navbar-nav a:hover, .navLink a:hover {
-    border-bottom: 1px solid #02075D;
+.navbar-nav a:hover, .navLink a:hover {  
+    line-height: 20px;
     cursor: pointer;
-    /* padding: .5rem 0rem; */
+    /* padding: 8px; */
+}
+
+.navLink:hover {
+    border-bottom: 1px solid #02075D;
+
 }
 
 .navSocial {
-    justify-content: end; 
+    display: grid;
+    justify-content: end;
 }
 
-.navSocial {
-    /* padding: 0px 10px;  */
-}
-
-.icon {
-    padding: 0px !important;
-    --bs-gutter-x: 0px; 
-    --bs-gutter-y: 0px; 
-}
 
 /* 
 .navLink {
@@ -124,6 +122,23 @@ p {
 }
    */
 
+
+   .navLinkSocial {
+    margin: 0px 20px !important;
+    border-bottom: 1px solid #02075D;
+}
+
+
+.icon {
+    padding: 0px !important;
+    --bs-gutter-x: 0px; 
+    --bs-gutter-y: 0px; 
+}
+
+.icon a:hover {
+    border-bottom: 1px solid #02075D;
+    /* font-size: 32px; */
+}
 
    
 .cardStyles:hover {
