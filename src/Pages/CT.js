@@ -14,6 +14,7 @@ import TopBannerTwo from '../Images/codafi/topbannertwo.png';
 import TopBannerThree from '../Images/codafi/topbannerthree.png';
 import LandingPlatformLowFi from '../Images/codafi/landingplatform1.png';
 import LandingPlatformHiFi from '../Images/codafi/hifilandingplatform.png';
+import TopNavigationBar from '../Images/codafi/navigation.png';
 //import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
 
 
@@ -129,15 +130,22 @@ const imageStylesB = {
   }
 
   const imageStylesBandA = {
-  height: '550px',
-  width: '100%',
-  maxHeight: '600px',
+  height: '450px',
+  width: '80%',
+  maxHeight: '450px',
   display: 'block', 
-  marginBottom: '50px'
+  margin: '0px auto',
+  marginBottom: '50px', 
+  justifyContent: 'center'
   }
 
 
-
+const imageStylesNavigation = {
+maxHeight: '350px', 
+width: '70%',
+maxWidth: '70%',
+margin: '20px auto'
+}
 
 
   
@@ -216,8 +224,9 @@ const CT = () => {
 <Box sx={boxStylesB}>
   <Container>
 <Typography sx={headerStylesB}>Project Challenge</Typography>
-<Typography sx={paragraphA}>Landing International needed UX/UI designers to update their website for beauty brands. This new update included 
-communication and navigation features between multiple points of view so that beauty brands and potential companies can communicate with each other.</Typography>
+<Typography sx={paragraphA}>Landing International needed UX/UI designers to update their website about beauty products. This update included new
+communication and navigation features for multiple points of view, such as with beauty brands and retailers. Each company has multiple beauty product needs 
+and can communicate these concerns through Landing International.</Typography>
 </Container>
 <Container>
 <Typography sx={headerStylesB}>Project Constraints</Typography>
@@ -225,8 +234,8 @@ communication and navigation features between multiple points of view so that be
 <Typography sx={paragraphA}>
   Client Expectations
 </Typography>
-<Typography sx={paragraphA}>Each new feature started out by a list of written requirements and sometimes included a visual representation. 
-We spent time with Landing International stakeholders to clearly identify their vision and goals well before we spent time designing their wireframes.</Typography>
+<Typography sx={paragraphA}>Each new feature contained a list of requirements. We spent time with Landing International stakeholders to clearly identify 
+their vision and goals well before we spent time designing their wireframes.</Typography>
 <Typography sx={paragraphA}>
   Work Availability
 </Typography>
@@ -288,10 +297,11 @@ work throughout the project.</Typography>
 </Col>
 <Col>
 <Typography sx={paragraphB}>We met with Landing International stakeholders to discover what they 
-wanted either designed or redesigned. They provided us with Google Doc lists, Google Slides, sitemaps,
-and user flows for feature information.</Typography>
-<Typography sx={paragraphB}>The example in the image focused on requested top banner feature updates 
-for their brand dashboard.</Typography>
+wanted either designed or redesigned. Since they completed the research phase before I signed on to Codafi, 
+Landing International provided us with Google Doc lists, Google Slides, sitemaps, and user flows for needed 
+feature information.</Typography>
+<Typography sx={paragraphB}>The example in the image displays a requested top banner feature update 
+for their brand homepage.</Typography>
 </Col>
 
 
@@ -316,12 +326,12 @@ for their brand dashboard.</Typography>
  2. Better alignment to improve audience readability.
 </Typography >
 <Typography sx={paragraphB}>
-  3. Added call-to-action to determine better click rates and feature needs.
+  3. Added call-to-action to determine better click rates for specific features.
 </Typography>
 </Col>
 <Col>
 <Typography sx={paragraphB}>
-  1st Banner Updates
+  1st Banner Iteration
 </Typography>
 <Card sx={imageStylesB}>
       <CardMedia
@@ -344,7 +354,7 @@ for their brand dashboard.</Typography>
 
 <Container sx={imageStylesBanner}>
 <Typography sx={paragraphB}>
-  Final Banner Updates
+  Final Banner Iterations
 </Typography>
 <Row >
 <Col>
@@ -406,9 +416,9 @@ for their brand dashboard.</Typography>
 
 <Container>
 <Typography sx={sectiontitleB}>Landing Platform 101 Wireframe.</Typography>
-<Typography sx={paragraphB}>A Landing Platform 101 helped new beauty brands understand how to use Landing International.</Typography>
-<Typography sx={paragraphB}>I created several low-fidelity wireframe examples and we discussed design layout, features, 
-and needs.</Typography>
+<Typography sx={paragraphB}>A Landing Platform 101 helped new beauty brands understand how to navigate through Landing International features.</Typography>
+<Typography sx={paragraphB}>I created several low-fidelity wireframe examples and discussed design layout, features, 
+and needs with Landing International Stakeholders.</Typography>
 <Row>
 <Col>
 <Typography sx={paragraphB}>1st Iteration</Typography>
@@ -446,29 +456,23 @@ and needs.</Typography>
 </Container>
 
 
-
-
-
-
-
-
-
-
-
-
 <Container>
-
-<Typography sx={sectiontitleB}>After and Final Brand Homepage Mockup</Typography>
+<Typography sx={sectiontitleB}>Top Navigation Bar Updates</Typography>
+<Typography sx={paragraphB}>As we implemented new and updated Landing International features into their website, 
+their information architecture needed updates as well. </Typography>
+<Typography sx={paragraphB}>Landing International's website contained several different points of view such as 
+for retailers and brands. Their top navigation bar needed better consistency and accessibility so that their 
+audience could find new features through faster user flows.</Typography>
 
 <Row>
-
 <Col>
 
-<Card sx={imageStylesB}>
+<Typography sx={paragraphB}>Final Iterations for Retailers and Brands</Typography>
+<Card sx={imageStylesNavigation}>
       <CardMedia
         component="img"
-        alt="Final Mockup"
-        image={FinalMockup}
+        alt="Top Navigation Bar"
+        image={TopNavigationBar}
        
       />
      
@@ -476,19 +480,6 @@ and needs.</Typography>
     </Card>
 
 </Col>
-<Col>
-<Typography sx={paragraphB}>
-  Key Needs:
-</Typography>
-<Typography sx={paragraphB}>
-  1. I added in requested images from Landing International. 
-</Typography>
-<Typography sx={paragraphB}>
- 2. I fixed alignment and sizing issues for better readability.
-</Typography >
-
-</Col>
-
 
 
 
@@ -496,9 +487,11 @@ and needs.</Typography>
 
 
 
-
-
 </Container>
+
+
+
+
 
 
 </Box>
