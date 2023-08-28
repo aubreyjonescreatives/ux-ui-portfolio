@@ -6,7 +6,14 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import BrandDashboardHomepage from '../Images/codafi/BrandDashboardHomepageHi-FiCompositionsSlide1.png';
-import BeforeandAfterHero from '../Images/codafi/beforeandafterheroimage.png';
+import FinalMockup from '../Images/codafi/finalmockup.png';
+import FeatureRequestExample from '../Images/codafi/featurerequestexample.png';
+import TopBannerUpdates from '../Images/codafi/topbanner-old.png';
+import TopBannerOne from '../Images/codafi/topbannerone.png';
+import TopBannerTwo from '../Images/codafi/topbannertwo.png';
+import TopBannerThree from '../Images/codafi/topbannerthree.png';
+import LandingPlatformLowFi from '../Images/codafi/landingplatform1.png';
+import LandingPlatformHiFi from '../Images/codafi/hifilandingplatform.png';
 //import CleanPreCheck from '../Images/codafi/cleanprecheck.png'; 
 
 
@@ -109,11 +116,25 @@ const paragraphB = {
 const imageStylesB = { 
   //width: '70%',
   display: 'block', 
+  marginBottom: '50px'
   //margin: '75px auto 75px auto'
   
   
   }
 
+
+  const imageStylesBanner = {
+    display: 'block',
+    margin: '50px'
+  }
+
+  const imageStylesBandA = {
+  height: '550px',
+  width: '100%',
+  maxHeight: '600px',
+  display: 'block', 
+  marginBottom: '50px'
+  }
 
 
 
@@ -225,40 +246,52 @@ work throughout the project.</Typography>
 <Container>
 <Typography sx={headerStylesA}>My Design Thinking Process</Typography>
 
-<Typography sx={sectiontitleB}>Brand Homepage Redesign</Typography>
-
 <Row>
 <Col>
 <Typography sx={paragraphB}>
-  Key Needs:
+  1. Discover and Define feature requests envisioned by stakeholders. 
 </Typography>
 <Typography sx={paragraphB}>
-  1. Follow website layout design envisioned by stakeholders. 
+  2. Develop key feature requests.
 </Typography>
 <Typography sx={paragraphB}>
- 2. Update top banner content.
-</Typography >
-<Typography sx={paragraphB}>
-  3. align cards for additional navigation.
-</Typography>
-<Typography sx={paragraphB}>
-  4. maintain consistency with top and bottom brand navigation.
+  3. Deliver final feature designs to stakeholders.
 </Typography>
 </Col>
 
-<Col>
 
+
+</Row>
+
+
+
+
+</Container>
+
+
+<Container>
+<Typography sx={sectiontitleB}>1. Discover and Define feature requests envisioned by stakeholders.</Typography>
+<Row>
+<Col>
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Original Algebra 1 program"
-        image={BrandDashboardHomepage}
+        alt="Feature Request"
+        image={FeatureRequestExample}
        
       />
      
      
     </Card>
 
+
+</Col>
+<Col>
+<Typography sx={paragraphB}>We met with Landing International stakeholders to discover what they 
+wanted either designed or redesigned. They provided us with Google Doc lists, Google Slides, sitemaps,
+and user flows for feature information.</Typography>
+<Typography sx={paragraphB}>The example in the image focused on requested top banner feature updates 
+for their brand dashboard.</Typography>
 </Col>
 
 
@@ -267,8 +300,165 @@ work throughout the project.</Typography>
 
 
 <Container>
+<Typography sx={sectiontitleB}>2. Develop key feature requests.</Typography>
 
-<Typography sx={sectiontitleB}>Top Banner Redesign Example</Typography>
+<Typography sx={sectiontitleB}>Brand Homepage Banner Update</Typography>
+<Row>
+
+<Col>
+<Typography sx={paragraphB}>
+  Key Updates and Rationale:
+</Typography>
+<Typography sx={paragraphB}>
+  1. Newer images provided by Landing International for better color contrast. 
+</Typography>
+<Typography sx={paragraphB}>
+ 2. Better alignment to improve audience readability.
+</Typography >
+<Typography sx={paragraphB}>
+  3. Added call-to-action to determine better click rates and feature needs.
+</Typography>
+</Col>
+<Col>
+<Typography sx={paragraphB}>
+  1st Banner Updates
+</Typography>
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Top Banner Updates"
+        image={TopBannerUpdates}
+       
+      />
+     
+     
+    </Card>
+
+
+</Col>
+
+</Row>
+</Container>
+
+
+
+<Container sx={imageStylesBanner}>
+<Typography sx={paragraphB}>
+  Final Banner Updates
+</Typography>
+<Row >
+<Col>
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Top Banner Updates"
+        image={TopBannerOne}
+       
+      />
+     
+     
+    </Card>
+
+
+</Col>
+<Col>
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Top Banner Updates"
+        image={TopBannerTwo}
+       
+      />
+     
+     
+    </Card>
+
+
+</Col>
+<Col>
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Top Banner Updates"
+        image={TopBannerThree}
+       
+      />
+     
+     
+    </Card>
+
+
+</Col>
+
+
+
+
+</Row>
+
+
+
+
+</Container>
+
+
+
+
+
+<Container>
+<Typography sx={sectiontitleB}>Landing Platform 101 Wireframe.</Typography>
+<Typography sx={paragraphB}>A Landing Platform 101 helped new beauty brands understand how to use Landing International.</Typography>
+<Typography sx={paragraphB}>I created several low-fidelity wireframe examples and we discussed design layout, features, 
+and needs.</Typography>
+<Row>
+<Col>
+<Typography sx={paragraphB}>1st Iteration</Typography>
+<Card sx={imageStylesBandA}>
+      <CardMedia
+        component="img"
+        alt="Landing Platform Low-Fidelity Wireframe"
+        image={LandingPlatformLowFi}
+       
+      />
+     
+     
+    </Card>
+
+
+</Col>
+<Col>
+<Typography sx={paragraphB}>Final Iteration</Typography>
+<Card sx={imageStylesBandA}>
+      <CardMedia
+        component="img"
+        alt="Landing Platform Hi-Fidelity Wireframe"
+        image={LandingPlatformHiFi}
+       
+      />
+     
+     
+    </Card>
+
+
+</Col>
+
+
+</Row>
+</Container>
+
+
+
+
+
+
+
+
+
+
+
+
+<Container>
+
+<Typography sx={sectiontitleB}>After and Final Brand Homepage Mockup</Typography>
 
 <Row>
 
@@ -277,8 +467,8 @@ work throughout the project.</Typography>
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Top Banner Redesign"
-        image={BeforeandAfterHero}
+        alt="Final Mockup"
+        image={FinalMockup}
        
       />
      
@@ -291,14 +481,12 @@ work throughout the project.</Typography>
   Key Needs:
 </Typography>
 <Typography sx={paragraphB}>
-  1. Landing International wanted their banner background images updated. 
+  1. I added in requested images from Landing International. 
 </Typography>
 <Typography sx={paragraphB}>
- 2. I fixed alignment issues for better readability.
+ 2. I fixed alignment and sizing issues for better readability.
 </Typography >
-<Typography sx={paragraphB}>
-  3. Landing International requested a call-to-action button for navigation accessibility.
-</Typography>
+
 </Col>
 
 
