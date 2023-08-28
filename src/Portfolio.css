@@ -111,6 +111,12 @@ border-bottom: 1px solid #02075D;
 padding: 10px;
 }
 
+.navbar-nav a:active {
+    border-bottom: 1px solid #02075D;
+    padding: 10px;
+    }
+
+
 
 .navSocial {
     display: grid;
@@ -150,7 +156,7 @@ padding: 10px;
     .navSocial {
         justify-content: start; 
         padding: 0px !important;
-        margin: 0px !important;
+        margin: 0px 15px !important;
     }
   }
   
