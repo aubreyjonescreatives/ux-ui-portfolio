@@ -116,29 +116,24 @@ p {
 }
 
 
-/* 
-.navLink {
-    width: 200px;
-}
-   */
 
 
    .navLinkSocial {
     margin: 0px 20px !important;
+    color: #02075D !important;
+    
+}
+
+.navLinkSocial svg {
+    font-size: 20px;
+}
+
+.navLinkSocial svg:hover {
     border-bottom: 1px solid #02075D;
+    line-height: 20px;
 }
 
 
-.icon {
-    padding: 0px !important;
-    --bs-gutter-x: 0px; 
-    --bs-gutter-y: 0px; 
-}
-
-.icon a:hover {
-    border-bottom: 1px solid #02075D;
-    /* font-size: 32px; */
-}
 
    
 .cardStyles:hover {
