@@ -284,7 +284,7 @@ software converters from third party contractors.</Typography>
 <Typography sx={paragraphA}>Toward the end of the semester, I noticed our Tumult Hype3 was very much like Adobe Animate, 
 which could open the Flash files. Since the Algebra 1 lessons contained quite a few artifacts, we could essentially copy
 and paste them into Tumult Hype3. Tumult Hype3 also contained wireframing features, which allowed us to redesign and 
-export the redesign into HTML5. </Typography>
+export the redesign into HTML5. This solution provided us a way to make this update possible.</Typography>
 
 
 </Container>
