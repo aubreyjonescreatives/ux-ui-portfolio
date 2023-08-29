@@ -279,7 +279,7 @@ return (
 <Col sm={12} md={6} xl={4}>
   
     <Card sx={cardStyles} className="cardStyles">
-    <Link href="/logodesigns" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+    <Link href="/designsystems" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Storybook Logo"
