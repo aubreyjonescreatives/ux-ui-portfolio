@@ -33,17 +33,31 @@ const boxStylesA = {
 
 }
 
+const boxStylesAFirst = {
+  backgroundColor: '#ffffff', 
+  paddingBottom: '250px'
+}
 
-// const headerStylesA = {
-//   //margin: '50px auto', 
-//   color: '#00003D',
-//   fontSize: '36px', 
-//   fontFamily: 'Raleway, sans-serif', 
-// //  fontWeight: '400', 
+
+const headerStylesA = {
+  margin: '50px auto', 
+  color: '#00003D',
+  fontSize: '36px', 
+  fontFamily: 'Raleway, sans-serif', 
+//  fontWeight: '400', 
   
   
   
-//   }
+  }
+
+  const headerStylesAFirst = {
+    margin: '100px auto', 
+    color: '#00003D',
+    fontSize: '36px', 
+    fontFamily: 'Raleway, sans-serif', 
+  //  fontWeight: '400', 
+
+  }
 
 const boxStylesB = {
   backgroundColor: '#F8F9FA', 
@@ -64,6 +78,13 @@ const headerStylesB = {
   
   
   }
+
+  // const paragraphB = {
+  //   fontFamily: 'Raleway, sans-serif',
+  //   margin: '20px 0px'
+  // }
+  
+  
 
 
 
@@ -97,6 +118,7 @@ const testimonialTitle = {
 
 const testimonialParagraph = {
   fontFamily: 'Raleway, sans-serif',
+  margin: '25px 0px'
 }
 
 const questionStyles = {
@@ -145,6 +167,13 @@ const About = () => {
     <>
     <Box sx={Everything}>
    
+   <Box sx={boxStylesAFirst}>
+    <Container>
+   <Typography sx={headerStylesA} id="aboutme">About Me</Typography>
+   <Typography sx={headerStylesAFirst}>I'm a creative UX/UI Designer based in Salt Lake City, Utah, since 2016.</Typography> 
+
+   </Container>
+   </Box>
    
    
    
@@ -152,7 +181,7 @@ const About = () => {
 
     
     <Container>
-    <Typography sx={headerStylesB} id="aboutme">About Me</Typography>
+    <Typography sx={headerStylesB}>My UX/UI Design Story</Typography>
     </Container>
    
 
@@ -330,7 +359,7 @@ const About = () => {
     <Box sx={boxStylesA}>
 
     <Container>
-    <Typography sx={headerStylesB} id="aboutme">What Do My Managers, Co-Workers, and Students Say About Me?</Typography>
+    <Typography sx={headerStylesB}>What Do My Managers, Co-Workers, and Students Say About Me?</Typography>
     </Container>
     <Container>
     <Typography sx={testimonialTitle}>Managers</Typography>
