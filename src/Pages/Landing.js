@@ -53,7 +53,7 @@ const introText = {
 
 
 const casestudyBox = {
-  backgroundColor: '#F8F9FA',
+  backgroundColor: '#FFF',
   paddingBottom: '100px'
 
 }
