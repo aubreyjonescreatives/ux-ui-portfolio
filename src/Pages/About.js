@@ -56,7 +56,7 @@ const boxStylesB = {
 const headerStylesB = {
   justifyContent: 'start',
   margin: '50px auto',
-  color: '#00022E',
+  color: '#00003D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
 //  fontWeight: '400', 
