@@ -21,7 +21,7 @@ import { faCamera, faPassport, faPersonHiking, faGamepad, faPaintbrush, faKitche
 
 const Everything = {
   display: 'grid',
-  margin: '100px auto',
+  margin: '100px auto 0px auto',
   justifyContent: 'center', 
   width: '100%',
 }
@@ -80,6 +80,8 @@ const cardStyles = {
 margin: '20px auto', 
 textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
+border: 'none', 
+boxShadow: 'none'
 
 }
 
@@ -113,7 +115,7 @@ const answerStyles = {
 
 
 const allIcons = {
-//justifyContent: 'center',
+paddingBottom: '50px'
 }
 
 
@@ -129,6 +131,14 @@ const aboutIcon = {
 
 }
 
+
+const boxStylesBLast = {
+  backgroundColor: '#FFF', 
+  paddingTop: '5px',
+  width: '100%'
+
+}
+
 const About = () => {
   return (
     <>
@@ -137,11 +147,11 @@ const About = () => {
    
    
    
-    <Box sx={boxStylesA}>
+    <Box sx={boxStylesB}>
 
     
     <Container>
-    <Typography sx={headerStylesA} id="aboutme">About Me</Typography>
+    <Typography sx={headerStylesB} id="aboutme">About Me</Typography>
     </Container>
    
 
@@ -316,7 +326,7 @@ const About = () => {
     
     </Box>
 
-    <Box sx={boxStylesB}>
+    <Box sx={boxStylesA}>
 
     <Container>
     <Typography sx={headerStylesB} id="aboutme">What Do My Managers, Co-Workers, and Students Say About Me?</Typography>
@@ -352,7 +362,7 @@ const About = () => {
     </Box>
 
 
-    <Box sx={boxStylesA}>
+    <Box sx={boxStylesB}>
 
    {/*  //questions sourced from this website: https://www.toptal.com/designers/ux/interview-questions
 
@@ -447,7 +457,7 @@ const About = () => {
 
     </Box>
 
-    <Box sx={boxStylesB}>
+    <Box sx={boxStylesBLast}>
     <Container>
     <Typography sx={headerStylesB}>Hobbies</Typography>
     </Container>
