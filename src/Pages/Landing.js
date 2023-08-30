@@ -11,6 +11,7 @@ import Link from '@mui/material/Link';
 import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
+import FooterImage from '../Images/landing/footerimage.png';
 import '../../src/Portfolio.css';
 
 
@@ -125,7 +126,13 @@ color: '#30638E',
 
 
 
-
+const endStyles = {
+  height: '150px',
+  maxHeight: '150px',
+  width: '100%', 
+  display: 'block'
+   
+}
 
 
 
@@ -249,12 +256,11 @@ return (
     </Box>
 
 
-
-<div>
-
+    <Box style={{ backgroundImage: `url(${FooterImage})`, width: '100%'}} sx={endStyles}>
 
 
-</div>
+</Box>
+
 
 </>
 
