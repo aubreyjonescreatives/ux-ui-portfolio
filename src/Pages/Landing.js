@@ -214,26 +214,7 @@ return (
 
 
 
-<Col sm={12} md={6} xl={4}>
-    <Card sx={cardStyles} className="cardStyles">
-    <Link href="/disneyvsnetflix" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
-      <CardMedia
-        component="img"
-        alt="Disney VS Netflix Research"
-        sx={cardStylesImage}
-        image={DVNImage}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Disney Vs. Netflix
-        </Typography>
-        </CardContent>
 
-      </Link>
-    </Card>
-  
-
-    </Col>
 
     <Col sm={12} md={6} xl={4}>
 
