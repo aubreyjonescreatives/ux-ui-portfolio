@@ -90,7 +90,7 @@ textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
 border: 'none', 
 boxShadow: 'none',
-borderRadius: '5px',
+borderRadius: '15px',
 backgroundColor: '#FFF', 
 border: '2px solid #F8F9FA'
 }
