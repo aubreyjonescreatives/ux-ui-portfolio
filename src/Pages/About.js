@@ -171,7 +171,7 @@ const About = () => {
    <Box sx={boxStylesAFirst}>
     <Container>
    <Typography sx={headerStylesAFirst}>About Me</Typography>
-   <Typography sx={headerStylesAFirst}>I'm a creative UX/UI Designer based in Salt Lake City, Utah, since 2016.</Typography> 
+   <Typography sx={headerStylesAFirst}>I am a creative UX/UI Designer based in Salt Lake City, Utah, since 2016.</Typography> 
 
    </Container>
    </Box>
