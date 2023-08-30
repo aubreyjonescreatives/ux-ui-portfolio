@@ -88,7 +88,6 @@ const cardStyles = {
 margin: '20px auto', 
 textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
-border: 'none', 
 boxShadow: 'none',
 borderRadius: '15px',
 backgroundColor: '#FFF', 
