@@ -8,12 +8,9 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import DVNImage from '../Images/disneyvsnetflix.png';
 import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
-import tshirtDesigns from '../Images/homemadegifts/tshirtdesigns.png';
-import StoryBook from '../Images/logos/storybookinc.png'; 
 import '../../src/Portfolio.css';
 
 
@@ -44,7 +41,7 @@ const introText = {
   margin: '10px 0px',
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
-  color: '#02075D',
+  color: '#00003D',
 
 }
 
@@ -63,7 +60,7 @@ const casestudyBox = {
 
 const headerStylesA = {
   margin: '50px auto', 
-  color: '#02075D',
+  color: '#00003D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
 //  fontWeight: '400', 
@@ -90,7 +87,10 @@ const cardStyles = {
 margin: '20px auto', 
 textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
-
+border: 'none', 
+boxShadow: '0px 0px 2px #ccc',
+borderRadius: '5px',
+backgroundColor: '#fef'
 }
 
 const cardStylesImage = {

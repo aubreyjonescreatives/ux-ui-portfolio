@@ -98,7 +98,7 @@ p {
 
  .navbar-nav a {
     font-family: 'Raleway';
-    color: #02075D !important;
+    color: #00003D !important;
     margin: 0px 20px !important; 
     border-bottom: 1px solid transparent;
     padding: 10px;
@@ -107,12 +107,12 @@ p {
 }
 
 .navbar-nav a:hover {
-border-bottom: 1px solid #02075D;
+border-bottom: 1px solid #00003D;
 padding: 10px;
 }
 
 .navbar-nav a:active {
-    border-bottom: 1px solid #02075D;
+    border-bottom: 1px solid #00003D;
     padding: 10px;
     }
 
@@ -127,14 +127,14 @@ padding: 10px;
 
 .navLinkSocial svg {
     margin: 0px 20px !important;
-    color: #02075D !important;
+    color: #00003D !important;
     font-size: 24px;
     border-bottom: 1px solid transparent;
     padding: 10px;
 }
 
 .navLinkSocial svg:hover {
-    border-bottom: 1px solid #02075D;
+    border-bottom: 1px solid #00003D;
     padding: 10px;
     
   
@@ -144,7 +144,7 @@ padding: 10px;
 
    
 .cardStyles:hover {
-    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    box-shadow: 2px 10px 15px rgba(39,44,49,.07), 1px 6px 7px rgba(39,44,49,.04);
     transition: all .4s ease; /* zoom in */
     cursor: pointer; 
   

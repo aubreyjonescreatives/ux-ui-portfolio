@@ -13,7 +13,7 @@ import ResumePDF from '../Images/resume/aubreyjonesuxuidesignresume.pdf';
 
 const headerStylesA = {
   marginBottom: '50px', 
-  color: '#02075D',
+  color: '#00003D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
 //  fontWeight: '400', 
@@ -39,7 +39,7 @@ const cardStyles = {
 const headerStylesB = {
   marginTop: '50px', 
   marginBottom: '50px', 
-  color: '#02075D',
+  color: '#00003D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
 //  fontWeight: '400', 
@@ -50,7 +50,7 @@ const headerStylesB = {
 
 const resumeType = {
  // margin: '50px 100px 50px 50px', 
-  color: '#02075D',
+  color: '#00003D',
   fontSize: '24px', 
   fontFamily: 'Raleway, sans-serif', 
 }
@@ -60,14 +60,14 @@ const resumelink = {
   marginBottom: '50px',
   fontFamily: 'Raleway, sans-serif',
   textDecoration: 'none',
-  backgroundColor: '#02075D',
+  backgroundColor: '#00003D',
   padding: '10px',
   color: 'white',
   width: '100px',
   textAlign: 'center',
   "&:hover": {
     color: 'white',
-    backgroundColor: '#02075D',
+    backgroundColor: '#00003D',
    // border: '1px solid #30638E', 
     cursor: 'pointer'
    

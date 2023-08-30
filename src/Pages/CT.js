@@ -40,7 +40,7 @@ const boxStylesA = {
 
 const headerStylesA = {
   margin: '25px 0px', 
-  color: '#02075D',
+  color: '#00003D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
 //  fontWeight: '400', 
@@ -85,7 +85,7 @@ const paragraphA = {
 const headerStylesB = {
   justifyContent: 'start',
   margin: '50px 0px', 
-  color: '#02075D',
+  color: '#00003D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
 //  fontWeight: '400', 
@@ -98,7 +98,7 @@ const headerStylesB = {
 const sectiontitleB = {
   fontFamily: 'Raleway, sans-serif',
   fontSize: '28px', 
-  color: '#02075D',
+  color: '#00003D',
   margin: '50px 0px'
   }
 
