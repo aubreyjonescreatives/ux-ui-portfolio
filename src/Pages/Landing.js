@@ -30,7 +30,7 @@ const introStyles = {
 }
 
 const introContainer = {
-  margin: '200px auto', 
+  margin: '200px auto 0px auto', 
   clear: 'both'
 }
 
@@ -53,13 +53,14 @@ const introText = {
 
 
 const casestudyBox = {
-  backgroundColor: 'ffffff', 
+  backgroundColor: '#F8F9FA',
   paddingBottom: '100px'
 
 }
 
 const headerStylesA = {
-  margin: '50px auto', 
+  paddingTop: '50px', 
+  paddingBottom: '50px',
   color: '#00003D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
@@ -90,7 +91,7 @@ fontFamily: 'Raleway, sans-serif',
 border: 'none', 
 boxShadow: '0px 0px 2px #ccc',
 borderRadius: '5px',
-backgroundColor: '#fef'
+backgroundColor: '#FFF'
 }
 
 const cardStylesImage = {

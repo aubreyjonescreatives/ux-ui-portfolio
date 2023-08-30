@@ -12,7 +12,7 @@ const footerStyles = {
   color: '#00003D', 
   backgroundColor: 'white', 
   boxShadow: '0px 0px 2px #ccc',
-  marginTop: '100px'
+  //marginTop: '100px'
 }
 
 
