@@ -38,7 +38,7 @@ const introText = {
   textAlign: 'left',
   
   fontWeight: '300',
-  margin: '10px 0px',
+  margin: '100px auto', 
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
   color: '#00003D',

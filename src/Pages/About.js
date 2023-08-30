@@ -39,23 +39,24 @@ const boxStylesAFirst = {
 }
 
 
-const headerStylesA = {
-  margin: '50px auto', 
-  color: '#00003D',
-  fontSize: '36px', 
-  fontFamily: 'Raleway, sans-serif', 
-//  fontWeight: '400', 
+// const headerStylesA = {
+//   margin: '50px auto', 
+//   color: '#00003D',
+//   fontSize: '36px', 
+//   fontFamily: 'Raleway, sans-serif', 
+// //  fontWeight: '400', 
   
   
   
-  }
+//   }
 
   const headerStylesAFirst = {
-    margin: '100px auto', 
-    color: '#00003D',
-    fontSize: '36px', 
-    fontFamily: 'Raleway, sans-serif', 
-  //  fontWeight: '400', 
+    textAlign: 'left',
+  fontWeight: '300',
+  margin: '100px auto', 
+  fontSize: '36px',
+  fontFamily: 'Raleway, sans-serif', 
+  color: '#00003D',
 
   }
 
@@ -169,7 +170,7 @@ const About = () => {
    
    <Box sx={boxStylesAFirst}>
     <Container>
-   <Typography sx={headerStylesA} id="aboutme">About Me</Typography>
+   <Typography sx={headerStylesAFirst}>About Me</Typography>
    <Typography sx={headerStylesAFirst}>I'm a creative UX/UI Designer based in Salt Lake City, Utah, since 2016.</Typography> 
 
    </Container>

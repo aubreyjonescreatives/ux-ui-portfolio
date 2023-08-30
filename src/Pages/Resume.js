@@ -9,55 +9,61 @@ import ResumeImage from '../Images/resume/aubreyjonesuxuidesignresume.png'
 import Link from '@mui/material/Link';
 import ResumePDF from '../Images/resume/aubreyjonesuxuidesignresume.pdf';
 
+const Everything = {
+  display: 'grid',
+  margin: '100px auto 0px auto',
+ // justifyContent: 'center', 
+  width: '100%',
+}
+
+const boxStylesAFirst = {
+  backgroundColor: '#ffffff', 
+ // paddingBottom: '250px'
+}
+
+const boxStylesALast = {
+  backgroundColor: '#ffffff', 
+  paddingBottom: '250px'
+}
 
 
-const headerStylesA = {
-  marginBottom: '50px', 
-  color: '#00003D',
-  fontSize: '36px', 
-  fontFamily: 'Raleway, sans-serif', 
-//  fontWeight: '400', 
-  
-  
-  
-  }
+const boxStylesA = {
+  backgroundColor: '#ffffff', 
+  paddingBottom: '75px'
+ 
+ }
 
-  const resumeStyles = {
-    display: 'grid',
-    maxWidth: '612px',
+    const headerStylesAFirst = {
+      textAlign: 'left',
+    fontWeight: '300',
     margin: '100px auto', 
+    fontSize: '36px',
+    fontFamily: 'Raleway, sans-serif', 
+    color: '#00003D',
     
     }
 
 
 const cardStyles = {
-  margin: '0 auto',
+  display: 'block',
   border: 'none',
   maxWidth: '612px', 
+  margin: '0 auto'
 }
 
-const headerStylesB = {
-  marginTop: '50px', 
-  marginBottom: '50px', 
-  color: '#00003D',
-  fontSize: '36px', 
-  fontFamily: 'Raleway, sans-serif', 
-//  fontWeight: '400', 
-  
-  
-  
+
+
+  const paragraphB = {
+    fontFamily: 'Raleway, sans-serif',
+    margin: '20px 0px'
   }
+  
 
-const resumeType = {
- // margin: '50px 100px 50px 50px', 
-  color: '#00003D',
-  fontSize: '24px', 
-  fontFamily: 'Raleway, sans-serif', 
-}
+
 
 const resumelink = {
   marginTop: '50px',
-  marginBottom: '50px',
+  marginBottom: '150px',
   fontFamily: 'Raleway, sans-serif',
   textDecoration: 'none',
   backgroundColor: '#00003D',
@@ -79,12 +85,14 @@ const resumelink = {
 const Resume = () => {
   return (
     <>
-    <Box>
-     <Container sx={resumeStyles}>
-    
-   
-    <Typography sx={headerStylesA}>Resume</Typography>
-
+    <Box sx={Everything}>
+    <Box sx={boxStylesAFirst}>
+     <Container>
+     <Typography sx={headerStylesAFirst}>Resume</Typography>
+  
+ </Container>
+</Box>
+ <Box sx={boxStylesA}>
     <Card sx={cardStyles}>
     <CardMedia
         component="img"
@@ -94,17 +102,19 @@ const Resume = () => {
 
 
     </Card>
-
-  
-    <Typography sx={headerStylesB}>Downloadable Resume</Typography>
+</Box>
+<Box sx={boxStylesALast}>
+  <Container>
+    <Typography sx={headerStylesAFirst}>Downloadable Resume</Typography>
     
-    <Typography sx={resumeType}>If you would like a downloadable PDF version, click this link:</Typography>
+    <Typography sx={paragraphB}>If you would like a downloadable PDF version, click this link:</Typography>
 
     <Link sx={resumelink} href={ResumePDF} target="_blank">RESUME</Link>
-    
-    
-
     </Container>
+    </Box>
+
+  
+  
     </Box>
     </>
   )
