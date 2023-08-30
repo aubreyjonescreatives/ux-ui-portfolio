@@ -211,6 +211,17 @@ const CT = () => {
 
 </Col>
 
+<Col sx={12} sm={6} md={4} xl={3}>
+<Typography sx={flcInfo}>
+  Teammates:
+</Typography>
+<Typography sx={flcInfo}>
+  Vivian Song
+</Typography>
+
+
+</Col>
+
 </Row>
 
 
@@ -239,10 +250,15 @@ their vision and goals well before we spent time designing their wireframes.</Ty
 <Typography sx={paragraphA}>
   Work Availability
 </Typography>
-<Typography sx={paragraphA}>The work load carried a lot of inconsistency. Sometimes features did not take as long as others and sometimes 
-we were out of work altogether. To resolve this issue, we excercised patience and direct communication to see if our client needed any additional 
-work throughout the project.</Typography>
-
+<Typography sx={paragraphA}>Due to the nature of Codafi as a startup company, the work load carried a lot of inconsistency. Sometimes we could work more than 
+our expected hours and sometimes we had to meet the part time expectation. Our client was so busy that they could not always also communicate with us about new 
+feature requests. This created a lot of work load inconsistency between features. We did our best to provide direct communication and patience to resolve these 
+concerns.</Typography>
+<Typography sx={paragraphA}>
+  Collaboration VS. Independent Work
+</Typography>
+<Typography sx={paragraphA}>Vivian and I were hired into the project around the same time and became the only UX/UI designers for Landing International. We
+worked on several features together, which was a lot of fun! We also divided and conquered throughout several of the features as well.  </Typography>
 
 
 </Container>
@@ -296,7 +312,7 @@ work throughout the project.</Typography>
 
 </Col>
 <Col>
-<Typography sx={paragraphB}>We met with Landing International stakeholders to discover what they 
+<Typography sx={paragraphB}>I met with Landing International stakeholders to discover what they 
 wanted either designed or redesigned. Since they completed the research phase before I signed on to Codafi, 
 Landing International provided us with Google Doc lists, Google Slides, sitemaps, and user flows for needed 
 feature information.</Typography>
@@ -462,7 +478,7 @@ and needs with Landing International Stakeholders.</Typography>
 their information architecture needed updates as well. </Typography>
 <Typography sx={paragraphB}>Landing International's website contained several different points of view such as 
 for retailers and brands. Their top navigation bar needed better consistency and accessibility so that their 
-audience could find new features through faster user flows.</Typography>
+audience could find new features through faster user flows. I updated the layout to meet those needs.</Typography>
 
 <Row>
 <Col>
