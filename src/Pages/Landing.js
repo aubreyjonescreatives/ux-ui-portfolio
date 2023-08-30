@@ -91,7 +91,8 @@ fontFamily: 'Raleway, sans-serif',
 border: 'none', 
 boxShadow: 'none',
 borderRadius: '5px',
-backgroundColor: '#FFF'
+backgroundColor: '#FFF', 
+border: '2px solid #F8F9FA'
 }
 
 const cardStylesImage = {
