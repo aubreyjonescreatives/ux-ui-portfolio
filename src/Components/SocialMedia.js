@@ -13,16 +13,16 @@ const SocialMedia = () => {
     <>
  
         <Row>
-        <Nav.Link href="https://www.behance.net/aubreyjonesdesign" className="navLinkSocial">
+        <Nav.Link href="https://www.behance.net/aubreyjonesdesign" target="_blank" className="navLinkSocial">
         <FontAwesomeIcon icon={faBehanceSquare} className="icon"/>
         </Nav.Link>
-            <Nav.Link href="https://medium.com/@aubreyjonescreatives" className="navLinkSocial">
+            <Nav.Link href="https://medium.com/@aubreyjonescreatives" target="_blank" className="navLinkSocial">
             <FontAwesomeIcon icon={faMedium} className="icon"/>
             </Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/aubrey-jones" className="navLinkSocial">
+            <Nav.Link href="https://www.linkedin.com/in/aubrey-jones" target="_blank" className="navLinkSocial">
             <FontAwesomeIcon icon={faLinkedin} className="icon"/>
             </Nav.Link>
-            <Nav.Link href="https://www.youtube.com/channel/UCw4Fi6cUbn67D18LqTPQymA" className="navLinkSocial">
+            <Nav.Link href="https://www.youtube.com/channel/UCw4Fi6cUbn67D18LqTPQymA" target="_blank" className="navLinkSocial">
             <FontAwesomeIcon icon={faSquareYoutube} className="icon"/>
             </Nav.Link>
             </Row>
