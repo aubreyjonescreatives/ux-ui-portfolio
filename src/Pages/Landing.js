@@ -89,7 +89,7 @@ margin: '20px auto',
 textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
 border: 'none', 
-boxShadow: '0px 0px 2px #ccc',
+boxShadow: 'none',
 borderRadius: '5px',
 backgroundColor: '#FFF'
 }
