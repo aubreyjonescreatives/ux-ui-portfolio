@@ -216,7 +216,10 @@ const CT = () => {
   Teammates:
 </Typography>
 <Typography sx={flcInfo}>
-  Vivian Song
+  Laura Wang, Project Manager
+</Typography>
+<Typography sx={flcInfo}>
+  Vivian Song, UX/UI Designer
 </Typography>
 
 
@@ -243,22 +246,32 @@ and can communicate these concerns through Landing International.</Typography>
 <Typography sx={headerStylesB}>Project Constraints</Typography>
 <Typography sx={paragraphA}>A few of our project constraints included:</Typography>
 <Typography sx={paragraphA}>
-  Client Expectations
+ Design Deadlines
 </Typography>
-<Typography sx={paragraphA}>Each new feature contained a list of requirements. We spent time with Landing International stakeholders to clearly identify 
-their vision and goals well before we spent time designing their wireframes.</Typography>
+<Typography sx={paragraphA}>Our Landing International stakeholders had very specific goals for each new feature. After 
+weeks of working through a specific design idea with them, they often wanted to make many additional last minute changes. 
+This added a lot of scope creep to the project focus. As a young startup company, Codafi began implementing clear process 
+documentation and design sign offs so that Landing International could not move backward in the design phase so frequently.
+As a designer, I used this documentation and sign off process so that we could all move forward and meet needed feature deadlines.</Typography>
 <Typography sx={paragraphA}>
   Work Availability
 </Typography>
-<Typography sx={paragraphA}>Due to the nature of Codafi as a startup company, the work load carried a lot of inconsistency. Sometimes we could work more than 
-our expected hours and sometimes we had to meet the part time expectation. Our client was so busy that they could not always also communicate with us about new 
-feature requests. This created a lot of work load inconsistency between features. We did our best to provide direct communication and patience to resolve these 
-concerns.</Typography>
+<Typography sx={paragraphA}>Landing International stakeholders were so understandably busy that they could not always also communicate new 
+feature requests with us. This created a lot of work load inconsistency between features. We worked together to create direct 
+communication to resolve these concerns.</Typography>
 <Typography sx={paragraphA}>
   Collaboration VS. Independent Work
 </Typography>
 <Typography sx={paragraphA}>Vivian and I were hired into the project around the same time and became the only UX/UI designers for Landing International. We
-worked on several features together, which was a lot of fun! We also divided and conquered throughout several of the features as well.  </Typography>
+worked on several features together, which was a lot of fun! We also divided and conquered throughout several of the features as well. Limiting collaboration 
+was a project challenge as it required more communication about design consistency. </Typography>
+<Typography sx={paragraphA}>
+  Lack of Design System
+</Typography>
+<Typography sx={paragraphA}>Adding new features required new designs. Landing International did not use a specific design system and the use of a design 
+system was always an open-ended question. Our Codafi technology guru spent a lot of time researching design systems. Landing International also did not have 
+updated navigation bars that matched multiple points of view. My project manager, Laura Wang worked with them to discover specific navigation needs and I implemented  
+them into the updated designs.  </Typography>
 
 
 </Container>

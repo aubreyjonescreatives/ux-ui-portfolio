@@ -211,27 +211,7 @@ return (
 
     </Col>
 
-<Col sm={12} md={6} xl={4}>
-  
-    <Card sx={cardStyles} className="cardStyles">
-    <Link href="/appareldesignscasestudy" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
-      <CardMedia
-        component="img"
-        alt="UI Designs"
-        image={tshirtDesigns}
-        sx={cardStylesImage}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Apparel Designs
-        </Typography>
-        </CardContent>
-      </Link>
-    </Card>
-    
 
-
-    </Col>
 
 
 <Col sm={12} md={6} xl={4}>
@@ -276,27 +256,7 @@ return (
 
     </Col>
 
-<Col sm={12} md={6} xl={4}>
-  
-    <Card sx={cardStyles} className="cardStyles">
-    <Link href="/designsystems" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
-      <CardMedia
-        component="img"
-        alt="Storybook Logo"
-        image={StoryBook}
-        sx={cardStylesImage}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Design Systems
-        </Typography>
-        </CardContent>
-      </Link>
-    </Card>
-    
 
-
-    </Col>
 
     </Row>
 
