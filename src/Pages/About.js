@@ -34,16 +34,16 @@ const boxStylesA = {
 }
 
 
-const headerStylesA = {
-  //margin: '50px auto', 
-  color: '#00003D',
-  fontSize: '36px', 
-  fontFamily: 'Raleway, sans-serif', 
-//  fontWeight: '400', 
+// const headerStylesA = {
+//   //margin: '50px auto', 
+//   color: '#00003D',
+//   fontSize: '36px', 
+//   fontFamily: 'Raleway, sans-serif', 
+// //  fontWeight: '400', 
   
   
   
-  }
+//   }
 
 const boxStylesB = {
   backgroundColor: '#F8F9FA', 
