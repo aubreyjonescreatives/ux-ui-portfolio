@@ -312,7 +312,8 @@ worked on several features together, which was a lot of fun! We also divided and
 
 </Col>
 <Col>
-<Typography sx={paragraphB}>I met with Landing International stakeholders to discover what they 
+<Typography sx={paragraphB}>Codafi primarily needed us to work independently with different features. 
+I often met with Landing International stakeholders to discover what they 
 wanted either designed or redesigned. Since they completed the research phase before I signed on to Codafi, 
 Landing International provided us with Google Doc lists, Google Slides, sitemaps, and user flows for needed 
 feature information.</Typography>
