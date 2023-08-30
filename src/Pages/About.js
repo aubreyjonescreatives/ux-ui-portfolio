@@ -135,6 +135,7 @@ const aboutIcon = {
 const boxStylesBLast = {
   backgroundColor: '#FFF', 
   paddingTop: '5px',
+  marginBottom: '50px',
   width: '100%'
 
 }
