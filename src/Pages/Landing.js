@@ -57,7 +57,6 @@ const introText = {
 
 const casestudyBox = {
   backgroundColor: 'ffffff', 
-  borderTop: '.5px solid #30638E',
   paddingBottom: '100px'
 
 }
