@@ -15,6 +15,7 @@ import StoryBoardBox7 from '../Images/aboutme/seventhbox.png';
 import StoryBoardBox8 from '../Images/aboutme/eighthbox.png';
 import StoryBoardBox9 from '../Images/aboutme/ninthbox.png';
 import MyDesignProcess from '../Images/aboutme/designprocess.png';
+import MyTimeline from '../Images/aboutme/mytimeline.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCamera, faPassport, faPersonHiking, faGamepad, faPaintbrush, faKitchenSet  } from '@fortawesome/free-solid-svg-icons' ;
 
@@ -174,6 +175,18 @@ const About = () => {
    <Typography sx={headerStylesAFirst}>I am a creative UX/UI Designer based in Salt Lake City, Utah, since 2016.</Typography> 
 
    </Container>
+   <Container>
+   <Card sx={cardStyles}>
+  <CardMedia
+        component="img"
+        alt="My Story"
+        sx={cardStylesImage}
+        image={MyTimeline}
+      />
+    </Card>
+  
+
+   </Container>
    </Box>
    
    
@@ -191,7 +204,7 @@ const About = () => {
 <Row>
 
 {/* first card */}
-<Col sx={12} sm={6} md={4} xl={3}>
+<Col sx={12} sm={6} md={4} xl={4}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -206,7 +219,7 @@ const About = () => {
 
     {/* second card */}
 
-    <Col sx={12} sm={6} md={4} xl={3}>
+    <Col sx={12} sm={6} md={4} xl={4}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -223,7 +236,7 @@ const About = () => {
 
     {/* third card */}
 
-<Col sx={12} sm={6} md={4} xl={3}>
+<Col sx={12} sm={6} md={4} xl={4}>
   
     <Card sx={cardStyles}>
     <CardMedia
@@ -243,7 +256,7 @@ const About = () => {
 {/* fourth card */}
 
 
-<Col sx={12} sm={6} md={4} xl={3}>
+<Col sx={12} sm={6} md={4} xl={4}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -258,7 +271,7 @@ const About = () => {
 
     {/* fifth card */}
 
-    <Col Col sx={12} sm={6} md={4} xl={3}>
+    <Col Col sx={12} sm={6} md={4} xl={4}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -276,7 +289,7 @@ const About = () => {
 
     {/* sixth card */}
 
-<Col Col sx={12} sm={6} md={4} xl={3}>
+<Col Col sx={12} sm={6} md={4} xl={4}>
   
     <Card sx={cardStyles}>
     <CardMedia
@@ -296,7 +309,7 @@ const About = () => {
 
 {/* seventh card */}
 
-<Col sx={12} sm={6} md={4} xl={3}>
+<Col sx={12} sm={6} md={4} xl={4}>
     <Card sx={cardStyles}>
   <CardMedia
         component="img"
@@ -311,7 +324,7 @@ const About = () => {
 
 {/* eighth card */}
 
-    <Col sx={12} sm={6} md={4} xl={3}>
+    <Col sx={12} sm={6} md={4} xl={4}>
 
     <Card sx={cardStyles}>
  <CardMedia
@@ -329,7 +342,7 @@ const About = () => {
 
     {/* ninth card */}
 
-<Col sx={12} sm={6} md={4} xl={3}>
+<Col sx={12} sm={6} md={4} xl={4}>
   
     <Card sx={cardStyles}>
     <CardMedia

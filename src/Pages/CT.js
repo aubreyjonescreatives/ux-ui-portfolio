@@ -22,7 +22,7 @@ import TopNavigationBar from '../Images/codafi/navigation.png';
 
 const Everything = {
   display: 'grid',
-  margin: '100px auto',
+  margin: '100px auto 0px auto',
   justifyContent: 'center', 
   width: '100%',
 }
