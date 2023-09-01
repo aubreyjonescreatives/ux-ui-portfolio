@@ -62,12 +62,13 @@ const boxStylesA = {
  }
 
  
-const headerStylesA = {
-  margin: '25px 0px', 
+const headerStyles = {
+  justifyContent: 'start',
+  margin: '50px 0px', 
   color: '#00003D',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
-//  fontWeight: '400', 
+  //  fontWeight: '400', 
   
   
   }
@@ -228,19 +229,7 @@ const boxStylesB = {
 }
 
 
-const headerStylesB = {
-justifyContent: 'start',
-margin: '50px 0px', 
-color: '#00003D',
-fontSize: '36px', 
-fontFamily: 'Raleway, sans-serif', 
-//  fontWeight: '400', 
-
-
-
-}
-
-const sectiontitleB = {
+const sectiontitle = {
   fontFamily: 'Raleway, sans-serif',
   fontSize: '28px', 
   color: '#00003D',
@@ -312,10 +301,10 @@ return (
 <Box sx={boxStylesA}>
 
 <Container>
-<Typography sx={headerStylesA} id="top">Catwalk Co</Typography>
+<Typography sx={headerStyles} id="top">Catwalk Co</Typography>
 
 
-       <Typography sx={headerStylesA} id="top">UX/UI Case Study</Typography>
+       <Typography sx={headerStyles} id="top">UX/UI Case Study</Typography>
 
        </Container>
      
@@ -376,7 +365,7 @@ return (
 
 <Box sx={boxStylesB}>
   <Container>
-<Typography sx={headerStylesB}>Challenge</Typography>
+<Typography sx={headerStyles}>Challenge</Typography>
 <Typography sx={paragraph}>How can digital designers and clients better connect together in today's modern world? Catwalk Co embarks on an adventure to build a bridge 
 between digital designers and clients for better communication, expectations, and creativity throughout their design processes.</Typography>
 
@@ -398,9 +387,9 @@ between digital designers and clients for better communication, expectations, an
 
 <Container>
 
-<Typography sx={headerStylesA}>Empathy Phase</Typography>
+<Typography sx={headerStyles}>Empathy Phase</Typography>
 
-<Typography sx={sectiontitleB}>Proto Persona</Typography>
+<Typography sx={sectiontitle}>Proto Persona</Typography>
 
 <Typography sx={paragraph}>Meet David Anderson, a representative of our supposed audience.</Typography>
 
@@ -428,7 +417,7 @@ between digital designers and clients for better communication, expectations, an
 
 <Container>
 
-<Typography sx={sectiontitleB}>Research Survey</Typography>
+<Typography sx={sectiontitle}>Research Survey</Typography>
 
 <Typography sx={paragraph}>While David represented my assumed audience, I needed to find a hot and trending need to 
 confirm an interest in an e-commerce freelancing platform. I created a survey so that I could reach out to mulitple people online. I received 
@@ -483,7 +472,7 @@ an interesting mix of feedback from some of my results:</Typography>
 
 <Box sx={boxStylesA}>
 <Container>
-<Typography sx={sectiontitleB}>Competitor Analysis</Typography>
+<Typography sx={sectiontitle}>Competitor Analysis</Typography>
 <Typography sx={paragraph}>I found a few direct competitors alongside Upwork for freelancers such as Fiverr Business and Behance. 
 I also realized that freelancers can connect to clients through indirect competitors such as LinkedIn and Indeed. I gathered intel 
 to know if these competitors provided solutions to freelancers in their problem areas. This is what I discovered:</Typography>
@@ -514,7 +503,7 @@ to know if these competitors provided solutions to freelancers in their problem 
 
 <Box sx={boxStylesA}>
 <Container>
-<Typography sx={sectiontitleB}>Affinity Diagram</Typography>
+<Typography sx={sectiontitle}>Affinity Diagram</Typography>
 
 
 <Typography sx={paragraph}>I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
@@ -550,7 +539,7 @@ way as David does about freelancing overall: </Typography>
 
 <Box sx={boxStylesA}>
   <Container>
-<Typography sx={sectiontitleB}>Empathy Map</Typography>
+<Typography sx={sectiontitle}>Empathy Map</Typography>
 
 
 
@@ -580,7 +569,7 @@ gather information on what they heard, said, thought, and did throughout their u
 
 <Box sx={boxStylesA}>
   <Container>
-<Typography sx={sectiontitleB}>User Persona</Typography>
+<Typography sx={sectiontitle}>User Persona</Typography>
 
 
 <Typography sx={paragraph}>Meet Laurey Lane, a representative of our audience based upon our researched trending facts. Does she fit the picture? Does she relate to our interviewed freelancers?</Typography>
@@ -615,9 +604,9 @@ gather information on what they heard, said, thought, and did throughout their u
 
 <Box sx={boxStylesB}>
   <Container>
-<Typography sx={headerStylesA}>Define Phase</Typography>
+<Typography sx={headerStyles}>Define Phase</Typography>
 
-<Typography sx={sectiontitleB}>User Insight Statement</Typography>
+<Typography sx={sectiontitle}>User Insight Statement</Typography>
 
 <Typography sx={paragraph}>Overworked freelancers and disheartened clients need a better collaborative project management platform because it will clarify expectations and organize work ethic boundaries between involved parties.</Typography>
     
@@ -633,7 +622,7 @@ gather information on what they heard, said, thought, and did throughout their u
 
 <Container>
 
-<Typography sx={sectiontitleB}>Problem Statement</Typography>
+<Typography sx={sectiontitle}>Problem Statement</Typography>
 
 <Typography sx={paragraph}>We believe Catwalk Co will renew communication, creativity, and committment 
 of remote freelancers and clients so that they can acheive higher quality results 
@@ -657,7 +646,7 @@ of remote freelancers and clients so that they can acheive higher quality result
 
 <Container>
 
-<Typography sx={headerStylesA}>Ideate</Typography>
+<Typography sx={headerStyles}>Ideate</Typography>
 
 
 
@@ -665,7 +654,7 @@ of remote freelancers and clients so that they can acheive higher quality result
 
 
 
-<Typography sx={sectiontitleB}>I Like I Wish What If Method</Typography>
+<Typography sx={sectiontitle}>I Like I Wish What If Method</Typography>
 
 
 
@@ -698,7 +687,7 @@ step is the "I Like, I Wish, What If" method as I dig deeper into what feature i
 <Box sx={boxStylesA}>
 
 <Container>  
-<Typography sx={sectiontitleB}>Feature Priortization Matrix</Typography>
+<Typography sx={sectiontitle}>Feature Priortization Matrix</Typography>
 
 <Typography sx={paragraph}>I want to keep the most viable product (MVP) in mind as I don't want to create 
 any scope creep and be mindful of timing as I am on feature deadlines. I won't always have time to create 
@@ -733,7 +722,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 
 <Box sx={boxStylesA}>
   <Container>
-<Typography sx={sectiontitleB}>Value Proposition Statement and Canvas</Typography>
+<Typography sx={sectiontitle}>Value Proposition Statement and Canvas</Typography>
 
 <Typography sx={paragraph}>Catwalk Co is developing a freelancing app to help freelancers and clients solve 
 communication errors, creativity blockers, and financial pitfalls
@@ -764,7 +753,7 @@ with our audience to provide simpler and better means for all.</Typography>
 
     <Box sx={boxStylesA}>
       <Container>
-<Typography sx={sectiontitleB}>User Scenario</Typography>
+<Typography sx={sectiontitle}>User Scenario</Typography>
 
 
 
@@ -794,7 +783,7 @@ with our audience to provide simpler and better means for all.</Typography>
 
 <Box sx={boxStylesA}>
   <Container>
-<Typography sx={sectiontitleB}>Storyboard</Typography>
+<Typography sx={sectiontitle}>Storyboard</Typography>
 
 
 
@@ -825,7 +814,7 @@ with our audience to provide simpler and better means for all.</Typography>
 
 <Box sx={boxStylesA}>
   <Container>
-<Typography sx={sectiontitleB}>Journey Map</Typography>
+<Typography sx={sectiontitle}>Journey Map</Typography>
 
 <Typography sx={paragraph}>Let's spend a moment with Laurey Lane as she expresses her typical day as a freelancer:</Typography>
 
@@ -857,13 +846,13 @@ with our audience to provide simpler and better means for all.</Typography>
 
 <Container>
 
-<Typography sx={headerStylesA}>Prototype Phase</Typography>
+<Typography sx={headerStyles}>Prototype Phase</Typography>
 
 
 {/*User Flow*/}
 
 
-<Typography sx={sectiontitleB}>User Flow</Typography>
+<Typography sx={sectiontitle}>User Flow</Typography>
 
 
 <Typography sx={paragraph}>As I entered the design thinking Prototype phase, I carefully considered the most desired Catwalk Co features 
@@ -907,7 +896,7 @@ based on my research, feature prioritization matrix, and Laurey's current overal
 {/*sitemap*/}
 
 
-<Typography  sx={sectiontitleB}>Sitemap</Typography>
+<Typography  sx={sectiontitle}>Sitemap</Typography>
 
 <Container sx={sitemapContainer}>
 
@@ -963,7 +952,7 @@ based on my research, feature prioritization matrix, and Laurey's current overal
 
 
 
-<Typography sx={sectiontitleB}>Sketches</Typography>
+<Typography sx={sectiontitle}>Sketches</Typography>
 
 <Typography sx={paragraph}>Now that I understood my overall information architecture for Catwalk Co's mobile app, 
 here are some of my rough sketches for Catwalk Co to get through ideas much faster:</Typography>
@@ -1061,7 +1050,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 {/*Low - Mid Fidelity Digital Wireframes*/}
 
 
-<Typography sx={sectiontitleB}>Low - Mid Fidelity Digital Wireframes</Typography>
+<Typography sx={sectiontitle}>Low - Mid Fidelity Digital Wireframes</Typography>
 
 <Typography sx={paragraph}>After sketching through quite a few app ideas, I wanted to add ones that
  worked alongside common mental model design patterns in my digital designs. I found inspiration through 
@@ -1224,7 +1213,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 
 
-<Typography sx={sectiontitleB}>Low - Mid Fidelity Digital Prototype</Typography>
+<Typography sx={sectiontitle}>Low - Mid Fidelity Digital Prototype</Typography>
 
 <Container sx={iframeContainer}>
 
@@ -1258,14 +1247,14 @@ allowfullscreen
 
 <Container>
 
-<Typography sx={headerStylesA}>User Testing</Typography>
+<Typography sx={headerStyles}>User Testing</Typography>
 
 
 
 {/*User Testing Feedback */}
 
 
-<Typography sx={sectiontitleB}>User Testing Feedback</Typography>
+<Typography sx={sectiontitle}>User Testing Feedback</Typography>
 
 
 
@@ -1353,13 +1342,13 @@ allowfullscreen
 
 <Container>
 
-<Typography sx={headerStylesB}>User Interface Design</Typography>
+<Typography sx={headerStyles}>User Interface Design</Typography>
 
 
 {/*Style Guide*/}
 
 
-<Typography sx={sectiontitleB}>Style Guide</Typography>
+<Typography sx={sectiontitle}>Style Guide</Typography>
 
 
 <Typography sx={paragraph}>It's time for color, typography, and specific design element styles</Typography>
@@ -1395,7 +1384,7 @@ allowfullscreen
 
     </Container>
 
-<Typography sx={sectiontitleB}>Hi-Fidelity Wireframes</Typography>
+<Typography sx={sectiontitle}>Hi-Fidelity Wireframes</Typography>
 
 
 <Typography sx={paragraph}>As I implemented the style guide into these wireframes, I focused on readability, consistency, contrast, color theory, etc. just to name a few important 
