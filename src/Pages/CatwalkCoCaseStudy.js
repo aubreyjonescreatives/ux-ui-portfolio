@@ -1331,8 +1331,8 @@ allowfullscreen
 
       </Row>
 
-
-
+</Container>
+</Box>
 
 {/*PROTOTYPE PHASE*/}
 
@@ -1452,10 +1452,6 @@ UI design principles focused here.</Typography>
 
 
 
-</Container>
-
-
-</Box>
 
 
 
