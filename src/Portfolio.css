@@ -89,7 +89,7 @@ p {
 .navbar {
     background-color: white !important;
     /* border-bottom: 1px solid #02075D;  */
-    box-shadow: 0px 0px 2px #ccc;
+    border-bottom: 2px solid #F8F9FA;
 }
 
 .navbar-collapse {
