@@ -9,11 +9,6 @@ import StoryBoardBox1 from '../Images/aboutme/firstbox.png';
 import StoryBoardBox2 from '../Images/aboutme/secondbox.png';
 import StoryBoardBox3 from '../Images/aboutme/thirdbox.png';
 import StoryBoardBox4 from '../Images/aboutme/fourthbox.png';
-import StoryBoardBox5 from '../Images/aboutme/fifthbox.png';
-import StoryBoardBox6 from '../Images/aboutme/sixthbox.png';
-import StoryBoardBox7 from '../Images/aboutme/seventhbox.png';
-import StoryBoardBox8 from '../Images/aboutme/eighthbox.png';
-import StoryBoardBox9 from '../Images/aboutme/ninthbox.png';
 import MyDesignProcess from '../Images/aboutme/designprocess.png';
 import MyTimeline from '../Images/aboutme/mytimeline.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -269,94 +264,9 @@ const About = () => {
 
     </Col>
 
-    {/* fifth card */}
+ 
 
-    <Col Col sx={12} sm={6} md={4} xl={4}>
-
-    <Card sx={cardStyles}>
- <CardMedia
-        component="img"
-        alt="My Story"
-        sx={cardStylesImage}
-        image={StoryBoardBox5}
-      />
     
-    </Card>
-   
-
-    </Col>
-
-
-    {/* sixth card */}
-
-<Col Col sx={12} sm={6} md={4} xl={4}>
-  
-    <Card sx={cardStyles}>
-    <CardMedia
-        component="img"
-        alt="My Story"
-        image={StoryBoardBox6}
-        sx={cardStylesImage}
-      />
-    
-    </Card>
-    
-
-
-    </Col>
-
-
-
-{/* seventh card */}
-
-<Col sx={12} sm={6} md={4} xl={4}>
-    <Card sx={cardStyles}>
-  <CardMedia
-        component="img"
-        alt="My Story"
-        sx={cardStylesImage}
-        image={StoryBoardBox7}
-      />
-    </Card>
-  
-
-    </Col>
-
-{/* eighth card */}
-
-    <Col sx={12} sm={6} md={4} xl={4}>
-
-    <Card sx={cardStyles}>
- <CardMedia
-        component="img"
-        alt="My Story"
-        sx={cardStylesImage}
-        image={StoryBoardBox8}
-      />
-    
-    </Card>
-   
-
-    </Col>
-
-
-    {/* ninth card */}
-
-<Col sx={12} sm={6} md={4} xl={4}>
-  
-    <Card sx={cardStyles}>
-    <CardMedia
-        component="img"
-        alt="My Story"
-        image={StoryBoardBox9}
-        sx={cardStylesImage}
-      />
-    
-    </Card>
-    
-
-
-    </Col>
 
     </Row>
 
