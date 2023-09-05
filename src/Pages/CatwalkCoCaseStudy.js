@@ -12,10 +12,8 @@ import CompetitorAnalysis from '../Images/catwalkcompany/images/competitorresear
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
-import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
 import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png'; 
-import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
-import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
+import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatifUpdate.png'
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
 import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
 import SplashPage from '../Images/catwalkcompany/images/sketches/splashpage.JPG'; 
@@ -24,23 +22,14 @@ import Availability from '../Images/catwalkcompany/images/sketches/availability.
 import EmailServices from '../Images/catwalkcompany/images/sketches/emailservices.JPG'; 
 import Earnings from '../Images/catwalkcompany/images/sketches/earnings.JPG';  
 import StoryBoard from '../Images/catwalkcompany/images/storyboard.JPG'; 
-import SplashPageDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/splash-screen.png';
-import SignUpLoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up-login.png';
-import SignUpDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up.png';
-import LoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/login.png';
 import SignUpandLogin from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/signinguploggingin.png'
 import MidFiCatWalkCo from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/mid-fi-catwalkco.png';
-import DashboardDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/dashboard-1.png';
-import AvailabilityDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/availability.png';
-import InboxDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/inbox.png';
-import EarningsDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-1.png';
-import EarningsAccordionDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png';
 import Iframe from 'react-iframe'; 
-import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png';
 import StyleGuide from '../Images/catwalkcompany/images/styleguide/styleguide.png'; 
+import StyleGuideV2 from '../Images/catwalkcompany/images/styleguide/StyleGuideV2.png';
 import FinalLoginSignUp from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-signup-login.png'; 
-import FinalCatwalkCo from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-catwalkco.png';
-import FinalTimeclockRecording from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-timeclock-recording.png';
+import UpdatedLoginSignUp from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png';
+import UserDashboardUpdates from '../Images/catwalkcompany/images/hi-fidelitywireframes/userDashboardUpdates.png';
 
 
 const Everything = {
@@ -186,26 +175,8 @@ margin: '20px',
 }
 
 
-const digitalOnboarding = {
-display: 'grid', 
-justifyContent: 'center',
-
-}
 
 
-const digitalApp = {
-  display: 'grid', 
-  justifyContent: 'center',
- 
-  }
-
-
-const imageStylesADigital = {
-width: "60%", 
-//gap: '10px',
-margin: "20px auto"
-
-}
 
 
 const iframeContainer = {
@@ -270,7 +241,11 @@ const imageStylesB = {
 
 
 
-
+const imageStylesUDUpdate = {
+  width: '70%', 
+  display: 'block', 
+  margin: '75px auto 75px auto'
+}
 
 
 
@@ -729,7 +704,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 
 <Box sx={boxStylesA}>
   <Container>
-<Typography sx={sectiontitle}>Value Proposition Statement and Canvas</Typography>
+<Typography sx={sectiontitle}>Value Proposition Statement</Typography>
 
 <Typography sx={paragraph}>Catwalk Co is developing a freelancing app to help freelancers and clients solve 
 communication errors, creativity blockers, and financial pitfalls
@@ -737,7 +712,7 @@ when working on a project together. We're better than our competitors because we
 pain points discovered in other companies for all parties involved. We're believable because we seek to understand and problem solve 
 with our audience to provide simpler and better means for all.</Typography>
 
-
+{/* 
 
     <Card sx={imageStylesB}>
       <CardMedia
@@ -748,7 +723,9 @@ with our audience to provide simpler and better means for all.</Typography>
       />
      
      
-    </Card>
+    </Card> */}
+
+
    </Container>
 
     </Box>
@@ -757,7 +734,7 @@ with our audience to provide simpler and better means for all.</Typography>
 {/*User Scenario*/}
 
 
-
+{/* 
     <Box sx={boxStylesA}>
       <Container>
 <Typography sx={sectiontitle}>User Scenario</Typography>
@@ -780,7 +757,7 @@ with our audience to provide simpler and better means for all.</Typography>
      </Container>
 
 
-</Box>
+</Box> */}
 
 
 
@@ -789,7 +766,13 @@ with our audience to provide simpler and better means for all.</Typography>
 
 
 <Box sx={boxStylesA}>
+ 
   <Container>
+
+  <Row>
+
+  <Col sx={12} sm={6} md={6} xl={6}>
+
 <Typography sx={sectiontitle}>Storyboard</Typography>
 
 
@@ -805,26 +788,15 @@ with our audience to provide simpler and better means for all.</Typography>
      
      </Card>
 
+     </Col>
 
 
-
-     </Container>
-</Box>
-
-
-
-
+<Col sx={12} sm={6} md={6} xl={6}>
 {/*journeymap*/}
 
 
 
-
-<Box sx={boxStylesA}>
-  <Container>
 <Typography sx={sectiontitle}>Journey Map</Typography>
-
-<Typography sx={paragraph}>Let's spend a moment with Laurey Lane as she expresses her typical day as a freelancer:</Typography>
-
 
 
     <Card sx={imageStylesB}>
@@ -838,12 +810,20 @@ with our audience to provide simpler and better means for all.</Typography>
      
     </Card>
 
-  
-    
-    </Container>
+    </Col>
+
+</Row>
+
+
+
+     </Container>
 </Box>
 
 
+
+
+
+  
 
 {/*PROTOTYPE PHASE*/}
 
@@ -909,7 +889,7 @@ based on my research, feature prioritization matrix, and Laurey's current overal
 
 <Row>
 
-<Col sm={12} md={12} xl={12}>
+<Col sm={12} md={6} xl={6}>
 
 <Typography sx={paragraphASitemap}>First sitemap</Typography>
      
@@ -927,7 +907,7 @@ based on my research, feature prioritization matrix, and Laurey's current overal
 
     </Col>
 
-<Col sm={12} md={12} xl={12}>
+<Col sm={12} md={6} xl={6}>
     
 
 
@@ -1057,7 +1037,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 {/*Low - Mid Fidelity Digital Wireframes*/}
 
 
-<Typography sx={sectiontitle}>Low - Mid Fidelity Digital Wireframes</Typography>
+<Typography sx={sectiontitle}>Low - Mid Fidelity Digital Wireframes and Prototype:</Typography>
 
 <Typography sx={paragraph}>After sketching through quite a few app ideas, I wanted to add ones that
  worked alongside common mental model design patterns in my digital designs. I found inspiration through 
@@ -1065,162 +1045,8 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
     
 
 
- <Typography sx={paragraph}>Splash Page, Login, and Sign Up:</Typography>
- 
-<Container sx={digitalOnboarding}>
-
-<Row>
-
-<Col sm={3} md={6} lg={3}>
- <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Splash Page"
-         image={SplashPageDigital}
-       />
-      
-      
-     </Card>  
-
-     </Col>
-
-
-     <Col sm={3} md={6} lg={3}>
-     <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Login and Sign Up"
-         image={SignUpLoginDigital}
-       />
-      
-      
-     </Card>  
-</Col>
-
-<Col sm={3} md={6} lg={3}>
-     <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Sign Up"
-         image={SignUpDigital}
-       />
-      
-      
-     </Card>  
-</Col>
-
-<Col sm={3} md={6} lg={3}>
-     <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Login"
-         image={LoginDigital}
-       />
-      
-      
-     </Card>  
-</Col>
-
-
-
-     </Row>
-     </Container>
-
-
-
- <Typography sx={paragraph}>Dashboard, Availability, Inbox, Earnings:</Typography>
-  
-
- <Container sx={digitalApp}>
-
-<Row>
-
-
-<Col sm={3} md={6} lg={3}>
-
- <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Dashboard"
-         image={DashboardDigital}
-       />
-      
-      
-     </Card> 
-     
-    </Col>
-
-     <Col sm={3} md={6} lg={3}>
-   
-
- <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Availability"
-         image={AvailabilityDigital}
-       />
-      
-      
-     </Card>  
-
-</Col>
-
-<Col sm={3} md={6} lg={3}>   
-  
- <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Inbox"
-         image={InboxDigital}
-       />
-      
-      
-     </Card>  
-
-    </Col> 
-
-
-    <Col sm={3} md={6} lg={3}>
-
- <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Earnings"
-         image={EarningsDigital}
-       />
-      
-      
-     </Card>  
-
-     </Col>
-
-
-     <Col sm={3} md={6} lg={3}>
-
-     <Card sx={imageStylesADigital}>
-       <CardMedia
-         component="img"
-         alt="Earnings Accordion"
-         image={EarningsAccordionDigital}
-       />
-      </Card>
-
-</Col>
-
-
-      </Row>
-
-      </Container> 
-
-
-
-
-
 {/*Low - Mid Fidelity Digital Prototype*/}
 
-
-
-<Typography sx={sectiontitle}>Low - Mid Fidelity Digital Prototype</Typography>
 
 <Container sx={iframeContainer}>
 
@@ -1269,17 +1095,19 @@ allowfullscreen
     
 
 
+<Row>
+<Col>
+<Typography sx={quote}>The font is small and hard to read.</Typography>
+</Col>
+<Col>
+<Typography sx={quote}>To delete an email, they first went to the trash tab that could be an icon instead as opposed to swiping right.</Typography>
+</Col>
+<Col>
+<Typography sx={quote}>Login button didn’t take you to login screen</Typography>
+</Col>
 
 
-<Card sx={imageStylesA}>
-       <CardMedia
-         component="img"
-         alt="User Testing"
-         image={UserTests}
-       />
-      </Card>
-
-
+   </Row>
 
 
 
@@ -1358,7 +1186,10 @@ allowfullscreen
 <Typography sx={sectiontitle}>Style Guide</Typography>
 
 
-<Typography sx={paragraph}>It's time for color, typography, and specific design element styles</Typography>
+<Typography sx={paragraph}>It's time for color, typography, and specific design element styles. At first I 
+did not choose colors that worked well across multiple browsers, devices, and aided accessibility. I researched 
+color theory, color pairing, and made drastic updates to the style guide. I also added in components for 
+design consistency.</Typography>
   
 
 <Container sx={userflowContainer}>
@@ -1366,13 +1197,34 @@ allowfullscreen
 <Row>
 
 <Col>
-
+<Typography sx={paragraph}>Version 1:</Typography>
+  
 
     <Card sx={imageStylesAStyleGuide}>
       <CardMedia
         component="img"
         alt="Style Guide"
         image={StyleGuide}
+      />
+     
+     
+     
+    </Card>
+
+
+
+
+    </Col>
+
+    <Col>
+
+    <Typography sx={paragraph}>Version 2:</Typography>
+  
+    <Card sx={imageStylesAStyleGuide}>
+      <CardMedia
+        component="img"
+        alt="Style Guide"
+        image={StyleGuideV2}
       />
      
      
@@ -1391,19 +1243,29 @@ allowfullscreen
 
     </Container>
 
-<Typography sx={sectiontitle}>Hi-Fidelity Wireframes</Typography>
+<Typography sx={sectiontitle}>Hi-Fidelity Wireframes Version 1 & 2</Typography>
 
 
 <Typography sx={paragraph}>As I implemented the style guide into these wireframes, I focused on readability, consistency, contrast, color theory, etc. just to name a few important 
 UI design principles focused here.</Typography>
   
+<Typography sx={paragraph}>After careful consideration and feedback about the UI designs, I made some very different 
+changes to several user flows, colors, and layouts for simplicity, symmetry, proximity, etc.</Typography>
+
+<Typography sx={paragraph}>Splash Screen, Sign-Up, and Login Screens:</Typography>
+
+
 
 <Container sx={userflowContainer}>
+
+
 
 <Row>
 
 
 <Col>
+
+<Typography sx={paragraph}>Version 1:</Typography>
 
 <Card sx={imageStylesAFinal}>
        <CardMedia
@@ -1418,12 +1280,14 @@ UI design principles focused here.</Typography>
 
       <Col>
 
+      <Typography sx={paragraph}>Version 2:</Typography>
+
       <Card sx={imageStylesAFinal}>
        <CardMedia
        sx={finalHiStyles}
          component="img"
          alt="Hi-Fidelity Wireframes"
-         image={FinalCatwalkCo}
+         image={UpdatedLoginSignUp}
        />
       </Card>
 
@@ -1432,18 +1296,22 @@ UI design principles focused here.</Typography>
       </Col>
 
 
-      <Col>
+      </Row>
 
-<Card sx={imageStylesAFinal}>
-       <CardMedia
-       sx={finalHiStyles}
-         component="img"
-         alt="Hi-Fidelity Wireframes"
-         image={FinalTimeclockRecording}
-       />
-      </Card>
+      <Row>
 
-      </Col>
+      <Typography sx={paragraph}>With the second version, I made these changes:</Typography>
+
+      <Typography sx={paragraph}>1. For visual hiearchy, I removed the splash screen gradient to follow a better design balance 
+      between color and focus. It also follows the Z-Pattern. The sign-up and login pages follow F-patterns for better 
+      readability.</Typography>
+
+      <Typography sx={paragraph}>2. For visual hiearchy, I simplified the font colors and sizing so 
+      that the blue text represented clickable features while the green text represented non-clickable features 
+      for predictable design consistency.</Typography>
+
+      <Typography sx={paragraph}>3. I discovered better primary and secondary color choices so that multiple devices, browsers 
+      and color accessibility needs have an easier time looking at the app.</Typography>
 
       </Row>
 
@@ -1452,14 +1320,85 @@ UI design principles focused here.</Typography>
 
     </Container>
 
+
+    <Typography sx={paragraph}>User Dashboard Screen Iterations:</Typography>
+
+
+
+<Container sx={userflowContainer}>
+
+
+
+<Row>
+
+
+<Col>
+
+
+<Card sx={imageStylesUDUpdate}>
+       <CardMedia
+       sx={finalHiStyles}
+         component="img"
+         alt="Hi-Fidelity Wireframes"
+         image={UserDashboardUpdates}
+       />
+      </Card>
+
+      </Col>
+
+    
+
+
+      </Row>
+
+      <Row>
+
+      <Typography sx={paragraph}>With the second version, I made these changes:</Typography>
+
+
+      <Typography sx={paragraph}>1. I made sure all icons followed the same button / link / icon colors for design consistency.</Typography>
+
+      <Typography sx={paragraph}>2. I looked through different websites for current mental model practices with cards. Some of the 
+      sites included Etsy and Landing International. I discovered these cards needed rounded border, fewer 
+      colored overlays, and more whitespace for better readability.</Typography>
+
+      <Typography sx={paragraph}>3. The old headers were too thick but still contained important context. I found a color that worked well with the 
+      color palette, color accessibility, and could represent an unclickable feature. I made sure all of the headers were the same font, font size, and 
+      used the same whitespace for better readability and proximity.</Typography>
+
+      <Typography sx={paragraph}>4. While the Open Projects feature could contain any freelancing project, I added in a filter option 
+      so that customers can search for specific projects at a faster click rate.</Typography>
+
+
+      </Row>
+
+  
+
+
+    </Container>
+
+
+
+
+
+
+
+
 </Container>
 
 </Box>
 
 
+<Box sx={boxStylesA}>
+
+<Container>
+
+<Typography sx={headerStyles}>Final Thoughts and Key Takeaways:</Typography>
 
 
+</Container>
 
+</Box>
 
 
 
