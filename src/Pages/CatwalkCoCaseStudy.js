@@ -1397,6 +1397,16 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 <Typography sx={headerStyles}>Final Thoughts and Key Takeaways:</Typography>
 
 
+
+<Typography sx={paragraph}>1. Freelancers and clients can find clearer project 
+expectations and better communication through a simplified user interface.</Typography>
+<Typography sx={paragraph}>2. Colors, text, and components all need consistency and 
+clear purposes for visual hiearchy.</Typography>
+<Typography sx={paragraph}>3. There are always simpler user flows, designs, and UX writing options
+for better usability.</Typography>
+<Typography sx={paragraph}>4. Receiving feedback often energizes better design decisions.</Typography>
+
+
 </Container>
 
 </Box>
