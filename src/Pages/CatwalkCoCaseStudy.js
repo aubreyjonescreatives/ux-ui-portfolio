@@ -1360,7 +1360,7 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
       <Typography sx={paragraph}>1. I made sure all icons followed the same button / link / icon colors for design consistency.</Typography>
 
       <Typography sx={paragraph}>2. I looked through different websites for current mental model practices with cards. Some of the 
-      sites included Etsy and Landing International. I discovered these cards needed rounded border, fewer 
+      sites included Etsy and Landing International. I discovered these cards needed rounded borders, fewer 
       colored overlays, and more whitespace for better readability.</Typography>
 
       <Typography sx={paragraph}>3. The old headers were too thick but still contained important context. I found a color that worked well with the 
