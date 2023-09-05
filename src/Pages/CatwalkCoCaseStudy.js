@@ -8,14 +8,13 @@ import ProtoPersonaDave from '../Images/catwalkcompany/images/personas/protopers
 import UserPersona from '../Images/catwalkcompany/images/personas/userpersona.png'
 import JourneyMap from '../Images/catwalkcompany/images/personas/journeymap.png'; 
 import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
-import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
+import CompetitorAnalysis from '../Images/catwalkcompany/images/competitorresearch/competitoranalysis.png'; 
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
 import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatif.png'
-import UserQuote from '../Images/catwalkcompany/images/quotes.png'; 
 import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
 import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
@@ -240,12 +239,12 @@ const sectiontitle = {
 
 
 
-const cardquoteStylesB = {
+const quote = {
   margin: '75px auto 75px auto', 
   display: 'block', 
-  width: '75%',
-  fontFamily: 'Merriweather',
-fontWeight: '500'
+  fontFamily: 'Merriweather', 
+  fontSize: '24px',
+  color: '#499167'
 
 }
 
@@ -391,7 +390,10 @@ between digital designers and clients for better communication, expectations, an
 
 <Typography sx={sectiontitle}>Proto Persona</Typography>
 
-<Typography sx={paragraph}>Meet David Anderson, a representative of our supposed audience.</Typography>
+<Typography sx={paragraph}>Meet David Anderson, a representative of our supposed audience. David would love to find 
+potential paid gaming animation opportunties as an amateur gaming animator. His current call center representative 
+job is too boring and predictable. Without much experience in the gaming world, he thinks freelancing would 
+help him get his foot in the door. </Typography>
 
 
 <Card sx={imageStylesB}>
@@ -420,8 +422,8 @@ between digital designers and clients for better communication, expectations, an
 <Typography sx={sectiontitle}>Research Survey</Typography>
 
 <Typography sx={paragraph}>While David represented my assumed audience, I needed to find a hot and trending need to 
-confirm an interest in an e-commerce freelancing platform. I created a survey so that I could reach out to mulitple people online. I received 
-an interesting mix of feedback from some of my results:</Typography>
+confirm an interest in an online and competitive freelancing platform. I created a survey so that I could reach out to 
+mulitple people online. I received an interesting mix of feedback from some of my results:</Typography>
 
 
 
@@ -436,7 +438,7 @@ an interesting mix of feedback from some of my results:</Typography>
     </Card>
 
 
-    <Typography sx={paragraph}>Most freelancers found gigs by word of mouth by a landslide. None of them use 
+    <Typography sx={paragraph}>For example, most freelancers found gigs by word of mouth by a landslide. None of them use 
     online marketing. Upwork is a freelancing website specifically for web developers and designers. </Typography>
     
     
@@ -445,15 +447,20 @@ an interesting mix of feedback from some of my results:</Typography>
     platform. Some direct quotes included:</Typography>
     
 
-    <Card sx={cardquoteStylesB}>
-      <CardMedia
-        component="img"
-        alt="User Quotes"
-        image={UserQuote}
-      />
-     
-     
-    </Card>
+   <Row>
+<Col>
+<Typography sx={quote}>“I wish I didn't have to set money aside for taxes.”</Typography>
+</Col>
+<Col>
+<Typography sx={quote}>“I wish I could change some employers perception of freelance work. One company I interviewed with last year 
+    told me if I accept their offer that I'd have to give up freelance work.”</Typography>
+</Col>
+<Col>
+<Typography sx={quote}>“Being able to not work weekends. Usually find myself with projects that go well into the weekend.”</Typography>
+</Col>
+
+
+   </Row>
 
     <Typography sx={paragraph}>As the majority of my responders prefer word of mouth, could I persuade them to join the online community for 
     freelancing if I focused on their frustrations and provided good solutions to them? Why do 33.3% of people use Upwork? How does it work for freelance? 
@@ -474,7 +481,7 @@ an interesting mix of feedback from some of my results:</Typography>
 <Container>
 <Typography sx={sectiontitle}>Competitor Analysis</Typography>
 <Typography sx={paragraph}>I found a few direct competitors alongside Upwork for freelancers such as Fiverr Business and Behance. 
-I also realized that freelancers can connect to clients through indirect competitors such as LinkedIn and Indeed. I gathered intel 
+I also realized that freelancers can connect to clients through indirect competitors such as Behance and LinkedIn. I gathered intel 
 to know if these competitors provided solutions to freelancers in their problem areas. This is what I discovered:</Typography>
   
 
