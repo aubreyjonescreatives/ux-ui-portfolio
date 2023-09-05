@@ -340,8 +340,9 @@ return (
 <Box sx={boxStylesB}>
   <Container>
 <Typography sx={headerStyles}>Challenge</Typography>
-<Typography sx={paragraph}>How can digital designers and clients better connect together in today's modern world? Catwalk Co embarks on an adventure to build a bridge 
-between digital designers and clients for better communication, expectations, and creativity throughout their design processes.</Typography>
+<Typography sx={paragraph}>How can digital designers and clients better organize projects and connect together in today's modern world? 
+Catwalk Co embarks on an adventure to build a bridge between digital designers and clients for better project management, 
+communication, expectations, and creativity throughout their design processes.</Typography>
 
 </Container>
 </Box> 
