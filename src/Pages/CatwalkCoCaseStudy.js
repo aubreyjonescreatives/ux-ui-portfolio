@@ -30,6 +30,8 @@ import StyleGuideV2 from '../Images/catwalkcompany/images/styleguide/StyleGuideV
 import FinalLoginSignUp from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-signup-login.png'; 
 import UpdatedLoginSignUp from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png';
 import UserDashboardUpdates from '../Images/catwalkcompany/images/hi-fidelitywireframes/userDashboardUpdates.png';
+import AvailabilityIterations from '../Images/catwalkcompany/images/hi-fidelitywireframes/availabilityIterations.png';
+import AvailabilityFlow from '../Images/catwalkcompany/images/hi-fidelitywireframes/availabilityFlow.png';
 
 
 const Everything = {
@@ -106,14 +108,14 @@ const imageStylesAFinal = {
   width: '95%',
   display: 'block', 
   margin: '75px auto 75px auto', 
-  height: '300px'
+ // height: '300px'
   
   
   }
 
   const finalHiStyles = {
-    position: 'relative',
-    width: '100%',
+   // position: 'relative',
+  //  width: '100%',
     top: '0px'
   
   }
@@ -141,7 +143,6 @@ width: '100%'
 const imageStylesAStyleGuide = {
 display: 'block',
 margin: '0px auto',
-width: '40%'
 
 }
 
@@ -1197,11 +1198,12 @@ design consistency.</Typography>
 
 <Row>
 
+
 <Col>
 <Typography sx={paragraph}>Version 1:</Typography>
   
 
-    <Card sx={imageStylesAStyleGuide}>
+    <Card sx={imageStylesAStyleGuide} sm={12} md={6} xl={5}>
       <CardMedia
         component="img"
         alt="Style Guide"
@@ -1221,7 +1223,7 @@ design consistency.</Typography>
 
     <Typography sx={paragraph}>Version 2:</Typography>
   
-    <Card sx={imageStylesAStyleGuide}>
+    <Card sx={imageStylesAStyleGuide} sm={12} md={6} xl={5}>
       <CardMedia
         component="img"
         alt="Style Guide"
@@ -1253,7 +1255,7 @@ UI design principles focused here.</Typography>
 <Typography sx={paragraph}>After careful consideration and feedback about the UI designs, I made some very different 
 changes to several user flows, colors, and layouts for simplicity, symmetry, proximity, etc.</Typography>
 
-<Typography sx={paragraph}>Splash Screen, Sign-Up, and Login Screens:</Typography>
+<Typography sx={sectiontitle}>Splash Screen, Sign-Up, and Login Screens:</Typography>
 
 
 
@@ -1301,7 +1303,7 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
       <Row>
 
-      <Typography sx={paragraph}>With the second version, I made these changes:</Typography>
+      <Typography sx={sectiontitle}>With the second version, I made these changes:</Typography>
 
       <Typography sx={paragraph}>1. For visual hiearchy, I removed the splash screen gradient to follow a better design balance 
       between color and focus. It also follows the Z-Pattern. The sign-up and login pages follow F-patterns for better 
@@ -1322,7 +1324,7 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
     </Container>
 
 
-    <Typography sx={paragraph}>User Dashboard Screen Iterations:</Typography>
+    <Typography sx={sectiontitle}>User Dashboard Screen Iterations:</Typography>
 
 
 
@@ -1354,7 +1356,7 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
       <Row>
 
-      <Typography sx={paragraph}>With the second version, I made these changes:</Typography>
+      <Typography sx={sectiontitle}>With the second version, I made these changes:</Typography>
 
 
       <Typography sx={paragraph}>1. I made sure all icons followed the same button / link / icon colors for design consistency.</Typography>
@@ -1380,6 +1382,72 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
 
 
+    <Typography sx={sectiontitle}>Availability Iterations:</Typography>
+
+
+
+<Container sx={userflowContainer}>
+
+
+
+<Row>
+
+
+<Col>
+
+
+<Card sx={imageStylesAFinal}>
+       <CardMedia
+       sx={finalHiStyles}
+         component="img"
+         alt="Hi-Fidelity Wireframes"
+         image={AvailabilityIterations}
+       />
+      </Card>
+
+      </Col>
+
+      <Col>
+
+  
+      <Card sx={imageStylesAFinal}>
+       <CardMedia
+       sx={finalHiStyles}
+         component="img"
+         alt="Hi-Fidelity Wireframes"
+         image={AvailabilityFlow}
+       />
+      </Card>
+
+
+
+      </Col>
+
+
+      </Row>
+
+      <Row>
+
+      <Typography sx={sectiontitle}>Throughout these iterations, I made these changes:</Typography>
+
+      <Typography sx={paragraph}>1. I removed extra whitespace so that specific features chunk together better.</Typography>
+
+      <Typography sx={paragraph}>2. I removed extra steps such as the toggle icon so that freelancers don't have to select multiple 
+      features in one user flow.</Typography>
+
+      <Typography sx={paragraph}>3. I defined unavailable and available designs such as with different background colors.</Typography>
+
+      <Typography sx={paragraph}>4. I simplified the user interface so that freelancers do not have to scroll through all of their 
+      availability thanks to an accordion dropdown feature.</Typography>
+
+
+      </Row>
+
+  
+
+
+    </Container>
+
 
 
 
@@ -1394,7 +1462,7 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
 <Container>
 
-<Typography sx={headerStyles}>Final Thoughts and Key Takeaways:</Typography>
+<Typography sx={headerStyles}>Final Thoughts and Key Performance Indicators:</Typography>
 
 
 
