@@ -47,7 +47,7 @@ const Everything = {
 
 const boxStylesA = {
   backgroundColor: '#ffffff', 
-  marginBottom: '200px'
+  marginBottom: '50px'
  
  }
 
@@ -96,7 +96,7 @@ const paragraph = {
 
 const imageStylesA = { 
 display: 'block', 
-margin: '75px auto 75px auto',
+margin: '0px auto',
 
 
 }
@@ -215,7 +215,7 @@ const quote = {
 
 
 const cardStylesB = {
-  margin: '75px auto 75px auto', 
+  margin: '0px auto', 
   display: 'block', 
   fontFamily: 'Merriweather',
 fontWeight: '500'
@@ -225,7 +225,7 @@ fontWeight: '500'
 
 const imageStylesB = { 
   display: 'block', 
-  margin: '75px auto 75px auto'
+  margin: '0px auto'
   
   
   }
@@ -398,12 +398,9 @@ help him get his foot in the door. </Typography>
 
 <Typography sx={sectiontitle}>Research Survey</Typography>
 
-<Typography sx={paragraph}>While David represented my assumed audience, I needed to find a hot and trending need to 
-confirm an interest in an online and competitive freelancing platform. I created a survey so that I could reach out to 
-mulitple people online. I received an interesting mix of feedback from some of my results:</Typography>
+<Row>
 
-
-
+<Col>
 <Card sx={cardStylesB}>
       <CardMedia
         component="img"
@@ -414,6 +411,21 @@ mulitple people online. I received an interesting mix of feedback from some of m
      
     </Card>
 
+</Col>
+
+
+  <Col>
+<Typography sx={paragraph}>While David represented my assumed audience, I needed to find a hot and trending need to 
+confirm an interest in an online and competitive freelancing platform. I created a survey so that I could reach out to 
+mulitple people online. I received an interesting mix of feedback from some of my results:</Typography>
+
+
+</Col>
+
+
+
+
+    </Row>
 
     <Typography sx={paragraph}>For example, most freelancers found gigs by word of mouth by a landslide. None of them use 
     online marketing. Upwork is a freelancing website specifically for web developers and designers. </Typography>
@@ -656,14 +668,16 @@ of remote freelancers and clients so that they can acheive higher quality result
 
 <Typography sx={sectiontitle}>I Like I Wish What If Method</Typography>
 
+  
+<Row>
 
-
+<Col>
 <Typography sx={paragraph}>After collecting audience data, it's important to brainstorm possible solutions for a better user experience. One great method for this 
 step is the "I Like, I Wish, What If" method as I dig deeper into what feature ideas are most successful and viable for a competitive freelancing app.</Typography>
-    
+  
+</Col>
 
-
-
+<Col>
 <Card sx={cardStylesB}>
       <CardMedia
         component="img"
@@ -673,8 +687,9 @@ step is the "I Like, I Wish, What If" method as I dig deeper into what feature i
      
      
     </Card>
+    </Col>
 
-
+    </Row>
 
 
     </Container>
@@ -689,14 +704,10 @@ step is the "I Like, I Wish, What If" method as I dig deeper into what feature i
 <Container>  
 <Typography sx={sectiontitle}>Feature Priortization Matrix</Typography>
 
-<Typography sx={paragraph}>I want to keep the most viable product (MVP) in mind as I don't want to create 
-any scope creep and be mindful of timing as I am on feature deadlines. I won't always have time to create 
-every feature request, which is okay. There can always be more time later on to create version two and testing each 
-step of the way will let me know if the product really truly has a worthy return on investment and meets my customers'
-needs. A Feature Prioritization Matrix lets me organize these requests based upon importance and urgency: </Typography>
+<Row>
 
-
-    <Card sx={cardStylesB}>
+  <Col>
+  <Card sx={cardStylesB}>
       <CardMedia
         component="img"
         alt="Feature Prioritization Matrix"
@@ -705,8 +716,19 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
      
      
     </Card>
+  
+  </Col>
+
+<Col>
+<Typography sx={paragraph}>I want to keep the most viable product (MVP) in mind as I don't want to create 
+any scope creep and be mindful of timing as I am on feature deadlines. I won't always have time to create 
+every feature request, which is okay. There can always be more time later on to create version two and testing each 
+step of the way will let me know if the product really truly has a worthy return on investment and meets my customers'
+needs. A Feature Prioritization Matrix lets me organize these requests based upon importance and urgency: </Typography>
+</Col>
 
 
+    </Row>
 
     </Container>
   
@@ -860,13 +882,18 @@ with our audience to provide simpler and better means for all.</Typography>
 <Typography sx={sectiontitle}>User Flow</Typography>
 
 
-<Typography sx={paragraph}>As I entered the design thinking Prototype phase, I carefully considered the most desired Catwalk Co features 
-based on my research, feature prioritization matrix, and Laurey's current overall experience: </Typography>
-  
+
 
 <Container sx={userflowContainer}>
 
 <Row>
+
+  <Col>
+  <Typography sx={paragraph}>As I entered the design thinking Prototype phase, I carefully considered the most desired Catwalk Co features 
+based on my research, feature prioritization matrix, and Laurey's current overall experience: </Typography>
+  
+  
+  </Col>
 
 <Col>
 
@@ -1350,7 +1377,6 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
 <Row>
 
-
 <Col>
 
 
@@ -1365,32 +1391,33 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
       </Col>
 
+
+<Col>
+<Typography sx={sectiontitle}>With the second version, I made these changes:</Typography>
+
+
+<Typography sx={paragraph}>1. I made sure all icons followed the same button / link / icon colors for design consistency.</Typography>
+
+<Typography sx={paragraph}>2. I looked through different websites for current mental model practices with cards. Some of the 
+sites included Etsy and Landing International. I discovered these cards needed rounded borders, fewer 
+colored overlays, and more whitespace for better readability.</Typography>
+
+<Typography sx={paragraph}>3. The old headers were too thick but still contained important context. I found a color that worked well with the 
+color palette, color accessibility, and could represent an unclickable feature. I made sure all of the headers were the same font, font size, and 
+used the same whitespace for better readability and proximity.</Typography>
+
+<Typography sx={paragraph}>4. While the Open Projects feature could contain any freelancing project, I added in a filter option 
+so that customers can search for specific projects with a faster user flow.</Typography>
+
+
+
+</Col>
+
+
     
 
 
       </Row>
-
-      <Row>
-
-      <Typography sx={sectiontitle}>With the second version, I made these changes:</Typography>
-
-
-      <Typography sx={paragraph}>1. I made sure all icons followed the same button / link / icon colors for design consistency.</Typography>
-
-      <Typography sx={paragraph}>2. I looked through different websites for current mental model practices with cards. Some of the 
-      sites included Etsy and Landing International. I discovered these cards needed rounded borders, fewer 
-      colored overlays, and more whitespace for better readability.</Typography>
-
-      <Typography sx={paragraph}>3. The old headers were too thick but still contained important context. I found a color that worked well with the 
-      color palette, color accessibility, and could represent an unclickable feature. I made sure all of the headers were the same font, font size, and 
-      used the same whitespace for better readability and proximity.</Typography>
-
-      <Typography sx={paragraph}>4. While the Open Projects feature could contain any freelancing project, I added in a filter option 
-      so that customers can search for specific projects with a faster user flow.</Typography>
-
-
-      </Row>
-
   
 
 
