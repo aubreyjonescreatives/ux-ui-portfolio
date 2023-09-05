@@ -95,34 +95,27 @@ const paragraph = {
 
 
 const imageStylesA = { 
-width: '70%',
 display: 'block', 
-margin: '75px auto 75px auto', 
-height: '300px'
+margin: '75px auto 75px auto',
 
 
 }
 
 
 const imageStylesAFinal = { 
-  width: '95%',
   display: 'block', 
   margin: '75px auto 75px auto', 
- // height: '300px'
   
   
   }
 
   const finalHiStyles = {
-   // position: 'relative',
-  //  width: '100%',
     top: '0px'
   
   }
 
 const finalMidStyles = {
   position: 'relative',
-  width: '100%',
   top: '0px'
 
 }
@@ -135,7 +128,6 @@ const userflowContainer = {
 
 
 const imageStylesAUserFlow = {
-width: '100%'
 
 
 }
@@ -154,7 +146,6 @@ const sitemapContainer = {
 }
 
 const imageStylesASitemap = {
-width: '100%'
 
 
 }
@@ -226,7 +217,6 @@ const quote = {
 const cardStylesB = {
   margin: '75px auto 75px auto', 
   display: 'block', 
-  width: '50%',
   fontFamily: 'Merriweather',
 fontWeight: '500'
 
@@ -234,7 +224,6 @@ fontWeight: '500'
 
 
 const imageStylesB = { 
-  //width: '70%',
   display: 'block', 
   margin: '75px auto 75px auto'
   
@@ -244,7 +233,6 @@ const imageStylesB = {
 
 
 const imageStylesUDUpdate = {
-  width: '70%', 
   display: 'block', 
   margin: '75px auto 75px auto'
 }
