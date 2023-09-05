@@ -1191,7 +1191,7 @@ allowfullscreen
 <Typography sx={paragraph}>It's time for color, typography, and specific design element styles. At first I 
 did not choose colors that worked well across multiple browsers, devices, and aided accessibility. I researched 
 color theory, color pairing, and made drastic updates to the style guide. I also added in components for 
-design consistency.</Typography>
+design consistency. The second iteration also comes from a helpful Figma template.</Typography>
   
 
 <Container sx={userflowContainer}>
