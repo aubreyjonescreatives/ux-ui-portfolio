@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
-import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/FinalMockups.png'; 
+import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
 import FooterImage from '../Images/landing/footerimage.png';
 import '../../src/Portfolio.css';
