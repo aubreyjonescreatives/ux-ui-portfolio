@@ -166,12 +166,13 @@ padding: '30px 0px'
 
 const sketchesContainer = {
   display: 'grid', 
-  justifyContent: 'space-evenly',
-  margin: "0px auto", 
+  justifyContent: 'center', 
+  margin: '0 auto'
 }
 
 const imageStylesASketches = {
-margin: '20px', 
+  justifyContent: 'center',
+margin: '10px auto', 
 
 }
 
@@ -233,7 +234,7 @@ fontWeight: '500'
 
 
 const imageStylesB = { 
-  width: '70%',
+  //width: '70%',
   display: 'block', 
   margin: '75px auto 75px auto'
   
@@ -365,6 +366,10 @@ communication, expectations, and creativity throughout their design processes.</
 
 <Typography sx={headerStyles}>Empathy Phase</Typography>
 
+<Row>
+
+<Col>
+
 <Typography sx={sectiontitle}>Proto Persona</Typography>
 
 <Typography sx={paragraph}>Meet David Anderson, a representative of our supposed audience. David would love to find 
@@ -372,6 +377,9 @@ potential paid gaming animation opportunties as an amateur gaming animator. His 
 job is too boring and predictable. Without much experience in the gaming world, he thinks freelancing would 
 help him get his foot in the door. </Typography>
 
+</Col>
+
+<Col>
 
 <Card sx={imageStylesB}>
       <CardMedia
@@ -383,6 +391,10 @@ help him get his foot in the door. </Typography>
      
      
     </Card>
+
+    </Col>
+
+    </Row>
 
 
     </Container>
@@ -456,13 +468,18 @@ mulitple people online. I received an interesting mix of feedback from some of m
 
 <Box sx={boxStylesA}>
 <Container>
+
+<Typography sx={sectiontitle}>Research Insights</Typography>
+<Row>
+
+<Col>
 <Typography sx={sectiontitle}>Competitor Analysis</Typography>
 <Typography sx={paragraph}>I found a few direct competitors alongside Upwork for freelancers such as Fiverr Business and Behance. 
 I also realized that freelancers can connect to clients through indirect competitors such as Behance and LinkedIn. I gathered intel 
 to know if these competitors provided solutions to freelancers in their problem areas. This is what I discovered:</Typography>
   
 
-<Card sx={cardStylesB}>
+<Card sx={imageStylesB}>
       <CardMedia
         component="img"
         alt="Competitor Analysis"
@@ -472,6 +489,39 @@ to know if these competitors provided solutions to freelancers in their problem 
      
     </Card>
 
+    </Col>
+
+<Col>
+
+
+{/*Affinity Map*/}
+
+<Typography sx={sectiontitle}>Affinity Diagram</Typography>
+
+
+<Typography sx={paragraph}>I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
+discover and organize popular trends from my audience in a logical manner and to see if others feel the same 
+way as David does about freelancing overall: </Typography>
+
+
+
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Affinity Diagram"
+        image={AffinityDiagram}
+      />
+     
+     
+    </Card>
+
+
+</Col>
+
+
+
+
+    </Row>
     </Container>
 </Box> 
 
@@ -485,33 +535,6 @@ to know if these competitors provided solutions to freelancers in their problem 
 
 
 
-<Box sx={boxStylesA}>
-<Container>
-<Typography sx={sectiontitle}>Affinity Diagram</Typography>
-
-
-<Typography sx={paragraph}>I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
-discover and organize popular trends from my audience in a logical manner and to see if others feel the same 
-way as David does about freelancing overall: </Typography>
-
-
-
-<Card sx={cardStylesB}>
-      <CardMedia
-        component="img"
-        alt="Affinity Diagram"
-        image={AffinityDiagram}
-      />
-     
-     
-    </Card>
-
-
-
-
-
-    </Container>
-</Box> 
 
 
 
@@ -523,6 +546,12 @@ way as David does about freelancing overall: </Typography>
 
 <Box sx={boxStylesA}>
   <Container>
+
+<Row>
+
+<Col>
+
+
 <Typography sx={sectiontitle}>Empathy Map</Typography>
 
 
@@ -532,7 +561,7 @@ gather information on what they heard, said, thought, and did throughout their u
     
 
 
-<Card sx={cardStylesB}>
+<Card sx={imageStylesB}>
       <CardMedia
         component="img"
         alt="Emapthy Map"
@@ -542,18 +571,11 @@ gather information on what they heard, said, thought, and did throughout their u
      
     </Card>
 
+    </Col>
 
-
-
-
-    </Container>
-
-</Box>
-
-
-<Box sx={boxStylesA}>
-  <Container>
-<Typography sx={sectiontitle}>User Persona</Typography>
+    <Col>
+    
+    <Typography sx={sectiontitle}>User Persona</Typography>
 
 
 <Typography sx={paragraph}>Meet Laurey Lane, a representative of our audience based upon our researched trending facts. Does she fit the picture? Does she relate to our interviewed freelancers?</Typography>
@@ -570,14 +592,20 @@ gather information on what they heard, said, thought, and did throughout their u
      
     </Card>
 
+    
+    
+    
+    
+    </Col>
 
-
+    </Row>
 
 
     </Container>
 
-
 </Box>
+
+
 
 
 
@@ -956,7 +984,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 <Row>
 
-<Col sm={12} md={6} xl={5}>
+<Col sm={12} md={6} xl={6}>
 
 
 <Card sx={imageStylesASketches}>
@@ -971,7 +999,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 </Col>
 
 
-<Col sm={12} md={6} xl={5}>    
+<Col sm={12} md={6} xl={6}>    
 
 <Card sx={imageStylesASketches}>
        <CardMedia
@@ -986,7 +1014,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
      </Col>
 
 
-     <Col sm={12} md={6} xl={5}>  
+     <Col sm={12} md={6} xl={6}>  
      
 <Card sx={imageStylesASketches}>
        <CardMedia
@@ -1001,7 +1029,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 </Col>
 
 
-<Col sm={12} md={6} xl={5}> 
+<Col sm={12} md={6} xl={6}> 
 
 
   <Card sx={imageStylesASketches}>
@@ -1017,7 +1045,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 </Col>
 
 
-<Col sm={12} md={6} xl={5}> 
+<Col sm={12} md={6} xl={6}> 
        
   <Card sx={imageStylesASketches}>
          <CardMedia
