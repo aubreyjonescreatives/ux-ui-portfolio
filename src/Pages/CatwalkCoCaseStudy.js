@@ -4,9 +4,9 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import ProtoPersonaDave from '../Images/catwalkcompany/images/protopersonadave.png';
-import UserPersona from '../Images/catwalkcompany/images/userpersona.png'
-import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
+import ProtoPersonaDave from '../Images/catwalkcompany/images/personas/protopersonadave.png';
+import UserPersona from '../Images/catwalkcompany/images/personas/userpersona.png'
+import JourneyMap from '../Images/catwalkcompany/images/personas/journeymap.png'; 
 import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
 import AffinityDiagram from '../Images/catwalkcompany/images/AffinityDiagram.jpg';
