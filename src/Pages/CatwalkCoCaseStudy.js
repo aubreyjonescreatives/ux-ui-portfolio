@@ -1368,7 +1368,7 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
       used the same whitespace for better readability and proximity.</Typography>
 
       <Typography sx={paragraph}>4. While the Open Projects feature could contain any freelancing project, I added in a filter option 
-      so that customers can search for specific projects at a faster click rate.</Typography>
+      so that customers can search for specific projects with a faster user flow.</Typography>
 
 
       </Row>
