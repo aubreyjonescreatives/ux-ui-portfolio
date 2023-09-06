@@ -20,8 +20,8 @@ import '../../src/Portfolio.css';
 
 
 const introStyles = {
-  height: '600px',
-  maxHeight: '600px',
+  height: '650px',
+  maxHeight: '650px',
  // paddingTop: '100px', 
  // paddingBottom: '150px', 
   backgroundColor: '#fff', 
@@ -31,14 +31,14 @@ const introStyles = {
 }
 
 const introContainer = {
-  margin: '150px auto 0px auto', 
+  margin: '200px auto 0px auto', 
   clear: 'both'
 }
 
 const introText = {
   textAlign: 'left',
   fontWeight: '300',
-  margin: '75px auto', 
+  margin: '100px auto', 
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
   color: '#00003D',
