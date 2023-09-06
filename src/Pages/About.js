@@ -167,7 +167,7 @@ const About = () => {
    <Box sx={boxStylesAFirst}>
     <Container>
    <Typography sx={headerStylesAFirst}>About Me</Typography>
-   <Typography sx={headerStylesAFirst}>I am a creative UX/UI Designer based in Salt Lake City, Utah, since 2016.</Typography> 
+   <Typography sx={headerStylesAFirst}>I am a creative Product Designer based in Salt Lake City, Utah, since 2016.</Typography> 
 
    </Container>
    <Container>
@@ -190,7 +190,7 @@ const About = () => {
 
     
     <Container>
-    <Typography sx={headerStylesB}>My UX/UI Design Story</Typography>
+    <Typography sx={headerStylesB}>My Product Design Story</Typography>
     </Container>
    
 
@@ -380,7 +380,7 @@ const About = () => {
     <Typography sx={questionStyles}>3. What are some of the biggest challenges you face as a UX designer?</Typography>
    <Typography sx={answerStyles}>Back in the day, I hated receiving pixel-to-pixel feedback on my digital wireframes. I felt like it was 
       a waste of time when I only needed a few pointers. I was not a visual designer at the startup. Since then, I 
-      recognize I learn most and become a stronger UX/UI designer from feedback. I now have a thicker skin for it 
+      recognize I learn most and become a stronger product designer from feedback. I now have a thicker skin for it 
       and value its need in my process.    
     </Typography>
    
@@ -399,7 +399,7 @@ const About = () => {
 
     <Container>
     <Typography sx={questionStyles}>5. When a client says: “I don't like this design.” What do you do?</Typography>
-    <Typography sx={answerStyles}> I ask questions! Throughout my experience as a UX/UI designer, I have worked with difficult clients and 
+    <Typography sx={answerStyles}> I ask questions! Throughout my experience as a product designer, I have worked with difficult clients and 
       easygoing ones. I want to make good use of the 5-whys method where I can dive deeper into the client's vision and 
       goals. I love to brainstorm with my clients and we have a lot of beautiful resources at our fingertips to help 
       communicate design decisions before production.     
