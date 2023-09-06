@@ -31,15 +31,14 @@ const introStyles = {
 }
 
 const introContainer = {
-  margin: '200px auto 0px auto', 
+  margin: '150px auto 0px auto', 
   clear: 'both'
 }
 
 const introText = {
   textAlign: 'left',
-  
   fontWeight: '300',
-  margin: '100px auto', 
+  margin: '75px auto', 
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
   color: '#00003D',
@@ -154,7 +153,7 @@ return (
 <Container sx={introContainer} className="introContainer">
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
 
-<Typography sx={introText}>I create human experiences through empathy, research and visual design.</Typography>
+<Typography sx={introText}>I am always ready for a challenge that helps customers have a better human-centered experience through collaboration, research, and visual design.</Typography>
 
 </Container>
 
