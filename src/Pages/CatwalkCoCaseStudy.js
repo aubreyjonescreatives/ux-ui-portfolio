@@ -1515,7 +1515,7 @@ expectations and better communication through a simplified user interface.</Typo
 clear purposes for visual hiearchy.</Typography>
 <Typography sx={paragraph}>3. There are always simpler user flows, designs, and UX writing options
 for better usability.</Typography>
-<Typography sx={paragraph}>4. Receiving feedback often energizes better design decisions.</Typography>
+<Typography sx={paragraph}>4. Receiving feedback often inspires better design decisions.</Typography>
 
 
 </Container>
