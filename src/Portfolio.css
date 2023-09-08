@@ -62,11 +62,15 @@ p {
     left: 0;
 }
 
-.introContainer {
-    clear: both;
-    
 
+
+.introStyles {
+    background-image: url("Images/landing/heroimage.png");
+    /* height: 600px; */
+    /* max-height: 600px; */
 }
+
+
 
 .navbar-brand {
     font-family: 'Raleway';
@@ -157,6 +161,11 @@ padding: 10px;
         justify-content: start; 
         padding: 0px !important;
         margin: 0px 15px !important;
+    }
+
+    .introStyles {
+        background-image: none;
+        
     }
   }
   

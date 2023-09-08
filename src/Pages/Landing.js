@@ -20,10 +20,8 @@ import '../../src/Portfolio.css';
 
 
 const introStyles = {
-  height: '650px',
-  maxHeight: '650px',
  // paddingTop: '100px', 
- // paddingBottom: '150px', 
+  paddingBottom: '150px', 
   backgroundColor: '#fff', 
   width: '100%', 
   display: 'block'
@@ -148,7 +146,7 @@ return (
 <>
 
 
-<Box style={{ backgroundImage: `url(${HeroImage})`, width: '100%'}} sx={introStyles}>
+<Box sx={introStyles} className="introStyles">
 
 <Container sx={introContainer} className="introContainer">
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
