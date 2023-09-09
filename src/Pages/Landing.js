@@ -1,5 +1,5 @@
 import * as React from 'react'; 
-import HeroImage from '../Images/landing/heroimage.png';
+//import HeroImage from '../Images/landing/heroimage.png';
 import {Row, Col } from 'react-grid-system';
 import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';

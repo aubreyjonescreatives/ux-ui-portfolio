@@ -1348,11 +1348,11 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
       <Typography sx={sectiontitle}>With the second version, I made these changes:</Typography>
 
-      <Typography sx={paragraph}>1. For visual hiearchy, I removed the splash screen gradient to follow a better design balance 
+      <Typography sx={paragraph}>1. For visual hierarchy, I removed the splash screen gradient to follow a better design balance 
       between color and focus. It also follows the Z-Pattern. The sign-up and login pages follow F-patterns for better 
       readability.</Typography>
 
-      <Typography sx={paragraph}>2. For visual hiearchy, I simplified the font colors and sizing so 
+      <Typography sx={paragraph}>2. For visual hierarchy, I simplified the font colors and sizing so 
       that the blue text represented clickable features while the green text represented non-clickable features 
       for predictable design consistency.</Typography>
 
@@ -1512,7 +1512,7 @@ so that customers can search for specific projects with a faster user flow.</Typ
 <Typography sx={paragraph}>1. Freelancers and clients can find clearer project 
 expectations and better communication through a simplified user interface.</Typography>
 <Typography sx={paragraph}>2. Colors, text, and components all need consistency and 
-clear purposes for visual hiearchy.</Typography>
+clear purposes for visual hierarchy.</Typography>
 <Typography sx={paragraph}>3. There are always simpler user flows, designs, and UX writing options
 for better usability.</Typography>
 <Typography sx={paragraph}>4. Receiving feedback often inspires better design decisions.</Typography>
