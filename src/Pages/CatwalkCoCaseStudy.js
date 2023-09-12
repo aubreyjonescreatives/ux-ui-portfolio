@@ -85,9 +85,15 @@ const roleInfo = {
 
 const paragraph = {
   fontFamily: 'Raleway, sans-serif',
-  margin: '25px 0px'
-
+  margin: '20px 0px',
 }
+
+
+const paragraphMD = {
+  fontFamily: 'Raleway, sans-serif',
+  margin: '0px auto 25px auto',
+}
+
 
 
 
@@ -96,7 +102,7 @@ const paragraph = {
 
 const imageStylesA = { 
 display: 'block', 
-margin: '0px auto',
+margin: '10px auto',
 
 
 }
@@ -193,10 +199,11 @@ const boxStylesB = {
 
 
 const sectiontitle = {
+  margin: '50px auto', 
   fontFamily: 'Raleway, sans-serif',
   fontSize: '28px', 
   color: '#00003D',
-  margin: '50px 0px'
+  
   }
 
 
@@ -204,7 +211,7 @@ const sectiontitle = {
 
 
 const quote = {
-  margin: '75px auto 75px auto', 
+  margin: '15px auto', 
   display: 'block', 
   fontFamily: 'Merriweather', 
   fontSize: '24px',
@@ -330,7 +337,7 @@ return (
 <Box sx={boxStylesB}>
   <Container>
 <Typography sx={headerStyles}>Challenge</Typography>
-<Typography sx={paragraph}>How can digital designers and clients better organize projects and connect together in today's modern world? 
+<Typography sx={paragraph} md={paragraphMD}>How can digital designers and clients better organize projects and connect together in today's modern world? 
 Catwalk Co embarks on an adventure to build a bridge between digital designers and clients for better project management, 
 communication, expectations, and creativity throughout their design processes.</Typography>
 
@@ -354,20 +361,22 @@ communication, expectations, and creativity throughout their design processes.</
 
 <Typography sx={headerStyles}>Empathy Phase</Typography>
 
-<Row>
-
-<Col>
-
 <Typography sx={sectiontitle}>Proto Persona</Typography>
 
-<Typography sx={paragraph}>Meet David Anderson, a representative of our supposed audience. David would love to find 
+
+<Row>
+
+<Col sm={12} md={6} xl={6}>
+
+
+<Typography sx={paragraph} md={paragraphMD}>Meet David Anderson, a representative of our supposed audience. David would love to find 
 potential paid gaming animation opportunties as an amateur gaming animator. His current call center representative 
 job is too boring and predictable. Without much experience in the gaming world, he thinks freelancing would 
 help him get his foot in the door. </Typography>
 
 </Col>
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 
 <Card sx={imageStylesB}>
       <CardMedia
@@ -400,7 +409,7 @@ help him get his foot in the door. </Typography>
 
 <Row>
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Card sx={cardStylesB}>
       <CardMedia
         component="img"
@@ -414,8 +423,8 @@ help him get his foot in the door. </Typography>
 </Col>
 
 
-  <Col>
-<Typography sx={paragraph}>While David represented my assumed audience, I needed to find a hot and trending need to 
+  <Col sm={12} md={6} xl={6}>
+<Typography sx={paragraph} md={paragraphMD}>While David represented my assumed audience, I needed to find a hot and trending need to 
 confirm an interest in an online and competitive freelancing platform. I created a survey so that I could reach out to 
 mulitple people online. I received an interesting mix of feedback from some of my results:</Typography>
 
@@ -427,31 +436,31 @@ mulitple people online. I received an interesting mix of feedback from some of m
 
     </Row>
 
-    <Typography sx={paragraph}>For example, most freelancers found gigs by word of mouth by a landslide. None of them use 
+    <Typography sx={paragraph} md={paragraphMD}>For example, most freelancers found gigs by word of mouth by a landslide. None of them use 
     online marketing. Upwork is a freelancing website specifically for web developers and designers. </Typography>
     
     
    
-    <Typography sx={paragraph}>The study also gave me some insight as far as how users struggled with freelancing, no matter their preferred communication 
+    <Typography sx={paragraph} md={paragraphMD}>The study also gave me some insight as far as how users struggled with freelancing, no matter their preferred communication 
     platform. Some direct quotes included:</Typography>
     
 
    <Row>
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Typography sx={quote}>“I wish I didn't have to set money aside for taxes.”</Typography>
 </Col>
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Typography sx={quote}>“I wish I could change some employers perception of freelance work. One company I interviewed with last year 
     told me if I accept their offer that I'd have to give up freelance work.”</Typography>
 </Col>
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Typography sx={quote}>“Being able to not work weekends. Usually find myself with projects that go well into the weekend.”</Typography>
 </Col>
 
 
    </Row>
 
-    <Typography sx={paragraph}>As the majority of my responders prefer word of mouth, could I persuade them to join the online community for 
+    <Typography sx={paragraph} md={paragraphMD}>As the majority of my responders prefer word of mouth, could I persuade them to join the online community for 
     freelancing if I focused on their frustrations and provided good solutions to them? Why do 33.3% of people use Upwork? How does it work for freelance? 
     Does it have any popular competitors?</Typography>
 
@@ -472,9 +481,9 @@ mulitple people online. I received an interesting mix of feedback from some of m
 <Typography sx={sectiontitle}>Research Insights</Typography>
 <Row>
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Typography sx={sectiontitle}>Competitor Analysis</Typography>
-<Typography sx={paragraph}>I found a few direct competitors alongside Upwork for freelancers such as Fiverr Business and Behance. 
+<Typography sx={paragraph} md={paragraphMD}>I found a few direct competitors alongside Upwork for freelancers such as Fiverr Business and Behance. 
 I also realized that freelancers can connect to clients through indirect competitors such as Behance and LinkedIn. I gathered intel 
 to know if these competitors provided solutions to freelancers in their problem areas. This is what I discovered:</Typography>
   
@@ -491,7 +500,7 @@ to know if these competitors provided solutions to freelancers in their problem 
 
     </Col>
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 
 
 {/*Affinity Map*/}
@@ -499,7 +508,7 @@ to know if these competitors provided solutions to freelancers in their problem 
 <Typography sx={sectiontitle}>Affinity Diagram</Typography>
 
 
-<Typography sx={paragraph}>I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
+<Typography sx={paragraph} md={paragraphMD}>I used Miro to sort my user research data and organized its info into an affinity diagram. This lets me 
 discover and organize popular trends from my audience in a logical manner and to see if others feel the same 
 way as David does about freelancing overall: </Typography>
 
@@ -549,14 +558,14 @@ way as David does about freelancing overall: </Typography>
 
 <Row>
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 
 
 <Typography sx={sectiontitle}>Empathy Map</Typography>
 
 
 
-<Typography sx={paragraph}>After collecting data from my research, I could really start to empathize with my audience and 
+<Typography sx={paragraph} md={paragraphMD}>After collecting data from my research, I could really start to empathize with my audience and 
 gather information on what they heard, said, thought, and did throughout their user experience. </Typography>
     
 
@@ -573,12 +582,12 @@ gather information on what they heard, said, thought, and did throughout their u
 
     </Col>
 
-    <Col>
+    <Col sm={12} md={6} xl={6}>
     
     <Typography sx={sectiontitle}>User Persona</Typography>
 
 
-<Typography sx={paragraph}>Meet Laurey Lane, a representative of our audience based upon our researched trending facts. Does she fit the picture? Does she relate to our interviewed freelancers?</Typography>
+<Typography sx={paragraph} md={paragraphMD}>Meet Laurey Lane, a representative of our audience based upon our researched trending facts. Does she fit the picture? Does she relate to our interviewed freelancers?</Typography>
 
 
 <Card sx={imageStylesB}>
@@ -620,7 +629,7 @@ gather information on what they heard, said, thought, and did throughout their u
 
 <Typography sx={sectiontitle}>User Insight Statement</Typography>
 
-<Typography sx={paragraph}>Overworked freelancers and disheartened clients need a better collaborative project management platform because it will clarify expectations and organize work ethic boundaries between involved parties.</Typography>
+<Typography sx={paragraph} md={paragraphMD}>Overworked freelancers and disheartened clients need a better collaborative project management platform because it will clarify expectations and organize work ethic boundaries between involved parties.</Typography>
     
 
 </Container>
@@ -636,7 +645,7 @@ gather information on what they heard, said, thought, and did throughout their u
 
 <Typography sx={sectiontitle}>Problem Statement</Typography>
 
-<Typography sx={paragraph}>We believe Catwalk Co will renew communication, creativity, and committment 
+<Typography sx={paragraph} md={paragraphMD}>We believe Catwalk Co will renew communication, creativity, and committment 
 of remote freelancers and clients so that they can acheive higher quality results 
  throughout their digital design projects.</Typography>
 
@@ -671,13 +680,13 @@ of remote freelancers and clients so that they can acheive higher quality result
   
 <Row>
 
-<Col>
-<Typography sx={paragraph}>After collecting audience data, it's important to brainstorm possible solutions for a better user experience. One great method for this 
+<Col sm={12} md={6} xl={6}>
+<Typography sx={paragraph} md={paragraphMD}>After collecting audience data, it's important to brainstorm possible solutions for a better user experience. One great method for this 
 step is the "I Like, I Wish, What If" method as I dig deeper into what feature ideas are most successful and viable for a competitive freelancing app.</Typography>
   
 </Col>
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Card sx={cardStylesB}>
       <CardMedia
         component="img"
@@ -706,7 +715,7 @@ step is the "I Like, I Wish, What If" method as I dig deeper into what feature i
 
 <Row>
 
-  <Col>
+  <Col sm={12} md={6} xl={6}>
   <Card sx={cardStylesB}>
       <CardMedia
         component="img"
@@ -719,8 +728,8 @@ step is the "I Like, I Wish, What If" method as I dig deeper into what feature i
   
   </Col>
 
-<Col>
-<Typography sx={paragraph}>I want to keep the most viable product (MVP) in mind as I don't want to create 
+<Col sm={12} md={6} xl={6}>
+<Typography sx={paragraph} md={paragraphMD}>I want to keep the most viable product (MVP) in mind as I don't want to create 
 any scope creep and be mindful of timing as I am on feature deadlines. I won't always have time to create 
 every feature request, which is okay. There can always be more time later on to create version two and testing each 
 step of the way will let me know if the product really truly has a worthy return on investment and meets my customers'
@@ -746,7 +755,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
   <Container>
 <Typography sx={sectiontitle}>Value Proposition Statement</Typography>
 
-<Typography sx={paragraph}>Catwalk Co is developing a freelancing app to help freelancers and clients solve 
+<Typography sx={paragraph} md={paragraphMD}>Catwalk Co is developing a freelancing app to help freelancers and clients solve 
 communication errors, creativity blockers, and financial pitfalls
 when working on a project together. We're better than our competitors because we remove common freelancing 
 pain points discovered in other companies for all parties involved. We're believable because we seek to understand and problem solve 
@@ -888,14 +897,14 @@ with our audience to provide simpler and better means for all.</Typography>
 
 <Row>
 
-  <Col>
-  <Typography sx={paragraph}>As I entered the design thinking Prototype phase, I carefully considered the most desired Catwalk Co features 
+  <Col sm={12} md={6} xl={6}>
+  <Typography sx={paragraph} md={paragraphMD}>As I entered the design thinking Prototype phase, I carefully considered the most desired Catwalk Co features 
 based on my research, feature prioritization matrix, and Laurey's current overall experience: </Typography>
   
   
   </Col>
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 
 
     <Card sx={imageStylesAUserFlow}>
@@ -986,12 +995,12 @@ based on my research, feature prioritization matrix, and Laurey's current overal
 
 <Typography sx={sectiontitle}>Sketches</Typography>
 
-<Typography sx={paragraph}>Now that I understood my overall information architecture for Catwalk Co's mobile app, 
+<Typography sx={paragraph} md={paragraphMD}>Now that I understood my overall information architecture for Catwalk Co's mobile app, 
 here are some of my rough sketches for Catwalk Co to get through ideas much faster:</Typography>
     
 
 
-<Typography sx={paragraph}>Sketches:</Typography>
+<Typography sx={paragraph} md={paragraphMD}>Sketches:</Typography>
  
 
 <Container sx={sketchesContainer}>
@@ -1084,7 +1093,7 @@ here are some of my rough sketches for Catwalk Co to get through ideas much fast
 
 <Typography sx={sectiontitle}>Low - Mid Fidelity Digital Wireframes and Prototype:</Typography>
 
-<Typography sx={paragraph}>After sketching through quite a few app ideas, I wanted to add ones that
+<Typography sx={paragraph} md={paragraphMD}>After sketching through quite a few app ideas, I wanted to add ones that
  worked alongside common mental model design patterns in my digital designs. I found inspiration through 
  competitive apps such as Calendly for my availability and Gmail for my email services.</Typography>
     
@@ -1136,18 +1145,18 @@ allowfullscreen
 
 
 
-<Typography sx={paragraph}>After creating the mid - fidelity prototype, I conducted several user tests and received amazing feedback:  </Typography>
+<Typography sx={paragraph} md={paragraphMD}>After creating the mid - fidelity prototype, I conducted several user tests and received amazing feedback:  </Typography>
     
 
 
 <Row>
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Typography sx={quote}>The font is small and hard to read.</Typography>
 </Col>
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Typography sx={quote}>To delete an email, they first went to the trash tab that could be an icon instead as opposed to swiping right.</Typography>
 </Col>
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Typography sx={quote}>Login button didn’t take you to login screen</Typography>
 </Col>
 
@@ -1174,14 +1183,14 @@ allowfullscreen
 
 
 
-<Typography sx={paragraph}>Final Mid-Fidelity Iterations after User Testing:  </Typography>
+<Typography sx={paragraph} md={paragraphMD}>Final Mid-Fidelity Iterations after User Testing:  </Typography>
     
 
 
 <Row>
 
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 
 <Card sx={imageStylesA}>
        <CardMedia
@@ -1194,7 +1203,7 @@ allowfullscreen
 
       </Col>
 
-      <Col>
+      <Col sm={12} md={6} xl={6}>
 
       <Card sx={imageStylesA}>
        <CardMedia
@@ -1231,7 +1240,7 @@ allowfullscreen
 <Typography sx={sectiontitle}>Style Guide</Typography>
 
 
-<Typography sx={paragraph}>It's time for color, typography, and specific design element styles. At first I 
+<Typography sx={paragraph} md={paragraphMD}>It's time for color, typography, and specific design element styles. At first I 
 did not choose colors that worked well across multiple browsers, devices, and aided accessibility. I researched 
 color theory, color pairing, and made drastic updates to the style guide. I also added in components for 
 design consistency. The second iteration also comes from a helpful Figma template.</Typography>
@@ -1242,8 +1251,8 @@ design consistency. The second iteration also comes from a helpful Figma templat
 <Row>
 
 
-<Col>
-<Typography sx={paragraph}>Version 1:</Typography>
+<Col sm={12} md={6} xl={6}>
+<Typography sx={paragraph} md={paragraphMD}>Version 1:</Typography>
   
 
     <Card sx={imageStylesAStyleGuide} sm={12} md={6} xl={5}>
@@ -1262,9 +1271,9 @@ design consistency. The second iteration also comes from a helpful Figma templat
 
     </Col>
 
-    <Col>
+    <Col sm={12} md={6} xl={6}>
 
-    <Typography sx={paragraph}>Version 2:</Typography>
+    <Typography sx={paragraph} md={paragraphMD}>Version 2:</Typography>
   
     <Card sx={imageStylesAStyleGuide} sm={12} md={6} xl={5}>
       <CardMedia
@@ -1292,10 +1301,10 @@ design consistency. The second iteration also comes from a helpful Figma templat
 <Typography sx={sectiontitle}>Hi-Fidelity Wireframes Version 1 & 2</Typography>
 
 
-<Typography sx={paragraph}>As I implemented the style guide into these wireframes, I focused on readability, consistency, contrast, color theory, etc. just to name a few important 
+<Typography sx={paragraph} md={paragraphMD}>As I implemented the style guide into these wireframes, I focused on readability, consistency, contrast, color theory, etc. just to name a few important 
 UI design principles focused here.</Typography>
   
-<Typography sx={paragraph}>After careful consideration and feedback about the UI designs, I made some very different 
+<Typography sx={paragraph} md={paragraphMD}>After careful consideration and feedback about the UI designs, I made some very different 
 changes to several user flows, colors, and layouts for simplicity, symmetry, proximity, etc.</Typography>
 
 <Typography sx={sectiontitle}>Splash Screen, Sign-Up, and Login Screens:</Typography>
@@ -1309,9 +1318,9 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 <Row>
 
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 
-<Typography sx={paragraph}>Version 1:</Typography>
+<Typography sx={paragraph} md={paragraphMD}>Version 1:</Typography>
 
 <Card sx={imageStylesAFinal}>
        <CardMedia
@@ -1324,9 +1333,9 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
       </Col>
 
-      <Col>
+      <Col sm={12} md={6} xl={6}>
 
-      <Typography sx={paragraph}>Version 2:</Typography>
+      <Typography sx={paragraph} md={paragraphMD}>Version 2:</Typography>
 
       <Card sx={imageStylesAFinal}>
        <CardMedia
@@ -1348,15 +1357,15 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
       <Typography sx={sectiontitle}>With the second version, I made these changes:</Typography>
 
-      <Typography sx={paragraph}>1. For visual hierarchy, I removed the splash screen gradient to follow a better design balance 
+      <Typography sx={paragraph} md={paragraphMD}>1. For visual hierarchy, I removed the splash screen gradient to follow a better design balance 
       between color and focus. It also follows the Z-Pattern. The sign-up and login pages follow F-patterns for better 
       readability.</Typography>
 
-      <Typography sx={paragraph}>2. For visual hierarchy, I simplified the font colors and sizing so 
+      <Typography sx={paragraph} md={paragraphMD}>2. For visual hierarchy, I simplified the font colors and sizing so 
       that the blue text represented clickable features while the green text represented non-clickable features 
       for predictable design consistency.</Typography>
 
-      <Typography sx={paragraph}>3. I discovered better primary and secondary color choices so that multiple devices, browsers 
+      <Typography sx={paragraph} md={paragraphMD}>3. I discovered better primary and secondary color choices so that multiple devices, browsers 
       and color accessibility needs have an easier time looking at the app.</Typography>
 
       </Row>
@@ -1377,7 +1386,7 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
 
 <Row>
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 
 
 <Card sx={imageStylesUDUpdate}>
@@ -1392,21 +1401,21 @@ changes to several user flows, colors, and layouts for simplicity, symmetry, pro
       </Col>
 
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 <Typography sx={sectiontitle}>With the second version, I made these changes:</Typography>
 
 
-<Typography sx={paragraph}>1. I made sure all icons followed the same button / link / icon colors for design consistency.</Typography>
+<Typography sx={paragraph} md={paragraphMD}>1. I made sure all icons followed the same button / link / icon colors for design consistency.</Typography>
 
-<Typography sx={paragraph}>2. I looked through different websites for current mental model practices with cards. Some of the 
+<Typography sx={paragraph} md={paragraphMD}>2. I looked through different websites for current mental model practices with cards. Some of the 
 sites included Etsy and Landing International. I discovered these cards needed rounded borders, fewer 
 colored overlays, and more whitespace for better readability.</Typography>
 
-<Typography sx={paragraph}>3. The old headers were too thick but still contained important context. I found a color that worked well with the 
+<Typography sx={paragraph} md={paragraphMD}>3. The old headers were too thick but still contained important context. I found a color that worked well with the 
 color palette, color accessibility, and could represent an unclickable feature. I made sure all of the headers were the same font, font size, and 
 used the same whitespace for better readability and proximity.</Typography>
 
-<Typography sx={paragraph}>4. While the Open Projects feature could contain any freelancing project, I added in a filter option 
+<Typography sx={paragraph} md={paragraphMD}>4. While the Open Projects feature could contain any freelancing project, I added in a filter option 
 so that customers can search for specific projects with a faster user flow.</Typography>
 
 
@@ -1436,7 +1445,7 @@ so that customers can search for specific projects with a faster user flow.</Typ
 <Row>
 
 
-<Col>
+<Col sm={12} md={6} xl={6}>
 
 
 <Card sx={imageStylesAFinal}>
@@ -1450,7 +1459,7 @@ so that customers can search for specific projects with a faster user flow.</Typ
 
       </Col>
 
-      <Col>
+      <Col sm={12} md={6} xl={6}>
 
   
       <Card sx={imageStylesAFinal}>
@@ -1473,14 +1482,14 @@ so that customers can search for specific projects with a faster user flow.</Typ
 
       <Typography sx={sectiontitle}>Throughout these iterations, I made these changes:</Typography>
 
-      <Typography sx={paragraph}>1. I removed extra whitespace so that specific features chunk together better.</Typography>
+      <Typography sx={paragraph} md={paragraphMD}>1. I removed extra whitespace so that specific features chunk together better.</Typography>
 
-      <Typography sx={paragraph}>2. I removed extra steps such as the toggle icon so that freelancers don't have to select multiple 
+      <Typography sx={paragraph} md={paragraphMD}>2. I removed extra steps such as the toggle icon so that freelancers don't have to select multiple 
       features in one user flow.</Typography>
 
-      <Typography sx={paragraph}>3. I defined unavailable and available designs such as with different background colors.</Typography>
+      <Typography sx={paragraph} md={paragraphMD}>3. I defined unavailable and available designs such as with different background colors.</Typography>
 
-      <Typography sx={paragraph}>4. I simplified the user interface so that freelancers do not have to scroll through all of their 
+      <Typography sx={paragraph} md={paragraphMD}>4. I simplified the user interface so that freelancers do not have to scroll through all of their 
       availability thanks to an accordion dropdown feature.</Typography>
 
 
@@ -1509,13 +1518,13 @@ so that customers can search for specific projects with a faster user flow.</Typ
 
 
 
-<Typography sx={paragraph}>1. Freelancers and clients can find clearer project 
+<Typography sx={paragraph} md={paragraphMD}>1. Freelancers and clients can find clearer project 
 expectations and better communication through a simplified user interface.</Typography>
-<Typography sx={paragraph}>2. Colors, text, and components all need consistency and 
+<Typography sx={paragraph} md={paragraphMD}>2. Colors, text, and components all need consistency and 
 clear purposes for visual hierarchy.</Typography>
-<Typography sx={paragraph}>3. There are always simpler user flows, designs, and UX writing options
+<Typography sx={paragraph} md={paragraphMD}>3. There are always simpler user flows, designs, and UX writing options
 for better usability.</Typography>
-<Typography sx={paragraph}>4. Receiving feedback often inspires better design decisions.</Typography>
+<Typography sx={paragraph} md={paragraphMD}>4. Receiving feedback often inspires better design decisions.</Typography>
 
 
 </Container>
