@@ -789,7 +789,9 @@ to know if these competitors provided solutions to freelancers in their problem 
 
 <Typography sx={sectiontitle}>User Insight Statement</Typography>
 
-<Typography sx={paragraph} md={paragraphMD}>Overworked freelancers and disheartened clients need a better collaborative project management platform because it will clarify expectations and organize work ethic boundaries between involved parties.</Typography>
+<Typography sx={paragraph} md={paragraphMD}>Exhausted adults with too much to do need a convinient
+online shopping platform because they do not have time for basic needs, multiple shopping 
+stops, and traffic after a long work day.</Typography>
     
 
 </Container>
