@@ -14,7 +14,7 @@ import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.p
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
-import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatifUpdate.png'
+import ILikeIWishWhatIf from '../Images/appareldesigns/ideation/ilikeiwishwhatif.png';
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
 import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
 import SplashPage from '../Images/catwalkcompany/images/sketches/splashpage.JPG'; 
@@ -191,7 +191,7 @@ const iframeContainer = {
 }
 
 const boxStylesB = {
-  backgroundColor: '#F8F9FA', 
+  backgroundColor: '#F8F4E3', 
   paddingTop: '5px',
   paddingBottom: '50px',
   width: '100%'
@@ -807,9 +807,9 @@ stops, and traffic after a long work day.</Typography>
 
 <Typography sx={sectiontitle}>Problem Statement</Typography>
 
-<Typography sx={paragraph} md={paragraphMD}>We believe Catwalk Co will renew communication, creativity, and committment 
-of remote freelancers and clients so that they can acheive higher quality results 
- throughout their digital design projects.</Typography>
+<Typography sx={paragraph} md={paragraphMD}>We believe Apparel Design will help online shoppers discover 
+competitive products, affordable prices, and trustworthy reviews so that they will 
+avoid multiple in-person shopping stops and get the sleep they need after a long exhausting day.</Typography>
 
 </Container>
   
@@ -844,7 +844,7 @@ of remote freelancers and clients so that they can acheive higher quality result
 
 <Col sm={12} md={6} xl={6}>
 <Typography sx={paragraph} md={paragraphMD}>After collecting audience data, it's important to brainstorm possible solutions for a better user experience. One great method for this 
-step is the "I Like, I Wish, What If" method as I dig deeper into what feature ideas are most successful and viable for a competitive freelancing app.</Typography>
+step is the "I Like, I Wish, What If" method as I dig deeper into what feature ideas are most successful and viable for a competitive e-commerce clothing store.</Typography>
   
 </Col>
 
