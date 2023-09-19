@@ -421,8 +421,8 @@ return (
 
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
-<Typography sx={paragraphA}>My love for product design began when I discovered an interest in creating candle labels and tshirt designs for clientele by word of mouth. With my UX/UI design background and ecommerce focus, I wondered
-what products and services interested people the most for a small ecommerce business in today's competitive world. This UX/UI design case study walks us through emotional hearts, desires, and needs as we learn and indentify 
+<Typography sx={paragraphA}>My love for product design began when I discovered an interest in creating candle labels and tshirt designs for clientele by word of mouth. With my UX/UI design background and e-commerce focus, I wondered
+what products and services interested people the most for a small e-commerce business in today's competitive world. This product design case study walks us through emotional hearts, desires, and needs as we learn and indentify 
 how to impact other people's lives in a positive way.  </Typography>
 <Typography sx={headerA}></Typography> 
   

@@ -8,7 +8,7 @@ import DisneyVSNetflix from './Pages/DisneyVSNetflix';
 import CatwalkCo from './Pages/CatwalkCoCaseStudy'; 
 import FLCINC from './Pages/flcincRedesign'; 
 import CT from './Pages/CT'; 
-import ApparelDesigns from './Pages/ApparelDesigns.js'; 
+import ApparelDesigns from './Pages/ApparelDesignsCaseStudy.js'; 
 import DesignSystems from './Pages/DesignSystems.js';
 import Footer from './Components/Footer'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
