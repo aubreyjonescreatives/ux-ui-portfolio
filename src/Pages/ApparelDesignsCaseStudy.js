@@ -11,7 +11,7 @@ import JourneyMap from '../Images/catwalkcompany/images/personas/journeymap.png'
 import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitorresearch/competitoranalysis.png'; 
 import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
-import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
+import FeaturePrioritization from '../Images/appareldesigns/ideation/featureprioritizationmatrix.png';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/appareldesigns/ideation/ilikeiwishwhatif.png';
@@ -191,7 +191,7 @@ const iframeContainer = {
 }
 
 const boxStylesB = {
-  backgroundColor: '#F8F4E3', 
+  backgroundColor: '#F8F9FA', 
   paddingTop: '5px',
   paddingBottom: '50px',
   width: '100%'
@@ -895,7 +895,13 @@ step is the "I Like, I Wish, What If" method as I dig deeper into what feature i
 any scope creep and be mindful of timing as I am on feature deadlines. I won't always have time to create 
 every feature request, which is okay. There can always be more time later on to create version two and testing each 
 step of the way will let me know if the product really truly has a worthy return on investment and meets my customers'
-needs. A Feature Prioritization Matrix lets me organize these requests based upon importance and urgency: </Typography>
+needs. A Feature Prioritization Matrix lets me organize these requests based upon impact and effort: </Typography>
+<Typography sx={paragraph} md={paragraphMD}>Some High Impact and High Effort Feature Needs Include:</Typography>
+<Typography sx={paragraph} md={paragraphMD}>1. 90.9% of online shoppers shop for clothes online</Typography>
+<Typography sx={paragraph} md={paragraphMD}>2. Provide better payment security options like Apple Pay and Paypal for ease, safety, and security.</Typography>
+<Typography sx={paragraph} md={paragraphMD}>3. Multiple Search Filters.</Typography>
+<Typography sx={paragraph} md={paragraphMD}>4. Fewer pop up ads.</Typography>
+
 </Col>
 
 
@@ -917,58 +923,17 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
   <Container>
 <Typography sx={sectiontitle}>Value Proposition Statement</Typography>
 
-<Typography sx={paragraph} md={paragraphMD}>Catwalk Co is developing a freelancing app to help freelancers and clients solve 
-communication errors, creativity blockers, and financial pitfalls
-when working on a project together. We're better than our competitors because we remove common freelancing 
-pain points discovered in other companies for all parties involved. We're believable because we seek to understand and problem solve 
-with our audience to provide simpler and better means for all.</Typography>
-
-{/* 
-
-    <Card sx={imageStylesB}>
-      <CardMedia
-        component="img"
-        alt="Journey Map"
-        image={ValuePropositionCanvas}
-       
-      />
-     
-     
-    </Card> */}
+<Typography sx={paragraph} md={paragraphMD}>Apparel Design is an online clothing shopping experience that helps 
+customers explore more product with clarity, avoid annoying website content, and enjoy entrusted payment options so that 
+they can relax from hectic in person crowds. We're better than our competitors because we remove common e-commerce pain points 
+discovered in other companies for all parties involved. We're believable because we seek to understand and problem solve 
+with our audience so that they want to return to our site with more positive and reliable shopping experiences.</Typography>
 
 
    </Container>
 
     </Box>
 
-
-{/*User Scenario*/}
-
-
-{/* 
-    <Box sx={boxStylesA}>
-      <Container>
-<Typography sx={sectiontitle}>User Scenario</Typography>
-
-
-
-
-<Card sx={imageStylesB}>
-      <CardMedia
-        component="img"
-        alt="Journey Map"
-        image={UserScenario}
-       
-      />
-     
-     </Card>
-
-
-
-     </Container>
-
-
-</Box> */}
 
 
 
