@@ -6,14 +6,14 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProtoPersonaDave from '../Images/appareldesigns/research/protopersonajake.png';
-import UserPersona from '../Images/catwalkcompany/images/personas/userpersona.png'
+import UserPersona from '../Images/appareldesigns/research/userpersonameg.png';
 import JourneyMap from '../Images/catwalkcompany/images/personas/journeymap.png'; 
 import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitorresearch/competitoranalysis.png'; 
 import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
 import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
-import EmpathyMap from '../Images/catwalkcompany/images/empathymap.png'; 
+import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/catwalkcompany/images/ilikeiwishwhatifUpdate.png'
 import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
 import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
@@ -725,8 +725,8 @@ to know if these competitors provided solutions to freelancers in their problem 
 
 
 
-<Typography sx={paragraph} md={paragraphMD}>After collecting data from my research, I could really start to empathize with my audience and 
-gather information on what they heard, said, thought, and did throughout their user experience. </Typography>
+<Typography sx={paragraph} md={paragraphMD}>But who wants to look at and read all of our affinity diagram sticky notes? Empathy maps and our 
+    final user persona will really visually display audience goals, needs, frustrations, etc. </Typography>
     
 
 
