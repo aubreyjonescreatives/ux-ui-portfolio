@@ -927,7 +927,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 customers explore more product with clarity, avoid annoying website content, and enjoy entrusted payment options so that 
 they can relax from hectic in person crowds. We're better than our competitors because we remove common e-commerce pain points 
 discovered in other companies for all parties involved. We're believable because we seek to understand and problem solve 
-with our audience so that they want to return to our site with more positive and reliable shopping experiences.</Typography>
+with our audience so that they want to return to our site again.</Typography>
 
 
    </Container>
