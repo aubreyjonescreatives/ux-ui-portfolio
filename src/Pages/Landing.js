@@ -151,6 +151,8 @@ return (
 <Container sx={introContainer} className="introContainer">
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
 
+
+
 <Typography sx={introText}>Dependable. Detail-Oriented. Dynamic Storyteller.</Typography>
 
 
