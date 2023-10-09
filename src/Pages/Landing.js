@@ -11,7 +11,6 @@ import Link from '@mui/material/Link';
 import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
-import FooterImage from '../Images/landing/footerimage.png';
 import '../../src/Portfolio.css';
 
 
@@ -152,7 +151,6 @@ return (
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
 
 
-
 <Typography sx={introText}>Dependable. Detail-Oriented. Dynamic Storyteller.</Typography>
 
 
@@ -259,7 +257,7 @@ return (
     </Box>
 
 
-    <Box style={{ backgroundImage: `url(${FooterImage})`, width: '100%'}} sx={endStyles}>
+    <Box sx={endStyles}>
 
 
 </Box>
