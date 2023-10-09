@@ -179,6 +179,28 @@ return (
 
 
 <Col sm={12} md={6} xl={4}>
+
+    <Card sx={cardStyles} className="cardStyles">
+<Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="Freelance E-Commerce UX/UI Case Study"
+        sx={cardStylesImage}
+        image={CCFinalMockups}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Catwalk Co
+        </Typography>
+        </CardContent>
+      </Link>
+    </Card>
+   
+
+    </Col>
+
+
+<Col sm={12} md={6} xl={4}>
     <Card sx={cardStyles} className="cardStyles">
     <Link href="/flcinc" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
@@ -220,30 +242,6 @@ return (
     </Col>
 
 
-
-
-
-
-    <Col sm={12} md={6} xl={4}>
-
-    <Card sx={cardStyles} className="cardStyles">
-<Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
-      <CardMedia
-        component="img"
-        alt="Freelance E-Commerce UX/UI Case Study"
-        sx={cardStylesImage}
-        image={CCFinalMockups}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Catwalk Co
-        </Typography>
-        </CardContent>
-      </Link>
-    </Card>
-   
-
-    </Col>
 
 
 
