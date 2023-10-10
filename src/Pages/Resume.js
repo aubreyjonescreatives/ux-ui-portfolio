@@ -98,6 +98,7 @@ const Resume = () => {
         component="img"
         alt="Aubrey Jones Resume"
         image={ResumeImage}
+        //correct resume
       />
 
 
