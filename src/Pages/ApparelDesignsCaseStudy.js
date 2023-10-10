@@ -8,7 +8,7 @@ import Link from '@mui/material/Link';
 import ProtoPersonaDave from '../Images/appareldesigns/research/protopersonajake.png';
 import UserPersona from '../Images/appareldesigns/research/userpersonameg.png';
 import JourneyMap from '../Images/catwalkcompany/images/personas/journeymap.png'; 
-import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
+//import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitorresearch/competitoranalysis.png'; 
 import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
 import FeaturePrioritization from '../Images/appareldesigns/ideation/featureprioritizationmatrix.png';
@@ -286,11 +286,11 @@ const age = {
   
 
 
-  const commonReasons = {
-    padding: '40px 70px',
-  fontSize: '20px', 
-  fontFamily: 'Merriweather', 
-  }
+  // const commonReasons = {
+  //   padding: '40px 70px',
+  // fontSize: '20px', 
+  // fontFamily: 'Merriweather', 
+  // }
   
 
 
