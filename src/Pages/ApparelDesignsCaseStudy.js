@@ -285,7 +285,7 @@ const age = {
   }
   
 
-
+//
   // const commonReasons = {
   //   padding: '40px 70px',
   // fontSize: '20px', 
