@@ -10,7 +10,7 @@ import StoryBoardBox2 from '../Images/aboutme/secondbox.png';
 import StoryBoardBox3 from '../Images/aboutme/thirdbox.png';
 import StoryBoardBox4 from '../Images/aboutme/fourthbox.png';
 import MyDesignProcess from '../Images/aboutme/designprocess.png';
-import MyTimeline from '../Images/aboutme/mytimeline.png';
+//import MyTimeline from '../Images/aboutme/mytimeline.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCamera, faPassport, faPersonHiking, faGamepad, faPaintbrush, faKitchenSet  } from '@fortawesome/free-solid-svg-icons' ;
 
@@ -170,18 +170,7 @@ const About = () => {
    <Typography sx={headerStylesAFirst}>I am a creative UX/UI Designer based in Salt Lake City, Utah, since 2016.</Typography> 
 
    </Container>
-   <Container>
-   <Card sx={cardStyles}>
-  <CardMedia
-        component="img"
-        alt="My Story"
-        sx={cardStylesImage}
-        image={MyTimeline}
-      />
-    </Card>
-  
 
-   </Container>
    </Box>
    
    
