@@ -11,6 +11,7 @@ import Link from '@mui/material/Link';
 import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
+import ApparelDesigns from '../Images/appareldesigns/develop/sitemap.png'
 import '../../src/Portfolio.css';
 
 
@@ -94,12 +95,14 @@ border: '2px solid #F8F9FA'
 const cardStylesImage = {
 width: '100%', 
 justifyContent: 'center', 
-height: '300px'
+height: '200px', 
+border: '1px solid #F8F9FA'
 }
 
 
 const cardText = {
   fontFamily: 'Raleway, sans-serif',
+  fontSize: '20px'
 }
 
 
@@ -178,7 +181,56 @@ return (
 <Row>
 
 
-<Col sm={12} md={6} xl={4}>
+
+
+<Col sm={12} md={4} xl={3}>
+    <Card sx={cardStyles} className="cardStyles">
+    <Link href="/flcinc" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="Family Literacy Centers Internship Case Study"
+        sx={cardStylesImage}
+        image={FLCINCMockup}
+      />
+       <CardContent>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        FLC INC
+        </Typography>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        UI Redesign
+        </Typography>
+        </CardContent>
+      </Link>
+    </Card>
+  
+
+    </Col>
+
+    <Col sm={12} md={4} xl={3}>
+
+    <Card sx={cardStyles} className="cardStyles">
+<Link href="/codafitechnology" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="Freelance E-Commerce UX/UI Case Study"
+        sx={cardStylesImage}
+        image={WebsiteUIDesignandRedesign}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Codafi Technology
+        </Typography>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        UI Design
+        </Typography>
+        </CardContent>
+      </Link>
+    </Card>
+   
+
+    </Col>
+
+    <Col sm={12} md={4} xl={3}>
 
     <Card sx={cardStyles} className="cardStyles">
 <Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
@@ -192,6 +244,9 @@ return (
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
         Catwalk Co
         </Typography>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        UX/UI Design
+        </Typography>
         </CardContent>
       </Link>
     </Card>
@@ -200,39 +255,22 @@ return (
     </Col>
 
 
-<Col sm={12} md={6} xl={4}>
-    <Card sx={cardStyles} className="cardStyles">
-    <Link href="/flcinc" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
-      <CardMedia
-        component="img"
-        alt="Family Literacy Centers Internship Case Study"
-        sx={cardStylesImage}
-        image={FLCINCMockup}
-      />
-       <CardContent>
-        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Family Literacy Centers
-        </Typography>
-        </CardContent>
-      </Link>
-    </Card>
-  
-
-    </Col>
-
-    <Col sm={12} md={6} xl={4}>
+    <Col sm={12} md={4} xl={3}>
 
     <Card sx={cardStyles} className="cardStyles">
-<Link href="/codafitechnology" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+<Link href="/appareldesignscasestudy" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
-        alt="Freelance E-Commerce UX/UI Case Study"
+        alt="Apparel E-Commerce UX/UI Case Study"
         sx={cardStylesImage}
-        image={WebsiteUIDesignandRedesign}
+        image={ApparelDesigns}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Codafi Technology
+        Apparel Designs
+        </Typography>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        UX/UI Design
         </Typography>
         </CardContent>
       </Link>
