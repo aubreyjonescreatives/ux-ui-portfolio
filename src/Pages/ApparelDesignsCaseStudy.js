@@ -7,22 +7,26 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProtoPersonaDave from '../Images/appareldesigns/research/protopersonajake.png';
 import UserPersona from '../Images/appareldesigns/research/userpersonameg.png';
-import JourneyMap from '../Images/catwalkcompany/images/personas/journeymap.png'; 
+import StoryBoard from '../Images/appareldesigns/define/storyboard.svg'; 
+import JourneyMap from '../Images/appareldesigns/define/journeymap.svg'; 
 //import FreelancingGigs from '../Images/catwalkcompany/images/freelancinggigs.png'; 
 import CompetitorAnalysis from '../Images/catwalkcompany/images/competitorresearch/competitoranalysis.png'; 
 import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
 import FeaturePrioritization from '../Images/appareldesigns/ideation/featureprioritizationmatrix.png';
-import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
+//import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/appareldesigns/ideation/ilikeiwishwhatif.png';
-import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
-import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
+import UserFlow from '../Images/appareldesigns/develop/userflow.jpg'; 
+import UserFlowOne from '../Images/appareldesigns/develop/userflowone.jpg';
+import UserFlowTwo from '../Images/appareldesigns/develop/userflowtwo.jpg';
+import UserFlowThree from '../Images/appareldesigns/develop/userflowthree.jpg';
+import UserFlowFour from '../Images/appareldesigns/develop/userflowfour.jpg';
+import SiteMap from '../Images/appareldesigns/develop/sitemap.png'; 
 import SplashPage from '../Images/catwalkcompany/images/sketches/splashpage.JPG'; 
 import Dashboard from '../Images/catwalkcompany/images/sketches/dashboard.JPG'; 
 import Availability from '../Images/catwalkcompany/images/sketches/availability.JPG';
 import EmailServices from '../Images/catwalkcompany/images/sketches/emailservices.JPG'; 
-import Earnings from '../Images/catwalkcompany/images/sketches/earnings.JPG';  
-import StoryBoard from '../Images/catwalkcompany/images/storyboard.JPG'; 
+import Earnings from '../Images/catwalkcompany/images/sketches/earnings.JPG';
 import SignUpandLogin from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/signinguploggingin.png'
 import MidFiCatWalkCo from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/mid-fi-catwalkco.png';
 import Iframe from 'react-iframe'; 
@@ -157,9 +161,9 @@ const imageStylesASitemap = {
 
 }
 
-const paragraphASitemap = {
-padding: '30px 0px'
-}
+// const paragraphASitemap = {
+// padding: '30px 0px'
+// }
 
 
 const sketchesContainer = {
@@ -328,7 +332,7 @@ return (
 <Typography sx={headerStyles} id="top">Apparel Designs E-Commerce</Typography>
 
 
-       <Typography sx={headerStyles} id="top">Product Design Case Study</Typography>
+       <Typography sx={headerStyles} id="top">UX/UI Design Case Study</Typography>
 
        </Container>
      
@@ -341,7 +345,7 @@ return (
   My Role:
 </Typography >
 <Typography sx={catwalkInfo}>
-  Product Designer
+  UX/UI Designer
 </Typography>
 
 </Col>
@@ -387,7 +391,7 @@ return (
 <Box sx={boxStylesB}>
   <Container>
 <Typography sx={headerStyles}>Challenge</Typography>
-<Typography sx={paragraph} md={paragraphMD}>My love for product design began when I discovered an interest in creating candle labels and tshirt designs for clientele by word of mouth. With my UX/UI design background and e-commerce focus, I wondered
+<Typography sx={paragraph} md={paragraphMD}>My love for UX/UI design began when I discovered an interest in creating candle labels and tshirt designs for clientele by word of mouth. With my UX/UI design background and e-commerce focus, I wondered
 what products and services interested people the most for a small e-commerce business in today's competitive world. This product design case study walks us through emotional hearts, desires, and needs as we learn and indentify 
 how to impact other people's lives in a positive way.  </Typography>
 
@@ -409,7 +413,7 @@ how to impact other people's lives in a positive way.  </Typography>
 
 <Container>
 
-<Typography sx={headerStyles}>Empathy Phase</Typography>
+<Typography sx={headerStyles}>Discover Phase</Typography>
 
 <Typography sx={sectiontitle}>Proto Persona</Typography>
 
@@ -825,7 +829,7 @@ avoid multiple in-person shopping stops and get the sleep they need after a long
 
 {/*ideate*/}
 
-<Box sx={boxStylesA}>
+<Box sx={boxStylesB}>
 
 <Container>
 
@@ -870,7 +874,7 @@ step is the "I Like, I Wish, What If" method as I dig deeper into what feature i
 {/*featureprioritizationmatrix*/}
 
 
-<Box sx={boxStylesA}>
+<Box sx={boxStylesB}>
 
 <Container>  
 <Typography sx={sectiontitle}>Feature Priortization Matrix</Typography>
@@ -919,7 +923,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 
 
 
-<Box sx={boxStylesA}>
+<Box sx={boxStylesB}>
   <Container>
 <Typography sx={sectiontitle}>Value Proposition Statement</Typography>
 
@@ -941,13 +945,13 @@ with our audience so that they want to return to our site again.</Typography>
 
 
 
-<Box sx={boxStylesA}>
+<Box sx={boxStylesB}>
  
   <Container>
 
   <Row>
 
-  <Col sx={12} sm={6} md={6} xl={6}>
+  <Col sx={12}>
 
 <Typography sx={sectiontitle}>Storyboard</Typography>
 
@@ -966,8 +970,11 @@ with our audience so that they want to return to our site again.</Typography>
 
      </Col>
 
+</Row>
 
-<Col sx={12} sm={6} md={6} xl={6}>
+<Row>
+
+<Col sx={12}>
 {/*journeymap*/}
 
 
@@ -1005,11 +1012,11 @@ with our audience so that they want to return to our site again.</Typography>
 
 
 
-<Box sx={boxStylesB}>
+<Box sx={boxStylesA}>
 
 <Container>
 
-<Typography sx={headerStyles}>Prototype Phase</Typography>
+<Typography sx={headerStyles}>Develop Phase</Typography>
 
 
 {/*User Flow*/}
@@ -1024,14 +1031,21 @@ with our audience so that they want to return to our site again.</Typography>
 
 <Row>
 
-  <Col sm={12} md={6} xl={6}>
-  <Typography sx={paragraph} md={paragraphMD}>As I entered the design thinking Prototype phase, I carefully considered the most desired Catwalk Co features 
-based on my research, feature prioritization matrix, and Laurey's current overall experience: </Typography>
-  
+  <Col sm={12}>
+  <Typography sx={paragraph} md={paragraphMD}>As I entered the design thinking develop phase, I carefully considered the most desired Apparel Design features 
+based on my research, feature prioritization matrix, and Megan's current overall experience: </Typography>
+
+   <Typography sx={paragraph} md={paragraphMD}>This mobile e-commerce website for a clothing store includes user flows for 
+   an onboarding process, store homepage, account details, and shopping cart experiences. </Typography>
+ 
   
   </Col>
 
-<Col sm={12} md={6} xl={6}>
+  </Row>
+
+  <Row>
+
+<Col sm={12}>
 
 
     <Card sx={imageStylesAUserFlow}>
@@ -1052,7 +1066,113 @@ based on my research, feature prioritization matrix, and Laurey's current overal
 
   </Row>
 
-  
+  <Row>
+
+  <Typography sx={paragraph} md={paragraphMD}>Since it is nearly impossible to take a screenshot of the entire user flow without blurring the text, 
+   here are smaller snippets from it: </Typography>
+
+   
+ 
+   <Col sm={12}>
+
+   <Typography sx={paragraph} md={paragraphMD}>Onboarding: </Typography>
+
+<Card sx={imageStylesAUserFlow}>
+  <CardMedia
+    component="img"
+    alt="User Flow"
+    image={UserFlowOne}
+  />
+ 
+ 
+ 
+</Card>
+
+
+
+
+<Col sm={12}>
+
+<Typography sx={paragraph} md={paragraphMD}>Apparel Homepage: </Typography>
+
+<Card sx={imageStylesAUserFlow}>
+  <CardMedia
+    component="img"
+    alt="User Flow"
+    image={UserFlowTwo}
+  />
+ 
+ 
+ 
+</Card>
+
+
+
+
+</Col>
+
+
+
+
+</Col>
+
+</Row>
+
+<Row>
+
+<Col sm={12} md={6}>
+
+<Typography sx={paragraph} md={paragraphMD}>Account Details: </Typography>
+
+    <Card sx={imageStylesAUserFlow}>
+      <CardMedia
+        component="img"
+        alt="User Flow"
+        image={UserFlowThree}
+      />
+     
+     
+     
+    </Card>
+
+
+
+
+    </Col>
+
+   
+
+    <Col sm={12} md={6}>
+
+    <Typography sx={paragraph} md={paragraphMD}>Shopping Cart: </Typography>
+
+    <Card sx={imageStylesAUserFlow}>
+      <CardMedia
+        component="img"
+        alt="User Flow"
+        image={UserFlowFour}
+      />
+     
+     
+     
+    </Card>
+
+
+
+
+    </Col>
+    
+
+
+
+
+
+
+
+  </Row>
+
+
+ 
 
 
     </Container>
@@ -1066,47 +1186,23 @@ based on my research, feature prioritization matrix, and Laurey's current overal
 
 <Typography  sx={sectiontitle}>Sitemap</Typography>
 
+<Typography sx={paragraph} md={paragraphMD}>Creating an effective sitemap is crucial for an ecommerce clothing store. Our user flows should make sense for better usability. Our audience primarily hates 
+change according to our research and we can implement common information architecture routes found in other websites.</Typography>
+
 <Container sx={sitemapContainer}>
 
 <Row>
-
-<Col sm={12} md={6} xl={6}>
-
-<Typography sx={paragraphASitemap}>First sitemap</Typography>
-     
 
 
     <Card sx={imageStylesASitemap}>
       <CardMedia
         component="img"
         alt="Sitemap"
-        image={Sitemap}
+        image={SiteMap}
       />
      
      
     </Card>
-
-    </Col>
-
-<Col sm={12} md={6} xl={6}>
-    
-
-
-    <Typography sx={paragraphASitemap}>Final sitemap</Typography>
-     
-
-
-     <Card sx={imageStylesASitemap}>
-       <CardMedia
-         component="img"
-         alt="Sitemap"
-         image={SiteMap}
-       />
-      
-      
-     </Card>
- 
-     </Col>
 
      </Row>
      </Container>
@@ -1122,8 +1218,8 @@ based on my research, feature prioritization matrix, and Laurey's current overal
 
 <Typography sx={sectiontitle}>Sketches</Typography>
 
-<Typography sx={paragraph} md={paragraphMD}>Now that I understood my overall information architecture for Catwalk Co's mobile app, 
-here are some of my rough sketches for Catwalk Co to get through ideas much faster:</Typography>
+<Typography sx={paragraph} md={paragraphMD}>Now that I understood my overall information architecture for Apparel Design's mobile app, 
+here are some of my rough sketches for Apparel Designs to get through bad ideas much faster than to digitize them:</Typography>
     
 
 
