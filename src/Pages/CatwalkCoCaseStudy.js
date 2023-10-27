@@ -308,16 +308,6 @@ return (
 
 </Col>
 
-<Col sx={12} sm={6} md={4} xl={3}>
-<Typography sx={catwalkInfo}>
-  Timeframe:
-</Typography>
-<Typography sx={catwalkInfo}>
-  January 2018 - December 2020
-</Typography>
-
-
-</Col>
 
 </Row>
 
