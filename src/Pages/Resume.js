@@ -5,9 +5,9 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 //import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import ResumeImage from '../Images/resume/aubreyjonesresume.png';
+import ResumeImage from '../Images/resume/aubreyjonesresume2023.png';
 import Link from '@mui/material/Link';
-import ResumePDF from '../Images/resume/aubreyjonesresume.pdf';
+import ResumePDF from '../Images/resume/aubreyjonesresume2023.pdf';
 
 const Everything = {
   display: 'grid',
