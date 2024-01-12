@@ -24,19 +24,21 @@ const introStyles = {
   paddingBottom: '150px', 
   backgroundColor: '#fff', 
   width: '100%', 
-  display: 'block'
+  display: 'block',
+  backgroundColor: '#F8F9FA'
    
 }
 
 const introContainer = {
-  margin: '200px auto 0px auto', 
-  clear: 'both'
+  paddingTop: '300px', 
+  paddingBottom: '300px',
+  clear: 'both', 
+  
 }
 
 const introText = {
   textAlign: 'left',
   fontWeight: '300',
-  margin: '100px auto', 
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
   color: '#00003D',
@@ -51,7 +53,7 @@ const introText = {
 
 
 const casestudyBox = {
-  backgroundColor: '#F8F9FA',
+  backgroundColor: '#FFFFFF',
   paddingBottom: '100px'
 
 }
@@ -87,28 +89,33 @@ margin: '20px auto',
 textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
 boxShadow: 'none',
-borderRadius: '15px',
 backgroundColor: '#FFF', 
-border: '2px solid #F8F9FA'
+padding: '10px',
+"&:hover": {
+  padding: '10px'
+ 
+}, 
 }
 
 const cardStylesImage = {
 width: '100%', 
 justifyContent: 'center', 
 height: '200px', 
-border: '1px solid #F8F9FA'
+border: '2px solid #F8F9FA',
+borderRadius: '5px',
 }
 
 
 const cardText = {
   fontFamily: 'Raleway, sans-serif',
-  fontSize: '20px'
+  fontSize: '20px',
+  margin: '10px 0px',
 }
 
 
 const linkStyles = {
 textDecoration: 'none',
-color: '#30638E', 
+color: '#30638E',
 
 "&:hover": {
   textDecoration: 'none', 
