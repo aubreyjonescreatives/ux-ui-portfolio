@@ -22,7 +22,6 @@ import '../../src/Portfolio.css';
 const introStyles = {
  // paddingTop: '100px', 
   paddingBottom: '150px', 
-  backgroundColor: '#fff', 
   width: '100%', 
   display: 'block',
   backgroundColor: '#F8F9FA'
