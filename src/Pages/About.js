@@ -24,13 +24,13 @@ const Everything = {
 
   
 const boxStylesA = {
- backgroundColor: '#ffffff', 
+ backgroundColor: '#F8F9FA', 
  paddingBottom: '75px'
 
 }
 
 const boxStylesAFirst = {
-  backgroundColor: '#ffffff', 
+  backgroundColor: '#F8F9FA', 
   paddingBottom: '250px'
 }
 
@@ -57,7 +57,7 @@ const boxStylesAFirst = {
   }
 
 const boxStylesB = {
-  backgroundColor: '#F8F9FA', 
+  backgroundColor: '#FFFFFF', 
   paddingTop: '5px',
   paddingBottom: '50px',
   width: '100%'
@@ -152,9 +152,9 @@ const aboutIcon = {
 
 
 const boxStylesBLast = {
-  backgroundColor: '#FFF', 
+  backgroundColor: '#F8F9FA', 
   paddingTop: '5px',
-  marginBottom: '50px',
+  paddingBottom: '50px',
   width: '100%'
 
 }
