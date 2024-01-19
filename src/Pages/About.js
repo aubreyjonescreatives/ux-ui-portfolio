@@ -17,21 +17,20 @@ import { faCamera, faPassport, faPersonHiking, faGamepad, faPaintbrush, faKitche
 
 const Everything = {
   display: 'grid',
-  margin: '100px auto 0px auto',
-  justifyContent: 'center', 
   width: '100%',
 }
 
   
 const boxStylesA = {
  backgroundColor: '#F8F9FA', 
- paddingBottom: '75px'
+ paddingBottom: '75px',
+ 
 
 }
 
 const boxStylesAFirst = {
   backgroundColor: '#F8F9FA', 
-  paddingBottom: '250px'
+  padding: '300px 0px',
 }
 
 
@@ -47,9 +46,8 @@ const boxStylesAFirst = {
 //   }
 
   const headerStylesAFirst = {
-    textAlign: 'left',
+  textAlign: 'left',
   fontWeight: '300',
-  margin: '100px auto', 
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
   color: '#00003D',
