@@ -931,7 +931,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 <Box sx={designB}>
 <Typography sx={titleB}>Value Proposition Statement</Typography>
 
-<Typography sx={paragraphB}>TAi is an is Ai clothing ecommerce platform tailored to be the right fit for online shoppers. With its custom apparel, 
+<Typography sx={paragraphB}>TAi is an is Ai clothing ecommerce platform tailored to find the right fit for online shoppers. With its custom apparel, 
 affordable prices, and trustworthy reviews, Tai will increase the return on investment and decrease disappointment in customer 
 returns. We're better than our competitors because we focus on removing company and product waste as we tailor to each custom fit without requiring 
 our customers to try our clothing on first. We're believable because we listen to our audience and provide solutions for all parties involved.</Typography>
@@ -948,49 +948,7 @@ our customers to try our clothing on first. We're believable because we listen t
 
 
     <Box sx={designB}>
-<Typography sx={titleB}>User Scenario</Typography>
-
-
-
-
-<Card sx={imageStylesB}>
-      <CardMedia
-        component="img"
-        alt="Journey Map"
-        image={UserScenario}
-       
-      />
-     
-     </Card>
-
-
-
-
-
-
-</Box>
-
-
-
-{/*Storyboard*/}
-
-
-
-<Box sx={designB}>
-<Typography sx={titleB}>Storyboard</Typography>
-
-
-
-
-<Card sx={imageStylesB}>
-      <CardMedia
-        component="img"
-        alt="Storyboard"
-        image={StoryBoard}
-       
-      />
-     
-     </Card>
+<Typography sx={titleB}>User Blue Print</Typography>
 
 
 
@@ -1001,34 +959,6 @@ our customers to try our clothing on first. We're believable because we listen t
 
 
 
-{/*journeymap*/}
-
-
-
-
-<Box sx={designB} id="journeymap">
-<Typography sx={titleB}>Journey Map</Typography>
-
-<Typography sx={paragraphB}>Let's spend a moment with Laurey Lane as she expresses her typical day as a freelancer:</Typography>
-
-
-
-    <Card sx={imageStylesB}>
-      <CardMedia
-        component="img"
-        alt="Journey Map"
-        image={JourneyMap}
-       
-      />
-     
-     
-    </Card>
-
-    <Typography sx={paragraphB}></Typography>
-   
-    
-
-</Box>
 
 
 
