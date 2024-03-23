@@ -160,7 +160,7 @@ return (
 <Typography sx={introText}>Hello, I'm Aubrey.</Typography>
 
 
-<Typography sx={introText}>Dependable. Detail-Oriented. Dynamic Storyteller.</Typography>
+<Typography sx={introText}>A strategic and creative storyteller.</Typography>
 
 
 
