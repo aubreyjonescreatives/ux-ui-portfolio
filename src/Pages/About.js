@@ -165,7 +165,7 @@ const About = () => {
    <Box sx={boxStylesAFirst}>
     <Container>
    <Typography sx={headerStylesAFirst}>About Me</Typography>
-   <Typography sx={headerStylesAFirst}>I am a creative UX/UI Designer based in Salt Lake City, Utah.</Typography> 
+   <Typography sx={headerStylesAFirst}>I am a creative designer based in Salt Lake City, Utah.</Typography> 
 
    </Container>
 
@@ -177,7 +177,7 @@ const About = () => {
 
     
     <Container>
-    <Typography sx={headerStylesB}>My UX/UI Design Story</Typography>
+    <Typography sx={headerStylesB}>My design Story</Typography>
     </Container>
    
 

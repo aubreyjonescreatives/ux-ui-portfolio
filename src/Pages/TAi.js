@@ -1,5 +1,4 @@
-import * as React from 'react'; 
-import CaseStudyNavBarAP from '../Components/CaseStudyNavBarAP.js'; 
+import * as React from 'react';  
 import { Container, Row, Col } from 'react-grid-system';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
@@ -71,6 +70,21 @@ width: '100%',
 padding: '0px'
 
 }
+
+const customerQuote = {
+  // padding: '100px 100px 150px 150px',
+}
+
+const quote = {
+  color: '#30638E', 
+  fontSize: '30px',
+  textAlign: 'center', 
+  fontFamily: 'Merriweather',
+  paddingBottom: '100px', 
+  paddingTop: '100px', 
+}
+
+
 
 const age = {
   border: '1px solid #9E0031'
@@ -152,7 +166,7 @@ color: '#30638E'
 }
 
 const paragraphA = {
-padding: '40px 70px',
+padding: '10px 70px',
 fontSize: '20px', 
 fontFamily: 'Merriweather', 
 
@@ -377,7 +391,7 @@ const imageStylesB = {
 
 
 
-const ApparelDesigns = () => {
+const TAi = () => {
   
 
 
@@ -386,9 +400,6 @@ const ApparelDesigns = () => {
 
 return (
 <>
-
-
-<CaseStudyNavBarAP />
 
 
 
@@ -410,7 +421,7 @@ return (
 
 
 
-       <Typography sx={headerStylesA} id="top">Apparel Designs <br/> UX/UI Case Study</Typography>
+       <Typography sx={headerStylesA} id="top">"TAi" <br/> Tailored Ai <br/> Product Design Case Study</Typography>
 
 
        </Box>
@@ -421,10 +432,50 @@ return (
 
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
-<Typography sx={paragraphA}>My love for product design began when I discovered an interest in creating candle labels and tshirt designs for clientele by word of mouth. With my UX/UI design background and e-commerce focus, I wondered
-what products and services interested people the most for a small e-commerce business in today's competitive world. This product design case study walks us through emotional hearts, desires, and needs as we learn and indentify 
-how to impact other people's lives in a positive way.  </Typography>
+<Typography sx={paragraphA}>When I work in customer service at Kohls, I interact with quite a few different customers for
+Amazon and Kohls' clothing returns. We're asked to provide one question to our Kohls' return customers and sometimes 
+my Amazon customers answer it without being asked:  </Typography>
+
+<Row>
+<Container sx={customerQuote}>
+  <Typography sx={quote}>
+  "Anything wrong with the product?"
+  </Typography>
+  </Container>
+
+</Row>
+
+<Typography sx={paragraphA}>More often than not, I receive the same answer:</Typography>
 <Typography sx={headerA}></Typography> 
+
+<Row>
+
+<Col >
+  <Container sx={customerQuote}>
+  <Typography sx={quote}>
+  "It just wasn't the right size."
+  </Typography>
+  </Container>
+  </Col>
+
+  <Col >
+  <Container sx={customerQuote}>
+  <Typography sx={quote}>
+  "Wrong fit."
+  </Typography>
+  </Container>
+  </Col>
+
+  <Col >
+  <Container sx={customerQuote}>
+  <Typography sx={quote}>
+  "I didn't try it on first."
+  </Typography>
+  </Container>
+  </Col>
+
+  </Row>
+
   
 </Box> 
 
@@ -445,8 +496,11 @@ how to impact other people's lives in a positive way.  </Typography>
 
 <Typography sx={titleB}>Proto Persona</Typography>
 
-<Typography sx={paragraphB}>Meet Jake Collins, a hard worker with a love for the outdoors. As representative of our supposed audience, 
-he'd much rather spend time outside than shopping in person. Online shopping gives him the option to make fast choices and save time for camping,
+<Typography sx={paragraphB}>While I receive quite a few different customers, a minimum viable product focuses on a trending audience. I don't have 
+enough stats to really know who I am talking to.</Typography> 
+
+<Typography sx={paragraphB}>
+We can assume that Jake Collins as our proto persona matches our assumed audience. Online shopping gives him the option to make fast choices and save time for camping,
 fishing, and hiking.</Typography>
 
 
@@ -473,13 +527,13 @@ fishing, and hiking.</Typography>
 
 <Typography sx={titleB}>Research Survey</Typography>
 
-<Typography sx={paragraphB}>I needed to confirm Jake's story as my main audience advocate for an ecommerce platform. 
-As part of my research phase, I created a Google Forms survey so that I could reach mulitple people online. I received 
-interesting mixed results from those that shop online. My survey questions included demographics, preferred online platforms and devices, and 
-online shopping trending products:</Typography>
+<Typography sx={paragraphB}>These small user stories only gave me more questions about the e-commerce 
+fashion industry. I needed more stats and chose to create an online survey to strategically reach an online audience. 
+I received interesting mixed results. My survey questions included demographics, 
+preferred online platforms and devices, and online shopping trending products:</Typography>
 
-<Typography sx={paragraphB}>I first wanted to solidify my audience's demographics such as with age and gender. Turns out, Jake 
-didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography>
+<Typography sx={paragraphB}>Unfortunately it turns out that Jake didn't quite fit the story as my 
+main audience advocate. Sorry Jake!</Typography>
     
 
 <Row>
@@ -517,11 +571,8 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
     </Row>
    
     <Typography sx={commonReasons}>
-    I definitely understand why some adults would rather avoid time at the store. Perhaps it's 
-    because when we were kids, shopping was the last thing we wanted to do with our 
-    parents. I gathered survey insights as to why my audience would rather shop online than take
-    the time to run errands in person. Here are just a few anonymous quotes behind their logical 
-    reasoning to avoid potential boredom or confusion:
+    So why do people shop online when they usually receive better results in person?
+    Here are just a few answers:
   </Typography>
 
     
@@ -557,8 +608,7 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
 
 
     <Typography sx={commonReasons}>
-    Another significant question asked in the surveys was very insightful and confirmed 
-    our first question. As a recap, we wondered what products and services interested people 
+    I also asked about what products and services interested people 
     the most for a small ecommerce business in today's competitive world. Here are the top 
     three answers to this question:
   </Typography>
@@ -606,10 +656,6 @@ didn't quite fit the story as my main audience advocate. Sorry Jake!</Typography
 
     </Row>
 
-    <Typography sx={paragraphB}>
-    No wonder why a small custom t-shirt company caught on most out of all my small 
-    business ideas!
-  </Typography>
 
     <Typography sx={paragraphB}>
     If you would like to see the full survey, here is a direct link to it:
@@ -771,9 +817,11 @@ stops, and traffic after a long work day.
 
 <Typography sx={titleA}>Problem Statement</Typography>
 
-<Typography sx={paragraphA}>We believe Apparel Design will help online shoppers discover 
-competitive products, affordable prices, and trustworthy reviews so that they will 
-avoid multiple in-person shopping stops and get the sleep they need after a long exhausting day. 
+<Typography sx={paragraphA}>We believe TAi will help online shoppers discover a strategic new 
+way to finding the right fit with the help of Ai. TAi's Ai software can size clothing and tailor it to specific 
+customer needs before the final purchase. With its custom design, affordable prices, 
+and trustworthy reviews, TAi will tailor to individual online shopper needs to avoid frustration and disappointment 
+after a long exhausting day. 
 
 </Typography>
     
@@ -816,7 +864,7 @@ avoid multiple in-person shopping stops and get the sleep they need after a long
 
 
 
-<Typography sx={paragraphB}>Now that we understand our audience, 
+<Typography sx={paragraphB}>Now that we understand our online audience, 
 we can start brainstorming feature ideas relatable to their wants and needs.</Typography>
     
 
@@ -845,7 +893,7 @@ we can start brainstorming feature ideas relatable to their wants and needs.</Ty
 <Box sx={designB}>
 <Typography sx={titleB}>Feature Priortization Matrix</Typography>
 
-<Typography sx={paragraphB}>I want to keep the most viable product (MVP) in mind as I don't want to create 
+<Typography sx={paragraphB}>I still want to keep the most viable product (MVP) in mind as I don't want to create 
 any scope creep and be mindful of timing as I am on feature deadlines. I won't always have time to create 
 every feature request, which is okay. There can always be more time later on to create version two and testing each 
 step of the way will let me know if the product really truly has a worthy return on investment and meets my customers'
@@ -881,26 +929,13 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 
 
 <Box sx={designB}>
-<Typography sx={titleB}>Value Proposition Statement and Canvas</Typography>
+<Typography sx={titleB}>Value Proposition Statement</Typography>
 
-<Typography sx={paragraphB}>Catwalk Co is developing a freelancing app to help freelancers and clients solve 
-communication errors, creativity blockers, and financial pitfalls
-when working on a project together. We're better than our competitors because we remove common freelancing 
-pain points discovered in other companies for all parties involved. We're believable because we seek to understand and problem solve 
-with our audience to provide simpler and better means for all.</Typography>
+<Typography sx={paragraphB}>TAi is an is Ai clothing ecommerce platform tailored to be the right fit for online shoppers. With its custom apparel, 
+affordable prices, and trustworthy reviews, Tai will increase the return on investment and decrease disappointment in customer 
+returns. We're better than our competitors because we focus on removing company and product waste as we tailor to each custom fit without requiring 
+our customers to try our clothing on first. We're believable because we listen to our audience and provide solutions for all parties involved.</Typography>
 
-
-
-    <Card sx={imageStylesB}>
-      <CardMedia
-        component="img"
-        alt="Journey Map"
-        image={ValuePropositionCanvas}
-       
-      />
-     
-     
-    </Card>
 
     <Typography sx={paragraphB}></Typography>
 
@@ -1698,4 +1733,4 @@ UI design principles focused here.</Typography>
 
 }
 
-export default ApparelDesigns;
+export default TAi;

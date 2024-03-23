@@ -251,7 +251,7 @@ return (
         Catwalk Co
         </Typography>
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        UX/UI Design
+        Product Design
         </Typography>
         </CardContent>
       </Link>
@@ -264,7 +264,7 @@ return (
     <Col sm={12} md={4} xl={3}>
 
     <Card sx={cardStyles} className="cardStyles">
-<Link href="/appareldesignscasestudy" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+<Link href="/taicasestudy" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
         alt="Apparel E-Commerce UX/UI Case Study"
@@ -273,10 +273,10 @@ return (
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Apparel Designs
+        TAi
         </Typography>
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        UX/UI Design
+        Product Design
         </Typography>
         </CardContent>
       </Link>
