@@ -527,7 +527,7 @@ fishing, and hiking.</Typography>
 
 <Typography sx={titleB}>Research Survey</Typography>
 
-<Typography sx={paragraphB}>These small user stories only gave me more questions about the e-commerce 
+<Typography sx={paragraphB}>These user stories only gave me more questions about the e-commerce 
 fashion industry. I needed more stats and chose to create an online survey to strategically reach an online audience. 
 I received interesting mixed results. My survey questions included demographics, 
 preferred online platforms and devices, and online shopping trending products:</Typography>
@@ -931,7 +931,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 <Box sx={designB}>
 <Typography sx={titleB}>Value Proposition Statement</Typography>
 
-<Typography sx={paragraphB}>TAi is an is Ai clothing ecommerce platform tailored to find the right fit for online shoppers. With its custom apparel, 
+<Typography sx={paragraphB}>TAi is an is Ai clothing e-commerce platform tailored to find the right fit for online shoppers. With its custom apparel, 
 affordable prices, and trustworthy reviews, Tai will increase the return on investment and decrease disappointment in customer 
 returns. We're better than our competitors because we focus on removing company and product waste as we tailor to each custom fit without requiring 
 our customers to try our clothing on first. We're believable because we listen to our audience and provide solutions for all parties involved.</Typography>
