@@ -932,7 +932,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 <Typography sx={titleB}>Value Proposition Statement</Typography>
 
 <Typography sx={paragraphB}>TAi is an is Ai clothing e-commerce platform tailored to find the right fit for online shoppers. With its custom apparel, 
-affordable prices, and trustworthy reviews, Tai will increase the return on investment and decrease disappointment in customer 
+affordable prices, and trustworthy reviews, TAi will increase the return on investment and decrease disappointment in customer 
 returns. We're better than our competitors because we focus on removing company and product waste as we tailor to each custom fit without requiring 
 our customers to try our clothing on first. We're believable because we listen to our audience and provide solutions for all parties involved.</Typography>
 
