@@ -28,7 +28,7 @@ const Footer = () => {
   return (
    <>
  
-<Typography sx={footerStyles}>Copyright © 2023 Aubrey Jones</Typography>
+<Typography sx={footerStyles}>Copyright © 2024 Aubrey Jones</Typography>
 
 
    </>
