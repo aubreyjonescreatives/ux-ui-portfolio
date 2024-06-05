@@ -14,7 +14,7 @@ import UserPersona from '../Images/appareldesigns/userpersonameg.png';
 import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
 //import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
 import ZoomedInAffinityDiagram from '../Images/appareldesigns/research/zoomedinaffinitydiagram.png';
-import FeaturePrioritization from '../Images/catwalkcompany/images/FeaturePrioritizationMatrix.jpg';
+import FeaturePrioritization from '../Images/appareldesigns/ideation/featureprioritizationmatrix.png';
 import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 //import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
 import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
@@ -76,7 +76,7 @@ const customerQuote = {
 }
 
 const quote = {
-  color: '#30638E', 
+  color: '#00022E', 
   fontSize: '30px',
   textAlign: 'center', 
   fontFamily: 'Merriweather',
@@ -87,39 +87,39 @@ const quote = {
 
 
 const age = {
-  border: '1px solid #9E0031'
+  border: '1px solid #00022E'
 }
 
 const gender = {
-  border: '1px solid #9E0031'
+  border: '1px solid #00022E'
 }
 
 const ageRange = {
   padding: '50px 70px 20px 70px',
   textAlign: 'center', 
   fontSize: '32px',
-  color: '#9E0031',
+  color: '#00022E',
 }
 
 const ageNumbers = {
   padding: '5px 70px',
   textAlign: 'center',
   fontSize: '36px',
-  color: '#9E0031',
+  color: '#00022E',
 }
 
 const genderTitle = {
   padding: '50px 70px 20px 70px',
   textAlign: 'center',
   fontSize: '32px',
-  color: '#9E0031',
+  color: '#00022E',
 }
 
 const genderMajority = {
   padding: '5px 70px',
   textAlign: 'center',
   fontSize: '36px',
-  color: '#9E0031',
+  color: '#00022E',
 }
 
 
@@ -340,7 +340,7 @@ const paragraphBLink = {
   fontSize: '20px', 
   fontFamily: 'Merriweather',
   fontWeight: '300', 
-  color: '#9E0031'
+  color: '#00022E'
 
 
 }
@@ -932,7 +932,7 @@ needs. A Feature Prioritization Matrix lets me organize these requests based upo
 <Typography sx={titleB}>Value Proposition Statement</Typography>
 
 <Typography sx={paragraphB}>TAi is an is Ai clothing e-commerce platform tailored to find the right fit for online shoppers. With its custom apparel, 
-affordable prices, and trustworthy reviews, TAi will increase the return on investment and decrease disappointment in customer 
+affordable prices, and trustworthy reviews, TAi will increase the return on investment and decrease disappointment and quantity in customer 
 returns. We're better than our competitors because we focus on removing company and product waste as we tailor to each custom fit without requiring 
 our customers to try our clothing on first. We're believable because we listen to our audience and provide solutions for all parties involved.</Typography>
 
