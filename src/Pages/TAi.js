@@ -15,7 +15,6 @@ import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
 //import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
 import ZoomedInAffinityDiagram from '../Images/appareldesigns/research/zoomedinaffinitydiagram.png';
 import FeaturePrioritization from '../Images/appareldesigns/ideation/featureprioritizationmatrix.png';
-import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 //import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
 import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/appareldesigns/ideation/ilikeiwishwhatif.png';
