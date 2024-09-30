@@ -20,32 +20,6 @@ import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/appareldesigns/ideation/ilikeiwishwhatif.png';
 //import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
-import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
-import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
-import SplashPage from '../Images/catwalkcompany/images/sketches/splashpage.JPG'; 
-import Dashboard from '../Images/catwalkcompany/images/sketches/dashboard.JPG'; 
-import Availability from '../Images/catwalkcompany/images/sketches/availability.JPG';
-import EmailServices from '../Images/catwalkcompany/images/sketches/emailservices.JPG'; 
-import Earnings from '../Images/catwalkcompany/images/sketches/earnings.JPG';  
-//import StoryBoard from '../Images/catwalkcompany/images/storyboard.JPG'; 
-import SplashPageDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/splash-screen.png';
-import SignUpLoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up-login.png';
-import SignUpDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up.png';
-import LoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/login.png';
-import SignUpandLogin from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/signinguploggingin.png'
-import MidFiCatWalkCo from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/mid-fi-catwalkco.png';
-import DashboardDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/dashboard-1.png';
-import AvailabilityDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/availability.png';
-import InboxDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/inbox.png';
-import EarningsDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-1.png';
-import EarningsAccordionDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png';
-import Iframe from 'react-iframe'; 
-import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png';
-import StyleGuide from '../Images/catwalkcompany/images/styleguide/styleguide.png'; 
-import FinalLoginSignUp from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-signup-login.png'; 
-import FinalCatwalkCo from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-catwalkco.png';
-import FinalTimeclockRecording from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-timeclock-recording.png';
-
 
 
 const design = {
