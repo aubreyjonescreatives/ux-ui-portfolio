@@ -10,8 +10,8 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 //import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
-import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
-import ApparelDesigns from '../Images/appareldesigns/develop/sitemap.png'
+import FLCINCMockup from '../Images/algebra1images/heuristicimages/ruleone-old.png'; 
+import ApparelDesigns from '../Images/appareldesigns/define/journeymap.svg'
 import '../../src/Portfolio.css';
 
 

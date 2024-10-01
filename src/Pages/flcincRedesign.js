@@ -188,7 +188,7 @@ return (
   Timeframe:
 </Typography>
 <Typography sx={flcInfo}>
-  January 2018 - December 2020
+  26 Months
 </Typography>
 
 
