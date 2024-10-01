@@ -15,10 +15,37 @@ import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
 //import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
 import ZoomedInAffinityDiagram from '../Images/appareldesigns/research/zoomedinaffinitydiagram.png';
 import FeaturePrioritization from '../Images/appareldesigns/ideation/featureprioritizationmatrix.png';
+// import Sitemap from '../Images/catwalkcompany/images/catwalkcositemap.jpg';
 //import ValuePropositionCanvas from '../Images/catwalkcompany/images/CatwalkCoValuePropositionCanvas.png'
 import EmpathyMap from '../Images/appareldesigns/research/empathymap.png'; 
 import ILikeIWishWhatIf from '../Images/appareldesigns/ideation/ilikeiwishwhatif.png';
 //import UserScenario from '../Images/catwalkcompany/images/userscenario.png'; 
+// import UserFlow from '../Images/catwalkcompany/images/catwalkcouserflow.png'; 
+// import SiteMap from '../Images/catwalkcompany/images/catwalkcositemap.png'; 
+// import SplashPage from '../Images/catwalkcompany/images/sketches/splashpage.JPG'; 
+// import Dashboard from '../Images/catwalkcompany/images/sketches/dashboard.JPG'; 
+// import Availability from '../Images/catwalkcompany/images/sketches/availability.JPG';
+// import EmailServices from '../Images/catwalkcompany/images/sketches/emailservices.JPG'; 
+// import Earnings from '../Images/catwalkcompany/images/sketches/earnings.JPG';  
+//import StoryBoard from '../Images/catwalkcompany/images/storyboard.JPG'; 
+// import SplashPageDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/splash-screen.png';
+// import SignUpLoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up-login.png';
+// import SignUpDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/sign-up.png';
+// import LoginDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/login.png';
+// import SignUpandLogin from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/signinguploggingin.png'
+// import MidFiCatWalkCo from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/mid-fi-catwalkco.png';
+// import DashboardDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/dashboard-1.png';
+// import AvailabilityDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/availability.png';
+// import InboxDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/inbox.png';
+// import EarningsDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-1.png';
+// import EarningsAccordionDigital from '../Images/catwalkcompany/images/mid-fi-digital-wireframes/earnings-accordion-1.png';
+// import Iframe from 'react-iframe'; 
+// import UserTests from '../Images/catwalkcompany/images/usertestfeedback.png';
+// import StyleGuide from '../Images/catwalkcompany/images/styleguide/styleguide.png'; 
+// import FinalLoginSignUp from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-signup-login.png'; 
+// import FinalCatwalkCo from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-catwalkco.png';
+// import FinalTimeclockRecording from '../Images/catwalkcompany/images/hi-fidelitywireframes/final-timeclock-recording.png';
+
 
 
 const design = {
@@ -159,121 +186,121 @@ fontWeight: '400',
 
 
 
-const imageStylesA = { 
-width: '60%',
-display: 'block', 
-margin: '75px auto 75px auto', 
-height: '300px'
+// const imageStylesA = { 
+// width: '60%',
+// display: 'block', 
+// margin: '75px auto 75px auto', 
+// height: '300px'
 
 
-}
+// }
 
 
-const imageStylesAFinal = { 
-  width: '95%',
-  display: 'block', 
-  margin: '75px auto 75px auto', 
-  height: '300px'
+// const imageStylesAFinal = { 
+//   width: '95%',
+//   display: 'block', 
+//   margin: '75px auto 75px auto', 
+//   height: '300px'
   
   
-  }
+//   }
 
-  const finalHiStyles = {
-    position: 'relative',
-    width: '100%',
-    top: '0px'
+  // const finalHiStyles = {
+  //   position: 'relative',
+  //   width: '100%',
+  //   top: '0px'
   
-  }
+  // }
 
-const finalMidStyles = {
-  position: 'relative',
-  width: '100%',
-  top: '0px'
+// const finalMidStyles = {
+//   position: 'relative',
+//   width: '100%',
+//   top: '0px'
 
-}
+// }
 
-const userflowContainer = {
-  display: 'grid', 
-  justifyContent: 'space-evenly',
-  margin: "0px auto", 
-}
-
-
-const imageStylesAUserFlow = {
-width: '100%'
+// const userflowContainer = {
+//   display: 'grid', 
+//   justifyContent: 'space-evenly',
+//   margin: "0px auto", 
+// }
 
 
-}
-
-const imageStylesAStyleGuide = {
-display: 'block',
-margin: '0px auto',
-width: '40%'
-
-}
+// const imageStylesAUserFlow = {
+// width: '100%'
 
 
-const sitemapContainer = {
-  display: 'grid', 
-  justifyContent: 'space-evenly',
-  margin: "0px auto", 
-}
+// }
 
-const imageStylesASitemap = {
-width: '100%'
+// const imageStylesAStyleGuide = {
+// display: 'block',
+// margin: '0px auto',
+// width: '40%'
 
-
-}
-
-const paragraphASitemap = {
-padding: '30px 0px'
-}
+// }
 
 
-const sketchesContainer = {
-  display: 'grid', 
-  justifyContent: 'space-evenly',
-  margin: "0px auto", 
-}
+// const sitemapContainer = {
+//   display: 'grid', 
+//   justifyContent: 'space-evenly',
+//   margin: "0px auto", 
+// }
 
-const imageStylesASketches = {
-margin: '20px', 
-
-}
+// const imageStylesASitemap = {
+// width: '100%'
 
 
-const digitalOnboarding = {
-display: 'grid', 
-justifyContent: 'center',
+// }
 
-}
+// const paragraphASitemap = {
+// padding: '30px 0px'
+// }
 
 
-const digitalApp = {
-  display: 'grid', 
-  justifyContent: 'center',
+// const sketchesContainer = {
+//   display: 'grid', 
+//   justifyContent: 'space-evenly',
+//   margin: "0px auto", 
+// }
+
+// const imageStylesASketches = {
+// margin: '20px', 
+
+// }
+
+
+// const digitalOnboarding = {
+// display: 'grid', 
+// justifyContent: 'center',
+
+// }
+
+
+// const digitalApp = {
+//   display: 'grid', 
+//   justifyContent: 'center',
  
-  }
+//   }
 
 
-const imageStylesADigital = {
-width: "60%", 
-//gap: '10px',
-margin: "20px auto"
+// const imageStylesADigital = {
+// width: "60%", 
+// //gap: '10px',
+// margin: "20px auto"
 
-}
-
-
-const iframeContainer = {
-  display: 'grid', 
-  justifyContent: 'center',
-  margin: "0px auto", 
-  width: '100%', 
-  height: '1000px', 
-  marginBottom: '150px'
+// }
 
 
-}
+// const iframeContainer = {
+//   display: 'grid', 
+//   justifyContent: 'center',
+//   margin: "0px auto", 
+//   width: '100%', 
+//   height: '1000px', 
+//   marginBottom: '150px'
+
+
+// }
 
 
 const designB = {
