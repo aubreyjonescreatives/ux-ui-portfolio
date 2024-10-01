@@ -421,7 +421,7 @@ return (
 
 
 
-       <Typography sx={headerStylesA} id="top">"TAi" <br/> Tailored Ai <br/> Product Design Case Study</Typography>
+       <Typography sx={headerStylesA} id="top">"TAi" <br/> Tailored Ai <br/> UX Design Case Study</Typography>
 
 
        </Box>
@@ -432,7 +432,7 @@ return (
 
 <Box sx={designA} id="challenge">
 <Typography sx={headerA}>Challenge</Typography>
-<Typography sx={paragraphA}>When I work in customer service at Kohls, I interact with quite a few different customers for
+<Typography sx={paragraphA}>When I worked in customer service at Kohls, I interacted with quite a few different customers for
 Amazon and Kohls' clothing returns. We're asked to provide one question to our Kohls' return customers and sometimes 
 my Amazon customers answer it without being asked:  </Typography>
 
@@ -496,7 +496,7 @@ my Amazon customers answer it without being asked:  </Typography>
 
 <Typography sx={titleB}>Proto Persona</Typography>
 
-<Typography sx={paragraphB}>While I receive quite a few different customers, a minimum viable product focuses on a trending audience. I don't have 
+<Typography sx={paragraphB}>While I received quite a few different customers, a minimum viable product focuses on a trending audience. I don't have 
 enough stats to really know who I am talking to.</Typography> 
 
 <Typography sx={paragraphB}>

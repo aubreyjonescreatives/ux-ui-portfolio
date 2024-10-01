@@ -74,7 +74,7 @@ const headerStylesA = {
 
 const allcardStyles = {
     display: 'grid',  
-    justifyContent: 'center', 
+  //  justifyContent: 'center', 
     fontFamily: 'Raleway, sans-serif',
     
     
@@ -84,14 +84,13 @@ const allcardStyles = {
 
 
 const cardStyles = {
-margin: '20px auto', 
+width: '100%',
 textDecoration: 'none',
 fontFamily: 'Raleway, sans-serif', 
 boxShadow: 'none',
 backgroundColor: '#FFF', 
-padding: '10px',
 "&:hover": {
-  padding: '10px'
+  borderRadius: '20px'
  
 }, 
 }
@@ -99,16 +98,15 @@ padding: '10px',
 const cardStylesImage = {
 width: '100%', 
 justifyContent: 'center', 
-height: '200px', 
+height: '300px', 
 border: '2px solid #F8F9FA',
-borderRadius: '5px',
+borderRadius: '20px',
 }
 
 
 const cardText = {
   fontFamily: 'Raleway, sans-serif',
   fontSize: '20px',
-  margin: '10px 0px',
 }
 
 
@@ -189,7 +187,7 @@ return (
 
 
 
-<Col sm={12} md={4} xl={3}>
+<Col sm={12} md={4} xl={4}>
     <Card sx={cardStyles} className="cardStyles">
     <Link href="/flcinc" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
@@ -212,7 +210,7 @@ return (
 
     </Col>
 
-    <Col sm={12} md={4} xl={3}>
+    {/* <Col sm={12} md={6} xl={6}>
 
     <Card sx={cardStyles} className="cardStyles">
 <Link href="/codafitechnology" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
@@ -234,9 +232,9 @@ return (
     </Card>
    
 
-    </Col>
+    </Col> */}
 
-    <Col sm={12} md={4} xl={3}>
+    <Col sm={12} md={4} xl={4}>
 
     <Card sx={cardStyles} className="cardStyles">
 <Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
@@ -261,7 +259,7 @@ return (
     </Col>
 
 
-    <Col sm={12} md={4} xl={3}>
+    <Col sm={12} md={4} xl={4}>
 
     <Card sx={cardStyles} className="cardStyles">
 <Link href="/taicasestudy" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
@@ -276,7 +274,7 @@ return (
         TAi
         </Typography>
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Product Design
+        UX Design
         </Typography>
         </CardContent>
       </Link>
