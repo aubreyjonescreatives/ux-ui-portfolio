@@ -205,7 +205,7 @@ const CT = () => {
   Timeframe:
 </Typography>
 <Typography sx={flcInfo}>
-  September 2020 - December 2020
+  3 Months
 </Typography>
 
 
