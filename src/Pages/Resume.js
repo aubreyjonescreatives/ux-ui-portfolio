@@ -34,9 +34,9 @@ const boxStylesA = {
  }
 
     const headerStylesAFirst = {
-      textAlign: 'left',
+    textAlign: 'left',
     fontWeight: '300',
-    margin: '100px auto', 
+    margin: '50px auto', 
     fontSize: '36px',
     fontFamily: 'Raleway, sans-serif', 
     color: '#00003D',
@@ -55,21 +55,21 @@ const cardStyles = {
 
   const paragraphB = {
     fontFamily: 'Raleway, sans-serif',
-    margin: '20px 0px'
+    margin: '20px 0px 75px 0px'
   }
   
 
 
 
 const resumelink = {
-  marginTop: '50px',
-  marginBottom: '150px',
+  display: 'block',
   fontFamily: 'Raleway, sans-serif',
   textDecoration: 'none',
-  backgroundColor: '#00003D',
-  padding: '10px',
+  backgroundColor: '#30638E',
+  borderRadius: '50px',
+  padding: '20px',
   color: 'white',
-  width: '100px',
+  width: '200px',
   textAlign: 'center',
   "&:hover": {
     color: 'white',
@@ -86,12 +86,15 @@ const Resume = () => {
   return (
     <>
     <Box sx={Everything}>
+
     <Box sx={boxStylesAFirst}>
      <Container>
      <Typography sx={headerStylesAFirst}>Resume</Typography>
   
  </Container>
 </Box>
+
+
  <Box sx={boxStylesA}>
     <Card sx={cardStyles}>
     <CardMedia
@@ -104,6 +107,9 @@ const Resume = () => {
 
     </Card>
 </Box>
+
+
+
 <Box sx={boxStylesALast}>
   <Container>
     <Typography sx={headerStylesAFirst}>Downloadable Resume</Typography>
@@ -114,6 +120,7 @@ const Resume = () => {
     </Container>
     </Box>
 
+  
   
   
     </Box>

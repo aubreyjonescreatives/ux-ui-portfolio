@@ -2,6 +2,7 @@ import * as React from 'react';
 //import HeroImage from '../Images/landing/heroimage.png';
 import {Row, Col } from 'react-grid-system';
 import Container from '@mui/material/Container';
+// import Hero from '../Images/landing/heroimage.png';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
@@ -16,23 +17,24 @@ import '../../src/Portfolio.css';
 
 
 
+// const heroStyles = {
+//   width: '100% !important',
+//   border: 'none',
+//   boxShadow: 'none', 
+//   marginTop: '100px'
+ 
+//   }
 
 
-
-const introStyles = {
- // paddingTop: '100px', 
-  paddingBottom: '150px', 
-  width: '100%', 
-  display: 'block',
-  backgroundColor: '#F8F9FA'
+const introStyles = { 
+  marginTop: '250px',
+  marginBottom: '50px', 
    
 }
 
 const introContainer = {
-  paddingTop: '300px', 
-  paddingBottom: '300px',
-  clear: 'both', 
-  
+  width: '100%',
+  paddingBottom: '100px'
 }
 
 const introText = {
@@ -43,12 +45,6 @@ const introText = {
   color: '#00003D',
 
 }
-
-
-
-
-
- 
 
 
 const casestudyBox = {
@@ -160,6 +156,15 @@ return (
 
 <Typography sx={introText}>A strategic and creative storyteller.</Typography>
 
+
+{/* <Card sx={heroStyles} className="heroStyles">
+      <CardMedia
+        component="img"
+        alt="Family Literacy Centers Internship Case Study"
+        sx={cardStylesImage}
+        image={Hero}
+      />
+</Card> */}
 
 
 {/* <Typography sx={introText}>I am always ready for a challenge that helps customers have a better human-centered experience through collaboration, research, and visual design.</Typography> */}

@@ -65,9 +65,8 @@ p {
 
 
 .introStyles {
-    /* background-image: url("Images/landing/heroimage.png"); */
-    /* height: 600px; */
-    /* max-height: 600px; */
+     width: 100%; 
+   
 }
 
 
@@ -92,8 +91,7 @@ p {
 
 .navbar {
     background-color: white !important;
-    /* border-bottom: 1px solid #02075D;  */
-    border-bottom: 2px solid #F8F9FA;
+    border-bottom: .5px solid #30638E !important;
 }
 
 .navbar-collapse {
@@ -102,7 +100,7 @@ p {
 
  .navbar-nav a {
     font-family: 'Raleway';
-    color: #00003D !important;
+    color: #30638E !important;
     margin: 0px 20px !important; 
     border-bottom: 1px solid transparent;
     padding: 10px;
@@ -111,12 +109,12 @@ p {
 }
 
 .navbar-nav a:hover {
-border-bottom: 1px solid #00003D;
+border-bottom: 1px solid #30638E;
 padding: 10px;
 }
 
 .navbar-nav a:active {
-    border-bottom: 1px solid #00003D;
+    border-bottom: 1px solid #30638E;
     padding: 10px;
     }
 
@@ -131,14 +129,14 @@ padding: 10px;
 
 .navLinkSocial svg {
     margin: 0px 20px !important;
-    color: #00003D !important;
+    color: #30638E !important;
     font-size: 24px;
     border-bottom: 1px solid transparent;
     padding: 10px;
 }
 
 .navLinkSocial svg:hover {
-    border-bottom: 1px solid #00003D;
+    border-bottom: 1px solid #30638E;
     padding: 10px;
     
   

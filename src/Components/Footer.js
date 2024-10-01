@@ -11,7 +11,7 @@ const footerStyles = {
   fontWeight: '300', 
   color: '#00003D', 
   backgroundColor: '#ffffff', 
-  borderTop: '2px solid #F8F9FA'
+  borderTop: '.5px solid #30638E'
   //boxShadow: '0px 0px 1px #ccc',
   //marginTop: '100px'
 }

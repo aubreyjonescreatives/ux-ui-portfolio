@@ -39,12 +39,24 @@ const headerStylesA = {
    
     const caseStudyInfo = {
       fontFamily: 'Raleway, sans-serif',
-      margin: '150px 0px'
+      margin: '150px 0px 50px 0px',
+      marginTop: '200px',
+      paddingTop: '100px'
     }  
+
+
+
+    const titleInfo = {
+      fontFamily: 'Raleway, sans-serif',
+      marginTop: '125px',
+      marginBottom: '35px',
+      fontWeight: '900',
+      fontSize: '20px'
+    }
 
     const flcInfo = {
       fontFamily: 'Raleway, sans-serif',
-      margin: '10px 0px'
+      margin: '15px 0px'
     }
 
     const roleInfo = {
@@ -145,7 +157,7 @@ return (
 <Typography sx={headerStylesA} id="top">The Family Literacy Centers</Typography>
 
 
-       <Typography sx={headerStylesA} id="top">UX/UI Case Study</Typography>
+       <Typography sx={headerStylesA} id="top">UI Redesign Case Study</Typography>
 
        </Container>
      
@@ -153,8 +165,8 @@ return (
 
 <Row sx={roleInfo}>
 
-<Col sx={12} sm={6} md={4} xl={3}>
-<Typography sx={flcInfo}>
+<Col sx={12} sm={6} md={4} xl={2}>
+<Typography sx={titleInfo}>
   My Roles:
 </Typography >
 <Typography sx={flcInfo}>
@@ -169,8 +181,8 @@ return (
 
 </Col>
 
-<Col sx={12} sm={6} md={4} xl={3}>
-<Typography sx={flcInfo}>
+<Col sx={12} sm={6} md={4} xl={2}>
+<Typography sx={titleInfo}>
   Stakeholders
 </Typography>
 <Typography sx={flcInfo}>
@@ -183,8 +195,8 @@ return (
 
 </Col>
 
-<Col sx={12} sm={6} md={4} xl={3}>
-<Typography sx={flcInfo}>
+<Col sx={12} sm={6} md={4} xl={2}>
+<Typography sx={titleInfo}>
   Timeframe:
 </Typography>
 <Typography sx={flcInfo}>
@@ -194,16 +206,9 @@ return (
 
 </Col>
 
-</Row>
 
-<Row sx={roleInfo}>
-<Col sx={12} sm={6} md={4} xl={3}>
-<Typography sx={flcInfo}>
-  My Team Members:
-</Typography>
-</Col>
-<Col sx={12} sm={6} md={4} xl={3}>
-<Typography sx={flcInfo}>
+<Col sx={12} sm={6} md={4} xl={2}>
+<Typography sx={titleInfo}>
   Team One:
 </Typography>
 <Typography sx={flcInfo}>
@@ -213,8 +218,8 @@ return (
   Jordan, UX/UI Designer
 </Typography>
 </Col>
-<Col sx={12} sm={6} md={4} xl={3}>
-<Typography sx={flcInfo}>
+<Col sx={12} sm={6} md={4} xl={2}>
+<Typography sx={titleInfo}>
   Team Two:
 </Typography>
 <Typography sx={flcInfo}>
