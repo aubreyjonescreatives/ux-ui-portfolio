@@ -22,7 +22,7 @@ const boxStylesAFirst = {
 }
 
 const boxStylesALast = {
-  backgroundColor: '#ffffff', 
+  backgroundColor: '#00022E', 
   paddingBottom: '250px'
 }
 
@@ -39,7 +39,7 @@ const boxStylesA = {
     margin: '50px auto', 
     fontSize: '36px',
     fontFamily: 'Raleway, sans-serif', 
-    color: '#00003D',
+    color: '#ffffff',
     
     }
 
@@ -55,7 +55,8 @@ const cardStyles = {
 
   const paragraphB = {
     fontFamily: 'Raleway, sans-serif',
-    margin: '20px 0px 75px 0px'
+    margin: '20px 0px 75px 0px',
+    color: '#ffffff'
   }
   
 
@@ -66,15 +67,16 @@ const resumelink = {
   fontFamily: 'Raleway, sans-serif',
   textDecoration: 'none',
   backgroundColor: '#30638E',
+  border: '1px solid #ffffff',
   borderRadius: '50px',
   padding: '20px',
   color: 'white',
   width: '200px',
   textAlign: 'center',
   "&:hover": {
-    color: 'white',
-    backgroundColor: '#00003D',
-   // border: '1px solid #30638E', 
+    color: '#30638E',
+  backgroundColor: '#ffffff',
+    border: '1px solid #30638E', 
     cursor: 'pointer'
    
   }

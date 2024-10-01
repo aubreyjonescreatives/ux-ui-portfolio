@@ -5,10 +5,10 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import StoryBoardBox1 from '../Images/aboutme/firstbox.png';
-import StoryBoardBox2 from '../Images/aboutme/secondbox.png';
-import StoryBoardBox3 from '../Images/aboutme/thirdbox.png';
-import StoryBoardBox4 from '../Images/aboutme/fourthbox.png';
+// import StoryBoardBox1 from '../Images/aboutme/firstbox.png';
+// import StoryBoardBox2 from '../Images/aboutme/secondbox.png';
+// import StoryBoardBox3 from '../Images/aboutme/thirdbox.png';
+// import StoryBoardBox4 from '../Images/aboutme/fourthbox.png';
 import MyDesignProcess from '../Images/aboutme/designprocess.png';
 //import MyTimeline from '../Images/aboutme/mytimeline.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -29,7 +29,7 @@ const boxStylesA = {
 }
 
 const boxStylesAFirst = {
-  backgroundColor: '#00022E', 
+  backgroundColor: '#ffffff', 
   padding: '400px 0px',
 }
 
@@ -50,7 +50,7 @@ const boxStylesAFirst = {
   fontWeight: '300',
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
-  color: '#ffffff',
+  color: '#00022E',
 
   }
 
@@ -83,12 +83,12 @@ const headerStylesB = {
 
 
 
-const allcardStyles = {
- fontFamily: 'Raleway, sans-serif',
+// const allcardStyles = {
+//  fontFamily: 'Raleway, sans-serif',
   
   
   
-  }
+//   }
 
 
 
@@ -174,100 +174,7 @@ const About = () => {
    
    
    
-    <Box sx={boxStylesB}>
-
-    
-    <Container>
-    <Typography sx={headerStylesB}>My design Story</Typography>
-    </Container>
-   
-
-    <Container sx={allcardStyles}>
-
-<Row>
-
-{/* first card */}
-<Col sx={12} sm={6} md={4} xl={4}>
-    <Card sx={cardStyles}>
-  <CardMedia
-        component="img"
-        alt="My Story"
-        sx={cardStylesImage}
-        image={StoryBoardBox1}
-      />
-    </Card>
-  
-
-    </Col>
-
-    {/* second card */}
-
-    <Col sx={12} sm={6} md={4} xl={4}>
-
-    <Card sx={cardStyles}>
- <CardMedia
-        component="img"
-        alt="My Story"
-        sx={cardStylesImage}
-        image={StoryBoardBox2}
-      />
-    
-    </Card>
-   
-
-    </Col>
-
-    {/* third card */}
-
-<Col sx={12} sm={6} md={4} xl={4}>
-  
-    <Card sx={cardStyles}>
-    <CardMedia
-        component="img"
-        alt="My Story"
-        image={StoryBoardBox3}
-        sx={cardStylesImage}
-      />
-    
-    </Card>
-    
-
-
-    </Col>
-
-
-{/* fourth card */}
-
-
-<Col sx={12} sm={6} md={4} xl={4}>
-    <Card sx={cardStyles}>
-  <CardMedia
-        component="img"
-        alt="My Story"
-        sx={cardStylesImage}
-        image={StoryBoardBox4}
-      />
-    </Card>
-  
-
-    </Col>
-
  
-
-    
-
-    </Row>
-
-
-
-
-
-    </Container>
-
-
-    
-    </Box>
-
     <Box sx={boxStylesA}>
 
     <Container>

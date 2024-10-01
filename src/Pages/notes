@@ -1,0 +1,93 @@
+//    <Box sx={boxStylesB}>
+
+    
+//     <Container>
+//     <Typography sx={headerStylesB}>My design Story</Typography>
+//     </Container>
+   
+
+//     <Container sx={allcardStyles}>
+
+// <Row>
+
+// {/* first card */}
+// <Col sx={12} sm={6} md={4} xl={4}>
+//     <Card sx={cardStyles}>
+//   <CardMedia
+//         component="img"
+//         alt="My Story"
+//         sx={cardStylesImage}
+//         image={StoryBoardBox1}
+//       />
+//     </Card>
+  
+
+//     </Col>
+
+//     {/* second card */}
+
+//     <Col sx={12} sm={6} md={4} xl={4}>
+
+//     <Card sx={cardStyles}>
+//  <CardMedia
+//         component="img"
+//         alt="My Story"
+//         sx={cardStylesImage}
+//         image={StoryBoardBox2}
+//       />
+    
+//     </Card>
+   
+
+//     </Col>
+
+//     {/* third card */}
+
+// <Col sx={12} sm={6} md={4} xl={4}>
+  
+//     <Card sx={cardStyles}>
+//     <CardMedia
+//         component="img"
+//         alt="My Story"
+//         image={StoryBoardBox3}
+//         sx={cardStylesImage}
+//       />
+    
+//     </Card>
+    
+
+
+//     </Col>
+
+
+// {/* fourth card */}
+
+
+// <Col sx={12} sm={6} md={4} xl={4}>
+//     <Card sx={cardStyles}>
+//   <CardMedia
+//         component="img"
+//         alt="My Story"
+//         sx={cardStylesImage}
+//         image={StoryBoardBox4}
+//       />
+//     </Card>
+  
+
+//     </Col>
+
+ 
+
+    
+
+//     </Row>
+
+
+
+
+
+//     </Container>
+
+
+    
+//     </Box>
