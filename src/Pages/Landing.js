@@ -2,13 +2,13 @@ import * as React from 'react';
 //import HeroImage from '../Images/landing/heroimage.png';
 import {Row, Col } from 'react-grid-system';
 import Container from '@mui/material/Container';
-// import Hero from '../Images/landing/heroimage.png';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
+import { Icon } from '@iconify/react';
 //import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/heuristicimages/ruleone-old.png'; 
@@ -17,24 +17,16 @@ import '../../src/Portfolio.css';
 
 
 
-// const heroStyles = {
-//   width: '100% !important',
-//   border: 'none',
-//   boxShadow: 'none', 
-//   marginTop: '100px'
- 
-//   }
 
 
 const introStyles = { 
-  marginTop: '250px',
-  marginBottom: '50px', 
-   
+  padding: '400px 0px',
+  backgroundColor: '#00022E'
 }
 
 const introContainer = {
   width: '100%',
-  paddingBottom: '100px'
+  backgroundColor: '#00022E'
 }
 
 const introText = {
@@ -42,7 +34,7 @@ const introText = {
   fontWeight: '300',
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
-  color: '#00003D',
+  color: '#ffffff',
 
 }
 
@@ -156,15 +148,7 @@ return (
 
 <Typography sx={introText}>A strategic and creative storyteller.</Typography>
 
-
-{/* <Card sx={heroStyles} className="heroStyles">
-      <CardMedia
-        component="img"
-        alt="Family Literacy Centers Internship Case Study"
-        sx={cardStylesImage}
-        image={Hero}
-      />
-</Card> */}
+<Icon icon="game-icons:fairy-wand" className="heroIcon"/>
 
 
 {/* <Typography sx={introText}>I am always ready for a challenge that helps customers have a better human-centered experience through collaboration, research, and visual design.</Typography> */}

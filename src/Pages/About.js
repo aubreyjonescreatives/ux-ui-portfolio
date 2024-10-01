@@ -22,15 +22,15 @@ const Everything = {
 
   
 const boxStylesA = {
- backgroundColor: '#F8F9FA', 
+ backgroundColor: '#00022E', 
  paddingBottom: '75px',
  
 
 }
 
 const boxStylesAFirst = {
-  backgroundColor: '#F8F9FA', 
-  padding: '300px 0px',
+  backgroundColor: '#00022E', 
+  padding: '400px 0px',
 }
 
 
@@ -50,7 +50,7 @@ const boxStylesAFirst = {
   fontWeight: '300',
   fontSize: '36px',
   fontFamily: 'Raleway, sans-serif', 
-  color: '#00003D',
+  color: '#ffffff',
 
   }
 
@@ -65,7 +65,7 @@ const boxStylesB = {
 const headerStylesB = {
   justifyContent: 'start',
   margin: '50px auto',
-  color: '#00003D',
+  color: '#ffffff',
   fontSize: '36px', 
   fontFamily: 'Raleway, sans-serif', 
 //  fontWeight: '400', 
@@ -107,13 +107,14 @@ const cardStylesImage = {
 const testimonialTitle = {
   fontFamily: 'Raleway, sans-serif',
   fontSize: '28px', 
-  color: '#00022E',
+  color: '#ffffff',
   margin: '25px 0px'
 }
 
 const testimonialParagraph = {
   fontFamily: 'Raleway, sans-serif',
-  margin: '25px 0px'
+  margin: '25px 0px',
+  color: '#ffffff'
 }
 
 const questionStyles = {
@@ -137,7 +138,7 @@ paddingBottom: '50px'
 
 
 const oneIcon = {
-  color: '#00022E',
+  color: '#ffffff',
   margin: '10px'
 }
 
@@ -150,7 +151,7 @@ const aboutIcon = {
 
 
 const boxStylesBLast = {
-  backgroundColor: '#F8F9FA', 
+  backgroundColor: '#00022E', 
   paddingTop: '5px',
   paddingBottom: '50px',
   width: '100%'
