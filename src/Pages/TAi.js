@@ -11,7 +11,7 @@ import ProtoPersonaJake from '../Images/appareldesigns/protopersonajake.png';
 import UserPersona from '../Images/appareldesigns/userpersonameg.png';
 //import JourneyMap from '../Images/catwalkcompany/images/journeymap.png'; 
 //import CompetitorAnalysis from '../Images/catwalkcompany/images/competitoranalysis.png'; 
-import tshirtDesigns from '../Images/appareldesigns/tshirtdesigns.png';
+import taiHero from '../Images/appareldesigns/taiHero.svg';
 //import AffinityDiagram from '../Images/appareldesigns/research/affinitydiagram.png';
 import ZoomedInAffinityDiagram from '../Images/appareldesigns/research/zoomedinaffinitydiagram.png';
 import FeaturePrioritization from '../Images/appareldesigns/ideation/featureprioritizationmatrix.png';
@@ -50,7 +50,8 @@ import ILikeIWishWhatIf from '../Images/appareldesigns/ideation/ilikeiwishwhatif
 
 const design = {
 clear: 'both', 
-height: '700px'
+height: '1000px',
+margin: '100px 0px'
 
 }
 
@@ -59,7 +60,7 @@ const cardStyles = {
   clear: 'both',
   margin: '10px auto 10px auto',
   display: 'block', 
-  width: '500px'
+  width: '50%'
 
 
 
@@ -366,9 +367,18 @@ fontWeight: '500'
 
 }
 
+const protoStylesB = { 
+  width: '35%',
+  display: 'block', 
+  margin: '75px auto 75px auto'
+  
+  
+  }
+
+
 
 const imageStylesB = { 
-  width: '35%',
+  width: '75%',
   display: 'block', 
   margin: '75px auto 75px auto'
   
@@ -409,8 +419,8 @@ return (
       <CardMedia
         sx={apparelImage}
         component="img"
-        alt="T-Shirt Designs"
-        image={tshirtDesigns}
+        alt="Tai Hero Image"
+        image={taiHero}
       />
      
      
@@ -504,7 +514,7 @@ We can assume that Jake Collins as our proto persona matches our assumed audienc
 fishing, and hiking.</Typography>
 
 
-<Card sx={imageStylesB}>
+<Card sx={protoStylesB}>
       <CardMedia
         component="img"
         alt="Proto Persona"
@@ -725,9 +735,14 @@ main audience advocate. Sorry Jake!</Typography>
 
 
 
+<Box>
+<Row>
 
 
+<Col sx={12} md={6} lg={6}>
 <Box sx={designB}>
+
+
 <Typography sx={titleB}>Empathy Map</Typography>
 
 
@@ -737,10 +752,10 @@ gather information on what they heard, said, thought, and did throughout their u
     
 
 
-<Card sx={cardStylesB}>
+<Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Emapthy Map"
+        alt="Empathy Map"
         image={EmpathyMap}
       />
      
@@ -755,6 +770,9 @@ gather information on what they heard, said, thought, and did throughout their u
 
 </Box>
 
+</Col>
+
+<Col sx={12} md={6} lg={6}>
 
 <Box sx={designB}>
 <Typography sx={titleB}>User Persona</Typography>
@@ -785,7 +803,9 @@ shoppers?</Typography>
 
 </Box>
 
-
+</Col>
+</Row>
+</Box>
 
 
 

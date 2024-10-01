@@ -8,7 +8,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
-import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
+//import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
 import ApparelDesigns from '../Images/appareldesigns/develop/sitemap.png'
