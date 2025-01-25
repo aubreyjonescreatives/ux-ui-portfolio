@@ -157,7 +157,7 @@ return (
 <Typography sx={headerStylesA} id="top">The Family Literacy Centers</Typography>
 
 
-       <Typography sx={headerStylesA} id="top">UI Redesign Case Study</Typography>
+       <Typography sx={headerStylesA} id="top">Content Redesign Case Study</Typography>
 
        </Container>
      
@@ -173,7 +173,7 @@ return (
   Project Manager
 </Typography>
 <Typography sx={flcInfo}>
-  UX/UI Designer
+  Content Designer
 </Typography>
 <Typography sx={flcInfo}>
   Product Manager
@@ -261,13 +261,13 @@ return (
 <Box sx={boxStylesB}>
   <Container>
 <Typography sx={headerStylesB}>1st and 2nd Team Challenge</Typography>
-<Typography sx={paragraphA}>The Family Literacy Centers needed updated digital designs to their Algebra 1 online program. Their current software 
-supported outdated Flash technology, which made it to where many young learners could not access their content. 
-From January 2018 to December 2020, I worked with the Family Literacy Centers stakeholders as their primary designer for a page layout redesign 
-that also fit current coding practices so that young students can access trustworthy and engaging educational software.</Typography>
+<Typography sx={paragraphA}>The Family Literacy Centers needed updated digital designs to their Algebra 1 online program. Their current software only 
+supported outdated Flash technology, which made it to where many young learners could not access their content. I worked with the Family Literacy Centers 
+stakeholders as their primary content designer for a page layout redesign that also fit current coding practices so that 
+young learners can access trustworthy and engaging educational software.</Typography>
 </Container>
 <Container>
-<Typography sx={headerStylesB}>My Role: UX/UI Project Manager</Typography>
+<Typography sx={headerStylesB}>My Roles: Project Manager and Content Designer</Typography>
 
 </Container>
 <Container>
@@ -276,19 +276,18 @@ that also fit current coding practices so that young students can access trustwo
 <Typography sx={paragraphA}>
   Time & Communication
 </Typography>
-<Typography sx={paragraphA}>Our class required us to donate 10 hours a week to the project. Because our 
-schedules and responsibilities were very different from each other, our time and 
-communication wasn't always available. We did our best to resolve these issues by meeting once a week and using online tools like 
-Slack to communicate any project pain points.</Typography>
+<Typography sx={paragraphA}>Our client's expectations were for us to work on this project part time with about 10 hours a week 
+  to the project. Because our schedules and responsibilities varied, our time and communication wasn't always available. We did our 
+  best to resolve these issues by meeting once a week and using online tools like Slack to communicate any project pain points.</Typography>
 <Typography sx={paragraphA}>
   Technology
 </Typography>
 <Typography sx={paragraphA}>We also had no idea how to convert Flash files into HTML5. Aaron, Jordan, and I 
-spent most of the semester researching software possibilities. We asked questions and discussed possible 
-software converters from third party contractors.</Typography>
-<Typography sx={paragraphA}>Toward the end of the semester, I noticed our Tumult Hype3 was very much like Adobe Animate, 
-which could open the Flash files. Since the Algebra 1 lessons contained quite a few artifacts, we could essentially copy
-and paste them into Tumult Hype3. Tumult Hype3 also contained wireframing features, which allowed us to redesign and 
+spent most of the initial project phase researching software possibilities. We asked questions and discussed possible 
+software converters from third party contractors. We followed up about our findings with our stakeholders.</Typography>
+<Typography sx={paragraphA}>Toward the end of the initial phase, I noticed our Tumult Hype3 was very much like Adobe Animate, 
+which could open the Flash files. Since the Algebra 1 lessons contained quite a few artifacts, we could essentially copy, paste, and 
+update them into the Tumult Hype3 design software. Tumult Hype3 also contained wireframing features, which allowed us to redesign and 
 export the redesign into HTML5. This solution provided us a way to make this update possible.</Typography>
 
 
@@ -310,10 +309,10 @@ export the redesign into HTML5. This solution provided us a way to make this upd
   Key Issues:
 </Typography>
 <Typography sx={paragraphB}>
- 1. Outdated Top Navigation Bar. Missing a way to return to main page.
+ 1. Outdated Top Navigation Bar. Missing a way to return to main page. We needed better call-to-action features here.
 </Typography >
 <Typography sx={paragraphB}>
-  2. Call-To-Action Buttons are too tight and draw too much attention.
+  2. The current call-to-action Buttons are too tight and draw too much attention.
 </Typography>
 <Typography sx={paragraphB}>
   3. Colors are very harsh for student readability.
@@ -358,9 +357,9 @@ export the redesign into HTML5. This solution provided us a way to make this upd
 
 <Typography sx={paragraphB}>The Algebra 1 program contained 15 modules and 4 - 12 lessons in each module. Discovering a user-friendly 
 layout included quite a few different needs listed on the left. The Family Literacy Centers offered an internship 
-opportunity to continue the redesign. While my teammates had other summer plans, I continued working on the redesign with UI design principles 
-in mind. We also brought on Erica, a content editor, as she noticed some grammar, spelling, and punctuation mistakes made througout the 
-original lessons.</Typography>
+opportunity to continue the redesign. While my teammates had other summer plans, I continued working on the redesign with UI design principles and 
+their style guide needs in mind. We also brought on Erica, a content editor that helped with the grammar, spelling, and punctuation mistakes 
+in the original lessons.</Typography>
 
 
 <Typography sx={sectiontitleB}>Key Design Changes and Rationale:</Typography>
@@ -368,7 +367,7 @@ original lessons.</Typography>
 <Row>
 <Col>
 <Typography sx={paragraphB}>
- 1. Calmer colors out of their style guide for better readability.
+ 1. Choosing calmer colors pulled from their style guide aided better readability.
 </Typography>
 <Typography sx={paragraphB}>
   2. Clearer top navigation for lesson location.
@@ -413,16 +412,16 @@ original lessons.</Typography>
 <Row>
 <Col>
 <Typography sx={paragraphB}>
- 1. We could resolve the first quest to update Flash files into current HTML5 practices.
+ 1. We could resolve the first quest to update Flash files into current best HTML5 practices.
 </Typography>
 <Typography sx={paragraphB}>
   2. The information architecture needed more clarity with mental model placements and modern color choices.
 </Typography>
 <Typography sx={paragraphB}>
-  3. Some of the lessons had poor grammar and spelling mistakes. We brought on an editor to help fix these issues.
+  3. Some of the lessons had poor grammar and spelling mistakes. We worked together as a team to fix these mistakes.
 </Typography >
 <Typography sx={paragraphB}>
-  4. Updating the lesson plans provided more opportunity for students to engage in modern content. 
+  4. Updating the lesson plan content layout provided more opportunity for students to engage in positive online learning experiences. 
 </Typography>
 </Col>
 

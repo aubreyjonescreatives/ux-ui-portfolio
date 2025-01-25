@@ -280,7 +280,7 @@ return (
         FLC INC
         </Typography>
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        UI Redesign
+        Content Redesign
         </Typography>
         </CardContent>
       </Link>
