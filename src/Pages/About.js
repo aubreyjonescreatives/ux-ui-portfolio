@@ -272,7 +272,7 @@ const About = () => {
     <Typography sx={questionStyles}>3. What is one of the biggest challenges you face as a content designer?</Typography>
     My challenges are also my strengths! I love to learn and grow. I have a wide range of industry experience, sometimes 
     working multiple jobs at a time. This wide range of interests sometimes hurts my designer presence as it looks like I am too spread 
-    thin. I am currently working on how to streamline everything into one efficient focus. 
+    thin. It also helps me empathize and connect with a vast range of clientele. I am constantly learning how to keep it simple.   
    <Typography sx={answerStyles}>   
     </Typography>
    
