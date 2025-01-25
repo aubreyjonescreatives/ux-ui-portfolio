@@ -166,7 +166,7 @@ const About = () => {
    <Box sx={boxStylesAFirst}>
     <Container>
    <Typography sx={headerStylesAFirst}>About Me</Typography>
-   <Typography sx={headerStylesAFirst}>I am a strategic content designer based in Riverton, Utah.</Typography> 
+   <Typography sx={headerStylesAFirst}>A strategic and creative storyteller based in Riverton, Utah.</Typography> 
 
    </Container>
 
