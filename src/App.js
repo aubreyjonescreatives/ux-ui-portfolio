@@ -9,7 +9,7 @@ import CatwalkCo from './Pages/CatwalkCoCaseStudy';
 import FLCINC from './Pages/flcincRedesign'; 
 import CT from './Pages/CT'; 
 import TAi from './Pages/TAi.js'; 
-import DesignSystems from './Pages/DesignSystems.js';
+import ContentDesignFreelancing from './Pages/ContentDesignFreelancing.js';
 import Footer from './Components/Footer'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Portfolio.css';
@@ -64,8 +64,8 @@ const router = createBrowserRouter([
         element: <CatwalkCo/>
       }, 
       {
-        path: '/designsystems',
-        element: <DesignSystems/>
+        path: '/contentdesignfreelancing',
+        element: <ContentDesignFreelancing/>
       },
     ]
   }

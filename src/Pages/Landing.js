@@ -11,9 +11,9 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import { Icon } from '@iconify/react';
 import CodafiContentDesign from '../Images/codafi/websiteuidesign.png';
-import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
+// import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/heuristicimages/ruleone-old.png'; 
-import ApparelDesigns from '../Images/appareldesigns/define/journeymap.svg';
+import ApparelDesigns from '../Images/appareldesigns/cookielady.PNG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedium, faBehanceSquare, faLinkedin,faSquareYoutube  } from '@fortawesome/free-brands-svg-icons' ;
 import '../../src/Portfolio.css';
@@ -332,7 +332,7 @@ return (
     </Col> */}
 
 
-    <Col sm={12} md={4} xl={4}>
+    {/* <Col sm={12} md={4} xl={4}>
 
     <Card sx={cardStyles} className="cardStyles">
 <Link href="/taicasestudy" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
@@ -354,9 +354,28 @@ return (
     </Card>
    
 
-    </Col>
+    </Col> */}
+
+<Col sm={12} md={4} xl={4}>
+
+<Card sx={cardStyles} className="cardStyles">
+<Link href="/contentdesignfreelancing" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+  <CardMedia
+    component="img"
+    alt="Content Design Freelancing"
+    sx={cardStylesImage}
+    image={ApparelDesigns}
+  />
+  <CardContent>
+    <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+    Freelancing
+    </Typography>
+    </CardContent>
+  </Link>
+</Card>
 
 
+</Col>
 
 
 
