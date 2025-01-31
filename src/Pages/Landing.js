@@ -10,10 +10,10 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import { Icon } from '@iconify/react';
-import CodafiContentDesign from '../Images/codafi/websiteuidesign.png';
+import CodafiContentDesign from '../Images/codafi/landingplatform.png';
 // import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/heuristicimages/ruleone-old.png'; 
-import ApparelDesigns from '../Images/appareldesigns/cookielady.PNG';
+import ContentDesigns from '../Images/bookcover.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedium, faBehanceSquare, faLinkedin,faSquareYoutube  } from '@fortawesome/free-brands-svg-icons' ;
 import '../../src/Portfolio.css';
@@ -364,11 +364,11 @@ return (
     component="img"
     alt="Content Design Freelancing"
     sx={cardStylesImage}
-    image={ApparelDesigns}
+    image={ContentDesigns}
   />
   <CardContent>
     <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-    Freelancing
+    Content Design Freelancing
     </Typography>
     </CardContent>
   </Link>
