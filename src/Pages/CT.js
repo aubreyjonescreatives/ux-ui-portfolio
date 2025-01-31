@@ -169,7 +169,7 @@ const CT = () => {
 <Typography sx={headerStylesA} id="top">Codafi Technology</Typography>
 
 
-<Typography sx={headerStylesA} id="top">UX/UI Case Study</Typography>
+<Typography sx={headerStylesA} id="top">Content Design Case Study</Typography>
 
 </Container>
      
@@ -182,7 +182,7 @@ const CT = () => {
   My Role
 </Typography >
 <Typography sx={flcInfo}>
-  UX/UI Designer
+  Content Designer
 </Typography>
 
 
@@ -219,7 +219,7 @@ const CT = () => {
   Laura Wang, Project Manager
 </Typography>
 <Typography sx={flcInfo}>
-  Vivian Song, UX/UI Designer
+  Vivian Song, UI Designer
 </Typography>
 
 
@@ -238,7 +238,7 @@ const CT = () => {
 <Box sx={boxStylesB}>
   <Container>
 <Typography sx={headerStylesB}>Project Challenge</Typography>
-<Typography sx={paragraphA}>Landing International needed UX/UI designers to update their website about beauty products. This update included new
+<Typography sx={paragraphA}>Landing International needed designers to update their website about beauty products. This update included new
 communication and navigation features for multiple points of view, such as with beauty brands and retailers. Each company has multiple beauty product needs 
 and can communicate these concerns through Landing International.</Typography>
 </Container>
@@ -256,22 +256,21 @@ As a designer, I used this documentation and sign off process so that we could a
 <Typography sx={paragraphA}>
   Work Availability
 </Typography>
-<Typography sx={paragraphA}>Landing International stakeholders were so understandably busy that they could not always also communicate new 
+<Typography sx={paragraphA}>Our stakeholders were so understandably busy that they could not always also communicate new 
 feature requests with us. This created a lot of work load inconsistency between features. We worked together to create direct 
 communication to resolve these concerns.</Typography>
 <Typography sx={paragraphA}>
   Collaboration VS. Independent Work
 </Typography>
-<Typography sx={paragraphA}>Vivian and I were hired into the project around the same time and became the only UX/UI designers for Landing International. We
+<Typography sx={paragraphA}>Vivian and I were hired into the project around the same time and became the only designers for our current client. We
 worked on several features together, which was a lot of fun! We also divided and conquered throughout several of the features as well. Limiting collaboration 
 was a project challenge as it required more communication about design consistency. </Typography>
 <Typography sx={paragraphA}>
   Lack of Design System
 </Typography>
 <Typography sx={paragraphA}>Adding new features required new designs. Landing International did not use a specific design system and the use of a design 
-system was always an open-ended question. Our Codafi technology guru spent a lot of time researching design systems. Landing International also did not have 
-updated navigation bars that matched multiple points of view. My project manager, Laura Wang worked with them to discover specific navigation needs and I implemented  
-them into the updated designs.  </Typography>
+system was always an open-ended question. We spent many discussions discovering our design consistency needs such as with the top navigation bar, banners, cards, 
+etc. </Typography>
 
 
 </Container>
@@ -539,13 +538,13 @@ audience could find new features through faster user flows. I updated the layout
 <Row>
 <Col>
 <Typography sx={paragraphB}>
- 1. Each wireframe required pixel-to-pixel perfection with UI design principles such as alignment, whitespace, chunking, etc.
+ 1. Each wireframe required pixel-to-pixel content perfection with UI design principles such as alignment, whitespace, chunking, etc.
 </Typography>
 <Typography sx={paragraphB}>
  2. Exact wants and needs happened through verbal and written communication. 
 </Typography>
 <Typography sx={paragraphB}>
- 3. I gained more Figma practice throughout this redesign.
+ 3. I gained more Figma practice throughout this project.
 </Typography>
 
 </Col>

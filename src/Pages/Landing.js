@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import { Icon } from '@iconify/react';
-//import WebsiteUIDesignandRedesign from '../Images/codafi/websiteuidesign.png';
+import CodafiContentDesign from '../Images/codafi/websiteuidesign.png';
 import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/heuristicimages/ruleone-old.png'; 
 import ApparelDesigns from '../Images/appareldesigns/define/journeymap.svg';
@@ -279,9 +279,6 @@ return (
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
         FLC INC
         </Typography>
-        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        Content Redesign
-        </Typography>
         </CardContent>
       </Link>
     </Card>
@@ -289,31 +286,28 @@ return (
 
     </Col>
 
-    {/* <Col sm={12} md={6} xl={6}>
+     <Col sm={12} md={4} xl={4}>
 
     <Card sx={cardStyles} className="cardStyles">
 <Link href="/codafitechnology" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
       <CardMedia
         component="img"
-        alt="Freelance E-Commerce UX/UI Case Study"
+        alt="Codafi Content Design"
         sx={cardStylesImage}
-        image={WebsiteUIDesignandRedesign}
+        image={CodafiContentDesign}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" sx={cardText}>
         Codafi Technology
-        </Typography>
-        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
-        UI Design
         </Typography>
         </CardContent>
       </Link>
     </Card>
    
 
-    </Col> */}
+    </Col> 
 
-    <Col sm={12} md={4} xl={4}>
+    {/* <Col sm={12} md={4} xl={4}>
 
     <Card sx={cardStyles} className="cardStyles">
 <Link href="/catwalkco" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
@@ -335,7 +329,7 @@ return (
     </Card>
    
 
-    </Col>
+    </Col> */}
 
 
     <Col sm={12} md={4} xl={4}>
