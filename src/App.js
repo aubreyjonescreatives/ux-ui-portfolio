@@ -7,6 +7,7 @@ import Resume from './Pages/Resume';
 import DisneyVSNetflix from './Pages/DisneyVSNetflix';
 import CatwalkCo from './Pages/CatwalkCoCaseStudy'; 
 import FLCINC from './Pages/flcincRedesign'; 
+import AlyssaAzcue from './Pages/AlyssaAzcue.js'; 
 import CT from './Pages/CT'; 
 import TAi from './Pages/TAi.js'; 
 import ContentDesignFreelancing from './Pages/ContentDesignFreelancing.js';
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: '/contentdesignfreelancing',
         element: <ContentDesignFreelancing/>
+      },
+      {
+        path: '/alyssaazcue',
+        element: <AlyssaAzcue/>
       },
     ]
   }

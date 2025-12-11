@@ -228,7 +228,7 @@ return (
 <Typography sx={introText}>Hello, I'm Aubrey. </Typography>
 
 
-<Typography sx={introText}>A strategic and creative storyteller. <Icon icon="game-icons:fairy-wand" className="heroIcon"/></Typography>
+<Typography sx={introText}>A strategic and creative UX/UI engineer. <Icon icon="game-icons:fairy-wand" className="heroIcon"/></Typography>
 
 </Container>
 <Container>
@@ -381,12 +381,94 @@ return (
 
     </Row>
 
+{/* Row 2 */}
+
+    <Row>
+
+
+
+
+<Col sm={12} md={4} xl={4}>
+    <Card sx={cardStyles} className="cardStyles">
+    <Link href="/alyssaazcue" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="alyssaazcue"
+        sx={cardStylesImage}
+        image={FLCINCMockup}
+      />
+       <CardContent>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Alyssa Azcué
+        </Typography>
+        </CardContent>
+      </Link>
+    </Card>
+  
+
+    </Col>
+
+     <Col sm={12} md={4} xl={4}>
+
+    <Card sx={cardStyles} className="cardStyles">
+<Link href="/codafitechnology" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+      <CardMedia
+        component="img"
+        alt="Codafi Content Design"
+        sx={cardStylesImage}
+        image={CodafiContentDesign}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+        Codafi Technology
+        </Typography>
+        </CardContent>
+      </Link>
+    </Card>
+   
+
+    </Col> 
+
+
+
+<Col sm={12} md={4} xl={4}>
+
+<Card sx={cardStyles} className="cardStyles">
+<Link href="/contentdesignfreelancing" sx={linkStyles} target="_blank" style={{textDecoration: "none", color: "#30638E"}}>
+  <CardMedia
+    component="img"
+    alt="Content Design Freelancing"
+    sx={cardStylesImage}
+    image={ContentDesigns}
+  />
+  <CardContent>
+    <Typography gutterBottom variant="h5" component="div" sx={cardText}>
+    Content Design Freelancing
+    </Typography>
+    </CardContent>
+  </Link>
+</Card>
+
+
+</Col>
+
+
+
+    </Row>
 
 
     </Box>
 
     </Container>
     </Box>
+
+
+
+
+
+
+
+
 
 
     <Box sx={boxStylesBLast}>
@@ -430,6 +512,10 @@ return (
     </Row>
     </Container>
     </Box>
+
+
+
+
 
 
 </>
