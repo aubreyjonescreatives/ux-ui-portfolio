@@ -4,7 +4,10 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-
+import InspectImage from '../Images/alyssa_azcue/inspect_tool.png'; 
+import MyCode from '../Images/alyssa_azcue/own_code.png';
+import DefineImage from '../Images/alyssa_azcue/section_example.png';
+import DiscoverImage from '../Images/alyssa_azcue/kajabi_start.png';
 import LessonPlanHeuristic from '../Images/algebra1images/heuristicimages/ruleone-old.png';
 import LessonPlanHeuristicNew from '../Images/algebra1images/heuristicimages/ruleone-new.png';
 
@@ -258,8 +261,11 @@ Kajabi's Responsive Web Design
  1. Move Canva Website into Kajabi for an increase in customer success rate and traction
 </Typography >
 <Typography sx={paragraphB}>
-  2. Kajabi website needed to match Canva design on multiple devices
+  2. Kajabi website needed to match Canva design on multiple devices for responsive web design
 </Typography>
+<Typography sx={paragraphB}>
+ 3. Confirm email marketing connection between Flodesk and Stripe
+</Typography >
 
 </Col>
 
@@ -268,8 +274,8 @@ Kajabi's Responsive Web Design
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Original Algebra 1 program"
-        image={LessonPlanHeuristic}
+        alt="Kajabi Example"
+        image={DiscoverImage}
        
       />
      
@@ -296,31 +302,23 @@ Kajabi's Responsive Web Design
 
 <Typography sx={headerStylesB}>Define</Typography>
 
-<Typography sx={paragraphB}>The Algebra 1 program contained 15 modules and 4 - 12 lessons in each module. Discovering a user-friendly 
-layout included quite a few different needs listed on the left. The Family Literacy Centers offered an internship 
-opportunity to continue the redesign. While my teammates had other summer plans, I continued working on the redesign with UI design principles and 
-their style guide needs in mind. We also brought on Erica, a content editor that helped with the grammar, spelling, and punctuation mistakes 
-in the original lessons.</Typography>
+<Typography sx={paragraphB}>With experience using other content management systems like Kajabi, 
+    we needed to define the website and email marketing deliverables and set clear expectations:  </Typography>
 
-
-<Typography sx={sectiontitleB}>Key Design Changes and Rationale:</Typography>
 
 <Row>
 <Col>
 <Typography sx={paragraphB}>
- 1. Choosing calmer colors pulled from their style guide aided better readability.
+ 1. I met with Alyssa and we organized a list of needs for success on a Trello board for project management.
 </Typography>
 <Typography sx={paragraphB}>
-  2. Clearer top navigation for lesson location.
+  2. I needed access to the Canva copy in specific formats as well as the software for Kajabi, Flodesk, and Stripe. 
 </Typography>
 <Typography sx={paragraphB}>
-  3. Left and right buttons originally drew too much attention. We wanted our students to focus on 
-  page content instead. These buttons only appear as accessible on hover, when the student is ready 
-  to click on them.
+  3. We defined deadline requests and I created a contract. 
 </Typography >
-<Typography sx={paragraphB}>
-  4. Visual progress for clarity to avoid the "Are we there yet?" question. 
-</Typography>
+
+
 </Col>
 
 <Col>
@@ -329,7 +327,7 @@ in the original lessons.</Typography>
       <CardMedia
         component="img"
         alt="New Algebra 1 Program"
-        image={LessonPlanHeuristicNew}
+        image={DefineImage}
        
       />
      
@@ -349,45 +347,55 @@ in the original lessons.</Typography>
 <Box sx={boxStylesA}>
 
 <Container>
-<Typography sx={headerStylesA}>Discover</Typography>
+<Typography sx={headerStylesA}>Deliver</Typography>
+
+
+<Typography sx={paragraphB}>Once I gained access to the required tools for this project, I delivered the most important aspect 
+    of this work, which was to make the Kajabi site responsive on mulitple devices. Kajabi has very specific CSS Flexbox patterns 
+    that would not fit with Alyssa's orginal images and designs, no matter how often I tried to implement its default numbers. 
+    Since I love to code and usually use the inspect tool on other sites, I opened this up to figure out how to overrride its
+    traditional section designs. 
+</Typography>
+
+<Typography sx={paragraphB}>I developed a specific page pattern with this code that will not interfere with other pages overtime. Kajabi 
+    likes to keep track of its sections with ID attributes. I used them to style this site for more modern device sizes.  
+</Typography>
+
 
 
 <Row>
-<Col>
-<Typography sx={paragraphB}>
-  Key Issues:
-</Typography>
-<Typography sx={paragraphB}>
- 1. Outdated Top Navigation Bar. Missing a way to return to main page. We needed better call-to-action features here.
-</Typography >
-<Typography sx={paragraphB}>
-  2. The current call-to-action Buttons are too tight and draw too much attention.
-</Typography>
-<Typography sx={paragraphB}>
-  3. Colors are very harsh for student readability.
-</Typography>
-<Typography sx={paragraphB}>
-  4. A numbered progress gets overlooked. 
-</Typography>
-</Col>
 
 <Col>
-
 <Card sx={imageStylesB}>
       <CardMedia
         component="img"
-        alt="Original Algebra 1 program"
-        image={LessonPlanHeuristic}
+        alt="Coding in Kajabi"
+        image={MyCode}
        
       />
      
      
     </Card>
-
 </Col>
 
+<Col>
+<Card sx={imageStylesB}>
+      <CardMedia
+        component="img"
+        alt="Using Inspect"
+        image={InspectImage}
+       
+      />
+     
+     
+    </Card>
+    </Col>
 
 </Row>
+
+
+
+
 </Container>
 
 
