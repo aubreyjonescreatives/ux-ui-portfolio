@@ -347,10 +347,10 @@ Kajabi's Responsive Web Design
 <Box sx={boxStylesA}>
 
 <Container>
-<Typography sx={headerStylesA}>Deliver</Typography>
+<Typography sx={headerStylesA}>Develope</Typography>
 
 
-<Typography sx={paragraphB}>Once I gained access to the required tools for this project, I delivered the most important aspect 
+<Typography sx={paragraphB}>Once I gained access to the required tools for this project, I developed the most important aspect 
     of this work, which was to make the Kajabi site responsive on mulitple devices. Kajabi has very specific CSS Flexbox patterns 
     that would not fit with Alyssa's orginal images and designs, no matter how often I tried to implement its default numbers. 
     Since I love to code and usually use the inspect tool on other sites, I opened this up to figure out how to overrride its
@@ -361,7 +361,9 @@ Kajabi's Responsive Web Design
     likes to keep track of its sections with ID attributes. I used them to style this site for more modern device sizes.  
 </Typography>
 
-
+<Typography sx={paragraphB}>The previous Canva site also did not follow best practices for SEO marketing with its current social media 
+    links. I requested the needed information for these changes and made the links accessible in the new Kajabi site. 
+</Typography>
 
 <Row>
 
@@ -410,13 +412,9 @@ Kajabi's Responsive Web Design
 
 <Container>
 
-<Typography sx={headerStylesB}>Define</Typography>
+<Typography sx={headerStylesB}>Deliver</Typography>
 
-<Typography sx={paragraphB}>The Algebra 1 program contained 15 modules and 4 - 12 lessons in each module. Discovering a user-friendly 
-layout included quite a few different needs listed on the left. The Family Literacy Centers offered an internship 
-opportunity to continue the redesign. While my teammates had other summer plans, I continued working on the redesign with UI design principles and 
-their style guide needs in mind. We also brought on Erica, a content editor that helped with the grammar, spelling, and punctuation mistakes 
-in the original lessons.</Typography>
+<Typography sx={paragraphB}>Once I completed the final </Typography>
 
 
 <Typography sx={sectiontitleB}>Key Design Changes and Rationale:</Typography>
