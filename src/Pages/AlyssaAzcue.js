@@ -173,7 +173,7 @@ return (
   My Roles:
 </Typography >
 <Typography sx={flcInfo}>
-  UX/UI Engineer
+  Software Developer
 </Typography>
 
 
@@ -414,43 +414,16 @@ Kajabi's Responsive Web Design
 
 <Typography sx={headerStylesB}>Deliver</Typography>
 
-<Typography sx={paragraphB}>Once I completed the final </Typography>
+<Typography sx={paragraphB}>Once I completed the final code, I could wrap up the responsive design 
+  requests and deliver the final Kajabi site to Alyssa. Discovering how to work through Kajabi and 
+  deliver a final result was a very satisfying process. 
+</Typography>
 
-
-<Typography sx={sectiontitleB}>Key Design Changes and Rationale:</Typography>
 
 <Row>
-<Col>
-<Typography sx={paragraphB}>
- 1. Choosing calmer colors pulled from their style guide aided better readability.
-</Typography>
-<Typography sx={paragraphB}>
-  2. Clearer top navigation for lesson location.
-</Typography>
-<Typography sx={paragraphB}>
-  3. Left and right buttons originally drew too much attention. We wanted our students to focus on 
-  page content instead. These buttons only appear as accessible on hover, when the student is ready 
-  to click on them.
-</Typography >
-<Typography sx={paragraphB}>
-  4. Visual progress for clarity to avoid the "Are we there yet?" question. 
-</Typography>
-</Col>
 
-<Col>
 
-<Card sx={imageStylesB}>
-      <CardMedia
-        component="img"
-        alt="New Algebra 1 Program"
-        image={LessonPlanHeuristicNew}
-       
-      />
-     
-     
-    </Card>
 
-</Col>
 
 
 </Row>
@@ -462,38 +435,6 @@ Kajabi's Responsive Web Design
 
 
 
-
-<Box sx={boxStylesA}>
-
-<Container>
-<Typography sx={headerStylesA}>Project Key Findings</Typography>
-
-<Row>
-<Col>
-<Typography sx={paragraphB}>
- 1. We could resolve the first quest to update Flash files into current best HTML5 practices.
-</Typography>
-<Typography sx={paragraphB}>
-  2. The information architecture needed more clarity with mental model placements and modern color choices.
-</Typography>
-<Typography sx={paragraphB}>
-  3. Some of the lessons had poor grammar and spelling mistakes. We worked together as a team to fix these mistakes.
-</Typography >
-<Typography sx={paragraphB}>
-  4. Updating the lesson plan content layout provided more opportunity for students to engage in positive online learning experiences. 
-</Typography>
-</Col>
-
-
-
-
-</Row>
-
-</Container>
-
-
-
-</Box>
 
 
 </Box>
