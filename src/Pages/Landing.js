@@ -14,7 +14,7 @@ import CodafiContentDesign from '../Images/codafi/landingplatform.png';
 // import CCFinalMockups from '../Images/catwalkcompany/images/hi-fidelitywireframes/updated-signup-login.png'; 
 import FLCINCMockup from '../Images/algebra1images/flcredesign.png'; 
 import AlyssaAzcueCode from '../Images/alyssa_azcue/own_code.png'; 
-import ContentDesigns from '../Images/bookcover.png';
+//import ContentDesigns from '../Images/bookcover.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedium, faBehanceSquare, faLinkedin,faSquareYoutube  } from '@fortawesome/free-brands-svg-icons' ;
 import '../../src/Portfolio.css';

@@ -8,8 +8,8 @@ import InspectImage from '../Images/alyssa_azcue/inspect_tool.png';
 import MyCode from '../Images/alyssa_azcue/own_code.png';
 import DefineImage from '../Images/alyssa_azcue/section_example.png';
 import DiscoverImage from '../Images/alyssa_azcue/kajabi_start.png';
-import LessonPlanHeuristic from '../Images/algebra1images/heuristicimages/ruleone-old.png';
-import LessonPlanHeuristicNew from '../Images/algebra1images/heuristicimages/ruleone-new.png';
+
+
 
 const Everything = {
   display: 'grid',
@@ -98,12 +98,12 @@ const headerStylesB = {
   }
 
 
-const sectiontitleB = {
-  fontFamily: 'Raleway, sans-serif',
-  fontSize: '28px', 
-  color: '#00003D',
-  margin: '50px 0px'
-  }
+// const sectiontitleB = {
+//   fontFamily: 'Raleway, sans-serif',
+//   fontSize: '28px', 
+//   color: '#00003D',
+//   margin: '50px 0px'
+//   }
 
 
 
